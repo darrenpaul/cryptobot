@@ -19,4 +19,4 @@ while True:
     # check if can sell
 
     # check if can buy
-    time.sleep(self.intervals)
+    time.sleep(INTERVALS)
