@@ -7,8 +7,8 @@ currency_pair = 'btceur'
 latest_price = collector.latest_ticker(currency_pair)
 print(latest_price)
 # add latest price to database
-# db = mongo_man.Mongo('crypto', currency_pair)
-# db.add_single(latest_price)
+db = mongo_man.Mongo('crypto', currency_pair)
+db.add_single(latest_price)
 # get latest 10 entries in database
 
 # get average of last price from database entries
