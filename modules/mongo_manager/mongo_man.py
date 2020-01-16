@@ -13,8 +13,9 @@ class Mongo:
             # ssl=True,
             # ssl_certfile=setup.SSL_CERTFILE,
             # ssl_ca_certs=setup.SSL_CA_CERTS)
-        self.database=self.client[database_name]
-        self.collection=self.database[database_collection]
+        )
+        self.database = self.client[database_name]
+        self.collection = self.database[database_collection]
 
     def create_database(self):
         pass
@@ -26,7 +27,7 @@ class Mongo:
         return self.collection.find()
 
     def query_database(self, query):
-        query_result=self.collection.find(query)
+        query_result = self.collection.find(query)
         for i in query_result:
             return i
         return None
@@ -38,23 +39,23 @@ class Mongo:
         if not list_data:
             return
         for i in chunk_data(list_data=list_data, chunk_size=setup.DATABASE_CHUNK):
-            result=self.collection.insert_many(i)
+            result = self.collection.insert_many(i)
         return result
 
     def update_many(self, list_data, query_key):
         if not list_data:
             return
         for i in list_data:
-            query={query_key: str(i[query_key])}
-            updates={'$set': i}
+            query = {query_key: str(i[query_key])}
+            updates = {'$set': i}
             return self.collection.update_many(query, updates)
 
     def delete_single(self, query):
-        result=self.collection.delete_one(query)
+        result = self.collection.delete_one(query)
         print(result.deleted_count)
 
     def delete_many(self, query):
-        result=self.collection.delete_many(query)
+        result = self.collection.delete_many(query)
         print(result.deleted_count)
 
     def drop_collection(self, collection_name):
