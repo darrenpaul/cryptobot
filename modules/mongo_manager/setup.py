@@ -7,7 +7,7 @@ import os
 # DATABASE STUFF| DATABASE STUFF| DATABASE STUFF| DATABASE STUFF| DATABASE STUFF|
 # =============== =============== =============== =============== ===============
 
-DATABASE_IP = '18.203.187.195'
+DATABASE_IP = '0.0.0.0'
 DATABASE_PORT = 27017
 DATABASE_CHUNK = 80000
 # SSL_CERTFILE = os.path.join(
