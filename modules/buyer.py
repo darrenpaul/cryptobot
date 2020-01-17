@@ -103,5 +103,5 @@ class Buyer:
 
         buy_price = math_utils.get_percentage_increase(buy_price, 2.5)
         if buy_price > tri_mean:
-            print('sold'
+            print('sold')
             return volume * main_mean
