@@ -14,3 +14,6 @@ def get_latest_ticker(currency_pair):
         return False
     return result.json()
 
+
+def get_account_funds():
+    return 100.00

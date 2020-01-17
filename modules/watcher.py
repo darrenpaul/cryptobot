@@ -1,11 +1,13 @@
 import time
 from . import bitstamp
-from mongo_manager import mongo_man
+from . import thread_man
+from .mongo_manager import mongo_man
 '''
 Runs every X seconds
 Gets the latest price from exchange
 Then adds the latest price to database
 '''
+
 
 class Watcher:
     def __init__(self, interval=3600, currency_pairs=['btceur'], dry_run=False):
@@ -14,6 +16,10 @@ class Watcher:
         self.dry_run = dry_run
 
     def start_watcher(self):
+        thread = thread_man.ThreadManager()
+        thread.spawn_new_thread('watcher', self.__watcher, **{})
+
+    def __watcher(self):
         while True:
             for pair in self.currency_pairs:
                 # get latest price
