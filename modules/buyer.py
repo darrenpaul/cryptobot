@@ -75,7 +75,7 @@ class Buyer:
                 funds = self.__seller(volume, buy_price)
             for pair in self.currency_pairs:
                 db = mongo_man.Mongo('crypto', pair)
-                data = db.get_entire_collection(latest_price)
+                data = db.get_entire_collection()
                 price_data = gutils.get_only_key_values(data, 'last')
                 current_price = price_data[-1]
                 main_mean = math_utils.get_mean(price_data[10:])
