@@ -74,12 +74,15 @@ class Buyer:
             if funds == 0:
                 funds = self.__seller(volume, buy_price)
             for pair in self.currency_pairs:
-                price_data = gutils.get_only_key_values(DATA, 'last')
+                db = mongo_man.Mongo('crypto', pair)
+                data = db.get_entire_collection(latest_price)
+                price_data = gutils.get_only_key_values(data, 'last')
                 current_price = price_data[-1]
                 main_mean = math_utils.get_mean(price_data[10:])
                 tri_mean = math_utils.get_mean(price_data[3:])
                 volume = float(funds)/float(tri_mean)
                 buy_price = tri_mean
+                funds = 0
                 print('bought')
                 # if current price < main mean
                 # if not current
