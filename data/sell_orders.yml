@@ -23,3 +23,9 @@ orders:
   price: 12.85
   quantity: 28
   sell_value: 359.8
+- average_buy_price: 12.681375
+  funds: 1022.8990970000001
+  order_id: BXMSUBBXG5GKGXC
+  price: 12.71
+  quantity: 80
+  sell_value: 1016.8000000000001
