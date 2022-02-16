@@ -1,0 +1,100 @@
+2022-02-16 20:07:33,576 | INFO | Running AlgoBot...
+2022-02-16 20:07:33,991 | INFO | ****************************************
+2022-02-16 20:07:33,991 | INFO | 
+CURRENT FUNDS: 1022.259097
+CURRENT PRICE: 12.86
+cancelling open orders...
+TREND: 100.18191268191268
+AVERAGE BUY PRICE: 0.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY QUANTITY: 8.0
+FEE: 0.01
+BUY PRICE: 12.85
+TOTAL COST: 102.8
+FUNDS AFTER PURCHASE: 919.459097
+2022-02-16 20:07:33,991 | INFO | ****************************************
+2022-02-16 20:12:36,430 | INFO | ****************************************
+2022-02-16 20:12:36,430 | INFO | 
+CURRENT FUNDS: 919.459097
+CURRENT PRICE: 12.88
+cancelling open orders...
+cancelled open orders [{'success': True}]
+TREND: 100.25980774227075
+AVERAGE BUY PRICE: 0.0
+2022-02-16 20:12:36,430 | INFO | ****************************************
+2022-02-16 20:17:37,531 | INFO | ****************************************
+2022-02-16 20:17:37,531 | INFO | 
+CURRENT FUNDS: 1022.259097
+CURRENT PRICE: 12.88
+cancelling open orders...
+TREND: 100.28564009348221
+AVERAGE BUY PRICE: 0.0
+2022-02-16 20:17:37,531 | INFO | ****************************************
+2022-02-16 20:22:38,549 | INFO | ****************************************
+2022-02-16 20:22:38,549 | INFO | 
+CURRENT FUNDS: 1022.259097
+CURRENT PRICE: 12.87
+cancelling open orders...
+TREND: 100.20752269779507
+AVERAGE BUY PRICE: 0.0
+2022-02-16 20:22:38,549 | INFO | ****************************************
+2022-02-16 20:27:39,784 | INFO | ****************************************
+2022-02-16 20:27:39,784 | INFO | 
+CURRENT FUNDS: 1022.259097
+CURRENT PRICE: 12.89
+cancelling open orders...
+TREND: 100.12956724540037
+AVERAGE BUY PRICE: 0.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY QUANTITY: 8.0
+FEE: 0.01
+BUY PRICE: 12.88
+TOTAL COST: 103.04
+FUNDS AFTER PURCHASE: 919.219097
+2022-02-16 20:27:39,784 | INFO | ****************************************
+2022-02-16 20:32:41,089 | INFO | ****************************************
+2022-02-16 20:32:41,090 | INFO | 
+CURRENT FUNDS: 919.219097
+CURRENT PRICE: 12.87
+cancelling open orders...
+TREND: 100.02589331952353
+AVERAGE BUY PRICE: 0.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY QUANTITY: 7.0
+FEE: 0.01
+BUY PRICE: 12.86
+TOTAL COST: 90.02
+FUNDS AFTER PURCHASE: 829.199097
+2022-02-16 20:32:41,090 | INFO | ****************************************
+2022-02-16 20:37:43,804 | INFO | ****************************************
+2022-02-16 20:37:43,804 | INFO | 
+CURRENT FUNDS: 829.199097
+CURRENT PRICE: 12.92
+cancelling open orders...
+cancelled open orders [{'success': True}]
+TREND: 100.12943308309603
+AVERAGE BUY PRICE: 0.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY QUANTITY: 7.0
+FEE: 0.01
+BUY PRICE: 12.91
+TOTAL COST: 90.37
+FUNDS AFTER PURCHASE: 828.849097
+2022-02-16 20:37:43,804 | INFO | ****************************************
+2022-02-16 20:42:46,352 | INFO | ****************************************
+2022-02-16 20:42:46,352 | INFO | 
+CURRENT FUNDS: 828.849097
+CURRENT PRICE: 12.96
+cancelling open orders...
+cancelled open orders [{'success': True}]
+TREND: 100.2846790890269
+AVERAGE BUY PRICE: 0.0
+2022-02-16 20:42:46,353 | INFO | ****************************************
