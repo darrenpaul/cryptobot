@@ -1,0 +1,25 @@
+orders:
+- average_buy_price: 12.91
+  funds: 1016.879097
+  order_id: BXDT537PVE3VUBK
+  price: 12.94
+  quantity: 33
+  sell_value: 427.02
+- average_buy_price: 12.859499999999999
+  funds: 1020.639097
+  order_id: BXDCXBBYWDV9WUT
+  price: 12.89
+  quantity: 73
+  sell_value: 940.97
+- average_buy_price: 12.82
+  funds: 1020.879097
+  order_id: BXFA4T7QYAZTPQG
+  price: 12.85
+  quantity: 8
+  sell_value: 102.8
+- average_buy_price: 12.826666666666666
+  funds: 1021.2790970000001
+  order_id: BXGMJYCV49W4FCT
+  price: 12.85
+  quantity: 28
+  sell_value: 359.8
