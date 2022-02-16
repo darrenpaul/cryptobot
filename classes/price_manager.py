@@ -23,13 +23,12 @@ class PriceManager:
         past_prices = file_reader.read_yaml(file_path)
         self.past_prices = past_prices['prices']
 
-        print(f'High: {mathematics.get_max(self.past_prices)}')
-        print(f'Median: {mathematics.get_median(self.past_prices)}')
-        print(f'Low: {mathematics.get_min(self.past_prices)}')
+        self.logger_message.append(f'High: {mathematics.get_max(self.past_prices)}')
+        self.logger_message.append(f'Median: {mathematics.get_median(self.past_prices)}')
+        self.logger_message.append(f'Low: {mathematics.get_min(self.past_prices)}')
 
     def get_current_price(self):
         current_price = luno.getPriceTicker(self.trading_pair)
         self.past_prices.append(current_price)
         self._save_prices()
-        print(f'Current Market Price: {current_price}')
         return current_price

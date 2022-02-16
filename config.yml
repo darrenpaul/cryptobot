@@ -1,9 +1,8 @@
-# tradingPair: 'XBTZAR'
 coin: 'XRP'
 currency: 'ZAR'
 profitMargin: 0.25
 trendSize: 6
-trendMargin: 99.99
+trendMargin: 100.200
 minTrendMargin: 99.65
 purchasePercent: 10
 minTradeAmount: {'XRP': 1}
