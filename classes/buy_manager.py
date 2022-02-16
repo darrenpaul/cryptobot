@@ -37,7 +37,6 @@ class BuyManager:
         return mathematics.get_mean(buy_prices) or 0.0
 
     def process_buy_order(self, current_price):
-
         self.logger_message.append(f'============================')
         self.logger_message.append(f'=== PROCESSING BUY ORDER ===')
         self.logger_message.append(f'============================')

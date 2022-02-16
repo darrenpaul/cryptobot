@@ -20,7 +20,7 @@ class TrendManager:
 
     def get_past_trends(self):
         data = file_reader.read_data('past_trends')
-        self.bought_orders = data.get('past_trends') or []
+        self.past_trends = data.get('past_trends') or []
 
     def update_trend(self, price):
             self.trend = mathematics.get_trend(self.past_prices, self.trend_size, int(self.trend_size / 2))

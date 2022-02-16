@@ -1,1 +1,89 @@
-orders: []
+orders:
+- base: '0.00'
+  completed_timestamp: 0
+  counter: '0.00'
+  creation_timestamp: 1645046039140
+  expiration_timestamp: 0
+  fee_base: '0.00'
+  fee_counter: '0.00'
+  funds: 919.219097
+  limit_price: '13.08'
+  limit_volume: '8.00'
+  order_id: BXCBTH7PHFZFA8F
+  pair: XRPZAR
+  price: 13.08
+  quantity: 8.0
+  state: PENDING
+  trades:
+  - is_buy: false
+    price: '13.08'
+    sequence: 3970073
+    timestamp: 1645046062663
+    volume: '8.00'
+  type: BID
+- base: '0.00'
+  completed_timestamp: 0
+  counter: '0.00'
+  creation_timestamp: 1645046346732
+  expiration_timestamp: 0
+  fee_base: '0.00'
+  fee_counter: '0.00'
+  funds: 736.659097
+  limit_price: '13.04'
+  limit_volume: '14.00'
+  order_id: BXNJKEUY5DB6J43
+  pair: XRPZAR
+  price: 13.04
+  quantity: 14.0
+  state: PENDING
+  trades:
+  - is_buy: false
+    price: '13.04'
+    sequence: 3970105
+    timestamp: 1645046434129
+    volume: '14.00'
+  type: BID
+- base: '0.00'
+  completed_timestamp: 0
+  counter: '0.00'
+  creation_timestamp: 1645047295064
+  expiration_timestamp: 0
+  fee_base: '0.00'
+  fee_counter: '0.00'
+  funds: 593.4290970000001
+  limit_price: '13.01'
+  limit_volume: '5.00'
+  order_id: BXM3QXNJSV72DTF
+  pair: XRPZAR
+  price: 13.01
+  quantity: 5.0
+  state: PENDING
+  trades:
+  - is_buy: false
+    price: '13.01'
+    sequence: 3970145
+    timestamp: 1645047416633
+    volume: '5.00'
+  type: BID
+- base: '15.00'
+  completed_timestamp: 1645049229023
+  counter: '194.40'
+  creation_timestamp: 1645049179368
+  expiration_timestamp: 0
+  fee_base: '0.00'
+  fee_counter: '0.00'
+  funds: 282.249097
+  limit_price: '12.96'
+  limit_volume: '15.00'
+  order_id: BXEZJ9YNMRK8U6Z
+  pair: XRPZAR
+  price: 12.96
+  quantity: 15.0
+  state: COMPLETE
+  trades:
+  - is_buy: false
+    price: '12.96'
+    sequence: 3970268
+    timestamp: 1645049229023
+    volume: '15.00'
+  type: BID

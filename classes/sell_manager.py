@@ -12,10 +12,14 @@ class SellManager:
         self.pending_orders_sell = []
         self.sell_orders = []
 
-    def save_sell_order(self):
+    def save_sell_order(self, clear_buy_orders):
         file_reader.write_data({'orders': self.sell_orders}, 'sell_orders')
-        self.bought_orders = []
-        self.save_buy_order()
+        if clear_buy_orders:
+            self.completed_bought_orders = self.completed_bought_orders + self.bought_orders
+            self.save_completed_buy_orders()
+
+            self.bought_orders = []
+            self.save_buy_order()
 
     def get_sell_orders(self):
         data = file_reader.read_data('sell_orders')
@@ -53,12 +57,6 @@ class SellManager:
 
         if 'error' in order.keys():
             return
-
-        self.completed_bought_orders = self.completed_bought_orders + self.bought_orders
-        self.save_completed_buy_orders()
-
-        self.bought_orders = []
-        self.save_buy_order()
 
         sell_value = float(sell_price) * float(total_quantity)
 

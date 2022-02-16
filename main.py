@@ -1,3 +1,4 @@
+from math import fabs
 import os
 import time
 
@@ -58,9 +59,9 @@ class AlgoBot(
         for i in pending_orders:
             order = luno.get_order(i['order_id'])
             if order.get('state') == 'COMPLETE':
-                complete_orders.append({**order, **i})
+                complete_orders.append({**i, **order})
             else:
-                incomplete_orders.append(i)
+                incomplete_orders.append({**i, **order})
 
         pending_orders = incomplete_orders
         self.save_pending_order(pending_orders, order_type)
@@ -134,9 +135,12 @@ if __name__ == "__main__":
             bot.save_buy_order()
 
             orders = bot.process_pending_orders(bot.pending_orders_sell, 'sell')
+            clear_buy_orders = False
+            if(len(orders['complete']) > 0):
+                clear_buy_orders = True
             bot.sell_orders += orders['complete']
             bot.pending_orders_sell = orders['pending']
-            bot.save_sell_order()
+            bot.save_sell_order(clear_buy_orders)
 
         if count >= PROCESS_TIMER:
             bot.run()
