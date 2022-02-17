@@ -67,3 +67,24 @@ orders:
   side: SELL
   status: COMPLETE
   type: LIMIT
+- base: '9.00000000'
+  client_order_id: ''
+  completed_timestamp: 1645115168715
+  counter: '111.15000000'
+  creation_timestamp: 1645115003597
+  expiration_timestamp: 1645115168714
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 1930.8090969999998
+  limit_price: '12.35000000'
+  limit_volume: '52.00000000'
+  order_id: BXEBRV98KX5UYR7
+  order_ids:
+  - BXGEX3FMMUWBUF8
+  pair: XRPZAR
+  price: 12.35
+  quantity: 52.0
+  sell_value: 642.1999999999999
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
