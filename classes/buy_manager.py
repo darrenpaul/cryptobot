@@ -28,13 +28,7 @@ class BuyManager:
         self.completed_bought_orders = data.get('orders') or []
 
     def get_buy_price_average(self):
-        buy_prices = []
-        for i in self.bought_orders:
-            buy_price = float(i['limit_price'])
-            fee_price = float(i['fee_base'])
-            total_price = buy_price + fee_price
-            buy_prices.append(total_price)
-        return mathematics.get_mean(buy_prices) or 0.0
+        return mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity')
 
     def process_buy_order(self, current_price):
         self.logger_message.append(f'============================')

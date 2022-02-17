@@ -1,9 +1,9 @@
-from math import fabs
 import os
+from pprint import pprint
 import time
+import math
 
 from pathlib import Path
-from datetime import datetime
 from modules import luno, file_reader, mathematics, logger
 from classes import buy_manager, sell_manager, price_manager, trend_manager
 
@@ -27,6 +27,7 @@ class AlgoBot(
         logger.BotLogger.__init__(self)
 
         self.dry_run = dry_run
+        self.logger_message = ['']
 
         self.trading_pair = 'XBTZAR'
         self.profit_margin = 2
@@ -41,10 +42,10 @@ class AlgoBot(
         self.trend_size = config['trendSize']
         self.trend_margin = config['trendMargin']
         self.min_trend_margin = config['minTrendMargin']
+        self.purchase_trend_margin = config['purchaseTrendMargin']
         self.purchase_percentage = config['purchasePercent']
         self.min_trade_amount = config['minTradeAmount'][config['coin']]
-
-        self.logger_message = ['']
+        self.sell_range_margin = config['sellRangeMargin']
 
     def save_pending_order(self, data, order_type):
         file_reader.write_data({'orders': data}, f'pending_orders_{order_type}')
@@ -58,10 +59,12 @@ class AlgoBot(
         complete_orders = []
         for i in pending_orders:
             order = luno.get_order(i['order_id'])
-            if order.get('state') == 'COMPLETE':
+            counter = float(order.get('counter'))
+            if order.get('status') == 'COMPLETE' and counter > 0:
                 complete_orders.append({**i, **order})
             else:
-                incomplete_orders.append({**i, **order})
+                if counter > 0.0:
+                    incomplete_orders.append({**i, **order})
 
         pending_orders = incomplete_orders
         self.save_pending_order(pending_orders, order_type)
@@ -88,14 +91,16 @@ class AlgoBot(
                 self.pending_orders = []
                 self.logger_message.append(f'cancelled open orders {cancelled_orders}')
 
-            self.update_trend(current_price)
-
             average_buy_price = self.get_buy_price_average()
+            average_buy_price = math.floor(average_buy_price * FACTOR) / FACTOR
             self.logger_message.append(f'AVERAGE BUY PRICE: {average_buy_price}')
 
+            self.update_trend(average_buy_price, current_price)
+
             # BUY ORDER
-            if self.trend <= self.trend_margin:
-                if self.trend >= self.min_trend_margin:
+            if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin or \
+                self.purchase_trend <= self.purchase_trend_margin:
+                if float(average_buy_price) != float(current_price):
                     self.process_buy_order(current_price)
                     did_buy = True
 
@@ -103,6 +108,8 @@ class AlgoBot(
                 if len(self.bought_orders) > 0:
                     if float(average_buy_price) < float(current_price):
                         self.process_sell_order(average_buy_price)
+                    else:
+                        self.process_possible_sell_orders(current_price)
 
         self.log_info_message(self.logger_message)
 
@@ -111,6 +118,41 @@ class AlgoBot(
 
 
 if __name__ == "__main__":
+
+    # data = [
+    #     {'quantity':8.0, 'price': 12.98},
+    #     {'quantity':14.0, 'price': 12.98},
+    #     {'quantity':17.0, 'price': 12.98},
+    #     {'quantity':20.0, 'price': 12.97},
+    #     {'quantity':12.0, 'price': 12.97},
+    #     {'quantity':19.0, 'price': 12.77},
+    #     {'quantity':7.0, 'price': 12.94},
+    #     {'quantity':1.0, 'price': 12.93},
+    #     {'quantity':15.0, 'price': 12.79},
+    #     {'quantity':1.0, 'price': 12.76},
+    #     {'quantity':12.0, 'price': 12.75},
+    #     {'quantity':16.0, 'price': 12.73},
+    #     {'quantity':9.0, 'price': 12.67},
+    #     {'quantity':4.0, 'price': 12.66},
+    #     {'quantity':2.0, 'price': 12.58},
+    #     {'quantity':15.0, 'price': 12.52},
+    #     {'quantity':1.0, 'price': 12.52},
+    #     {'quantity':13.0, 'price': 12.51},
+    #     {'quantity':16.0, 'price': 12.47},
+    #     {'quantity':14.0, 'price': 12.47},
+    #     {'quantity':21.0, 'price': 12.58},
+    #     {'quantity':600.0, 'price': 12.5},
+    # ]
+    data = [
+        {'quantity':15.0, 'price': 12.52},
+        {'quantity':1.0, 'price': 12.52},
+        {'quantity':13.0, 'price': 12.51},
+        {'quantity':16.0, 'price': 12.47},
+        {'quantity':14.0, 'price': 12.47},
+        {'quantity':21.0, 'price': 12.41},
+    ]
+
+    # print(mathematics.get_weighted_average(data, 'price', 'quantity'))
     bot = AlgoBot(dry_run=False)
 
     bot.log_info('Running AlgoBot...')
@@ -128,7 +170,7 @@ if __name__ == "__main__":
     while True:
         bot.get_config()
 
-        if count % 10 == 0:
+        if count % 30 == 0:
             orders = bot.process_pending_orders(bot.pending_orders_buy, 'buy')
             bot.bought_orders += orders['complete']
             bot.pending_orders_buy = orders['pending']

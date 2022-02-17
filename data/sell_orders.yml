@@ -47,3 +47,23 @@ orders:
     timestamp: 1645059325809
     volume: '79.00'
   type: ASK
+- base: '21.00000000'
+  client_order_id: ''
+  completed_timestamp: 1645106367975
+  counter: '260.61000000'
+  creation_timestamp: 1645106338168
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 271.489097
+  limit_price: '12.41000000'
+  limit_volume: '21.00000000'
+  order_id: BXJAKK5HCUY2NR5
+  order_ids: []
+  pair: XRPZAR
+  price: 12.41
+  quantity: 21.0
+  sell_value: 260.61
+  side: SELL
+  status: COMPLETE
+  type: LIMIT

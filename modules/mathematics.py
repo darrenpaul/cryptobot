@@ -23,6 +23,19 @@ def get_mean(data=None):
         return float(df.mean().item())
 
 
+def get_weighted_average(data, key_one, key_two):
+    total_value_one = 0.0
+    total_value_two = 0.0
+
+    for i in data:
+        value_one = float(i[key_one])
+        value_two = float(i[key_two])
+        total_value_one += value_one * value_two
+        total_value_two += value_two
+
+    return  total_value_one / total_value_two
+
+
 def get_median(data=None):
     if data and isinstance(data, list):
         df = pandas.DataFrame(data=data)
@@ -76,5 +89,8 @@ def get_trend(data, size=6, trend_size=3):
     usable_data = data[-size:]
     initial = get_mean(usable_data[:trend_size])
     final = get_mean(usable_data[trend_size:])
+
+    if initial == 0.0 or final == 0.0:
+        return 100
 
     return (final / initial) * 100

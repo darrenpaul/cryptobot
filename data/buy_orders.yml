@@ -1,187 +1,95 @@
 orders:
-- base: '8.00'
-  completed_timestamp: 1645060172276
-  counter: '103.84'
-  creation_timestamp: 1645060062631
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 922.8890969999999
-  limit_price: '12.98'
-  limit_volume: '8.00'
-  order_id: BX8W297AWHWQYN
-  pair: XRPZAR
+- limit_price: 12.98
+  order_id: abcdef1
   price: 12.98
   quantity: 8.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.98'
-    sequence: 3970542
-    timestamp: 1645060172276
-    volume: '8.00'
-  type: BID
-- base: '14.00'
-  completed_timestamp: 1645060535482
-  counter: '181.72'
-  creation_timestamp: 1645060364517
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 741.169097
-  limit_price: '12.98'
-  limit_volume: '14.00'
-  order_id: BXJYY4T3PGED75P
-  pair: XRPZAR
+- limit_price: 12.98
+  order_id: abcdef2
   price: 12.98
   quantity: 14.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.98'
-    sequence: 3970550
-    timestamp: 1645060535482
-    volume: '14.00'
-  type: BID
-- base: '0.00'
-  completed_timestamp: 1645060969271
-  counter: '0.00'
-  creation_timestamp: 1645060666630
-  expiration_timestamp: 1645060969269
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 520.679097
-  limit_price: '12.97'
-  limit_volume: '17.00'
-  order_id: BXC8S65Q88FXVUR
-  pair: XRPZAR
-  price: 12.97
-  quantity: 17.0
-  state: COMPLETE
-  type: BID
-- base: '17.00'
-  completed_timestamp: 1645061126300
-  counter: '220.66'
-  creation_timestamp: 1645060969589
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 520.509097
-  limit_price: '12.98'
-  limit_volume: '17.00'
-  order_id: BXEKYRKPT9XMZ4V
-  pair: XRPZAR
+- limit_price: 12.98
+  order_id: abcdef3
   price: 12.98
   quantity: 17.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.98'
-    sequence: 3970555
-    timestamp: 1645061126300
-    volume: '17.00'
-  type: BID
-- base: '20.00'
-  completed_timestamp: 1645061389245
-  counter: '259.40'
-  creation_timestamp: 1645061272145
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 261.109097
-  limit_price: '12.97'
-  limit_volume: '20.00'
-  order_id: BXF374B64KZX4R9
-  pair: XRPZAR
+- limit_price: 12.97
+  order_id: abcdef4
   price: 12.97
   quantity: 20.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.97'
-    sequence: 3970559
-    timestamp: 1645061389245
-    volume: '20.00'
-  type: BID
-- base: '0.00'
-  completed_timestamp: 1645061877003
-  counter: '0.00'
-  creation_timestamp: 1645061574227
-  expiration_timestamp: 1645061877001
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 105.58909700000001
-  limit_price: '12.96'
-  limit_volume: '12.00'
-  order_id: BXJ9WUZVR2B3P79
-  pair: XRPZAR
-  price: 12.96
-  quantity: 12.0
-  state: COMPLETE
-  type: BID
-- base: '12.00'
-  completed_timestamp: 1645061946514
-  counter: '155.64'
-  creation_timestamp: 1645061877218
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 105.46909700000003
-  limit_price: '12.97'
-  limit_volume: '12.00'
-  order_id: BXH3SKYMSPRPDQP
-  pair: XRPZAR
+- limit_price: 12.97
+  order_id: abcdef5
   price: 12.97
   quantity: 12.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.97'
-    sequence: 3970564
-    timestamp: 1645061946514
-    volume: '12.00'
-  type: BID
-- base: '7.00'
-  completed_timestamp: 1645062245651
-  counter: '90.58'
-  creation_timestamp: 1645062179263
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 14.889097000000007
-  limit_price: '12.94'
-  limit_volume: '7.00'
-  order_id: BXKVR458TTUAX9Y
-  pair: XRPZAR
+- limit_price: 12.77
+  order_id: abcdef6
+  price: 12.77
+  quantity: 19.0
+- limit_price: 12.94
+  order_id: abcdef7
   price: 12.94
   quantity: 7.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.94'
-    sequence: 3970573
-    timestamp: 1645062245651
-    volume: '7.00'
-  type: BID
-- base: '1.00'
-  completed_timestamp: 1645062595160
-  counter: '12.93'
-  creation_timestamp: 1645062481387
-  expiration_timestamp: 0
-  fee_base: '0.00'
-  fee_counter: '0.00'
-  funds: 1.9590969999999999
-  limit_price: '12.93'
-  limit_volume: '1.00'
-  order_id: BXC7W9NJGBW9YD4
-  pair: XRPZAR
+- limit_price: 12.93
+  order_id: abcdef8
   price: 12.93
   quantity: 1.0
-  state: COMPLETE
-  trades:
-  - is_buy: false
-    price: '12.93'
-    sequence: 3970575
-    timestamp: 1645062595160
-    volume: '1.00'
-  type: BID
+- limit_price: 12.79
+  order_id: abcdef9
+  price: 12.79
+  quantity: 15.0
+- limit_price: 12.76
+  order_id: abcdef10
+  price: 12.76
+  quantity: 1.0
+- limit_price: 12.75
+  order_id: abcdef11
+  price: 12.75
+  quantity: 12.0
+- limit_price: 12.73
+  order_id: abcdef12
+  price: 12.73
+  quantity: 16.0
+- limit_price: 12.67
+  order_id: abcdef13
+  price: 12.67
+  quantity: 9.0
+- limit_price: 12.66
+  order_id: abcdef14
+  price: 12.66
+  quantity: 4.0
+- limit_price: 12.58
+  order_id: abcdef15
+  price: 12.58
+  quantity: 2.0
+- limit_price: 12.58
+  order_id: abcdef16
+  price: 12.58
+  quantity: 21.0
+- limit_price: 12.52
+  order_id: abcdef17
+  price: 12.52
+  quantity: 15.0
+- limit_price: 12.52
+  order_id: abcdef18
+  price: 12.52
+  quantity: 1.0
+- limit_price: 12.51
+  order_id: abcdef19
+  price: 12.51
+  quantity: 13.0
+- base: '52.00000000'
+  client_order_id: ''
+  completed_timestamp: 1645110676662
+  counter: '641.68000000'
+  creation_timestamp: 1645110656068
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 4.2090970000000425
+  limit_price: '12.34000000'
+  limit_volume: '52.00000000'
+  order_id: BXGEX3FMMUWBUF8
+  pair: XRPZAR
+  price: 12.34
+  quantity: 52.0
+  side: BUY
+  status: COMPLETE
+  type: LIMIT
