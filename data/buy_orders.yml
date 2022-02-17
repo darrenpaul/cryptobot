@@ -75,21 +75,3 @@ orders:
   order_id: abcdef19
   price: 12.51
   quantity: 13.0
-- base: '52.00000000'
-  client_order_id: ''
-  completed_timestamp: 1645110676662
-  counter: '641.68000000'
-  creation_timestamp: 1645110656068
-  expiration_timestamp: 0
-  fee_base: '0.00000000'
-  fee_counter: '0.00000000'
-  funds: 4.2090970000000425
-  limit_price: '12.34000000'
-  limit_volume: '52.00000000'
-  order_id: BXGEX3FMMUWBUF8
-  pair: XRPZAR
-  price: 12.34
-  quantity: 52.0
-  side: BUY
-  status: COMPLETE
-  type: LIMIT

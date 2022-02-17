@@ -108,8 +108,8 @@ class AlgoBot(
                 if len(self.bought_orders) > 0:
                     if float(average_buy_price) < float(current_price):
                         self.process_sell_order(average_buy_price)
-                    else:
-                        self.process_possible_sell_orders(current_price)
+                    # else:
+                    #     self.process_possible_sell_orders(current_price)
 
         self.log_info_message(self.logger_message)
 
