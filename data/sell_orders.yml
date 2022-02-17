@@ -1,19 +1,49 @@
 orders:
-- average_buy_price: 13.059999999999999
-  base: '0.00'
-  completed_timestamp: 1645047177153
-  counter: '0.00'
-  creation_timestamp: 1645046961435
-  expiration_timestamp: 1645047177151
+- average_buy_price: 12.99
+  base: '59.00'
+  completed_timestamp: 1645050621059
+  counter: '768.18'
+  creation_timestamp: 1645050401469
+  expiration_timestamp: 0
   fee_base: '0.00'
   fee_counter: '0.00'
-  funds: 1024.999097
-  limit_price: '13.09'
-  limit_volume: '28.00'
-  order_id: BXHMFJHCTZUU4NZ
+  funds: 1024.409097
+  limit_price: '13.02'
+  limit_volume: '59.00'
+  order_id: BXH5P4T2ZFW4MU2
   pair: XRPZAR
-  price: 13.09
-  quantity: 28
-  sell_value: 366.52
+  price: 13.02
+  quantity: 59
+  sell_value: 768.18
   state: COMPLETE
+  trades:
+  - is_buy: true
+    price: '13.02'
+    sequence: 3970314
+    timestamp: 1645050621059
+    volume: '59.00'
+  type: ASK
+- average_buy_price: 12.960909090909091
+  base: '79.00'
+  completed_timestamp: 1645059325809
+  counter: '1026.21'
+  creation_timestamp: 1645059157963
+  expiration_timestamp: 0
+  fee_base: '0.00'
+  fee_counter: '0.00'
+  funds: 1026.7290970000001
+  limit_price: '12.99'
+  limit_volume: '79.00'
+  order_id: BXNR2TBQJJ87G49
+  pair: XRPZAR
+  price: 12.99
+  quantity: 79
+  sell_value: 1026.21
+  state: COMPLETE
+  trades:
+  - is_buy: true
+    price: '12.99'
+    sequence: 3970538
+    timestamp: 1645059325809
+    volume: '79.00'
   type: ASK
