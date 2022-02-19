@@ -19,7 +19,7 @@ class SellManager:
         remove_ids = []
         incomplete_orders = []
 
-        for order in self.sell_orders:
+        for order in self.pending_orders_sell:
             if order.get('order_ids'):
                 remove_ids.append(order.get('order_ids'))
 
@@ -37,6 +37,37 @@ class SellManager:
     def get_sell_orders(self):
         data = file_reader.read_data('sell_orders')
         self.sell_orders = data.get('orders') or []
+
+    def process_pending_sell_orders(self):
+        incomplete_orders = []
+        complete_orders = []
+        order_ids = []
+
+        for order in self.pending_orders_sell:
+            query_order = luno.get_order(order['order_id'])
+            order = {**order, **query_order}
+            if order.get('status') == 'COMPLETE':
+                complete_orders.append({**order})
+                order_ids += order.get('order_ids')
+            else:
+                incomplete_orders.append({**order})
+
+        self.complete_buy_orders(order_ids)
+
+
+        # for i in pending_orders:
+        #     order = luno.get_order(i['order_id'])
+        #     order = i # DELETE
+        #     counter = float(order.get('counter'))
+        #     if order.get('status') == 'COMPLETE' and counter > 0:
+        #         complete_orders.append({**i, **order})
+        #     else:
+        #         if counter > 0.0:
+        #             incomplete_orders.append({**i, **order})
+
+        # pending_orders = incomplete_orders
+        # self.save_pending_order(pending_orders, order_type)
+        # return {'pending': pending_orders, 'complete': complete_orders}
 
     def process_sell_order(self, average_buy_price):
         self.logger_message.append(f'=============================')
@@ -73,15 +104,11 @@ class SellManager:
 
         sell_value = float(sell_price) * float(total_quantity)
 
-        funds = float(luno.getSpendableBalance()) + float(float(sell_price) * float(total_quantity))
-        print(f'Funds after: {funds}')
-
         self.pending_orders_sell.append(
             {
                 'order_id': order['order_id'],
                 'price': sell_price,
                 'quantity': total_quantity,
-                'funds': funds,
                 'sell_value': sell_value,
                 'average_buy_price': average_buy_price,
             }
@@ -109,31 +136,35 @@ class SellManager:
                 order_ids.append(order_id)
 
         if len(possible_orders) > 0:
-            sell_price = mathematics.get_weighted_average(possible_orders, 'limit_price', 'quantity') + 0.01
+            sell_price = mathematics.get_weighted_average(possible_orders, 'limit_price', 'quantity')
+            if(current_price < sell_price):
+                return
+            sell_price = current_price + 0.01
             order = luno.create_sell_order(self.trading_pair, sell_price, total_quantity, dry_run=self.dry_run)
+
             self.logger_message.append(f'ORDER: {order}')
 
-            print(order)
             sell_value = float(sell_price) * float(total_quantity)
-
-            funds = float(luno.getSpendableBalance()) + float(float(sell_price) * float(total_quantity))
-            print(f'Funds after: {funds}')
 
             self.pending_orders_sell.append(
                 {
                     'order_id': order['order_id'],
                     'price': sell_price,
                     'quantity': total_quantity,
-                    'funds': funds,
                     'sell_value': sell_value,
                     'order_ids': order_ids
                 }
             )
             self.save_pending_order(self.pending_orders_sell, 'sell')
 
-            '''
-            This function will get all the orders that fit within the price range
-            E.g. 12.47 to 12.52
-            These orders will then be sold at a weighted average price.
-            '''
+    def check_if_can_sell(self, average_buy_price, current_price):
+        if self.did_buy:
+            return
+        if len(self.bought_orders) == 0:
+            return
+
+        if float(average_buy_price) < float(current_price):
             pass
+            # self.process_sell_order(average_buy_price)
+        else:
+            self.process_possible_sell_orders(current_price)

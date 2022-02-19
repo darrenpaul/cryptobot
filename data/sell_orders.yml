@@ -88,3 +88,35 @@ orders:
   side: SELL
   status: COMPLETE
   type: LIMIT
+- counter: 100.0
+  order_id: abcd
+  order_ids:
+  - 7e2bab1f-740e-40ef-b97c-b3c65dae3520
+  price: 11.95
+  quantity: 117.0
+  sell_value: 1398.1499999999999
+  status: COMPLETE
+- counter: 100.0
+  order_id: abcd
+  order_ids:
+  - 7e2bab1f-740e-40ef-b97c-b3c65dae3520
+  price: 11.95
+  quantity: 117.0
+  sell_value: 1398.1499999999999
+  status: COMPLETE
+- counter: 100.0
+  order_id: abcd
+  order_ids:
+  - 7e2bab1f-740e-40ef-b97c-b3c65dae3520
+  price: 11.95
+  quantity: 117.0
+  sell_value: 1398.1499999999999
+  status: COMPLETE
+- counter: 100.0
+  order_id: abcd
+  order_ids:
+  - 7e2bab1f-740e-40ef-b97c-b3c65dae3520
+  price: 11.95
+  quantity: 117.0
+  sell_value: 1398.1499999999999
+  status: COMPLETE

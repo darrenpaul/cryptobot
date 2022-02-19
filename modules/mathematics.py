@@ -27,11 +27,16 @@ def get_weighted_average(data, key_one, key_two):
     total_value_one = 0.0
     total_value_two = 0.0
 
+
+
     for i in data:
         value_one = float(i[key_one])
         value_two = float(i[key_two])
         total_value_one += value_one * value_two
         total_value_two += value_two
+
+    print(total_value_one)
+    print(total_value_two)
 
     return  total_value_one / total_value_two
 

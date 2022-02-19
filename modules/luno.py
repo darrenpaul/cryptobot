@@ -82,7 +82,7 @@ def getSpendableBalance(currency='ZAR'):
     account_balance = getAccountBalance(currency)['balance'][0]
     balance = float(account_balance.get('balance'))
     reserved = float(account_balance.get('reserved'))
-    return balance - reserved
+    return float(balance - reserved)
 
 
 # MAKE WORK

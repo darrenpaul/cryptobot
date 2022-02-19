@@ -29,6 +29,7 @@ class PriceManager:
 
     def get_current_price(self):
         current_price = luno.getPriceTicker(self.trading_pair)
+        self.logger_message.append(f'CURRENT PRICE: {current_price}')
         self.past_prices.append(current_price)
         self._save_prices()
         return current_price

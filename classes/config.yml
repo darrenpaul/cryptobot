@@ -7,4 +7,4 @@ minTrendMargin: 99.60
 purchaseTrendMargin: 96.50
 purchasePercent: 5
 minTradeAmount: {'XRP': 1}
-sellRangeMargin : 0.05
+sellRangeMargin : 0.10

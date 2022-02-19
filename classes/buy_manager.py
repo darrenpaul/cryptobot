@@ -16,19 +16,23 @@ class BuyManager:
     def save_buy_order(self):
         file_reader.write_data({'orders': self.bought_orders}, 'buy_orders')
 
+    def save_completed_buy_orders(self):
+        file_reader.write_data({'orders': self.completed_bought_orders}, 'completed_buy_orders')
+
     def get_buy_orders(self):
         data = file_reader.read_data('buy_orders')
         self.bought_orders = data.get('orders') or []
-
-    def save_completed_buy_orders(self):
-        file_reader.write_data({'orders': self.completed_bought_orders}, 'completed_buy_orders')
 
     def get_completed_buy_orders(self):
         data = file_reader.read_data('completed_buy_orders')
         self.completed_bought_orders = data.get('orders') or []
 
     def get_buy_price_average(self):
-        return mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity')
+        fee = 0.01
+        weighted_price = mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity') + fee
+        rounded_price = math.floor(weighted_price * FACTOR) / FACTOR
+        self.logger_message.append(f'AVERAGE BUY PRICE: {rounded_price}')
+        return rounded_price
 
     def process_buy_order(self, current_price):
         self.logger_message.append(f'============================')
@@ -81,3 +85,20 @@ class BuyManager:
         funds_to_purchase = mathematics.get_percentage(account_balance, purchase_percentage)
         quantity = funds_to_purchase / current_price
         return round(quantity, 0)
+
+    def check_if_can_buy(self, average_buy_price, current_price):
+        if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin or \
+            self.purchase_trend <= self.purchase_trend_margin:
+            if float(average_buy_price) != float(current_price):
+                self.process_buy_order(current_price)
+                self.did_buy = True
+
+    def complete_buy_orders(self, order_ids):
+        buy_orders = []
+        for order in self.bought_orders:
+            order_id = order.get('order_id')
+            if order_id in order_ids:
+                continue
+            buy_orders.append(order)
+        self.bought_orders = buy_orders
+        self.save_buy_order()
