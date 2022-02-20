@@ -3180,3 +3180,748 @@ PURCHASE TREND: 93.1
 === PROCESSING POSSIBLE SELL ORDER ===
 =============================
 2022-02-18 17:12:40,734 | INFO | ****************************************
+2022-02-19 08:24:34,623 | INFO | Running AlgoBot...
+2022-02-19 08:24:35,232 | INFO | ****************************************
+2022-02-19 08:24:35,232 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.37
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.55
+PURCHASE TREND: 95.89
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:24:35,232 | INFO | ****************************************
+2022-02-19 08:29:37,181 | INFO | ****************************************
+2022-02-19 08:29:37,181 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.34
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 101.38
+PURCHASE TREND: 95.66
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:29:37,181 | INFO | ****************************************
+2022-02-19 08:34:39,116 | INFO | ****************************************
+2022-02-19 08:34:39,116 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.34
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 102.43
+PURCHASE TREND: 95.66
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:34:39,116 | INFO | ****************************************
+2022-02-19 08:39:41,091 | INFO | ****************************************
+2022-02-19 08:39:41,091 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.33
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 101.65
+PURCHASE TREND: 95.58
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:39:41,091 | INFO | ****************************************
+2022-02-19 08:44:43,074 | INFO | ****************************************
+2022-02-19 08:44:43,075 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.36
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.84
+PURCHASE TREND: 95.81
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:44:43,075 | INFO | ****************************************
+2022-02-19 08:49:45,004 | INFO | ****************************************
+2022-02-19 08:49:45,005 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.35
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.97
+PURCHASE TREND: 95.74
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:49:45,005 | INFO | ****************************************
+2022-02-19 08:54:46,985 | INFO | ****************************************
+2022-02-19 08:54:46,985 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.28
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.95
+PURCHASE TREND: 95.19
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:54:46,985 | INFO | ****************************************
+2022-02-19 08:59:49,068 | INFO | ****************************************
+2022-02-19 08:59:49,068 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.57
+PURCHASE TREND: 94.88
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 08:59:49,068 | INFO | ****************************************
+2022-02-19 09:04:51,008 | INFO | ****************************************
+2022-02-19 09:04:51,008 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.29
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.38
+PURCHASE TREND: 95.27
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:04:51,009 | INFO | ****************************************
+2022-02-19 09:09:52,952 | INFO | ****************************************
+2022-02-19 09:09:52,952 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.25
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.43
+PURCHASE TREND: 94.96
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:09:52,952 | INFO | ****************************************
+2022-02-19 09:14:55,918 | INFO | ****************************************
+2022-02-19 09:14:55,918 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.23
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.73
+PURCHASE TREND: 94.81
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:14:55,918 | INFO | ****************************************
+2022-02-19 09:19:57,830 | INFO | ****************************************
+2022-02-19 09:19:57,831 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.23
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.73
+PURCHASE TREND: 94.81
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:19:57,831 | INFO | ****************************************
+2022-02-19 09:24:59,791 | INFO | ****************************************
+2022-02-19 09:24:59,792 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.23
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.76
+PURCHASE TREND: 94.81
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:24:59,792 | INFO | ****************************************
+2022-02-19 09:30:02,288 | INFO | ****************************************
+2022-02-19 09:30:02,288 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.81
+PURCHASE TREND: 94.88
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:30:02,288 | INFO | ****************************************
+2022-02-19 09:35:04,230 | INFO | ****************************************
+2022-02-19 09:35:04,230 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.27
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.08
+PURCHASE TREND: 95.12
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:35:04,231 | INFO | ****************************************
+2022-02-19 09:40:06,201 | INFO | ****************************************
+2022-02-19 09:40:06,201 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.28
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.27
+PURCHASE TREND: 95.19
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:40:06,201 | INFO | ****************************************
+2022-02-19 09:45:08,128 | INFO | ****************************************
+2022-02-19 09:45:08,128 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.25
+PURCHASE TREND: 94.88
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:45:08,128 | INFO | ****************************************
+2022-02-19 09:50:10,077 | INFO | ****************************************
+2022-02-19 09:50:10,077 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.22
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.0
+PURCHASE TREND: 94.73
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:50:10,077 | INFO | ****************************************
+2022-02-19 09:55:12,019 | INFO | ****************************************
+2022-02-19 09:55:12,019 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.62
+PURCHASE TREND: 94.5
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 09:55:12,019 | INFO | ****************************************
+2022-02-19 10:00:13,913 | INFO | ****************************************
+2022-02-19 10:00:13,913 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.54
+PURCHASE TREND: 94.65
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:00:13,913 | INFO | ****************************************
+2022-02-19 10:05:15,904 | INFO | ****************************************
+2022-02-19 10:05:15,905 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.65
+PURCHASE TREND: 94.65
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:05:15,905 | INFO | ****************************************
+2022-02-19 10:10:17,914 | INFO | ****************************************
+2022-02-19 10:10:17,914 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.95
+PURCHASE TREND: 94.65
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:10:17,914 | INFO | ****************************************
+2022-02-19 10:15:19,857 | INFO | ****************************************
+2022-02-19 10:15:19,857 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.03
+PURCHASE TREND: 94.65
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:15:19,857 | INFO | ****************************************
+2022-02-19 10:20:21,830 | INFO | ****************************************
+2022-02-19 10:20:21,830 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.2
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.03
+PURCHASE TREND: 94.57
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:20:21,830 | INFO | ****************************************
+2022-02-19 10:25:23,784 | INFO | ****************************************
+2022-02-19 10:25:23,784 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.14
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.78
+PURCHASE TREND: 94.11
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:25:23,784 | INFO | ****************************************
+2022-02-19 10:30:25,751 | INFO | ****************************************
+2022-02-19 10:30:25,751 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.11
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.51
+PURCHASE TREND: 93.88
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:30:25,751 | INFO | ****************************************
+2022-02-19 10:35:27,675 | INFO | ****************************************
+2022-02-19 10:35:27,675 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.14
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.37
+PURCHASE TREND: 94.11
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:35:27,675 | INFO | ****************************************
+2022-02-19 10:40:29,639 | INFO | ****************************************
+2022-02-19 10:40:29,639 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.16
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.62
+PURCHASE TREND: 94.26
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:40:29,639 | INFO | ****************************************
+2022-02-19 10:45:31,659 | INFO | ****************************************
+2022-02-19 10:45:31,659 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.14
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.97
+PURCHASE TREND: 94.11
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:45:31,659 | INFO | ****************************************
+2022-02-19 10:50:33,596 | INFO | ****************************************
+2022-02-19 10:50:33,596 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.16
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.19
+PURCHASE TREND: 94.26
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:50:33,596 | INFO | ****************************************
+2022-02-19 10:55:35,549 | INFO | ****************************************
+2022-02-19 10:55:35,549 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.18
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.19
+PURCHASE TREND: 94.42
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 10:55:35,549 | INFO | ****************************************
+2022-02-19 11:00:37,508 | INFO | ****************************************
+2022-02-19 11:00:37,509 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.25
+PURCHASE TREND: 94.5
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:00:37,509 | INFO | ****************************************
+2022-02-19 11:05:39,463 | INFO | ****************************************
+2022-02-19 11:05:39,463 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.27
+PURCHASE TREND: 94.5
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:05:39,463 | INFO | ****************************************
+2022-02-19 11:10:41,430 | INFO | ****************************************
+2022-02-19 11:10:41,430 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.25
+PURCHASE TREND: 94.5
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:10:41,430 | INFO | ****************************************
+2022-02-19 11:15:43,428 | INFO | ****************************************
+2022-02-19 11:15:43,428 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.16
+PURCHASE TREND: 94.65
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:15:43,428 | INFO | ****************************************
+2022-02-19 11:20:45,402 | INFO | ****************************************
+2022-02-19 11:20:45,402 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.18
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.05
+PURCHASE TREND: 94.42
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:20:45,402 | INFO | ****************************************
+2022-02-19 11:25:47,340 | INFO | ****************************************
+2022-02-19 11:25:47,340 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.15
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.92
+PURCHASE TREND: 94.19
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:25:47,340 | INFO | ****************************************
+2022-02-19 11:30:49,298 | INFO | ****************************************
+2022-02-19 11:30:49,299 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.13
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.64
+PURCHASE TREND: 94.03
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:30:49,299 | INFO | ****************************************
+2022-02-19 11:35:51,279 | INFO | ****************************************
+2022-02-19 11:35:51,279 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.05
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.32
+PURCHASE TREND: 93.41
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:35:51,279 | INFO | ****************************************
+2022-02-19 11:40:53,275 | INFO | ****************************************
+2022-02-19 11:40:53,275 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.06
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.18
+PURCHASE TREND: 93.49
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:40:53,275 | INFO | ****************************************
+2022-02-19 11:45:55,214 | INFO | ****************************************
+2022-02-19 11:45:55,214 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.05
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.18
+PURCHASE TREND: 93.41
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:45:55,214 | INFO | ****************************************
+2022-02-19 11:50:57,179 | INFO | ****************************************
+2022-02-19 11:50:57,179 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.07
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.59
+PURCHASE TREND: 93.57
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:50:57,180 | INFO | ****************************************
+2022-02-19 11:55:59,095 | INFO | ****************************************
+2022-02-19 11:55:59,095 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.08
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.89
+PURCHASE TREND: 93.64
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 11:55:59,095 | INFO | ****************************************
+2022-02-19 12:01:01,097 | INFO | ****************************************
+2022-02-19 12:01:01,097 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.07
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.17
+PURCHASE TREND: 93.57
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:01:01,097 | INFO | ****************************************
+2022-02-19 12:06:03,062 | INFO | ****************************************
+2022-02-19 12:06:03,063 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.07
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.11
+PURCHASE TREND: 93.57
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:06:03,063 | INFO | ****************************************
+2022-02-19 12:11:05,051 | INFO | ****************************************
+2022-02-19 12:11:05,051 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.09
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.08
+PURCHASE TREND: 93.72
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:11:05,051 | INFO | ****************************************
+2022-02-19 12:16:07,016 | INFO | ****************************************
+2022-02-19 12:16:07,016 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.1
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.11
+PURCHASE TREND: 93.8
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:16:07,016 | INFO | ****************************************
+2022-02-19 12:21:08,989 | INFO | ****************************************
+2022-02-19 12:21:08,989 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.1
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.19
+PURCHASE TREND: 93.8
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:21:08,989 | INFO | ****************************************
+2022-02-19 12:26:10,943 | INFO | ****************************************
+2022-02-19 12:26:10,943 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.06
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.08
+PURCHASE TREND: 93.49
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:26:10,943 | INFO | ****************************************
+2022-02-19 12:31:12,887 | INFO | ****************************************
+2022-02-19 12:31:12,887 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.07
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.92
+PURCHASE TREND: 93.57
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:31:12,887 | INFO | ****************************************
+2022-02-19 12:36:14,830 | INFO | ****************************************
+2022-02-19 12:36:14,830 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.08
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.78
+PURCHASE TREND: 93.64
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:36:14,830 | INFO | ****************************************
+2022-02-19 12:41:16,778 | INFO | ****************************************
+2022-02-19 12:41:16,778 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.06
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.86
+PURCHASE TREND: 93.49
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:41:16,778 | INFO | ****************************************
+2022-02-19 12:46:18,791 | INFO | ****************************************
+2022-02-19 12:46:18,791 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.09
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.0
+PURCHASE TREND: 93.72
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:46:18,791 | INFO | ****************************************
+2022-02-19 12:51:20,821 | INFO | ****************************************
+2022-02-19 12:51:20,821 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.09
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.08
+PURCHASE TREND: 93.72
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:51:20,821 | INFO | ****************************************
+2022-02-19 12:56:22,827 | INFO | ****************************************
+2022-02-19 12:56:22,827 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.12
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.25
+PURCHASE TREND: 93.95
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 12:56:22,827 | INFO | ****************************************
+2022-02-19 13:01:24,805 | INFO | ****************************************
+2022-02-19 13:01:24,805 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.1
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.22
+PURCHASE TREND: 93.8
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:01:24,805 | INFO | ****************************************
+2022-02-19 13:06:26,764 | INFO | ****************************************
+2022-02-19 13:06:26,764 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.05
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 100.08
+PURCHASE TREND: 93.41
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:06:26,764 | INFO | ****************************************
+2022-02-19 13:11:28,692 | INFO | ****************************************
+2022-02-19 13:11:28,693 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.1
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.86
+PURCHASE TREND: 93.8
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:11:28,693 | INFO | ****************************************
+2022-02-19 13:16:30,685 | INFO | ****************************************
+2022-02-19 13:16:30,685 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.67
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 101.4
+PURCHASE TREND: 98.22
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:16:30,685 | INFO | ****************************************
+2022-02-19 13:21:32,801 | INFO | ****************************************
+2022-02-19 13:21:32,801 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.68
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 103.25
+PURCHASE TREND: 98.29
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:21:32,801 | INFO | ****************************************
+2022-02-19 13:26:34,764 | INFO | ****************************************
+2022-02-19 13:26:34,764 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.64
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 104.8
+PURCHASE TREND: 97.98
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:26:34,764 | INFO | ****************************************
+2022-02-19 13:31:36,762 | INFO | ****************************************
+2022-02-19 13:31:36,762 | INFO | 
+CURRENT FUNDS: 1416.099097
+CURRENT PRICE: 12.66
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 103.15
+PURCHASE TREND: 98.14
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-19 13:31:36,762 | INFO | ****************************************
