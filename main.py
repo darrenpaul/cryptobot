@@ -11,6 +11,11 @@ from classes import buy_manager, sell_manager, order_manager, price_manager, tre
 FACTOR = 10 ** 2
 PROCESS_TIMER = 300
 
+# True
+DRY_RUN = False
+CAN_BUY = True
+CAN_SELL = True
+
 
 class AlgoBot(
     buy_manager.BuyManager,
@@ -21,7 +26,7 @@ class AlgoBot(
     logger.BotLogger,
     config_manager.ConfigManager):
 
-    def __init__(self, dry_run=True):
+    def __init__(self):
         buy_manager.BuyManager.__init__(self)
         sell_manager.SellManager.__init__(self)
         order_manager.OrderManager.__init__(self)
@@ -29,9 +34,9 @@ class AlgoBot(
         trend_manager.TrendManager.__init__(self)
         logger.BotLogger.__init__(self)
         config_manager.ConfigManager.__init__(self)
-        self.dry_run = dry_run
-        self.can_buy = False
-        self.can_sell = True
+        self.dry_run = DRY_RUN
+        self.can_buy = CAN_BUY
+        self.can_sell = CAN_SELL
         self.logger_message = ['']
         self.did_buy = False
 
@@ -39,7 +44,10 @@ class AlgoBot(
         self.logger_message.append(f'cancelling open orders...')
         cancelled_orders = luno.close_open_orders(self.trading_pair)
         if len(cancelled_orders) > 0:
-            self.pending_orders = []
+            self.pending_orders_buy = []
+            self.pending_orders_sell = []
+            self.save_pending_order(self.pending_orders_buy, 'buy')
+            self.save_pending_order(self.pending_orders_sell, 'sell')
             self.logger_message.append(f'cancelled open orders {cancelled_orders}')
 
     def _try_order(self, current_price):
@@ -71,8 +79,8 @@ class AlgoBot(
         self.log_info_message(self.logger_message)
 
 
-def initialize_bot(dry_run=True):
-    bot = AlgoBot(dry_run=dry_run)
+def initialize_bot():
+    bot = AlgoBot()
     bot.log_info('Running AlgoBot...')
     bot.get_config()
     bot.get_past_prices()
@@ -90,11 +98,16 @@ def process_orders(bot):
     # bot.bought_orders += orders['complete']
     # bot.pending_orders_buy = orders['pending']
     # bot.save_buy_order()
+    process_buy_orders(bot)
     process_sell_orders(bot)
 
 
+def process_buy_orders(bot):
+    bot.process_pending_buy_orders()
+
+
 def process_sell_orders(bot):
-    orders = bot.process_pending_sell_orders()
+    bot.process_pending_sell_orders()
     # clear_buy_orders = len(orders['complete']) > 0
 
     # bot.sell_orders += orders['complete']
@@ -103,12 +116,11 @@ def process_sell_orders(bot):
 
 
 def main():
-    bot = initialize_bot(False)
+    bot = initialize_bot()
     # print(mathematics.get_weighted_average(bot.bought_orders, 'price', 'quantity'))
     # bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
     # bot.save_buy_order()
-    # raise
-
+    
     count = PROCESS_TIMER
     while True:
         bot.get_config()

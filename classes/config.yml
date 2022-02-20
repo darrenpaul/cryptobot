@@ -8,3 +8,4 @@ purchaseTrendMargin: 96.50
 purchasePercent: 5
 minTradeAmount: {'XRP': 1}
 sellRangeMargin : 0.10
+buyMargin: 0.25

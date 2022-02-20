@@ -13,26 +13,8 @@ class SellManager:
         self.sell_orders = []
         self.sell_range_margin = 5
 
-    def save_sell_order(self, clear_buy_orders):
+    def save_sell_order(self):
         file_reader.write_data({'orders': self.sell_orders}, 'sell_orders')
-
-        remove_ids = []
-        incomplete_orders = []
-
-        for order in self.pending_orders_sell:
-            if order.get('order_ids'):
-                remove_ids.append(order.get('order_ids'))
-
-        for order in self.bought_orders:
-            if order['order_id'] not in remove_ids:
-                incomplete_orders.append(order)
-
-        if clear_buy_orders:
-            self.completed_bought_orders = self.completed_bought_orders + self.bought_orders
-            self.save_completed_buy_orders()
-
-            self.bought_orders = incomplete_orders
-            self.save_buy_order()
 
     def get_sell_orders(self):
         data = file_reader.read_data('sell_orders')
@@ -48,26 +30,17 @@ class SellManager:
             order = {**order, **query_order}
             if order.get('status') == 'COMPLETE':
                 complete_orders.append({**order})
-                order_ids += order.get('order_ids')
+                ids = order.get('order_ids')
+                if ids:
+                    order_ids = order_ids + ids
             else:
                 incomplete_orders.append({**order})
-
-        self.complete_buy_orders(order_ids)
-
-
-        # for i in pending_orders:
-        #     order = luno.get_order(i['order_id'])
-        #     order = i # DELETE
-        #     counter = float(order.get('counter'))
-        #     if order.get('status') == 'COMPLETE' and counter > 0:
-        #         complete_orders.append({**i, **order})
-        #     else:
-        #         if counter > 0.0:
-        #             incomplete_orders.append({**i, **order})
-
-        # pending_orders = incomplete_orders
-        # self.save_pending_order(pending_orders, order_type)
-        # return {'pending': pending_orders, 'complete': complete_orders}
+        self.pending_orders_sell = incomplete_orders
+        self.sell_orders = complete_orders
+        self.save_pending_order(self.pending_orders_sell, 'sell')
+        self.save_sell_order()
+        if len(complete_orders) > 0:
+            self.complete_buy_orders(order_ids)
 
     def process_sell_order(self, average_buy_price):
         self.logger_message.append(f'=============================')
@@ -164,7 +137,6 @@ class SellManager:
             return
 
         if float(average_buy_price) < float(current_price):
-            pass
-            # self.process_sell_order(average_buy_price)
-        else:
-            self.process_possible_sell_orders(current_price)
+            self.process_sell_order(average_buy_price)
+        # else:
+        #     self.process_possible_sell_orders(current_price)

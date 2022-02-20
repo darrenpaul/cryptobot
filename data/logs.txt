@@ -3925,3 +3925,947 @@ PURCHASE TREND: 98.14
 === PROCESSING POSSIBLE SELL ORDER ===
 =============================
 2022-02-19 13:31:36,762 | INFO | ****************************************
+2022-02-20 13:23:49,144 | INFO | Running AlgoBot...
+2022-02-20 13:23:50,954 | INFO | ****************************************
+2022-02-20 13:23:50,955 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.27
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 99.29
+PURCHASE TREND: 95.12
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY QUANTITY: 112.0
+FEE: 0.01
+BUY PRICE: 12.26
+TOTAL COST: 1373.12
+ORDER: {'error': 'Order reference is invalid', 'error_code': 'ErrInvalidOrderRef', 'error_action': {}}
+2022-02-20 13:23:50,955 | INFO | ****************************************
+2022-02-20 13:29:41,403 | INFO | Running AlgoBot...
+2022-02-20 13:39:54,827 | INFO | Running AlgoBot...
+2022-02-20 13:40:04,358 | INFO | Running AlgoBot...
+2022-02-20 13:40:05,957 | INFO | ****************************************
+2022-02-20 13:40:05,957 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.27
+cancelling open orders...
+AVERAGE BUY PRICE: 12.9
+TREND: 98.29
+PURCHASE TREND: 95.12
+BUY QUANTITY: 112.0
+2022-02-20 13:40:05,957 | INFO | ****************************************
+2022-02-20 13:41:06,647 | INFO | Running AlgoBot...
+2022-02-20 13:41:15,258 | INFO | Running AlgoBot...
+2022-02-20 13:42:44,618 | INFO | Running AlgoBot...
+2022-02-20 13:44:30,884 | INFO | Running AlgoBot...
+2022-02-20 13:44:32,272 | INFO | ****************************************
+2022-02-20 13:44:32,272 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.28
+cancelling open orders...
+TREND: 98.66
+PURCHASE TREND: 100
+2022-02-20 13:44:32,272 | INFO | ****************************************
+2022-02-20 13:44:52,648 | INFO | Running AlgoBot...
+2022-02-20 13:44:54,056 | INFO | ****************************************
+2022-02-20 13:44:54,056 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.29
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+2022-02-20 13:44:54,056 | INFO | ****************************************
+2022-02-20 13:45:06,522 | INFO | Running AlgoBot...
+2022-02-20 13:45:07,856 | INFO | ****************************************
+2022-02-20 13:45:07,856 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.29
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+2022-02-20 13:45:07,856 | INFO | ****************************************
+2022-02-20 13:46:52,454 | INFO | Running AlgoBot...
+2022-02-20 13:46:54,009 | INFO | ****************************************
+2022-02-20 13:46:54,009 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.28
+cancelling open orders...
+TREND: 100.08
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 13:46:54,009 | INFO | ****************************************
+2022-02-20 13:52:06,036 | INFO | ****************************************
+2022-02-20 13:52:06,036 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.32
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 13:52:06,036 | INFO | ****************************************
+2022-02-20 13:57:21,079 | INFO | ****************************************
+2022-02-20 13:57:21,079 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.3
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 13:57:21,079 | INFO | ****************************************
+2022-02-20 14:02:36,931 | INFO | ****************************************
+2022-02-20 14:02:36,931 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.29
+cancelling open orders...
+TREND: 100.14
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:02:36,932 | INFO | ****************************************
+2022-02-20 14:07:53,690 | INFO | ****************************************
+2022-02-20 14:07:53,690 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.28
+cancelling open orders...
+TREND: 99.95
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:07:53,691 | INFO | ****************************************
+2022-02-20 14:13:11,558 | INFO | ****************************************
+2022-02-20 14:13:11,558 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.36
+cancelling open orders...
+TREND: 100.08
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:13:11,558 | INFO | ****************************************
+2022-02-20 14:18:29,501 | INFO | ****************************************
+2022-02-20 14:18:29,502 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.41
+cancelling open orders...
+TREND: 100.38
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:18:29,502 | INFO | ****************************************
+2022-02-20 14:36:09,017 | INFO | Running AlgoBot...
+2022-02-20 14:36:11,586 | INFO | ****************************************
+2022-02-20 14:36:11,587 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.37
+cancelling open orders...
+TREND: 100.73
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:36:11,587 | INFO | ****************************************
+2022-02-20 14:41:20,643 | INFO | ****************************************
+2022-02-20 14:41:20,644 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.36
+cancelling open orders...
+TREND: 100.57
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:41:20,644 | INFO | ****************************************
+2022-02-20 14:46:33,472 | INFO | ****************************************
+2022-02-20 14:46:33,473 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.37
+cancelling open orders...
+TREND: 100.13
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:46:33,473 | INFO | ****************************************
+2022-02-20 14:51:45,500 | INFO | ****************************************
+2022-02-20 14:51:45,500 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.35
+cancelling open orders...
+TREND: 99.84
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 14:51:45,500 | INFO | ****************************************
+2022-02-20 15:25:22,061 | INFO | Running AlgoBot...
+2022-02-20 15:25:26,895 | INFO | ****************************************
+2022-02-20 15:25:26,895 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.33
+cancelling open orders...
+TREND: 99.73
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+FEE: 0.01
+BUY PRICE: 12.27
+TOTAL COST: 147.24
+FUNDS AFTER PURCHASE: 2893.8590969999996
+2022-02-20 15:25:26,895 | INFO | ****************************************
+2022-02-20 15:26:56,688 | INFO | Running AlgoBot...
+2022-02-20 15:26:59,560 | INFO | ****************************************
+2022-02-20 15:26:59,560 | INFO | 
+CURRENT FUNDS: 3041.099097
+CURRENT PRICE: 12.32
+cancelling open orders...
+TREND: 99.7
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+FEE: 0.01
+BUY PRICE: 12.31
+TOTAL COST: 147.72
+FUNDS AFTER PURCHASE: 2893.379097
+2022-02-20 15:26:59,560 | INFO | ****************************************
+2022-02-20 15:33:33,806 | INFO | Running AlgoBot...
+2022-02-20 15:33:35,699 | INFO | ****************************************
+2022-02-20 15:33:35,699 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.29
+cancelling open orders...
+TREND: 99.73
+PURCHASE TREND: 100
+2022-02-20 15:33:35,699 | INFO | ****************************************
+2022-02-20 15:34:15,893 | INFO | Running AlgoBot...
+2022-02-20 15:36:48,408 | INFO | Running AlgoBot...
+2022-02-20 15:36:50,668 | INFO | ****************************************
+2022-02-20 15:36:50,668 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.26
+cancelling open orders...
+TREND: 99.65
+PURCHASE TREND: 100
+2022-02-20 15:36:50,668 | INFO | ****************************************
+2022-02-20 15:39:53,418 | INFO | Running AlgoBot...
+2022-02-20 15:39:56,454 | INFO | ****************************************
+2022-02-20 15:39:56,454 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.26
+cancelling open orders...
+TREND: 99.57
+PURCHASE TREND: 100
+2022-02-20 15:39:56,454 | INFO | ****************************************
+2022-02-20 15:40:40,135 | INFO | Running AlgoBot...
+2022-02-20 15:40:42,342 | INFO | ****************************************
+2022-02-20 15:40:42,342 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.28
+cancelling open orders...
+TREND: 99.62
+PURCHASE TREND: 100
+2022-02-20 15:40:42,342 | INFO | ****************************************
+2022-02-20 15:40:55,854 | INFO | Running AlgoBot...
+2022-02-20 15:40:57,647 | INFO | ****************************************
+2022-02-20 15:40:57,647 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.28
+cancelling open orders...
+TREND: 99.86
+PURCHASE TREND: 100
+2022-02-20 15:40:57,647 | INFO | ****************************************
+2022-02-20 15:42:00,893 | INFO | Running AlgoBot...
+2022-02-20 15:42:03,022 | INFO | ****************************************
+2022-02-20 15:42:03,022 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.31
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 100.16
+PURCHASE TREND: 94.84
+2022-02-20 15:42:03,022 | INFO | ****************************************
+2022-02-20 15:42:28,297 | INFO | Running AlgoBot...
+2022-02-20 15:42:31,362 | INFO | ****************************************
+2022-02-20 15:42:31,362 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.31
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 100.27
+PURCHASE TREND: 94.84
+2022-02-20 15:42:31,362 | INFO | ****************************************
+2022-02-20 15:43:33,059 | INFO | Running AlgoBot...
+2022-02-20 15:43:35,344 | INFO | ****************************************
+2022-02-20 15:43:35,344 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.3
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 100.27
+PURCHASE TREND: 94.76
+2022-02-20 15:43:35,344 | INFO | ****************************************
+2022-02-20 15:44:14,332 | INFO | Running AlgoBot...
+2022-02-20 15:44:18,012 | INFO | ****************************************
+2022-02-20 15:44:18,012 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.3
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 100.11
+PURCHASE TREND: 94.76
+BUY QUANTITY: 24.0
+=============================
+=== PROCESSING POSSIBLE SELL ORDER ===
+=============================
+2022-02-20 15:44:18,012 | INFO | ****************************************
+2022-02-20 15:45:18,542 | INFO | Running AlgoBot...
+2022-02-20 15:45:20,161 | INFO | ****************************************
+2022-02-20 15:45:20,161 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.3
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 100.0
+PURCHASE TREND: 94.76
+BUY QUANTITY: 24.0
+2022-02-20 15:45:20,161 | INFO | ****************************************
+2022-02-20 15:45:46,901 | INFO | Running AlgoBot...
+2022-02-20 15:45:48,462 | INFO | ****************************************
+2022-02-20 15:45:48,462 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.3
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.95
+PURCHASE TREND: 94.76
+BUY QUANTITY: 24.0
+2022-02-20 15:45:48,463 | INFO | ****************************************
+2022-02-20 15:51:00,207 | INFO | ****************************************
+2022-02-20 15:51:00,207 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.29
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.95
+PURCHASE TREND: 94.68
+BUY QUANTITY: 24.0
+2022-02-20 15:51:00,207 | INFO | ****************************************
+2022-02-20 15:56:13,809 | INFO | ****************************************
+2022-02-20 15:56:13,810 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.3
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.97
+PURCHASE TREND: 94.76
+BUY QUANTITY: 24.0
+2022-02-20 15:56:13,810 | INFO | ****************************************
+2022-02-20 16:02:14,330 | INFO | ****************************************
+2022-02-20 16:02:14,332 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.28
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.92
+PURCHASE TREND: 94.61
+BUY QUANTITY: 24.0
+2022-02-20 16:02:14,332 | INFO | ****************************************
+2022-02-20 16:07:25,173 | INFO | ****************************************
+2022-02-20 16:07:25,173 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.31
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 100.0
+PURCHASE TREND: 94.84
+BUY QUANTITY: 24.0
+2022-02-20 16:07:25,173 | INFO | ****************************************
+2022-02-20 16:12:38,866 | INFO | ****************************************
+2022-02-20 16:12:38,866 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.27
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.92
+PURCHASE TREND: 94.53
+BUY QUANTITY: 24.0
+2022-02-20 16:12:38,866 | INFO | ****************************************
+2022-02-20 16:21:11,748 | INFO | ****************************************
+2022-02-20 16:21:11,749 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.14
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.59
+PURCHASE TREND: 93.53
+BUY QUANTITY: 24.0
+2022-02-20 16:21:11,749 | INFO | ****************************************
+2022-02-20 16:26:21,752 | INFO | ****************************************
+2022-02-20 16:26:21,752 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.98
+TREND: 99.35
+PURCHASE TREND: 94.3
+BUY QUANTITY: 24.0
+2022-02-20 16:26:21,752 | INFO | ****************************************
+2022-02-20 16:28:03,068 | INFO | Running AlgoBot...
+2022-02-20 16:28:05,179 | INFO | ****************************************
+2022-02-20 16:28:05,179 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 99.35
+PURCHASE TREND: 99.35
+BUY QUANTITY: 24.0
+2022-02-20 16:28:05,179 | INFO | ****************************************
+2022-02-20 16:33:17,508 | INFO | ****************************************
+2022-02-20 16:33:17,508 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.17
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 99.81
+PURCHASE TREND: 98.78
+BUY QUANTITY: 24.0
+2022-02-20 16:33:17,508 | INFO | ****************************************
+2022-02-20 16:38:31,852 | INFO | ****************************************
+2022-02-20 16:38:31,852 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.23
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 99.97
+PURCHASE TREND: 99.27
+BUY QUANTITY: 24.0
+2022-02-20 16:38:31,852 | INFO | ****************************************
+2022-02-20 16:43:44,352 | INFO | ****************************************
+2022-02-20 16:43:44,352 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.05
+PURCHASE TREND: 99.35
+BUY QUANTITY: 24.0
+2022-02-20 16:43:44,352 | INFO | ****************************************
+2022-02-20 16:48:56,187 | INFO | ****************************************
+2022-02-20 16:48:56,187 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.08
+PURCHASE TREND: 99.11
+BUY QUANTITY: 24.0
+2022-02-20 16:48:56,187 | INFO | ****************************************
+2022-02-20 16:54:07,347 | INFO | ****************************************
+2022-02-20 16:54:07,347 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.2
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.03
+PURCHASE TREND: 99.03
+BUY QUANTITY: 24.0
+2022-02-20 16:54:07,347 | INFO | ****************************************
+2022-02-20 16:59:19,891 | INFO | ****************************************
+2022-02-20 16:59:19,891 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.22
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 99.97
+PURCHASE TREND: 99.19
+BUY QUANTITY: 24.0
+2022-02-20 16:59:19,891 | INFO | ****************************************
+2022-02-20 17:04:33,236 | INFO | ****************************************
+2022-02-20 17:04:33,237 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.27
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.03
+PURCHASE TREND: 99.59
+BUY QUANTITY: 24.0
+2022-02-20 17:04:33,237 | INFO | ****************************************
+2022-02-20 17:09:45,785 | INFO | ****************************************
+2022-02-20 17:09:45,802 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.28
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.33
+PURCHASE TREND: 99.68
+BUY QUANTITY: 24.0
+2022-02-20 17:09:45,802 | INFO | ****************************************
+2022-02-20 17:14:54,629 | INFO | ****************************************
+2022-02-20 17:14:54,629 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.44
+PURCHASE TREND: 99.35
+BUY QUANTITY: 24.0
+2022-02-20 17:14:54,629 | INFO | ****************************************
+2022-02-20 17:20:07,166 | INFO | ****************************************
+2022-02-20 17:20:07,166 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 100.11
+PURCHASE TREND: 99.11
+BUY QUANTITY: 24.0
+2022-02-20 17:20:07,166 | INFO | ****************************************
+2022-02-20 17:25:21,493 | INFO | ****************************************
+2022-02-20 17:25:21,493 | INFO | 
+CURRENT FUNDS: 2893.379097
+CURRENT PRICE: 12.22
+cancelling open orders...
+AVERAGE BUY PRICE: 12.32
+TREND: 99.73
+PURCHASE TREND: 99.19
+BUY QUANTITY: 24.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+FEE: 0.01
+BUY PRICE: 12.21
+TOTAL COST: 293.04
+FUNDS AFTER PURCHASE: 2600.339097
+2022-02-20 17:25:21,493 | INFO | ****************************************
+2022-02-20 17:30:33,346 | INFO | ****************************************
+2022-02-20 17:30:33,347 | INFO | 
+CURRENT FUNDS: 2600.339097
+CURRENT PRICE: 12.2
+cancelling open orders...
+AVERAGE BUY PRICE: 12.25
+TREND: 99.57
+PURCHASE TREND: 99.59
+BUY QUANTITY: 32.0
+2022-02-20 17:30:33,347 | INFO | ****************************************
+2022-02-20 17:35:46,932 | INFO | ****************************************
+2022-02-20 17:35:46,933 | INFO | 
+CURRENT FUNDS: 2600.339097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.25
+TREND: 99.67
+PURCHASE TREND: 99.51
+BUY QUANTITY: 32.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+FEE: 0.01
+BUY PRICE: 12.18
+TOTAL COST: 389.76
+FUNDS AFTER PURCHASE: 2210.579097
+2022-02-20 17:35:46,933 | INFO | ****************************************
+2022-02-20 17:41:00,605 | INFO | ****************************************
+2022-02-20 17:41:00,606 | INFO | 
+CURRENT FUNDS: 2210.579097
+CURRENT PRICE: 12.22
+cancelling open orders...
+AVERAGE BUY PRICE: 12.22
+TREND: 99.84
+PURCHASE TREND: 100.0
+BUY QUANTITY: 36.0
+2022-02-20 17:41:00,606 | INFO | ****************************************
+2022-02-20 17:46:14,093 | INFO | ****************************************
+2022-02-20 17:46:14,094 | INFO | 
+CURRENT FUNDS: 2210.579097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.22
+TREND: 99.97
+PURCHASE TREND: 99.92
+BUY QUANTITY: 36.0
+2022-02-20 17:46:14,094 | INFO | ****************************************
+2022-02-20 17:51:28,263 | INFO | ****************************************
+2022-02-20 17:51:28,263 | INFO | 
+CURRENT FUNDS: 2210.579097
+CURRENT PRICE: 12.25
+cancelling open orders...
+AVERAGE BUY PRICE: 12.22
+TREND: 100.19
+PURCHASE TREND: 100.25
+BUY QUANTITY: 36.0
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 68
+PROFIT VALUE: 0.03055
+SELL PRICE: 12.25
+ORDER: {'order_id': 'BXBUADUEJRMQ6K6'}
+2022-02-20 17:51:28,263 | INFO | ****************************************
+2022-02-20 17:58:46,050 | INFO | Running AlgoBot...
+2022-02-20 18:00:03,249 | INFO | Running AlgoBot...
+2022-02-20 18:00:06,921 | INFO | ****************************************
+2022-02-20 18:00:06,921 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.24
+cancelling open orders...
+AVERAGE BUY PRICE: 12.22
+TREND: 100.25
+PURCHASE TREND: 100.16
+2022-02-20 18:00:06,921 | INFO | ****************************************
+2022-02-20 18:05:41,136 | INFO | Running AlgoBot...
+2022-02-20 18:05:42,887 | INFO | ****************************************
+2022-02-20 18:05:42,887 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.24
+cancelling open orders...
+TREND: 100.3
+PURCHASE TREND: 100
+2022-02-20 18:05:42,887 | INFO | ****************************************
+2022-02-20 18:07:24,053 | INFO | Running AlgoBot...
+2022-02-20 18:09:45,112 | INFO | Running AlgoBot...
+2022-02-20 18:10:11,963 | INFO | Running AlgoBot...
+2022-02-20 18:10:35,054 | INFO | Running AlgoBot...
+2022-02-20 18:10:35,965 | INFO | ****************************************
+2022-02-20 18:10:35,965 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.26
+cancelling open orders...
+TREND: 100.16
+PURCHASE TREND: 100
+2022-02-20 18:10:35,965 | INFO | ****************************************
+2022-02-20 18:10:58,082 | INFO | Running AlgoBot...
+2022-02-20 18:10:59,835 | INFO | ****************************************
+2022-02-20 18:10:59,835 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.25
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:10:59,835 | INFO | ****************************************
+2022-02-20 18:16:04,616 | INFO | ****************************************
+2022-02-20 18:16:04,616 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.26
+cancelling open orders...
+TREND: 100.08
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:16:04,617 | INFO | ****************************************
+2022-02-20 18:21:10,549 | INFO | ****************************************
+2022-02-20 18:21:10,550 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.29
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:21:10,550 | INFO | ****************************************
+2022-02-20 18:26:15,425 | INFO | ****************************************
+2022-02-20 18:26:15,425 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.27
+cancelling open orders...
+TREND: 100.14
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:26:15,425 | INFO | ****************************************
+2022-02-20 18:31:21,130 | INFO | ****************************************
+2022-02-20 18:31:21,131 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.24
+cancelling open orders...
+TREND: 100.08
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:31:21,132 | INFO | ****************************************
+2022-02-20 18:36:25,496 | INFO | ****************************************
+2022-02-20 18:36:25,496 | INFO | 
+CURRENT FUNDS: 3043.579097
+CURRENT PRICE: 12.2
+cancelling open orders...
+TREND: 99.76
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+FEE: 0.01
+BUY PRICE: 12.19
+TOTAL COST: 146.28
+FUNDS AFTER PURCHASE: 2897.2990969999996
+2022-02-20 18:36:25,497 | INFO | ****************************************
+2022-02-20 18:41:31,264 | INFO | ****************************************
+2022-02-20 18:41:31,264 | INFO | 
+CURRENT FUNDS: 2897.299097
+CURRENT PRICE: 12.17
+cancelling open orders...
+TREND: 99.43
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:41:31,264 | INFO | ****************************************
+2022-02-20 18:46:34,897 | INFO | ****************************************
+2022-02-20 18:46:34,897 | INFO | 
+CURRENT FUNDS: 2897.299097
+CURRENT PRICE: 12.17
+cancelling open orders...
+TREND: 99.29
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:46:34,897 | INFO | ****************************************
+2022-02-20 18:51:38,392 | INFO | ****************************************
+2022-02-20 18:51:38,393 | INFO | 
+CURRENT FUNDS: 2897.299097
+CURRENT PRICE: 12.18
+cancelling open orders...
+TREND: 99.48
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+2022-02-20 18:51:38,393 | INFO | ****************************************
+2022-02-20 18:56:43,063 | INFO | ****************************************
+2022-02-20 18:56:43,064 | INFO | 
+CURRENT FUNDS: 2897.299097
+CURRENT PRICE: 12.18
+cancelling open orders...
+TREND: 99.78
+PURCHASE TREND: 100
+BUY QUANTITY: 12.0
+============================
+=== PROCESSING BUY ORDER ===
+============================
+FEE: 0.01
+BUY PRICE: 12.17
+TOTAL COST: 146.04
+FUNDS AFTER PURCHASE: 2751.259097
+2022-02-20 18:56:43,064 | INFO | ****************************************
+2022-02-20 19:01:50,072 | INFO | ****************************************
+2022-02-20 19:01:50,073 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.17
+cancelling open orders...
+TREND: 99.97
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:01:50,073 | INFO | ****************************************
+2022-02-20 19:07:51,808 | INFO | Running AlgoBot...
+2022-02-20 19:07:53,759 | INFO | ****************************************
+2022-02-20 19:07:53,759 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.2
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 100.08
+PURCHASE TREND: 100.08
+2022-02-20 19:07:53,759 | INFO | ****************************************
+2022-02-20 19:08:13,476 | INFO | Running AlgoBot...
+2022-02-20 19:08:15,365 | INFO | ****************************************
+2022-02-20 19:08:15,365 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.22
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 100.16
+PURCHASE TREND: 100.25
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 24
+PROFIT VALUE: 0.030475
+SELL PRICE: 12.22
+ORDER: {'order_id': 'BXB63G8SCWV53CT'}
+2022-02-20 19:08:15,366 | INFO | ****************************************
+2022-02-20 19:13:22,264 | INFO | ****************************************
+2022-02-20 19:13:22,264 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+cancelled open orders [{'success': True}]
+AVERAGE BUY PRICE: 12.19
+TREND: 100.27
+PURCHASE TREND: 100.16
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 24
+PROFIT VALUE: 0.030475
+SELL PRICE: 12.22
+ORDER: {'order_id': 'BXHE7DC86387ATU'}
+2022-02-20 19:13:22,264 | INFO | ****************************************
+2022-02-20 19:14:11,080 | INFO | Running AlgoBot...
+2022-02-20 19:14:12,823 | INFO | ****************************************
+2022-02-20 19:14:12,823 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+cancelled open orders [{'success': True}]
+TREND: 100.25
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:14:12,823 | INFO | ****************************************
+2022-02-20 19:19:17,978 | INFO | ****************************************
+2022-02-20 19:19:17,979 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+TREND: 100.11
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:19:17,979 | INFO | ****************************************
+2022-02-20 19:24:23,143 | INFO | ****************************************
+2022-02-20 19:24:23,143 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+TREND: 100.0
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:24:23,143 | INFO | ****************************************
+2022-02-20 19:29:28,541 | INFO | ****************************************
+2022-02-20 19:29:28,542 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+TREND: 99.97
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:29:28,543 | INFO | ****************************************
+2022-02-20 19:42:18,694 | INFO | ****************************************
+2022-02-20 19:42:18,695 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+TREND: 100.0
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:42:18,695 | INFO | ****************************************
+2022-02-20 19:47:22,332 | INFO | ****************************************
+2022-02-20 19:47:22,333 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.22
+cancelling open orders...
+TREND: 100.03
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:47:22,333 | INFO | ****************************************
+2022-02-20 19:52:28,765 | INFO | ****************************************
+2022-02-20 19:52:28,766 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.19
+cancelling open orders...
+TREND: 99.97
+PURCHASE TREND: 100
+BUY QUANTITY: 11.0
+2022-02-20 19:52:28,766 | INFO | ****************************************
+2022-02-20 19:56:57,847 | INFO | Running AlgoBot...
+2022-02-20 19:57:00,359 | INFO | ****************************************
+2022-02-20 19:57:00,360 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 99.97
+PURCHASE TREND: 100.16
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 24
+PROFIT VALUE: 0.030475
+SELL PRICE: 12.22
+ORDER: {'order_id': 'BXHZFSJXA7C69S3'}
+2022-02-20 19:57:00,360 | INFO | ****************************************
+2022-02-20 19:59:58,610 | INFO | Running AlgoBot...
+2022-02-20 20:00:00,887 | INFO | ****************************************
+2022-02-20 20:00:00,887 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.21
+cancelling open orders...
+cancelled open orders [{'success': True}]
+AVERAGE BUY PRICE: 12.19
+TREND: 99.92
+PURCHASE TREND: 100.16
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 24
+PROFIT VALUE: 0.030475
+SELL PRICE: 12.22
+ORDER: {'order_id': 'BXHKUWVPMQBB9H4'}
+2022-02-20 20:00:00,887 | INFO | ****************************************
+2022-02-20 20:05:07,614 | INFO | ****************************************
+2022-02-20 20:05:07,614 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.19
+cancelling open orders...
+cancelled open orders [{'success': True}]
+AVERAGE BUY PRICE: 12.19
+TREND: 99.97
+PURCHASE TREND: 100.0
+BUY QUANTITY: 34.0
+2022-02-20 20:05:07,615 | INFO | ****************************************
+2022-02-20 20:10:11,350 | INFO | ****************************************
+2022-02-20 20:10:11,350 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.16
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 99.84
+PURCHASE TREND: 99.75
+BUY QUANTITY: 34.0
+2022-02-20 20:10:11,350 | INFO | ****************************************
+2022-02-20 20:15:15,368 | INFO | ****************************************
+2022-02-20 20:15:15,369 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 99.81
+PURCHASE TREND: 100.0
+BUY QUANTITY: 34.0
+2022-02-20 20:15:15,369 | INFO | ****************************************
+2022-02-20 20:20:19,375 | INFO | ****************************************
+2022-02-20 20:20:19,376 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.2
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 99.84
+PURCHASE TREND: 100.08
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 24
+PROFIT VALUE: 0.030475
+SELL PRICE: 12.22
+ORDER: {'order_id': 'BXJCGTW39KCSZ28'}
+2022-02-20 20:20:19,376 | INFO | ****************************************
+2022-02-20 20:25:28,250 | INFO | ****************************************
+2022-02-20 20:25:28,250 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.19
+cancelling open orders...
+cancelled open orders [{'success': True}]
+AVERAGE BUY PRICE: 12.19
+TREND: 100.05
+PURCHASE TREND: 100.0
+BUY QUANTITY: 34.0
+2022-02-20 20:25:28,250 | INFO | ****************************************
+2022-02-20 20:30:32,143 | INFO | ****************************************
+2022-02-20 20:30:32,143 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.19
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 100.11
+PURCHASE TREND: 100.0
+BUY QUANTITY: 34.0
+2022-02-20 20:30:32,144 | INFO | ****************************************
+2022-02-20 20:35:36,750 | INFO | ****************************************
+2022-02-20 20:35:36,751 | INFO | 
+CURRENT FUNDS: 2751.259097
+CURRENT PRICE: 12.22
+cancelling open orders...
+AVERAGE BUY PRICE: 12.19
+TREND: 100.14
+PURCHASE TREND: 100.25
+=============================
+=== PROCESSING SELL ORDER ===
+=============================
+SELL QUANTITY: 24
+PROFIT VALUE: 0.030475
+SELL PRICE: 12.22
+ORDER: {'order_id': 'BXGAR8BUP9MRP6W'}
+2022-02-20 20:35:36,751 | INFO | ****************************************

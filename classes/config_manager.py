@@ -19,3 +19,4 @@ class ConfigManager:
         self.purchase_percentage = config['purchasePercent']
         self.min_trade_amount = config['minTradeAmount'][config['coin']]
         self.sell_range_margin = config['sellRangeMargin']
+        self.buy_margin = config['buyMargin']

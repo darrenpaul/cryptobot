@@ -35,9 +35,6 @@ def get_weighted_average(data, key_one, key_two):
         total_value_one += value_one * value_two
         total_value_two += value_two
 
-    print(total_value_one)
-    print(total_value_two)
-
     return  total_value_one / total_value_two
 
 
