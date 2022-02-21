@@ -28,18 +28,24 @@ class SellManager:
         for order in self.pending_orders_sell:
             query_order = luno.get_order(order['order_id'])
             order = {**order, **query_order}
+            counter = float(order.get('counter'))
+            print('SELL')
+            pprint(order)
             if order.get('status') == 'COMPLETE':
-                complete_orders.append({**order})
-                ids = order.get('order_ids')
-                if ids:
-                    order_ids = order_ids + ids
+                if counter > 0.0:
+                    complete_orders.append({**order})
+                    ids = order.get('order_ids')
+                    if ids:
+                        order_ids = order_ids + ids
             else:
                 incomplete_orders.append({**order})
+
         self.pending_orders_sell = incomplete_orders
         self.sell_orders = complete_orders
         self.save_pending_order(self.pending_orders_sell, 'sell')
         self.save_sell_order()
         if len(complete_orders) > 0:
+            self.save_current_funds()
             self.complete_buy_orders(order_ids)
 
     def process_sell_order(self, average_buy_price):

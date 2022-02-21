@@ -1,11 +1,11 @@
 coin: 'XRP'
 currency: 'ZAR'
 profitMargin: 0.25
-trendSize: 6
-trendMargin: 99.80
+trendSize: 2
+trendMargin: 99.90 #99.80
 minTrendMargin: 99.60
 purchaseTrendMargin: 96.50
 purchasePercent: 5
 minTradeAmount: {'XRP': 1}
 sellRangeMargin : 0.10
-buyMargin: 0.25
+buyMargin: 0.03

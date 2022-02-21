@@ -45,13 +45,12 @@ class BuyManager:
 
     def price_in_buy_margin(self, current_price):
         can_buy = True
-        start = current_price - self.buy_margin
-        end = current_price + self.buy_margin
         for order in self.bought_orders:
             price = float(order['limit_price'])
-            if price > start and price > end:
+            start = price - self.buy_margin
+            end = price + self.buy_margin
+            if current_price > start and price < end:
                 can_buy = False
-                break
         return can_buy
 
     def process_buy_order(self, current_price, quantity):
@@ -86,10 +85,9 @@ class BuyManager:
         #         luno.close_open_order(order['order_id'])
         #         return
 
-        funds = float(luno.getSpendableBalance())
-        self.logger_message.append(f'FUNDS AFTER PURCHASE: {funds}')
+        self.logger_message.append(f'FUNDS AFTER PURCHASE: {self.funds}')
 
-        self.pending_orders_buy.append({'price': buy_price, 'quantity': quantity, 'funds': funds, **order})
+        self.pending_orders_buy.append({'price': buy_price, 'quantity': quantity, 'funds': self.funds, **order})
         self.save_pending_order(self.pending_orders_buy, 'buy')
 
     def process_pending_buy_orders(self):
@@ -97,8 +95,12 @@ class BuyManager:
         complete_orders = []
         for i in self.pending_orders_buy:
             order = luno.get_order(i['order_id'])
+            counter = float(order.get('counter'))
+            print('BUY')
+            pprint(order)
             if order.get('status') == 'COMPLETE':
-                complete_orders.append({**i, **order})
+                if counter > 0.0:
+                    complete_orders.append({**i, **order})
             else:
                 incomplete_orders.append({**i, **order})
 
@@ -109,7 +111,7 @@ class BuyManager:
 
     def calculate_buy_quantity(self, current_price):
         purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
-        account_balance = float(luno.getSpendableBalance())
+        account_balance = self.funds
         funds_to_purchase = mathematics.get_percentage(account_balance, purchase_percentage)
         quantity = funds_to_purchase / current_price
         return round(quantity, 0)
@@ -118,11 +120,12 @@ class BuyManager:
         highest_buy_price = self.get_highest_buy_price()
         if highest_buy_price and current_price > highest_buy_price:
             return False
+
         quantity = self.calculate_buy_quantity(current_price)
         self.logger_message.append(f'BUY QUANTITY: {quantity}')
         if quantity < self.min_trade_amount:
             self.logger_message.append(f'not enough funds for trade')
-            return
+            return False
 
         price_in_margin = self.price_in_buy_margin(current_price)
         if price_in_margin == False:

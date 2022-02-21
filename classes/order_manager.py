@@ -7,7 +7,6 @@ class OrderManager:
         self.trading_pair = 'XBTZAR'
         self.profit_margin = 2
         self.purchase_percentage = 5
-        self.funds = float(luno.getSpendableBalance())
 
     def save_pending_order(self, data, order_type):
         file_reader.write_data({'orders': data}, f'pending_orders_{order_type}')
@@ -21,7 +20,6 @@ class OrderManager:
         complete_orders = []
         for i in pending_orders:
             order = luno.get_order(i['order_id'])
-            order = i # DELETE
             counter = float(order.get('counter'))
             if order.get('status') == 'COMPLETE' and counter > 0:
                 complete_orders.append({**i, **order})
@@ -50,6 +48,22 @@ class OrderManager:
                 order_id = order['order_id']
                 quantity += float(order['quantity'])
 
-            grouped_orders.append({'order_id': order_id, 'limit_price': price, 'quantity': quantity, 'price': price})
+
+            grouped_orders.append({
+                'order_id': order_id,
+                'limit_price': price,
+                'quantity': quantity, 
+                'price': price,
+                'counter': 1.0})
 
         return grouped_orders
+
+    def _close_open_orders(self):
+        self.logger_message.append(f'cancelling open orders...')
+        cancelled_orders = luno.close_open_orders(self.trading_pair)
+        if len(cancelled_orders) > 0:
+            # self.pending_orders_buy = []
+            # self.pending_orders_sell = []
+            # self.save_pending_order(self.pending_orders_buy, 'buy')
+            # self.save_pending_order(self.pending_orders_sell, 'sell')
+            self.logger_message.append(f'cancelled open orders {cancelled_orders}')

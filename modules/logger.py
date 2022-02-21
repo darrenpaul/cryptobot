@@ -12,15 +12,15 @@ class BotLogger:
     def __init__(self):
         self.module_logger = logging.getLogger('CrytoBot')
 
-        level = logging.basicConfig(level=logging.DEBUG)
+        logging.basicConfig(level=logging.INFO)
         formatting = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
 
         stdout_handler = logging.StreamHandler()
-        stdout_handler.setLevel(logging.DEBUG)
+        stdout_handler.setLevel(logging.INFO)
         stdout_handler.setFormatter(formatting)
         
         file_handler = logging.FileHandler(FILE_PATH)
-        file_handler.setLevel(logging.DEBUG)
+        file_handler.setLevel(logging.INFO)
         file_handler.setFormatter(formatting)
 
         self.module_logger.addHandler(stdout_handler)
