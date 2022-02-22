@@ -3494,3 +3494,334 @@ FUNDS: 1.129097
 BUY QUANTITY: 0.0
 not enough funds for trade
 2022-02-22 12:12:47,942 | INFO | ****************************************
+2022-02-22 10:13:51,885 | INFO | Running AlgoBot...
+2022-02-22 10:13:52,414 | INFO | ****************************************
+2022-02-22 10:13:52,414 | INFO | 
+CURRENT PRICE: 10.78
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.19
+PURCHASE TREND: 92.85
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:13:52,414 | INFO | ****************************************
+2022-02-22 10:18:53,735 | INFO | ****************************************
+2022-02-22 10:18:53,735 | INFO | 
+CURRENT PRICE: 10.79
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.09
+PURCHASE TREND: 92.94
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:18:53,736 | INFO | ****************************************
+2022-02-22 10:23:55,034 | INFO | ****************************************
+2022-02-22 10:23:55,034 | INFO | 
+CURRENT PRICE: 10.87
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.74
+PURCHASE TREND: 93.63
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:23:55,034 | INFO | ****************************************
+2022-02-22 10:28:56,329 | INFO | ****************************************
+2022-02-22 10:28:56,329 | INFO | 
+CURRENT PRICE: 10.96
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.83
+PURCHASE TREND: 94.4
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:28:56,329 | INFO | ****************************************
+2022-02-22 10:33:57,642 | INFO | ****************************************
+2022-02-22 10:33:57,642 | INFO | 
+CURRENT PRICE: 10.92
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.64
+PURCHASE TREND: 94.06
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:33:57,642 | INFO | ****************************************
+2022-02-22 10:38:58,963 | INFO | ****************************************
+2022-02-22 10:38:58,963 | INFO | 
+CURRENT PRICE: 10.95
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.27
+PURCHASE TREND: 94.32
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:38:58,963 | INFO | ****************************************
+2022-02-22 10:44:00,321 | INFO | ****************************************
+2022-02-22 10:44:00,321 | INFO | 
+CURRENT PRICE: 10.95
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.0
+PURCHASE TREND: 94.32
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:44:00,321 | INFO | ****************************************
+2022-02-22 10:49:01,663 | INFO | ****************************************
+2022-02-22 10:49:01,663 | INFO | 
+CURRENT PRICE: 10.97
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.18
+PURCHASE TREND: 94.49
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:49:01,663 | INFO | ****************************************
+2022-02-22 10:54:02,980 | INFO | ****************************************
+2022-02-22 10:54:02,980 | INFO | 
+CURRENT PRICE: 11.0
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.27
+PURCHASE TREND: 94.75
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:54:02,980 | INFO | ****************************************
+2022-02-22 10:59:04,309 | INFO | ****************************************
+2022-02-22 10:59:04,309 | INFO | 
+CURRENT PRICE: 11.03
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.27
+PURCHASE TREND: 95.0
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 10:59:04,309 | INFO | ****************************************
+2022-02-22 11:04:05,625 | INFO | ****************************************
+2022-02-22 11:04:05,625 | INFO | 
+CURRENT PRICE: 11.0
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.73
+PURCHASE TREND: 94.75
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:04:05,625 | INFO | ****************************************
+2022-02-22 11:09:06,961 | INFO | ****************************************
+2022-02-22 11:09:06,961 | INFO | 
+CURRENT PRICE: 10.99
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.91
+PURCHASE TREND: 94.66
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:09:06,961 | INFO | ****************************************
+2022-02-22 11:14:08,271 | INFO | ****************************************
+2022-02-22 11:14:08,271 | INFO | 
+CURRENT PRICE: 10.99
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.0
+PURCHASE TREND: 94.66
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:14:08,271 | INFO | ****************************************
+2022-02-22 11:19:09,594 | INFO | ****************************************
+2022-02-22 11:19:09,594 | INFO | 
+CURRENT PRICE: 10.97
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.82
+PURCHASE TREND: 94.49
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:19:09,594 | INFO | ****************************************
+2022-02-22 11:24:10,906 | INFO | ****************************************
+2022-02-22 11:24:10,906 | INFO | 
+CURRENT PRICE: 10.95
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.82
+PURCHASE TREND: 94.32
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:24:10,906 | INFO | ****************************************
+2022-02-22 11:29:12,242 | INFO | ****************************************
+2022-02-22 11:29:12,242 | INFO | 
+CURRENT PRICE: 10.93
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.82
+PURCHASE TREND: 94.14
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:29:12,242 | INFO | ****************************************
+2022-02-22 11:34:13,664 | INFO | ****************************************
+2022-02-22 11:34:13,664 | INFO | 
+CURRENT PRICE: 10.91
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.82
+PURCHASE TREND: 93.97
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:34:13,664 | INFO | ****************************************
+2022-02-22 11:39:14,965 | INFO | ****************************************
+2022-02-22 11:39:14,965 | INFO | 
+CURRENT PRICE: 10.92
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.09
+PURCHASE TREND: 94.06
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:39:14,965 | INFO | ****************************************
+2022-02-22 11:44:16,277 | INFO | ****************************************
+2022-02-22 11:44:16,278 | INFO | 
+CURRENT PRICE: 10.91
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.91
+PURCHASE TREND: 93.97
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:44:16,278 | INFO | ****************************************
+2022-02-22 11:49:17,571 | INFO | ****************************************
+2022-02-22 11:49:17,571 | INFO | 
+CURRENT PRICE: 10.97
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.55
+PURCHASE TREND: 94.49
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:49:17,572 | INFO | ****************************************
+2022-02-22 11:54:18,882 | INFO | ****************************************
+2022-02-22 11:54:18,882 | INFO | 
+CURRENT PRICE: 10.95
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.82
+PURCHASE TREND: 94.32
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:54:18,883 | INFO | ****************************************
+2022-02-22 11:59:20,228 | INFO | ****************************************
+2022-02-22 11:59:20,228 | INFO | 
+CURRENT PRICE: 10.93
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.82
+PURCHASE TREND: 94.14
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 11:59:20,228 | INFO | ****************************************
+2022-02-22 12:04:21,557 | INFO | ****************************************
+2022-02-22 12:04:21,557 | INFO | 
+CURRENT PRICE: 10.83
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.09
+PURCHASE TREND: 93.28
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:04:21,557 | INFO | ****************************************
+2022-02-22 12:09:22,850 | INFO | ****************************************
+2022-02-22 12:09:22,850 | INFO | 
+CURRENT PRICE: 10.87
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.37
+PURCHASE TREND: 93.63
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:09:22,850 | INFO | ****************************************
+2022-02-22 12:14:24,175 | INFO | ****************************************
+2022-02-22 12:14:24,176 | INFO | 
+CURRENT PRICE: 10.91
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.37
+PURCHASE TREND: 93.97
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:14:24,176 | INFO | ****************************************
+2022-02-22 12:19:25,483 | INFO | ****************************************
+2022-02-22 12:19:25,483 | INFO | 
+CURRENT PRICE: 10.94
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.27
+PURCHASE TREND: 94.23
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:19:25,483 | INFO | ****************************************
+2022-02-22 12:24:26,801 | INFO | ****************************************
+2022-02-22 12:24:26,801 | INFO | 
+CURRENT PRICE: 10.94
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.0
+PURCHASE TREND: 94.23
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:24:26,801 | INFO | ****************************************
+2022-02-22 12:29:28,129 | INFO | ****************************************
+2022-02-22 12:29:28,129 | INFO | 
+CURRENT PRICE: 10.94
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.0
+PURCHASE TREND: 94.23
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:29:28,129 | INFO | ****************************************
+2022-02-22 12:34:29,498 | INFO | ****************************************
+2022-02-22 12:34:29,498 | INFO | 
+CURRENT PRICE: 10.95
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 100.09
+PURCHASE TREND: 94.32
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:34:29,498 | INFO | ****************************************
+2022-02-22 12:39:30,819 | INFO | ****************************************
+2022-02-22 12:39:30,820 | INFO | 
+CURRENT PRICE: 10.91
+cancelling open orders...
+AVERAGE BUY PRICE: 11.61
+TREND: 99.63
+PURCHASE TREND: 93.97
+FUNDS: 1.129097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-22 12:39:30,820 | INFO | ****************************************
