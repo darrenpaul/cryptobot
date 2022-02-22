@@ -24,13 +24,11 @@ class SellManager:
         incomplete_orders = []
         complete_orders = []
         order_ids = []
-
         for order in self.pending_orders_sell:
             query_order = luno.get_order(order['order_id'])
             order = {**order, **query_order}
             counter = float(order.get('counter'))
-            print('SELL')
-            pprint(order)
+
             if order.get('status') == 'COMPLETE':
                 if counter > 0.0:
                     complete_orders.append({**order})
@@ -109,14 +107,16 @@ class SellManager:
             order_price = float(order['limit_price'])
             order_quantity = float(order['quantity'])
             order_id = order['order_id']
-            if order_price > start and order_price < end:
+
+            # if order_price > start and order_price < end:
+            if order_price < end:
                 possible_orders.append(order)
                 total_quantity += order_quantity
                 order_ids.append(order_id)
 
         if len(possible_orders) > 0:
             sell_price = mathematics.get_weighted_average(possible_orders, 'limit_price', 'quantity')
-            if(current_price < sell_price):
+            if sell_price > current_price:
                 return
             sell_price = current_price + 0.01
             order = luno.create_sell_order(self.trading_pair, sell_price, total_quantity, dry_run=self.dry_run)
@@ -144,5 +144,5 @@ class SellManager:
 
         if float(average_buy_price) < float(current_price):
             self.process_sell_order(average_buy_price)
-        # else:
-        #     self.process_possible_sell_orders(current_price)
+        else:
+            self.process_possible_sell_orders(current_price)

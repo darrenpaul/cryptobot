@@ -25,6 +25,8 @@ class FundsManager:
         self.past_funds = data.get(DATA_FILE_NAME) or []
 
     def save_current_funds(self):
+        previous_funds = self.funds
+        current_funds = self.get_funds()
         timestamp = datetime.timestamp(datetime.now())
-        self.past_funds.append({DATA_FILE_NAME: self.funds, 'timestamp': timestamp})
+        self.past_funds.append({DATA_FILE_NAME: previous_funds, 'current_funds': current_funds, 'timestamp': timestamp})
         self.save_past_funds()

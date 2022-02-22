@@ -97,8 +97,7 @@ class BuyManager:
         for i in self.pending_orders_buy:
             order = luno.get_order(i['order_id'])
             counter = float(order.get('counter'))
-            print('BUY')
-            pprint(order)
+
             if order.get('status') == 'COMPLETE':
                 if counter > 0.0:
                     complete_orders.append({**i, **order})
