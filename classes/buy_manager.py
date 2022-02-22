@@ -45,10 +45,11 @@ class BuyManager:
 
     def price_in_buy_margin(self, current_price):
         can_buy = True
+        _buy_margin = self.buy_margin * len(self.bought_orders)
         for order in self.bought_orders:
             price = float(order['limit_price'])
-            start = price - self.buy_margin
-            end = price + self.buy_margin
+            start = price - _buy_margin
+            end = price + _buy_margin
             if current_price > start and price < end:
                 can_buy = False
         return can_buy
@@ -59,8 +60,8 @@ class BuyManager:
         self.logger_message.append(f'============================')
 
         # fee = (float(luno.getPairFee(self.trading_pair)['taker_fee']) * float(quantity)) / 2
+        # self.logger_message.append(f'FEE: {fee}')
         fee = 0.01
-        self.logger_message.append(f'FEE: {fee}')
 
         buy_price = float(current_price) - float(fee)
         buy_price = math.floor(buy_price * FACTOR) / FACTOR
@@ -123,7 +124,7 @@ class BuyManager:
 
         quantity = self.calculate_buy_quantity(current_price)
         self.logger_message.append(f'BUY QUANTITY: {quantity}')
-        if quantity < self.min_trade_amount:
+        if quantity < float(self.min_trade_amount):
             self.logger_message.append(f'not enough funds for trade')
             return False
 
