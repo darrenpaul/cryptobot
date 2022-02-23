@@ -4,7 +4,7 @@ from modules import logger, luno
 from classes import buy_manager, sell_manager, order_manager, price_manager, trend_manager, config_manager, funds_manager
 
 
-PROCESS_TIMER = 300
+PROCESS_TIMER = 180
 
 # True
 # False
@@ -82,6 +82,7 @@ def initialize_bot():
     bot.pending_orders_sell = bot.get_pending_orders('sell')
     bot.get_buy_orders()
     bot.get_sell_orders()
+    bot.get_past_orders()
     bot.get_past_funds()
     return bot
 

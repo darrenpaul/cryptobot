@@ -1,0 +1,19 @@
+orders:
+- base: '8.00000000'
+  client_order_id: ''
+  completed_timestamp: 1645645765096
+  counter: '87.36000000'
+  creation_timestamp: 1645645742125
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 191.439097
+  limit_price: '10.92000000'
+  limit_volume: '8.00000000'
+  order_id: BXC9SWJJX5QW7H4
+  pair: XRPZAR
+  price: 10.92
+  quantity: 8.0
+  side: BUY
+  status: COMPLETE
+  type: LIMIT

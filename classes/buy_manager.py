@@ -40,10 +40,7 @@ class BuyManager:
 
         min_margin = mathematics.get_min(margins)
         max_margin = mathematics.get_max(margins)
-        self.logger_message.append('-'*40)
         self.logger_message.append(f'CAN\'T BUY BETWEEN: {min_margin} - {max_margin}')
-        self.logger_message.append(f'PRICE: {price}')
-        self.logger_message.append('-'*40)
         return can_buy
 
     def process_buy_order(self, current_price, quantity):
@@ -89,25 +86,35 @@ class BuyManager:
             else:
                 incomplete_orders.append({**i, **order})
 
-        self.bought_orders = complete_orders + self.bought_orders
         self.pending_orders_buy = incomplete_orders
-        self.save_order(self.bought_orders, 'buy')
         self.save_pending_order(self.pending_orders_buy, 'buy')
+
+        self.bought_orders =  [*self.bought_orders, *complete_orders]
+        self.save_order(self.bought_orders, 'buy')
+
+        self.past_orders = [*self.past_orders, *complete_orders]
+        self.save_past_orders()
 
     def calculate_buy_quantity(self, current_price):
         purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
+        if purchase_percentage > 100.00:
+            purchase_percentage = 100.00
+
         account_balance = self.funds
         funds_to_purchase = mathematics.get_percentage(account_balance, purchase_percentage)
-        quantity = funds_to_purchase / current_price
+        quantity = mathematics.round_down(funds_to_purchase / current_price, 0)
+        self.logger_message.append(f'BUY QUANTITY: {quantity}')
         return mathematics.round_up(quantity, 0)
 
-    def check_if_can_buy(self, average_buy_price, current_price):
+    def check_if_can_buy(self, weighted_price, current_price):
+        if len(self.pending_orders_buy) > 0:
+            return False
+
         highest_buy_price = self.get_highest_buy_price()
         if highest_buy_price and current_price > highest_buy_price:
             return False
 
         quantity = self.calculate_buy_quantity(current_price)
-        self.logger_message.append(f'BUY QUANTITY: {quantity}')
         if quantity < float(self.min_trade_amount):
             self.logger_message.append(f'not enough funds for trade')
             return False
@@ -118,7 +125,7 @@ class BuyManager:
 
         if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin or \
             self.purchase_trend <= self.purchase_trend_margin:
-            if float(average_buy_price) != float(current_price):
+            if float(weighted_price) != float(current_price):
                 self.process_buy_order(current_price, quantity)
                 self.did_buy = True
 
