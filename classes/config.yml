@@ -8,4 +8,6 @@ purchaseTrendMargin: 96.50
 purchasePercent: 5
 minTradeAmount: {'XRP': 1}
 sellRangeMargin : 0.10
+psoProfit: 0.35 # Possible Sell Order
 buyMargin: 0.03
+cancelCount: 3

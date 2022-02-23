@@ -20,10 +20,21 @@ class TrendManager:
         self.past_trends = data.get('past_trends') or []
 
     def update_trend(self, average_price, current_price):
-            self.trend = round(mathematics.get_trend(self.past_prices, self.trend_size, int(self.trend_size / 2)), 2)
-            self.purchase_trend = round(mathematics.get_trend([average_price, current_price], 2, 1), 2)
+            trend_price = mathematics.get_trend(self.past_prices, self.trend_size)
+            self.trend = mathematics.round_up(trend_price)
+
+            purchase_trend = mathematics.get_trend([average_price, current_price], 2)
+            self.purchase_trend =  mathematics.round_up(purchase_trend)
+
             self.logger_message.append(f'TREND: {self.trend}')
             self.logger_message.append(f'PURCHASE TREND: {self.purchase_trend}')
+
             timestamp = datetime.timestamp(datetime.now())
-            self.past_trends.append({'trend': self.trend, 'timestamp': timestamp, 'price': current_price, 'purchase_trend': self.purchase_trend})
+
+            self.past_trends.append({
+                'trend': self.trend,
+                'timestamp': timestamp,
+                'price': current_price,
+                'purchase_trend': self.purchase_trend
+            })
             self.save_past_trends()

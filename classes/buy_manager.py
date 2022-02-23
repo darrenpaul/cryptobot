@@ -1,38 +1,20 @@
-import math
-
-from pprint import pprint
 from modules import luno, file_reader, mathematics
-
-
-FACTOR = 10 ** 2
 
 
 class BuyManager:
     def __init__(self) -> None:
         self.pending_orders_buy = []
         self.bought_orders = []
-        self.completed_bought_orders = []
-
-    def save_buy_order(self):
-        file_reader.write_data({'orders': self.bought_orders}, 'buy_orders')
-
-    def save_completed_buy_orders(self):
-        file_reader.write_data({'orders': self.completed_bought_orders}, 'completed_buy_orders')
 
     def get_buy_orders(self):
-        data = file_reader.read_data('buy_orders')
+        data = self.get_orders('buy')
         self.bought_orders = data.get('orders') or []
 
-    def get_completed_buy_orders(self):
-        data = file_reader.read_data('completed_buy_orders')
-        self.completed_bought_orders = data.get('orders') or []
-
     def get_buy_price_average(self):
-        fee = 0.01
         if len(self.bought_orders) == 0:
             return 0
-        weighted_price = mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity') + fee
-        rounded_price = math.floor(weighted_price * FACTOR) / FACTOR
+        weighted_price = mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity')
+        rounded_price = mathematics.round_down(weighted_price, 2)
         self.logger_message.append(f'AVERAGE BUY PRICE: {rounded_price}')
         return rounded_price
 
@@ -46,12 +28,22 @@ class BuyManager:
     def price_in_buy_margin(self, current_price):
         can_buy = True
         _buy_margin = self.buy_margin * len(self.bought_orders)
+        margins = []
         for order in self.bought_orders:
             price = float(order['limit_price'])
-            start = price - _buy_margin
-            end = price + _buy_margin
+            start = mathematics.round_up(price - _buy_margin)
+            end = mathematics.round_up(price + _buy_margin)
+            margins.append(start)
+            margins.append(end)
             if current_price > start and price < end:
                 can_buy = False
+
+        min_margin = mathematics.get_min(margins)
+        max_margin = mathematics.get_max(margins)
+        self.logger_message.append('-'*40)
+        self.logger_message.append(f'CAN\'T BUY BETWEEN: {min_margin} - {max_margin}')
+        self.logger_message.append(f'PRICE: {price}')
+        self.logger_message.append('-'*40)
         return can_buy
 
     def process_buy_order(self, current_price, quantity):
@@ -64,7 +56,7 @@ class BuyManager:
         fee = 0.01
 
         buy_price = float(current_price) - float(fee)
-        buy_price = math.floor(buy_price * FACTOR) / FACTOR
+        buy_price = mathematics.round_down(buy_price, 2)
         self.logger_message.append(f'BUY PRICE: {buy_price}')
 
         self.logger_message.append(f'TOTAL COST: {buy_price * quantity}')
@@ -78,13 +70,6 @@ class BuyManager:
         if(not order.get('order_id')):
             self.logger_message.append(f'ORDER: {order}')
             return
-
-        # if order.get('fee_base'):
-        #     if float(order.get('fee_base')) > 0:
-        #         print('Order contains fees, cancelling order')
-        #         pprint(order)
-        #         luno.close_open_order(order['order_id'])
-        #         return
 
         self.logger_message.append(f'FUNDS AFTER PURCHASE: {self.funds}')
 
@@ -106,7 +91,7 @@ class BuyManager:
 
         self.bought_orders = complete_orders + self.bought_orders
         self.pending_orders_buy = incomplete_orders
-        self.save_buy_order()
+        self.save_order(self.bought_orders, 'buy')
         self.save_pending_order(self.pending_orders_buy, 'buy')
 
     def calculate_buy_quantity(self, current_price):
@@ -114,7 +99,7 @@ class BuyManager:
         account_balance = self.funds
         funds_to_purchase = mathematics.get_percentage(account_balance, purchase_percentage)
         quantity = funds_to_purchase / current_price
-        return round(quantity, 0)
+        return mathematics.round_up(quantity, 0)
 
     def check_if_can_buy(self, average_buy_price, current_price):
         highest_buy_price = self.get_highest_buy_price()
@@ -146,4 +131,4 @@ class BuyManager:
                     continue
                 buy_orders.append(order)
         self.bought_orders = buy_orders
-        self.save_buy_order()
+        self.save_order(self.bought_orders, 'buy')

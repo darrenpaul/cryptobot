@@ -1,14 +1,9 @@
 orders:
 - counter: 1.0
-  limit_price: '11.34000000'
-  order_id: BXHCA9MKXBJ8GC9
-  price: '11.34000000'
-  quantity: 32.0
-- counter: 1.0
-  limit_price: '11.40000000'
-  order_id: BXBZQKMJ4DSHBX7
-  price: '11.40000000'
-  quantity: 38.0
+  limit_price: '11.46'
+  order_id: BXHA2Y5CXT2D4WAAAA
+  price: '11.46'
+  quantity: 39.0
 - counter: 1.0
   limit_price: '11.73000000'
   order_id: BXHA2Y5CXT2D4WM

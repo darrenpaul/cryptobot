@@ -1,0 +1,4 @@
+- Add more detail to past prices
+- Split out PSO (possible sell orders) into its own subclass
+- Clean up BuyManager
+- Clean up SellManager

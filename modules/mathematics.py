@@ -27,8 +27,6 @@ def get_weighted_average(data, key_one, key_two):
     total_value_one = 0.0
     total_value_two = 0.0
 
-
-
     for i in data:
         value_one = float(i[key_one])
         value_two = float(i[key_two])
@@ -84,15 +82,25 @@ def get_variance(data=None):
     return {"std": std, "mean": mean, "high": high, "low": low}
 
 
-def get_trend(data, size=6, trend_size=3):
+def get_trend(data, size=6):
     if len(data) < size:
         return 0
 
+    portion = int(size / 2)
+
     usable_data = data[-size:]
-    initial = get_mean(usable_data[:trend_size])
-    final = get_mean(usable_data[trend_size:])
+    initial = get_mean(usable_data[:portion])
+    final = get_mean(usable_data[portion:])
 
     if initial == 0.0 or final == 0.0:
         return 100
 
     return (final / initial) * 100
+
+
+def round_down(value, decimals=2):
+    return float(numpy.floor(float(value) * (10 ** decimals)) / (10 ** decimals))
+
+
+def round_up(value, decimals=2):
+    return float(numpy.ceil(float(value) * (10 ** decimals)) / (10 ** decimals))

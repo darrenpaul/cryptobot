@@ -7,6 +7,13 @@ class OrderManager:
         self.trading_pair = 'XBTZAR'
         self.profit_margin = 2
         self.purchase_percentage = 5
+        self.past_orders = []
+
+    def save_order(self, orders, order_type):
+        file_reader.write_data({'orders': orders}, f'{order_type}_orders')
+
+    def get_orders(self, order_type):
+        return file_reader.read_data(f'{order_type}_orders')
 
     def save_pending_order(self, data, order_type):
         file_reader.write_data({'orders': data}, f'pending_orders_{order_type}')
@@ -48,7 +55,6 @@ class OrderManager:
                 order_id = order['order_id']
                 quantity += float(order['quantity'])
 
-
             grouped_orders.append({
                 'order_id': order_id,
                 'limit_price': price,
@@ -59,11 +65,17 @@ class OrderManager:
         return grouped_orders
 
     def _close_open_orders(self):
-        self.logger_message.append(f'cancelling open orders...')
-        cancelled_orders = luno.close_open_orders(self.trading_pair)
-        if len(cancelled_orders) > 0:
-            # self.pending_orders_buy = []
-            # self.pending_orders_sell = []
-            # self.save_pending_order(self.pending_orders_buy, 'buy')
-            # self.save_pending_order(self.pending_orders_sell, 'sell')
-            self.logger_message.append(f'cancelled open orders {cancelled_orders}')
+        for order in [*self.pending_orders_buy, *self.pending_orders_sell]:
+            cancel_count = order.get('cancel_count') or 0
+            order_id = order.get('order_id')
+            if cancel_count == self.cancel_count:
+                luno.close_open_order(order['order_id'])
+                self.logger_message.append(f'CLOSING ORDER: {order_id}')
+
+        # cancelled_orders = luno.close_open_orders(self.trading_pair)
+        # if len(cancelled_orders) > 0:
+        #     # self.pending_orders_buy = []
+        #     # self.pending_orders_sell = []
+        #     # self.save_pending_order(self.pending_orders_buy, 'buy')
+        #     # self.save_pending_order(self.pending_orders_sell, 'sell')
+        #     self.logger_message.append(f'cancelled open orders {cancelled_orders}')

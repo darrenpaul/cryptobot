@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 from modules import luno, file_reader, mathematics
 
+
 DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
 
 

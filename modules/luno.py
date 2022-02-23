@@ -57,6 +57,7 @@ def close_open_orders(pair):
 
     return cancelled_orders
 
+
 def close_open_order(order_id):
     params = {
         'order_id': order_id,
