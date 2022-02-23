@@ -1,1 +1,19 @@
-past_funds: []
+past_funds:
+- current_funds: 222.169097
+  past_funds: 44.729097
+  timestamp: 1645541735.058551
+- current_funds: 222.569097
+  past_funds: 113.469097
+  timestamp: 1645559877.862537
+- current_funds: 222.869097
+  past_funds: 113.769097
+  timestamp: 1645562170.364507
+- current_funds: 223.169097
+  past_funds: 113.869097
+  timestamp: 1645564431.382053
+- current_funds: 223.269097
+  past_funds: 114.069097
+  timestamp: 1645569466.747971
+- current_funds: 662.019097
+  past_funds: 223.269097
+  timestamp: 1645608223.828695
