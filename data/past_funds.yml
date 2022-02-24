@@ -22,3 +22,34 @@ past_funds:
     type: LIMIT
   past_funds: 4.119097
   timestamp: 1645673549.30421
+- current_funds: 1024.639097
+  orders:
+  - base: '2.00000000'
+    cancel_count: 0
+    client_order_id: ''
+    completed_timestamp: 1645716293053
+    counter: '20.52000000'
+    creation_timestamp: 1645716293022
+    expiration_timestamp: 0
+    fee_base: '0.00200000'
+    fee_counter: '0.00000000'
+    limit_price: '10.21000000'
+    limit_volume: '2.00000000'
+    order_id: BXFNFZ629MQN6UP
+    order_ids:
+    - BX8JD6YCY9Q55ZVXC
+    orders:
+    - counter: 1.0
+      funds: 731.959097
+      limit_price: '10.19'
+      order_id: BX8JD6YCY9Q55ZVXC
+      price: '10.19'
+      quantity: 2.0
+    pair: XRPZAR
+    price: 10.21
+    quantity: 2.0
+    side: SELL
+    status: COMPLETE
+    type: LIMIT
+  past_funds: 1004.119097
+  timestamp: 1645716324.723838

@@ -18,11 +18,11 @@ class SellManager:
         return quantity
 
     def _get_sell_price(self, weighted_price):
-        profit_value = mathematics.get_percentage(weighted_price, self.profit_margin) + 0.02
-        self.logger_message.append(f'PROFIT VALUE: {profit_value}')
+        profit_value = 0.02
+        # profit_value = mathematics.get_percentage(weighted_price, self.profit_margin) + 0.02
 
         sell_price = float(weighted_price) + float(profit_value)
-        sell_price = mathematics.round_down(sell_price, 2)
+        sell_price = mathematics.round_up(sell_price)
         self.logger_message.append(f'SELL PRICE: {sell_price}')
         return sell_price
 
@@ -84,6 +84,7 @@ class SellManager:
         self.logger_message.append(f'=============================')
 
         quantity = self._get_quantity()
+
         price = self._get_sell_price(weighted_price)
 
         order = self._create_sell_order(price, quantity)
@@ -104,17 +105,18 @@ class SellManager:
         self.logger_message.append(f'=============================')
 
         order = self._create_sell_order(price, quantity)
-
-        self.pending_orders_sell.append(
-            {
-                'price': price,
-                'quantity': quantity,
-                'order_ids': ids,
-                'orders': orders,
-                **order
-            }
-        )
-        self.save_pending_order(self.pending_orders_sell, 'sell')
+        print(order)
+        if order and order.get('order_id'):
+            self.pending_orders_sell.append(
+                {
+                    'price': price,
+                    'quantity': quantity,
+                    'order_ids': ids,
+                    'orders': orders,
+                    **order
+                }
+            )
+            self.save_pending_order(self.pending_orders_sell, 'sell')
 
     def check_if_can_sell(self, weighted_price, current_price):
         if self.did_buy:
@@ -135,9 +137,6 @@ class SellManager:
 
         if len(orders) > 0:
             weighted_price = mathematics.get_weighted_average(orders, 'limit_price', 'quantity')
-            sell_price = self._get_sell_price(weighted_price)
-
-            if sell_price > current_price:
-                return
+            sell_price = self._get_sell_price(weighted_price) 
 
             self.process_possible_sell_orders(sell_price, total_quantity, orders, order_ids)
