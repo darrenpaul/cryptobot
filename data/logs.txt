@@ -1343,3 +1343,66 @@ not enough funds for trade
 PROFIT VALUE: 0.027149999999999997
 SELL PRICE: 10.88
 2022-02-24 02:01:13,178 | INFO | ****************************************
+2022-02-24 00:03:50,166 | INFO | Running AlgoBot...
+2022-02-24 00:03:50,510 | INFO | ****************************************
+2022-02-24 00:03:50,510 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.51
+TREND: 99.82
+PURCHASE TREND: 93.49
+FUNDS: 2.999097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-24 00:03:50,510 | INFO | ****************************************
+2022-02-24 00:06:51,481 | INFO | ****************************************
+2022-02-24 00:06:51,481 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 11.51
+TREND: 100.75
+PURCHASE TREND: 94.18
+FUNDS: 2.999097
+BUY QUANTITY: 0.0
+not enough funds for trade
+PROFIT VALUE: 0.027149999999999997
+SELL PRICE: 10.88
+2022-02-24 00:06:51,481 | INFO | ****************************************
+2022-02-24 00:09:52,447 | INFO | ****************************************
+2022-02-24 00:09:52,447 | INFO | 
+CURRENT PRICE: 10.83
+AVERAGE BUY PRICE: 11.51
+TREND: 99.91
+PURCHASE TREND: 94.1
+FUNDS: 2.999097
+BUY QUANTITY: 0.0
+not enough funds for trade
+PROFIT VALUE: 0.027149999999999997
+SELL PRICE: 10.88
+2022-02-24 00:09:52,447 | INFO | ****************************************
+2022-02-24 00:12:53,434 | INFO | ****************************************
+2022-02-24 00:12:53,434 | INFO | 
+CURRENT PRICE: 10.87
+AVERAGE BUY PRICE: 11.51
+TREND: 100.37
+PURCHASE TREND: 94.44
+FUNDS: 2.999097
+BUY QUANTITY: 0.0
+not enough funds for trade
+PROFIT VALUE: 0.027149999999999997
+SELL PRICE: 10.88
+2022-02-24 00:12:53,434 | INFO | ****************************************
+2022-02-24 00:15:54,555 | INFO | ****************************************
+2022-02-24 00:15:54,556 | INFO | 
+CURRENT PRICE: 10.88
+AVERAGE BUY PRICE: 11.51
+TREND: 100.1
+PURCHASE TREND: 94.53
+FUNDS: 2.999097
+BUY QUANTITY: 0.0
+not enough funds for trade
+PROFIT VALUE: 0.027149999999999997
+SELL PRICE: 10.88
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXDWVPNEF6WT8TY', 'creation_timestamp': 1645661754481, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'AWAITING', 'type': 'LIMIT', 'limit_price': '10.88000000', 'limit_volume': '67.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-24 00:15:54,556 | INFO | ****************************************

@@ -151,3 +151,34 @@ past_funds:
     type: LIMIT
   past_funds: 1491.759097
   timestamp: 1645651776.512197
+- current_funds: 731.959097
+  orders:
+  - base: '67.00000000'
+    cancel_count: 1
+    client_order_id: ''
+    completed_timestamp: 1645661754508
+    counter: '728.96000000'
+    creation_timestamp: 1645661754481
+    expiration_timestamp: 0
+    fee_base: '0.06700000'
+    fee_counter: '0.00000000'
+    limit_price: '10.88000000'
+    limit_volume: '67.00000000'
+    order_id: BXDWVPNEF6WT8TY
+    order_ids:
+    - BXB537GRKSGY3CC
+    orders:
+    - counter: 1.0
+      funds: 0.0
+      limit_price: '10.86'
+      order_id: BXB537GRKSGY3CC
+      price: '10.86'
+      quantity: 67.0
+    pair: XRPZAR
+    price: 10.88
+    quantity: 67.0
+    side: SELL
+    status: COMPLETE
+    type: LIMIT
+  past_funds: 2.999097
+  timestamp: 1645661784.773291
