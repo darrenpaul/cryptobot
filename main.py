@@ -8,7 +8,7 @@ PROCESS_TIMER = 180
 
 # True
 # False
-DRY_RUN = False
+DRY_RUN = True
 CAN_BUY = True
 CAN_SELL = True
 
@@ -48,12 +48,13 @@ class AlgoBot(
         if luno.getSpendableBalance(self.coin) < current_price:
             quit()
 
-        # BUY ORDER
-        if self.can_buy:
-            self.check_if_can_buy(weighted_price, current_price)
-        # SELL ORDER
-        if self.can_sell:
-            self.check_if_can_sell(weighted_price, current_price)
+        if len(self.pending_orders_buy) == 0 and len(self.pending_orders_sell) == 0:
+            # BUY ORDER
+            if self.can_buy:
+                self.check_if_can_buy(weighted_price, current_price)
+            # SELL ORDER
+            if self.can_sell:
+                self.check_if_can_sell(weighted_price, current_price)
 
     def run(self):
         has_data = False

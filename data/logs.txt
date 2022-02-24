@@ -1406,3 +1406,83 @@ SELL PRICE: 10.88
 =============================
 ORDER: {'order_id': 'BXDWVPNEF6WT8TY', 'creation_timestamp': 1645661754481, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'AWAITING', 'type': 'LIMIT', 'limit_price': '10.88000000', 'limit_volume': '67.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
 2022-02-24 00:15:54,556 | INFO | ****************************************
+2022-02-24 02:24:16,141 | INFO | Running AlgoBot...
+2022-02-24 02:24:18,259 | INFO | ****************************************
+2022-02-24 02:24:18,260 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 11.51
+TREND: 99.73
+PURCHASE TREND: 94.27
+FUNDS: 731.959097
+2022-02-24 02:24:18,260 | INFO | ****************************************
+2022-02-24 02:25:40,374 | INFO | Running AlgoBot...
+2022-02-24 02:27:10,905 | INFO | Running AlgoBot...
+2022-02-24 02:27:47,214 | INFO | Running AlgoBot...
+2022-02-24 02:28:14,479 | INFO | Running AlgoBot...
+2022-02-24 02:28:16,812 | INFO | ****************************************
+2022-02-24 02:28:16,812 | INFO | 
+CURRENT PRICE: 10.87
+AVERAGE BUY PRICE: 11.73
+TREND: 100.19
+PURCHASE TREND: 92.67
+FUNDS: 731.959097
+2022-02-24 02:28:16,812 | INFO | ****************************************
+2022-02-24 02:29:36,004 | INFO | Running AlgoBot...
+2022-02-24 02:29:57,268 | INFO | Running AlgoBot...
+2022-02-24 02:36:04,472 | INFO | Running AlgoBot...
+2022-02-24 02:36:21,899 | INFO | Running AlgoBot...
+2022-02-24 02:36:48,256 | INFO | Running AlgoBot...
+2022-02-24 02:37:16,597 | INFO | Running AlgoBot...
+2022-02-24 02:37:30,489 | INFO | Running AlgoBot...
+2022-02-24 02:37:32,618 | INFO | ****************************************
+2022-02-24 02:37:32,618 | INFO | 
+CURRENT PRICE: 10.8
+AVERAGE BUY PRICE: 11.73
+TREND: 99.45
+PURCHASE TREND: 92.08
+FUNDS: 731.959097
+BUY QUANTITY: 54.0
+CAN'T BUY BETWEEN: 11.01 - 12.48
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.79
+TOTAL COST: 582.66
+ORDER: {'error': 'Order reference is invalid', 'error_code': 'ErrInvalidOrderRef', 'error_action': {}}
+2022-02-24 02:37:32,618 | INFO | ****************************************
+2022-02-24 02:38:24,397 | INFO | Running AlgoBot...
+2022-02-24 02:38:25,363 | INFO | ****************************************
+2022-02-24 02:38:25,363 | INFO | 
+CURRENT PRICE: 10.8
+AVERAGE BUY PRICE: 11.73
+TREND: 100.0
+PURCHASE TREND: 92.08
+FUNDS: 731.959097
+BUY QUANTITY: 54.0
+CAN'T BUY BETWEEN: 11.01 - 12.48
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.79
+TOTAL COST: 582.66
+ORDER: {'error': 'Order reference is invalid', 'error_code': 'ErrInvalidOrderRef', 'error_action': {}}
+2022-02-24 02:38:25,363 | INFO | ****************************************
+2022-02-24 02:39:36,294 | INFO | Running AlgoBot...
+2022-02-24 02:40:52,026 | INFO | Running AlgoBot...
+2022-02-24 02:41:21,899 | INFO | Running AlgoBot...
+2022-02-24 02:41:23,515 | INFO | ****************************************
+2022-02-24 02:41:23,516 | INFO | 
+CURRENT PRICE: 10.77
+AVERAGE BUY PRICE: 11.73
+TREND: 100.1
+PURCHASE TREND: 91.82
+FUNDS: 731.959097
+BUY QUANTITY: 54.0
+CAN'T BUY BETWEEN: 11.01 - 12.48
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.76
+TOTAL COST: 581.04
+ORDER: {'error': 'Order reference is invalid', 'error_code': 'ErrInvalidOrderRef', 'error_action': {}}
+2022-02-24 02:41:23,516 | INFO | ****************************************

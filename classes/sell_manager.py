@@ -1,3 +1,4 @@
+from pprint import pprint
 from modules import luno, file_reader, mathematics, order_utils
 
 
@@ -17,7 +18,7 @@ class SellManager:
         return quantity
 
     def _get_sell_price(self, weighted_price):
-        profit_value = mathematics.get_percentage(weighted_price, self.profit_margin)
+        profit_value = mathematics.get_percentage(weighted_price, self.profit_margin) + 0.01
         self.logger_message.append(f'PROFIT VALUE: {profit_value}')
 
         sell_price = float(weighted_price) + float(profit_value)
@@ -58,7 +59,11 @@ class SellManager:
         complete_orders = order_utils.get_list_of_dict_when_condition_true(pending_orders, 'status', 'COMPLETE')
         complete_orders = order_utils.get_list_of_dict_when_condition_greater(complete_orders, 'counter', 1.0)
 
-        order_ids = order_utils.get_list_of_dict_values(pending_orders, 'order_id')
+        order_ids = []
+        for order in pending_orders:
+            ids = order.get('order_ids')
+            if ids:
+                order_ids.extend(ids)
 
         self.pending_orders_sell = incomplete_orders
         self.save_pending_order(self.pending_orders_sell, 'sell')
