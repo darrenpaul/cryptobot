@@ -8,7 +8,7 @@ PROCESS_TIMER = 180
 
 # True
 # False
-DRY_RUN = True
+DRY_RUN = False
 CAN_BUY = True
 CAN_SELL = True
 
