@@ -42,14 +42,8 @@ orders:
   price: '12.17'
   quantity: 4.0
 - counter: 1.0
-  funds: 334.439097
-  limit_price: '11.00000000'
-  order_id: BXEVRD35JKZMUT9
-  price: '11.00000000'
-  quantity: 34.0
-- counter: 1.0
-  funds: 191.439097
-  limit_price: '10.92000000'
-  order_id: BXC9SWJJX5QW7H4
-  price: '10.92000000'
-  quantity: 8.0
+  funds: 0.0
+  limit_price: '10.86'
+  order_id: BXB537GRKSGY3CC
+  price: '10.86'
+  quantity: 67.0

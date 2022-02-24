@@ -451,3 +451,7 @@ past_trends:
   purchase_trend: 93.63
   timestamp: 1645659106.862091
   trend: 100.1
+- price: 10.78
+  purchase_trend: 93.66
+  timestamp: 1645660872.714791
+  trend: 99.27

@@ -1330,3 +1330,16 @@ CAN'T BUY BETWEEN: 10.65 - 12.54
 PROFIT VALUE: 0.0273
 SELL PRICE: 10.94
 2022-02-23 23:31:46,972 | INFO | ****************************************
+2022-02-24 02:01:12,203 | INFO | Running AlgoBot...
+2022-02-24 02:01:13,178 | INFO | ****************************************
+2022-02-24 02:01:13,178 | INFO | 
+CURRENT PRICE: 10.78
+AVERAGE BUY PRICE: 11.51
+TREND: 99.27
+PURCHASE TREND: 93.66
+FUNDS: 2.999097
+BUY QUANTITY: 0.0
+not enough funds for trade
+PROFIT VALUE: 0.027149999999999997
+SELL PRICE: 10.88
+2022-02-24 02:01:13,178 | INFO | ****************************************
