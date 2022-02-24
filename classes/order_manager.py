@@ -83,11 +83,12 @@ class OrderManager:
         sell_orders = []
 
         for order in [*self.pending_orders_buy, *self.pending_orders_sell]:
-            cancel_count = order.get('cancel_count') or 0
+            cancel_count = order.get('cancel_count') or 1
             order_id = order.get('order_id')
             if cancel_count == self.cancel_count:
                 luno.close_open_order(order['order_id'])
                 self.logger_message.append(f'CLOSING ORDER: {order_id}')
+
             cancel_count += 1
             if order.get('side') == 'SELL':
                 buy_orders.append({**order, **{'cancel_count': cancel_count}})

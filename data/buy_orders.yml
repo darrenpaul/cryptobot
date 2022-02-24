@@ -41,3 +41,9 @@ orders:
   order_id: BXB537GRKSGY3BB
   price: '12.17'
   quantity: 4.0
+- counter: 1.0
+  funds: 731.959097
+  limit_price: '10.77000000'
+  order_id: BX8JD6YCY9Q55Q
+  price: '10.77000000'
+  quantity: 54.0

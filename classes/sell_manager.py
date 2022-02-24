@@ -51,7 +51,7 @@ class SellManager:
         self.sell_orders = data.get('orders') or []
 
     def process_pending_sell_orders(self):
-        pending_orders = order_utils.add_key_to_dict(self.pending_orders_sell, 'cancel_count', 1)
+        pending_orders = order_utils.add_key_to_dict(self.pending_orders_sell, 'cancel_count', 0)
         pending_orders = order_utils.run_function_on_list_items(pending_orders, 'order_id', luno.get_order)
 
         incomplete_orders = order_utils.get_list_of_dict_when_condition_false(pending_orders, 'status', 'COMPLETE')

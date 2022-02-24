@@ -33,7 +33,8 @@ def run_function_on_list_items(data, key, function):
 
 def add_key_to_dict(data, key, value):
     for i in data:
-        i[key] = value
+        if key not in i:
+            i[key] = value
     return data
 
 
