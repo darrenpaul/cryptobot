@@ -1,1 +1,24 @@
-past_funds: []
+past_funds:
+- current_funds: 4.119097
+  orders:
+  - base: '2.00000000'
+    cancel_count: 3
+    client_order_id: ''
+    completed_timestamp: 1645673529037
+    counter: '20.38000000'
+    creation_timestamp: 1645673125886
+    expiration_timestamp: 0
+    fee_base: '0.00000000'
+    fee_counter: '0.00000000'
+    funds: 24.499097
+    limit_price: '10.19000000'
+    limit_volume: '2.00000000'
+    order_id: BXKJ9SMCC9GAK25
+    pair: XRPZAR
+    price: 10.19
+    quantity: 2.0
+    side: BUY
+    status: COMPLETE
+    type: LIMIT
+  past_funds: 4.119097
+  timestamp: 1645673549.30421
