@@ -42,14 +42,26 @@ orders:
   price: '12.17'
   quantity: 4.0
 - counter: 1.0
-  funds: 731.959097
-  limit_price: '10.77000000'
-  order_id: BX8JD6YCY9Q55Q
-  price: '10.77000000'
-  quantity: 54.0
+  funds: 1988.839097
+  limit_price: '10.96000000'
+  order_id: BXBPJSZDYS7CRBZ
+  price: '10.96000000'
+  quantity: 145.0
 - counter: 1.0
-  funds: 731.959097
-  limit_price: '10.49'
-  order_id: BX8JD6YCY9Q55QWE
-  price: '10.49'
-  quantity: 12.0
+  funds: 0.0
+  limit_price: '10.98000000'
+  order_id: BXBV4XWPK8PX9JH
+  price: '10.98000000'
+  quantity: 145.0
+- counter: 1.0
+  funds: 1991.739097
+  limit_price: '10.65000000'
+  order_id: BXH72FG9Y6KC3FE
+  price: '10.65000000'
+  quantity: 186.0
+- counter: 1.0
+  funds: 0.0
+  limit_price: '10.67000000'
+  order_id: BXDZNSB8WQBT6TF
+  price: '10.67000000'
+  quantity: 186.0
