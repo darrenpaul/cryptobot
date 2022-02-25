@@ -1,10 +1,18 @@
-from modules import luno, file_reader, mathematics
+from pprint import pprint
+from modules import luno, mathematics, order_utils
 
 
 class BuyManager:
     def __init__(self) -> None:
         self.pending_orders_buy = []
         self.bought_orders = []
+
+    def _get_buy_price(self, current_price):
+        fee = 0.01
+        buy_price = float(current_price) - float(fee)
+        buy_price = mathematics.round_down(buy_price, 2)
+        self.logger_message.append(f'BUY PRICE: {buy_price}')
+        return buy_price
 
     def get_buy_orders(self):
         data = self.get_orders('buy')
@@ -48,25 +56,22 @@ class BuyManager:
         self.logger_message.append(f'=== PROCESSING BUY ORDER ===')
         self.logger_message.append(f'============================')
 
-        # fee = (float(luno.getPairFee(self.trading_pair)['taker_fee']) * float(quantity)) / 2
-        # self.logger_message.append(f'FEE: {fee}')
-        fee = 0.01
-
-        buy_price = float(current_price) - float(fee)
-        buy_price = mathematics.round_down(buy_price, 2)
-        self.logger_message.append(f'BUY PRICE: {buy_price}')
+        buy_price = self._get_buy_price(current_price)
 
         self.logger_message.append(f'TOTAL COST: {buy_price * quantity}')
 
         order = luno.create_buy_order(self.trading_pair, buy_price, quantity, dry_run=self.dry_run)
+
+        print('BUY')
+        pprint(order)
         if(not order.get('order_id')):
             self.logger_message.append(f'buy order couldn\'t be placed{order}')
+            self.logger_message.append(f'ORDER: {order}')
             return
 
         order = luno.get_order(order['order_id'])
-        if(not order.get('order_id')):
-            self.logger_message.append(f'ORDER: {order}')
-            return
+        print('BUY DETAIL')
+        pprint(order)
 
         self.logger_message.append(f'FUNDS AFTER PURCHASE: {self.funds}')
 
@@ -76,20 +81,18 @@ class BuyManager:
     def process_pending_buy_orders(self):
         incomplete_orders = []
         complete_orders = []
-        for i in self.pending_orders_buy:
-            order = luno.get_order(i['order_id'])
-            counter = float(order.get('counter'))
 
-            if order.get('status') == 'COMPLETE':
-                if counter > 0.0:
-                    complete_orders.append({**i, **order})
-            else:
-                incomplete_orders.append({**i, **order})
+        updated_pending_orders = order_utils.update_order_details(self.pending_orders_buy)
+        pending_orders = order_utils.update_cancel_count(updated_pending_orders)
+
+        incomplete_orders = order_utils.get_incomplete_orders(pending_orders)
+
+        complete_orders = order_utils.get_complete_orders(pending_orders, 'BUY')
 
         self.pending_orders_buy = incomplete_orders
         self.save_pending_order(self.pending_orders_buy, 'buy')
 
-        self.bought_orders =  [*self.bought_orders, *complete_orders]
+        self.bought_orders =  self.bought_orders + complete_orders
         self.save_order(self.bought_orders, 'buy')
 
         self.past_orders = [*self.past_orders, *complete_orders]
@@ -123,11 +126,14 @@ class BuyManager:
         if price_in_margin == False:
             return False
 
-        if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin or \
-            self.purchase_trend <= self.purchase_trend_margin:
-            if float(weighted_price) != float(current_price):
-                self.process_buy_order(current_price, quantity)
-                self.did_buy = True
+        if float(weighted_price) < float(current_price):
+            return False
+
+        # if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin or \
+        #     self.purchase_trend <= self.purchase_trend_margin:
+        if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin:
+            self.process_buy_order(current_price, quantity)
+            self.did_buy = True
 
     def complete_buy_orders(self, order_ids):
         buy_orders = []
@@ -137,5 +143,8 @@ class BuyManager:
                 if order_id in order_ids:
                     continue
                 buy_orders.append(order)
+        print('here here')
+        pprint(buy_orders)
+        pprint(order_ids)
         self.bought_orders = buy_orders
         self.save_order(self.bought_orders, 'buy')

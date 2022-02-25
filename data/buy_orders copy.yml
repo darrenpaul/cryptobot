@@ -5,4 +5,3 @@ orders:
   order_id: CUSTOMORDERA
   price: '12.17'
   quantity: 177.0
-  side: null

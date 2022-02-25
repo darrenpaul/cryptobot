@@ -51,19 +51,14 @@ class SellManager:
         self.sell_orders = data.get('orders') or []
 
     def process_pending_sell_orders(self):
-        pending_orders = order_utils.add_key_to_dict(self.pending_orders_sell, 'cancel_count', 0)
-        pending_orders = order_utils.run_function_on_list_items(pending_orders, 'order_id', luno.get_order)
+        updated_pending_orders = order_utils.update_order_details(self.pending_orders_sell)
+        pending_orders = order_utils.update_cancel_count(updated_pending_orders)
 
-        incomplete_orders = order_utils.get_list_of_dict_when_condition_false(pending_orders, 'status', 'COMPLETE')
+        incomplete_orders = order_utils.get_incomplete_orders(pending_orders)
 
-        complete_orders = order_utils.get_list_of_dict_when_condition_true(pending_orders, 'status', 'COMPLETE')
-        complete_orders = order_utils.get_list_of_dict_when_condition_greater(complete_orders, 'counter', 1.0)
+        complete_orders = order_utils.get_complete_orders(pending_orders, 'SELL')
 
-        order_ids = []
-        for order in pending_orders:
-            ids = order.get('order_ids')
-            if ids:
-                order_ids.extend(ids)
+        order_ids = order_utils.get_order_ids(pending_orders)
 
         self.pending_orders_sell = incomplete_orders
         self.save_pending_order(self.pending_orders_sell, 'sell')
@@ -137,6 +132,8 @@ class SellManager:
 
         if len(orders) > 0:
             weighted_price = mathematics.get_weighted_average(orders, 'limit_price', 'quantity')
-            sell_price = self._get_sell_price(weighted_price) 
+            sell_price = self._get_sell_price(weighted_price)
+            if sell_price + 0.04 < current_price:
+                sell_price = current_price - 0.01
 
             self.process_possible_sell_orders(sell_price, total_quantity, orders, order_ids)

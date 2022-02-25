@@ -44,9 +44,9 @@ class AlgoBot(
         self.update_trend(weighted_price, current_price)
         self.update_funds()
 
-        # SHUTDOWN WHEN NO FUNDS
-        if luno.getSpendableBalance(self.coin) < current_price:
-            quit()
+        # # SHUTDOWN WHEN NO FUNDS
+        # if luno.getSpendableBalance(self.coin) < current_price:
+        #     quit()
 
         if len(self.pending_orders_buy) == 0 and len(self.pending_orders_sell) == 0:
             # BUY ORDER
@@ -107,7 +107,7 @@ def main():
     while True:
         bot.get_config()
 
-        if count % 30 == 0:
+        if count % 10 == 0:
             process_orders(bot)
 
         if count >= PROCESS_TIMER:

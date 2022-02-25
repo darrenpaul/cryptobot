@@ -15,7 +15,8 @@ def create_buy_order(pair, price, quantity, dry_run=False):
         'pair': pair,
         'type': 'BID',
         'price': price,
-        'volume': quantity
+        'volume': quantity,
+        'post_only': True
     }
     return requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params).json()
 
@@ -28,7 +29,8 @@ def create_sell_order(pair, price, quantity, dry_run=False):
         'pair': pair,
         'type': 'ASK',
         'price': price,
-        'volume': quantity
+        'volume': quantity,
+        'post_only': True
     }
     return requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params).json()
 

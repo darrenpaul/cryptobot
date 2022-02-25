@@ -7687,3 +7687,2592 @@ SELL PRICE: 10.68
 === PROCESSING PSO ==========
 =============================
 2022-02-25 05:12:19,066 | INFO | ****************************************
+2022-02-25 07:18:52,716 | INFO | Running AlgoBot...
+2022-02-25 07:18:54,242 | INFO | ****************************************
+2022-02-25 07:18:54,242 | INFO | 
+CURRENT PRICE: 10.75
+AVERAGE BUY PRICE: 11.28
+TREND: 100.38
+PURCHASE TREND: 95.31
+FUNDS: 1995.459097
+BUY QUANTITY: 185.0
+CAN'T BUY BETWEEN: 10.7 - 12.54
+2022-02-25 07:18:54,242 | INFO | ****************************************
+2022-02-25 09:02:37,696 | INFO | Running AlgoBot...
+2022-02-25 09:02:40,375 | INFO | ****************************************
+2022-02-25 09:02:40,376 | INFO | 
+CURRENT PRICE: 10.86
+AVERAGE BUY PRICE: 12.17
+TREND: 101.03
+PURCHASE TREND: 89.24
+FUNDS: 1995.459097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.85
+TOTAL COST: 390.59999999999997
+FUNDS AFTER PURCHASE: 1995.459097
+2022-02-25 09:02:40,376 | INFO | ****************************************
+2022-02-25 09:04:16,478 | INFO | Running AlgoBot...
+2022-02-25 09:04:18,682 | INFO | ****************************************
+2022-02-25 09:04:18,682 | INFO | 
+CURRENT PRICE: 10.88
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 89.41
+FUNDS: 1995.459097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:04:18,683 | INFO | ****************************************
+2022-02-25 09:07:27,099 | INFO | Running AlgoBot...
+2022-02-25 09:07:37,813 | INFO | Running AlgoBot...
+2022-02-25 09:08:16,194 | INFO | Running AlgoBot...
+2022-02-25 09:08:17,442 | INFO | ****************************************
+2022-02-25 09:08:17,442 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 12.17
+TREND: 99.91
+PURCHASE TREND: 89.16
+FUNDS: 1995.459097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:08:17,442 | INFO | ****************************************
+2022-02-25 09:09:55,526 | INFO | Running AlgoBot...
+2022-02-25 09:09:57,664 | INFO | ****************************************
+2022-02-25 09:09:57,664 | INFO | 
+CURRENT PRICE: 10.82
+AVERAGE BUY PRICE: 12.17
+TREND: 99.64
+PURCHASE TREND: 88.91
+FUNDS: 1995.459097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.81
+TOTAL COST: 389.16
+FUNDS AFTER PURCHASE: 1995.459097
+2022-02-25 09:09:57,665 | INFO | ****************************************
+2022-02-25 09:16:42,078 | INFO | Running AlgoBot...
+2022-02-25 09:16:43,015 | INFO | ****************************************
+2022-02-25 09:16:43,015 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 89.08
+FUNDS: 1995.459097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:16:43,015 | INFO | ****************************************
+2022-02-25 09:16:54,123 | INFO | Running AlgoBot...
+2022-02-25 09:16:56,527 | INFO | ****************************************
+2022-02-25 09:16:56,527 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 89.08
+FUNDS: 1995.459097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.83
+TOTAL COST: 389.88
+FUNDS AFTER PURCHASE: 1995.459097
+2022-02-25 09:16:56,527 | INFO | ****************************************
+2022-02-25 09:20:02,378 | INFO | ****************************************
+2022-02-25 09:20:02,378 | INFO | 
+CURRENT PRICE: 10.86
+AVERAGE BUY PRICE: 11.94
+TREND: 100.19
+PURCHASE TREND: 90.96
+FUNDS: 1605.579097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.77 - 12.23
+SELL PRICE: 10.85
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXGDYXSRZK8SFHC', 'creation_timestamp': 1645773602030, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.85000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 09:20:02,379 | INFO | ****************************************
+2022-02-25 09:23:52,989 | INFO | Running AlgoBot...
+2022-02-25 09:23:56,101 | INFO | ****************************************
+2022-02-25 09:23:56,101 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 89.08
+FUNDS: 1996.179097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.83
+TOTAL COST: 389.88
+FUNDS AFTER PURCHASE: 1996.179097
+2022-02-25 09:23:56,101 | INFO | ****************************************
+2022-02-25 09:26:39,836 | INFO | Running AlgoBot...
+2022-02-25 09:26:42,735 | INFO | ****************************************
+2022-02-25 09:26:42,736 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 11.94
+TREND: 100.0
+PURCHASE TREND: 90.79
+FUNDS: 1606.299097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.77 - 12.23
+SELL PRICE: 10.85
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXMJDPVEBAG5CSW', 'creation_timestamp': 1645774001697, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.85000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 09:26:42,736 | INFO | ****************************************
+2022-02-25 09:29:47,968 | INFO | ****************************************
+2022-02-25 09:29:47,968 | INFO | 
+CURRENT PRICE: 10.88
+AVERAGE BUY PRICE: 12.17
+TREND: 100.37
+PURCHASE TREND: 89.41
+FUNDS: 1996.899097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:29:47,969 | INFO | ****************************************
+2022-02-25 09:32:52,945 | INFO | ****************************************
+2022-02-25 09:32:52,946 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 12.17
+TREND: 99.73
+PURCHASE TREND: 89.16
+FUNDS: 1996.899097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.84
+TOTAL COST: 390.24
+FUNDS AFTER PURCHASE: 1996.899097
+2022-02-25 09:32:52,946 | INFO | ****************************************
+2022-02-25 09:36:03,580 | INFO | ****************************************
+2022-02-25 09:36:03,580 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 11.94
+TREND: 100.0
+PURCHASE TREND: 90.88
+FUNDS: 1606.659097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.78 - 12.23
+SELL PRICE: 10.86
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXK2QD4FRMM876Y', 'creation_timestamp': 1645774563014, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.86000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 09:36:03,580 | INFO | ****************************************
+2022-02-25 09:39:16,101 | INFO | ****************************************
+2022-02-25 09:39:16,102 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 11.94
+TREND: 99.91
+PURCHASE TREND: 90.79
+FUNDS: 1606.659097
+2022-02-25 09:39:16,103 | INFO | ****************************************
+2022-02-25 09:42:21,286 | INFO | ****************************************
+2022-02-25 09:42:21,286 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 11.78
+TREND: 100.1
+PURCHASE TREND: 92.11
+FUNDS: 1997.619097
+BUY QUANTITY: 73.0
+CAN'T BUY BETWEEN: 10.75 - 12.26
+SELL PRICE: 10.87
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 09:42:21,286 | INFO | ****************************************
+2022-02-25 09:49:55,671 | INFO | Running AlgoBot...
+2022-02-25 09:49:57,033 | INFO | ****************************************
+2022-02-25 09:49:57,033 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.16
+FUNDS: 1997.619097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:49:57,033 | INFO | ****************************************
+2022-02-25 09:53:00,492 | INFO | ****************************************
+2022-02-25 09:53:00,492 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.16
+FUNDS: 1997.619097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:53:00,493 | INFO | ****************************************
+2022-02-25 09:56:04,795 | INFO | ****************************************
+2022-02-25 09:56:04,795 | INFO | 
+CURRENT PRICE: 10.85
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.16
+FUNDS: 1997.619097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 09:56:04,795 | INFO | ****************************************
+2022-02-25 09:59:10,628 | INFO | ****************************************
+2022-02-25 09:59:10,628 | INFO | 
+CURRENT PRICE: 10.83
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 88.99
+FUNDS: 1997.619097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.82
+TOTAL COST: 389.52
+FUNDS AFTER PURCHASE: 1997.619097
+2022-02-25 09:59:10,628 | INFO | ****************************************
+2022-02-25 10:02:26,140 | INFO | ****************************************
+2022-02-25 10:02:26,140 | INFO | 
+CURRENT PRICE: 10.82
+AVERAGE BUY PRICE: 11.94
+TREND: 99.91
+PURCHASE TREND: 90.62
+FUNDS: 1608.099097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.76 - 12.23
+SELL PRICE: 10.84
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXG53EGJQRSVYRK', 'creation_timestamp': 1645776144982, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.84000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 10:02:26,140 | INFO | ****************************************
+2022-02-25 10:05:37,868 | INFO | ****************************************
+2022-02-25 10:05:37,869 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 89.08
+FUNDS: 1998.339097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 10:05:37,869 | INFO | ****************************************
+2022-02-25 10:08:42,819 | INFO | ****************************************
+2022-02-25 10:08:42,819 | INFO | 
+CURRENT PRICE: 10.82
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 88.91
+FUNDS: 1998.339097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.81
+TOTAL COST: 389.16
+FUNDS AFTER PURCHASE: 1998.339097
+2022-02-25 10:08:42,820 | INFO | ****************************************
+2022-02-25 10:11:51,512 | INFO | ****************************************
+2022-02-25 10:11:51,512 | INFO | 
+CURRENT PRICE: 10.79
+AVERAGE BUY PRICE: 11.94
+TREND: 99.73
+PURCHASE TREND: 90.37
+FUNDS: 1609.179097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXHKAMTQBFGDG43', 'creation_timestamp': 1645776710503, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.83000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 10:11:51,512 | INFO | ****************************************
+2022-02-25 10:15:08,580 | INFO | ****************************************
+2022-02-25 10:15:08,580 | INFO | 
+CURRENT PRICE: 10.77
+AVERAGE BUY PRICE: 11.94
+TREND: 99.82
+PURCHASE TREND: 90.21
+FUNDS: 1609.179097
+2022-02-25 10:15:08,580 | INFO | ****************************************
+2022-02-25 10:18:15,035 | INFO | ****************************************
+2022-02-25 10:18:15,035 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.94
+TREND: 99.73
+PURCHASE TREND: 89.95
+FUNDS: 1609.179097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.73
+TOTAL COST: 472.12
+FUNDS AFTER PURCHASE: 1609.179097
+2022-02-25 10:18:15,036 | INFO | ****************************************
+2022-02-25 10:21:30,234 | INFO | ****************************************
+2022-02-25 10:21:30,234 | INFO | 
+CURRENT PRICE: 10.77
+AVERAGE BUY PRICE: 11.94
+TREND: 100.28
+PURCHASE TREND: 90.21
+FUNDS: 1137.0590969999998
+2022-02-25 10:21:30,234 | INFO | ****************************************
+2022-02-25 10:24:43,702 | INFO | ****************************************
+2022-02-25 10:24:43,704 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.94
+TREND: 99.73
+PURCHASE TREND: 89.95
+FUNDS: 1137.0590969999998
+2022-02-25 10:24:43,704 | INFO | ****************************************
+2022-02-25 10:27:51,146 | INFO | ****************************************
+2022-02-25 10:27:51,147 | INFO | 
+CURRENT PRICE: 10.74
+TREND: 100.0
+PURCHASE TREND: 100.0
+FUNDS: 1137.059097
+BUY QUANTITY: 10.0
+CAN'T BUY BETWEEN: None - None
+2022-02-25 10:27:51,147 | INFO | ****************************************
+2022-02-25 10:30:56,095 | INFO | ****************************************
+2022-02-25 10:30:56,096 | INFO | 
+CURRENT PRICE: 10.76
+TREND: 100.19
+PURCHASE TREND: 100.0
+FUNDS: 1137.059097
+BUY QUANTITY: 10.0
+CAN'T BUY BETWEEN: None - None
+2022-02-25 10:30:56,096 | INFO | ****************************************
+2022-02-25 10:34:00,658 | INFO | ****************************************
+2022-02-25 10:34:00,658 | INFO | 
+CURRENT PRICE: 10.78
+TREND: 100.19
+PURCHASE TREND: 100.0
+FUNDS: 1137.059097
+BUY QUANTITY: 10.0
+CAN'T BUY BETWEEN: None - None
+2022-02-25 10:34:00,659 | INFO | ****************************************
+2022-02-25 10:37:04,048 | INFO | ****************************************
+2022-02-25 10:37:04,048 | INFO | 
+CURRENT PRICE: 10.77
+TREND: 99.91
+PURCHASE TREND: 100.0
+FUNDS: 1137.059097
+BUY QUANTITY: 10.0
+CAN'T BUY BETWEEN: None - None
+2022-02-25 10:37:04,048 | INFO | ****************************************
+2022-02-25 10:45:16,417 | INFO | Running AlgoBot...
+2022-02-25 10:45:18,914 | INFO | ****************************************
+2022-02-25 10:45:18,914 | INFO | 
+CURRENT PRICE: 10.75
+AVERAGE BUY PRICE: 11.74
+TREND: 99.82
+PURCHASE TREND: 91.57
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.74
+TOTAL COST: 332.94
+FUNDS AFTER PURCHASE: 1137.059097
+2022-02-25 10:45:18,914 | INFO | ****************************************
+2022-02-25 10:49:48,096 | INFO | Running AlgoBot...
+2022-02-25 10:49:51,062 | INFO | ****************************************
+2022-02-25 10:49:51,063 | INFO | 
+CURRENT PRICE: 10.79
+AVERAGE BUY PRICE: 11.74
+TREND: 100.38
+PURCHASE TREND: 91.91
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXB26E7Q4CWH7YN', 'creation_timestamp': 1645778990638, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.83000000', 'limit_volume': '80.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 10:49:51,063 | INFO | ****************************************
+2022-02-25 10:53:02,990 | INFO | ****************************************
+2022-02-25 10:53:02,991 | INFO | 
+CURRENT PRICE: 10.8
+AVERAGE BUY PRICE: 11.74
+TREND: 100.1
+PURCHASE TREND: 92.0
+FUNDS: 1137.059097
+2022-02-25 10:53:02,992 | INFO | ****************************************
+2022-02-25 10:56:07,352 | INFO | ****************************************
+2022-02-25 10:56:07,353 | INFO | 
+CURRENT PRICE: 10.81
+AVERAGE BUY PRICE: 11.74
+TREND: 100.1
+PURCHASE TREND: 92.08
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 10:56:07,353 | INFO | ****************************************
+2022-02-25 10:59:11,805 | INFO | ****************************************
+2022-02-25 10:59:11,805 | INFO | 
+CURRENT PRICE: 10.8
+AVERAGE BUY PRICE: 11.74
+TREND: 99.91
+PURCHASE TREND: 92.0
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 10:59:11,805 | INFO | ****************************************
+2022-02-25 11:02:16,083 | INFO | ****************************************
+2022-02-25 11:02:16,084 | INFO | 
+CURRENT PRICE: 10.8
+AVERAGE BUY PRICE: 11.74
+TREND: 100.0
+PURCHASE TREND: 92.0
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 11:02:16,084 | INFO | ****************************************
+2022-02-25 11:05:20,054 | INFO | ****************************************
+2022-02-25 11:05:20,054 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.74
+TREND: 99.63
+PURCHASE TREND: 91.66
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 11:05:20,054 | INFO | ****************************************
+2022-02-25 11:08:24,781 | INFO | ****************************************
+2022-02-25 11:08:24,782 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.74
+TREND: 99.82
+PURCHASE TREND: 91.49
+FUNDS: 1137.059097
+BUY QUANTITY: 31.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.73
+TOTAL COST: 332.63
+FUNDS AFTER PURCHASE: 1137.059097
+2022-02-25 11:08:24,782 | INFO | ****************************************
+2022-02-25 11:11:38,969 | INFO | ****************************************
+2022-02-25 11:11:38,970 | INFO | 
+CURRENT PRICE: 10.75
+AVERAGE BUY PRICE: 11.74
+TREND: 100.1
+PURCHASE TREND: 91.57
+FUNDS: 804.4290970000001
+2022-02-25 11:11:38,970 | INFO | ****************************************
+2022-02-25 11:14:48,916 | INFO | ****************************************
+2022-02-25 11:14:48,917 | INFO | 
+CURRENT PRICE: 10.73
+TREND: 99.82
+PURCHASE TREND: 100.0
+FUNDS: 804.429097
+BUY QUANTITY: 7.0
+CAN'T BUY BETWEEN: None - None
+2022-02-25 11:14:48,917 | INFO | ****************************************
+2022-02-25 11:17:52,083 | INFO | ****************************************
+2022-02-25 11:17:52,084 | INFO | 
+CURRENT PRICE: 10.74
+TREND: 100.1
+PURCHASE TREND: 100.0
+FUNDS: 804.429097
+BUY QUANTITY: 7.0
+CAN'T BUY BETWEEN: None - None
+2022-02-25 11:17:52,084 | INFO | ****************************************
+2022-02-25 11:22:41,088 | INFO | Running AlgoBot...
+2022-02-25 11:22:43,309 | INFO | ****************************************
+2022-02-25 11:22:43,309 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.74
+TREND: 100.0
+PURCHASE TREND: 91.49
+FUNDS: 804.429097
+BUY QUANTITY: 22.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 11:22:43,309 | INFO | ****************************************
+2022-02-25 11:24:34,331 | INFO | Running AlgoBot...
+2022-02-25 11:24:36,475 | INFO | ****************************************
+2022-02-25 11:24:36,476 | INFO | 
+CURRENT PRICE: 10.73
+AVERAGE BUY PRICE: 11.63
+TREND: 99.91
+PURCHASE TREND: 92.27
+FUNDS: 804.429097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.81
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 11:24:36,476 | INFO | ****************************************
+2022-02-25 11:27:40,161 | INFO | ****************************************
+2022-02-25 11:27:40,161 | INFO | 
+CURRENT PRICE: 10.67
+AVERAGE BUY PRICE: 11.63
+TREND: 99.45
+PURCHASE TREND: 91.75
+FUNDS: 804.429097
+BUY QUANTITY: 30.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.75
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXF78U5C8PYYUMH', 'creation_timestamp': 1645781260034, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.75000000', 'limit_volume': '31.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 11:27:40,162 | INFO | ****************************************
+2022-02-25 11:30:50,753 | INFO | ****************************************
+2022-02-25 11:30:50,754 | INFO | 
+CURRENT PRICE: 10.64
+AVERAGE BUY PRICE: 11.63
+TREND: 99.72
+PURCHASE TREND: 91.49
+FUNDS: 804.429097
+2022-02-25 11:30:50,754 | INFO | ****************************************
+2022-02-25 11:33:06,021 | INFO | Running AlgoBot...
+2022-02-25 11:33:07,587 | INFO | ****************************************
+2022-02-25 11:33:07,587 | INFO | 
+CURRENT PRICE: 10.67
+AVERAGE BUY PRICE: 11.63
+TREND: 100.29
+PURCHASE TREND: 91.75
+FUNDS: 804.429097
+BUY QUANTITY: 30.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.75
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXKXRQWNG3VDNPW', 'creation_timestamp': 1645781587359, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.75000000', 'limit_volume': '31.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 11:33:07,587 | INFO | ****************************************
+2022-02-25 11:36:16,826 | INFO | ****************************************
+2022-02-25 11:36:16,826 | INFO | 
+CURRENT PRICE: 10.68
+AVERAGE BUY PRICE: 11.63
+TREND: 100.1
+PURCHASE TREND: 91.84
+FUNDS: 804.429097
+2022-02-25 11:36:16,826 | INFO | ****************************************
+2022-02-25 12:57:07,225 | INFO | Running AlgoBot...
+2022-02-25 12:57:09,980 | INFO | ****************************************
+2022-02-25 12:57:09,981 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.75
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.81
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXM6BQ7EMNNKQG9', 'creation_timestamp': 1645786629299, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.81000000', 'limit_volume': '111.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 12:57:09,981 | INFO | ****************************************
+2022-02-25 13:00:26,022 | INFO | Running AlgoBot...
+2022-02-25 13:00:27,164 | INFO | ****************************************
+2022-02-25 13:00:27,164 | INFO | 
+CURRENT PRICE: 10.78
+AVERAGE BUY PRICE: 11.63
+TREND: 100.19
+PURCHASE TREND: 92.7
+FUNDS: 804.429097
+2022-02-25 13:00:27,164 | INFO | ****************************************
+2022-02-25 13:02:46,132 | INFO | Running AlgoBot...
+2022-02-25 13:02:48,957 | INFO | ****************************************
+2022-02-25 13:02:48,957 | INFO | 
+CURRENT PRICE: 10.78
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.7
+FUNDS: 804.429097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.81
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXMFCGF66HWVQXX', 'creation_timestamp': 1645786968713, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.81000000', 'limit_volume': '111.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 13:02:48,957 | INFO | ****************************************
+2022-02-25 13:05:04,265 | INFO | Running AlgoBot...
+2022-02-25 13:05:05,389 | INFO | ****************************************
+2022-02-25 13:05:05,389 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 99.82
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+2022-02-25 13:05:05,389 | INFO | ****************************************
+2022-02-25 13:05:46,516 | INFO | Running AlgoBot...
+2022-02-25 13:05:48,091 | INFO | ****************************************
+2022-02-25 13:05:48,092 | INFO | 
+CURRENT PRICE: 10.75
+AVERAGE BUY PRICE: 11.63
+TREND: 99.91
+PURCHASE TREND: 92.44
+FUNDS: 804.429097
+2022-02-25 13:05:48,092 | INFO | ****************************************
+2022-02-25 13:07:02,208 | INFO | Running AlgoBot...
+2022-02-25 13:07:04,119 | INFO | ****************************************
+2022-02-25 13:07:04,119 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.63
+TREND: 99.91
+PURCHASE TREND: 92.35
+FUNDS: 804.429097
+2022-02-25 13:07:04,119 | INFO | ****************************************
+2022-02-25 13:07:42,359 | INFO | Running AlgoBot...
+2022-02-25 13:07:43,950 | INFO | ****************************************
+2022-02-25 13:07:43,950 | INFO | 
+CURRENT PRICE: 10.73
+AVERAGE BUY PRICE: 11.63
+TREND: 99.91
+PURCHASE TREND: 92.27
+FUNDS: 804.429097
+2022-02-25 13:07:43,950 | INFO | ****************************************
+2022-02-25 13:08:08,085 | INFO | Running AlgoBot...
+2022-02-25 13:08:09,904 | INFO | ****************************************
+2022-02-25 13:08:09,904 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.63
+TREND: 100.1
+PURCHASE TREND: 92.35
+FUNDS: 804.429097
+2022-02-25 13:08:09,905 | INFO | ****************************************
+2022-02-25 13:09:07,198 | INFO | Running AlgoBot...
+2022-02-25 13:09:09,481 | INFO | ****************************************
+2022-02-25 13:09:09,481 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.35
+FUNDS: 804.429097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.81
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 13:09:09,481 | INFO | ****************************************
+2022-02-25 13:09:52,033 | INFO | Running AlgoBot...
+2022-02-25 13:09:53,348 | INFO | ****************************************
+2022-02-25 13:09:53,348 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.19
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.81
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 13:09:53,349 | INFO | ****************************************
+2022-02-25 13:10:17,502 | INFO | Running AlgoBot...
+2022-02-25 13:10:50,218 | INFO | Running AlgoBot...
+2022-02-25 13:11:11,348 | INFO | Running AlgoBot...
+2022-02-25 13:12:01,466 | INFO | Running AlgoBot...
+2022-02-25 13:12:02,546 | INFO | ****************************************
+2022-02-25 13:12:02,546 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.19
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+2022-02-25 13:12:02,546 | INFO | ****************************************
+2022-02-25 13:13:50,757 | INFO | Running AlgoBot...
+2022-02-25 13:14:24,705 | INFO | Running AlgoBot...
+2022-02-25 13:14:41,400 | INFO | Running AlgoBot...
+2022-02-25 13:14:42,441 | INFO | ****************************************
+2022-02-25 13:14:42,441 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+2022-02-25 13:14:42,441 | INFO | ****************************************
+2022-02-25 13:14:57,535 | INFO | Running AlgoBot...
+2022-02-25 13:14:59,124 | INFO | ****************************************
+2022-02-25 13:14:59,124 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+2022-02-25 13:14:59,124 | INFO | ****************************************
+2022-02-25 13:15:05,584 | INFO | Running AlgoBot...
+2022-02-25 13:15:06,640 | INFO | ****************************************
+2022-02-25 13:15:06,640 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+2022-02-25 13:15:06,640 | INFO | ****************************************
+2022-02-25 13:15:16,996 | INFO | Running AlgoBot...
+2022-02-25 13:15:18,669 | INFO | ****************************************
+2022-02-25 13:15:18,669 | INFO | 
+CURRENT PRICE: 10.76
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXMFCGF66HWVQXX
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+2022-02-25 13:15:18,669 | INFO | ****************************************
+2022-02-25 13:16:48,174 | INFO | Running AlgoBot...
+2022-02-25 13:16:50,202 | INFO | ****************************************
+2022-02-25 13:16:50,202 | INFO | 
+CURRENT PRICE: 10.76
+AVERAGE BUY PRICE: 11.63
+TREND: 100.0
+PURCHASE TREND: 92.52
+FUNDS: 804.429097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 10.64 - 12.26
+SELL PRICE: 10.81
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXDA7PTXF3ZCWAH', 'creation_timestamp': 1645787809891, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.81000000', 'limit_volume': '111.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 13:16:50,202 | INFO | ****************************************
+2022-02-25 13:19:59,066 | INFO | ****************************************
+2022-02-25 13:19:59,066 | INFO | 
+CURRENT PRICE: 10.75
+AVERAGE BUY PRICE: 11.63
+TREND: 99.91
+PURCHASE TREND: 92.44
+FUNDS: 804.429097
+2022-02-25 13:19:59,066 | INFO | ****************************************
+2022-02-25 13:23:08,003 | INFO | ****************************************
+2022-02-25 13:23:08,004 | INFO | 
+CURRENT PRICE: 10.74
+AVERAGE BUY PRICE: 11.63
+TREND: 99.91
+PURCHASE TREND: 92.35
+FUNDS: 804.429097
+2022-02-25 13:23:08,005 | INFO | ****************************************
+2022-02-25 13:26:15,439 | INFO | ****************************************
+2022-02-25 13:26:15,439 | INFO | 
+CURRENT PRICE: 10.82
+AVERAGE BUY PRICE: 12.17
+TREND: 100.75
+PURCHASE TREND: 88.91
+FUNDS: 2004.339097
+BUY QUANTITY: 37.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 13:26:15,439 | INFO | ****************************************
+2022-02-25 13:29:20,401 | INFO | ****************************************
+2022-02-25 13:29:20,402 | INFO | 
+CURRENT PRICE: 10.78
+AVERAGE BUY PRICE: 12.17
+TREND: 99.64
+PURCHASE TREND: 88.58
+FUNDS: 2004.339097
+BUY QUANTITY: 37.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.77
+TOTAL COST: 398.49
+FUNDS AFTER PURCHASE: 2004.339097
+2022-02-25 13:29:20,402 | INFO | ****************************************
+2022-02-25 13:47:27,403 | INFO | Running AlgoBot...
+2022-02-25 13:47:28,633 | INFO | ****************************************
+2022-02-25 13:47:28,633 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 100.38
+PURCHASE TREND: 89.08
+FUNDS: 1605.849097
+2022-02-25 13:47:28,633 | INFO | ****************************************
+2022-02-25 13:48:10,604 | INFO | Running AlgoBot...
+2022-02-25 13:48:12,507 | INFO | ****************************************
+2022-02-25 13:48:12,508 | INFO | 
+CURRENT PRICE: 10.84
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXDGXKSKDQCTNM5
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.08
+FUNDS: 2004.339097
+2022-02-25 13:48:12,508 | INFO | ****************************************
+2022-02-25 13:51:16,417 | INFO | ****************************************
+2022-02-25 13:51:16,418 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.08
+FUNDS: 2004.339097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 13:51:16,418 | INFO | ****************************************
+2022-02-25 13:54:21,577 | INFO | ****************************************
+2022-02-25 13:54:21,577 | INFO | 
+CURRENT PRICE: 10.82
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 88.91
+FUNDS: 2004.339097
+BUY QUANTITY: 37.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.81
+TOTAL COST: 399.97
+FUNDS AFTER PURCHASE: 2004.339097
+2022-02-25 13:54:21,577 | INFO | ****************************************
+2022-02-25 13:57:30,842 | INFO | ****************************************
+2022-02-25 13:57:30,842 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 89.08
+FUNDS: 1604.369097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 13:57:30,842 | INFO | ****************************************
+2022-02-25 14:00:34,325 | INFO | ****************************************
+2022-02-25 14:00:34,326 | INFO | 
+CURRENT PRICE: 10.84
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.08
+FUNDS: 1604.369097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 14:00:34,326 | INFO | ****************************************
+2022-02-25 14:03:38,075 | INFO | ****************************************
+2022-02-25 14:03:38,075 | INFO | 
+CURRENT PRICE: 10.92
+AVERAGE BUY PRICE: 12.17
+TREND: 100.74
+PURCHASE TREND: 89.73
+FUNDS: 1604.369097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 14:03:38,075 | INFO | ****************************************
+2022-02-25 14:06:41,888 | INFO | ****************************************
+2022-02-25 14:06:41,888 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 89.9
+FUNDS: 1604.369097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 14:06:41,888 | INFO | ****************************************
+2022-02-25 14:09:45,947 | INFO | ****************************************
+2022-02-25 14:09:45,948 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 12.17
+TREND: 100.46
+PURCHASE TREND: 90.31
+FUNDS: 1604.369097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 14:09:45,948 | INFO | ****************************************
+2022-02-25 14:12:54,756 | INFO | Running AlgoBot...
+2022-02-25 14:12:56,336 | INFO | ****************************************
+2022-02-25 14:12:56,336 | INFO | 
+CURRENT PRICE: 11.03
+AVERAGE BUY PRICE: 12.17
+TREND: 100.37
+PURCHASE TREND: 90.64
+FUNDS: 1604.369097
+BUY QUANTITY: 29.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 14:12:56,336 | INFO | ****************************************
+2022-02-25 14:13:44,572 | INFO | Running AlgoBot...
+2022-02-25 14:13:47,050 | INFO | ****************************************
+2022-02-25 14:13:47,050 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 11.93
+TREND: 99.91
+PURCHASE TREND: 92.38
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:13:47,050 | INFO | ****************************************
+2022-02-25 14:16:51,179 | INFO | ****************************************
+2022-02-25 14:16:51,179 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.93
+TREND: 99.91
+PURCHASE TREND: 92.29
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:16:51,179 | INFO | ****************************************
+2022-02-25 14:19:55,323 | INFO | ****************************************
+2022-02-25 14:19:55,323 | INFO | 
+CURRENT PRICE: 10.97
+AVERAGE BUY PRICE: 11.93
+TREND: 99.64
+PURCHASE TREND: 91.96
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:19:55,323 | INFO | ****************************************
+2022-02-25 14:22:59,846 | INFO | ****************************************
+2022-02-25 14:22:59,846 | INFO | 
+CURRENT PRICE: 10.97
+AVERAGE BUY PRICE: 11.93
+TREND: 100.0
+PURCHASE TREND: 91.96
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:22:59,846 | INFO | ****************************************
+2022-02-25 14:26:05,008 | INFO | ****************************************
+2022-02-25 14:26:05,008 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.93
+TREND: 99.82
+PURCHASE TREND: 91.79
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:26:05,008 | INFO | ****************************************
+2022-02-25 14:29:09,300 | INFO | ****************************************
+2022-02-25 14:29:09,300 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 11.93
+TREND: 99.91
+PURCHASE TREND: 91.71
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:29:09,300 | INFO | ****************************************
+2022-02-25 14:32:14,210 | INFO | ****************************************
+2022-02-25 14:32:14,210 | INFO | 
+CURRENT PRICE: 10.96
+AVERAGE BUY PRICE: 11.93
+TREND: 100.19
+PURCHASE TREND: 91.87
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:32:14,210 | INFO | ****************************************
+2022-02-25 14:35:18,953 | INFO | ****************************************
+2022-02-25 14:35:18,953 | INFO | 
+CURRENT PRICE: 10.9
+AVERAGE BUY PRICE: 11.93
+TREND: 99.46
+PURCHASE TREND: 91.37
+FUNDS: 1604.369097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:35:18,953 | INFO | ****************************************
+2022-02-25 14:38:22,670 | INFO | ****************************************
+2022-02-25 14:38:22,670 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 11.93
+TREND: 100.37
+PURCHASE TREND: 91.71
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:38:22,670 | INFO | ****************************************
+2022-02-25 14:41:27,199 | INFO | ****************************************
+2022-02-25 14:41:27,200 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.93
+TREND: 100.1
+PURCHASE TREND: 91.79
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:41:27,200 | INFO | ****************************************
+2022-02-25 14:44:31,621 | INFO | ****************************************
+2022-02-25 14:44:31,621 | INFO | 
+CURRENT PRICE: 10.93
+AVERAGE BUY PRICE: 11.93
+TREND: 99.82
+PURCHASE TREND: 91.62
+FUNDS: 1604.369097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:44:31,621 | INFO | ****************************************
+2022-02-25 14:47:35,936 | INFO | ****************************************
+2022-02-25 14:47:35,936 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.93
+TREND: 100.19
+PURCHASE TREND: 91.79
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:47:35,936 | INFO | ****************************************
+2022-02-25 14:50:15,698 | INFO | Running AlgoBot...
+2022-02-25 14:50:16,916 | INFO | ****************************************
+2022-02-25 14:50:16,916 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 11.93
+TREND: 99.91
+PURCHASE TREND: 91.71
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 14:50:16,916 | INFO | ****************************************
+2022-02-25 14:54:34,860 | INFO | Running AlgoBot...
+2022-02-25 14:54:37,034 | INFO | ****************************************
+2022-02-25 14:54:37,035 | INFO | 
+CURRENT PRICE: 11.07
+AVERAGE BUY PRICE: 11.93
+TREND: 101.19
+PURCHASE TREND: 92.8
+FUNDS: 1604.369097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.75 - 12.23
+SELL PRICE: 10.83
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXKVF3SSPWGXKS4', 'creation_timestamp': 1645793676787, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.06000000', 'limit_volume': '37.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 14:54:37,035 | INFO | ****************************************
+2022-02-25 14:57:41,192 | INFO | ****************************************
+2022-02-25 14:57:41,192 | INFO | 
+CURRENT PRICE: 11.08
+AVERAGE BUY PRICE: 12.17
+TREND: 100.1
+PURCHASE TREND: 91.05
+FUNDS: 2013.589097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 14:57:41,192 | INFO | ****************************************
+2022-02-25 15:00:44,991 | INFO | ****************************************
+2022-02-25 15:00:44,991 | INFO | 
+CURRENT PRICE: 11.04
+AVERAGE BUY PRICE: 12.17
+TREND: 99.64
+PURCHASE TREND: 90.72
+FUNDS: 2013.589097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.03
+TOTAL COST: 397.08
+FUNDS AFTER PURCHASE: 2013.589097
+2022-02-25 15:00:44,991 | INFO | ****************************************
+2022-02-25 15:03:51,210 | INFO | ****************************************
+2022-02-25 15:03:51,211 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 11.97
+TREND: 99.64
+PURCHASE TREND: 91.9
+FUNDS: 1616.509097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.97 - 12.23
+SELL PRICE: 11.05
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXCH9MDBKWB8UXW', 'creation_timestamp': 1645794230931, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.05000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 15:03:51,211 | INFO | ****************************************
+2022-02-25 15:07:00,368 | INFO | ****************************************
+2022-02-25 15:07:00,368 | INFO | 
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 12.17
+TREND: 100.55
+PURCHASE TREND: 90.88
+FUNDS: 2014.309097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 15:07:00,369 | INFO | ****************************************
+2022-02-25 15:10:05,093 | INFO | ****************************************
+2022-02-25 15:10:05,093 | INFO | 
+CURRENT PRICE: 11.04
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 90.72
+FUNDS: 2014.309097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.03
+TOTAL COST: 397.08
+FUNDS AFTER PURCHASE: 2014.309097
+2022-02-25 15:10:05,093 | INFO | ****************************************
+2022-02-25 15:13:13,976 | INFO | ****************************************
+2022-02-25 15:13:13,976 | INFO | 
+CURRENT PRICE: 11.04
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 90.72
+FUNDS: 1617.2290970000001
+2022-02-25 15:13:13,976 | INFO | ****************************************
+2022-02-25 15:16:18,089 | INFO | ****************************************
+2022-02-25 15:16:18,089 | INFO | 
+CURRENT PRICE: 11.03
+AVERAGE BUY PRICE: 11.97
+TREND: 99.91
+PURCHASE TREND: 92.15
+FUNDS: 1617.229097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 10.97 - 12.23
+SELL PRICE: 11.05
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXKJAZJPD6QEFPD', 'creation_timestamp': 1645794977786, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.05000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 15:16:18,089 | INFO | ****************************************
+2022-02-25 15:19:28,330 | INFO | ****************************************
+2022-02-25 15:19:28,331 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.97
+TREND: 99.82
+PURCHASE TREND: 91.98
+FUNDS: 1617.229097
+2022-02-25 15:19:28,331 | INFO | ****************************************
+2022-02-25 15:22:48,317 | INFO | ****************************************
+2022-02-25 15:22:48,317 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 11.97
+TREND: 100.1
+PURCHASE TREND: 92.07
+FUNDS: 1617.229097
+2022-02-25 15:22:48,317 | INFO | ****************************************
+2022-02-25 15:26:01,000 | INFO | ****************************************
+2022-02-25 15:26:01,001 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 11.97
+TREND: 100.0
+PURCHASE TREND: 92.07
+FUNDS: 1816.129097
+2022-02-25 15:26:01,001 | INFO | ****************************************
+2022-02-25 15:29:10,069 | INFO | ****************************************
+2022-02-25 15:29:10,069 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 12.17
+TREND: 99.82
+PURCHASE TREND: 90.39
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.99
+TOTAL COST: 395.64
+FUNDS AFTER PURCHASE: 2015.029097
+2022-02-25 15:29:10,069 | INFO | ****************************************
+2022-02-25 15:32:20,429 | INFO | ****************************************
+2022-02-25 15:32:20,429 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 90.56
+FUNDS: 1619.3890970000002
+2022-02-25 15:32:20,429 | INFO | ****************************************
+2022-02-25 15:40:26,883 | INFO | ****************************************
+2022-02-25 15:40:26,883 | INFO | 
+CURRENT PRICE: 11.11
+AVERAGE BUY PRICE: 12.17
+TREND: 100.82
+PURCHASE TREND: 91.3
+FUNDS: 1619.3890970000002
+2022-02-25 15:40:26,883 | INFO | ****************************************
+2022-02-25 15:43:37,992 | INFO | ****************************************
+2022-02-25 15:43:37,992 | INFO | 
+CURRENT PRICE: 11.13
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 91.46
+FUNDS: 1619.3890970000002
+2022-02-25 15:43:37,992 | INFO | ****************************************
+2022-02-25 15:46:50,624 | INFO | ****************************************
+2022-02-25 15:46:50,624 | INFO | 
+CURRENT PRICE: 11.08
+AVERAGE BUY PRICE: 12.17
+TREND: 99.56
+PURCHASE TREND: 91.05
+FUNDS: 1619.3890970000002
+2022-02-25 15:46:50,624 | INFO | ****************************************
+2022-02-25 15:50:02,374 | INFO | ****************************************
+2022-02-25 15:50:02,374 | INFO | 
+CURRENT PRICE: 11.05
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXDWM8NBXZRA4QN
+AVERAGE BUY PRICE: 12.17
+TREND: 99.73
+PURCHASE TREND: 90.8
+FUNDS: 2015.029097
+2022-02-25 15:50:02,375 | INFO | ****************************************
+2022-02-25 15:53:06,340 | INFO | ****************************************
+2022-02-25 15:53:06,340 | INFO | 
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 12.17
+TREND: 100.1
+PURCHASE TREND: 90.88
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 15:53:06,340 | INFO | ****************************************
+2022-02-25 15:56:10,527 | INFO | ****************************************
+2022-02-25 15:56:10,528 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 12.17
+TREND: 99.46
+PURCHASE TREND: 90.39
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 15:56:10,528 | INFO | ****************************************
+2022-02-25 15:59:13,910 | INFO | ****************************************
+2022-02-25 15:59:13,910 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 12.17
+TREND: 100.1
+PURCHASE TREND: 90.47
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 15:59:13,910 | INFO | ****************************************
+2022-02-25 16:02:18,148 | INFO | ****************************************
+2022-02-25 16:02:18,148 | INFO | 
+CURRENT PRICE: 10.96
+AVERAGE BUY PRICE: 12.17
+TREND: 99.55
+PURCHASE TREND: 90.06
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 16:02:18,148 | INFO | ****************************************
+2022-02-25 16:05:22,312 | INFO | ****************************************
+2022-02-25 16:05:22,312 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 90.23
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 16:05:22,312 | INFO | ****************************************
+2022-02-25 16:08:26,955 | INFO | ****************************************
+2022-02-25 16:08:26,956 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 90.23
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 16:08:26,956 | INFO | ****************************************
+2022-02-25 16:11:31,157 | INFO | ****************************************
+2022-02-25 16:11:31,158 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 90.23
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 16:11:31,158 | INFO | ****************************************
+2022-02-25 16:21:40,520 | INFO | ****************************************
+2022-02-25 16:21:40,520 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 12.17
+TREND: 99.64
+PURCHASE TREND: 89.9
+FUNDS: 2015.029097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.93
+TOTAL COST: 393.48
+FUNDS AFTER PURCHASE: 2015.029097
+2022-02-25 16:21:40,521 | INFO | ****************************************
+2022-02-25 16:24:49,023 | INFO | ****************************************
+2022-02-25 16:24:49,023 | INFO | 
+CURRENT PRICE: 10.97
+AVERAGE BUY PRICE: 12.17
+TREND: 100.28
+PURCHASE TREND: 90.14
+FUNDS: 1621.549097
+2022-02-25 16:24:49,024 | INFO | ****************************************
+2022-02-25 16:27:58,754 | INFO | ****************************************
+2022-02-25 16:27:58,754 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 12.17
+TREND: 100.1
+PURCHASE TREND: 90.23
+FUNDS: 1621.549097
+2022-02-25 16:27:58,754 | INFO | ****************************************
+2022-02-25 16:31:09,445 | INFO | ****************************************
+2022-02-25 16:31:09,445 | INFO | 
+CURRENT PRICE: 10.97
+AVERAGE BUY PRICE: 12.17
+TREND: 99.91
+PURCHASE TREND: 90.14
+FUNDS: 1621.549097
+2022-02-25 16:31:09,445 | INFO | ****************************************
+2022-02-25 16:34:15,388 | INFO | ****************************************
+2022-02-25 16:34:15,388 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 11.96
+TREND: 100.28
+PURCHASE TREND: 91.98
+FUNDS: 1621.549097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.87 - 12.23
+SELL PRICE: 10.95
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 16:34:15,388 | INFO | ****************************************
+2022-02-25 16:38:18,927 | INFO | ****************************************
+2022-02-25 16:38:18,928 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.96
+TREND: 100.1
+PURCHASE TREND: 92.06
+FUNDS: 1621.549097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.87 - 12.23
+SELL PRICE: 10.95
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXJCBSGC93ZJGZC', 'creation_timestamp': 1645799898017, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.00000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 16:38:18,928 | INFO | ****************************************
+2022-02-25 16:41:24,320 | INFO | ****************************************
+2022-02-25 16:41:24,320 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 12.17
+TREND: 99.91
+PURCHASE TREND: 90.39
+FUNDS: 2017.549097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.99
+TOTAL COST: 395.64
+FUNDS AFTER PURCHASE: 2017.549097
+2022-02-25 16:41:24,320 | INFO | ****************************************
+2022-02-25 16:44:31,888 | INFO | ****************************************
+2022-02-25 16:44:31,889 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 11.97
+TREND: 99.82
+PURCHASE TREND: 91.73
+FUNDS: 1621.909097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.93 - 12.23
+SELL PRICE: 11.01
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXKBPMDKBV8D22C', 'creation_timestamp': 1645800271528, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.01000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 16:44:31,889 | INFO | ****************************************
+2022-02-25 16:47:41,412 | INFO | ****************************************
+2022-02-25 16:47:41,412 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.97
+TREND: 100.28
+PURCHASE TREND: 91.98
+FUNDS: 1687.969097
+2022-02-25 16:47:41,412 | INFO | ****************************************
+2022-02-25 16:50:48,125 | INFO | ****************************************
+2022-02-25 16:50:48,126 | INFO | 
+CURRENT PRICE: 11.03
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 90.64
+FUNDS: 2018.269097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 16:50:48,126 | INFO | ****************************************
+2022-02-25 17:01:58,173 | INFO | ****************************************
+2022-02-25 17:01:58,174 | INFO | 
+CURRENT PRICE: 10.89
+AVERAGE BUY PRICE: 12.17
+TREND: 98.74
+PURCHASE TREND: 89.49
+FUNDS: 2018.269097
+BUY QUANTITY: 37.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:01:58,174 | INFO | ****************************************
+2022-02-25 17:05:03,435 | INFO | ****************************************
+2022-02-25 17:05:03,435 | INFO | 
+CURRENT PRICE: 10.88
+AVERAGE BUY PRICE: 12.17
+TREND: 99.91
+PURCHASE TREND: 89.41
+FUNDS: 2018.269097
+BUY QUANTITY: 37.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.87
+TOTAL COST: 402.19
+FUNDS AFTER PURCHASE: 2018.269097
+2022-02-25 17:05:03,435 | INFO | ****************************************
+2022-02-25 17:08:12,359 | INFO | ****************************************
+2022-02-25 17:08:12,359 | INFO | 
+CURRENT PRICE: 10.89
+AVERAGE BUY PRICE: 11.94
+TREND: 100.1
+PURCHASE TREND: 91.21
+FUNDS: 1616.079097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.81 - 12.23
+SELL PRICE: 10.89
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 17:08:12,360 | INFO | ****************************************
+2022-02-25 17:11:18,439 | INFO | ****************************************
+2022-02-25 17:11:18,439 | INFO | 
+CURRENT PRICE: 10.93
+AVERAGE BUY PRICE: 11.94
+TREND: 100.37
+PURCHASE TREND: 91.55
+FUNDS: 1616.079097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.81 - 12.23
+SELL PRICE: 10.89
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-25 17:11:18,439 | INFO | ****************************************
+2022-02-25 17:14:24,030 | INFO | ****************************************
+2022-02-25 17:14:24,030 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 11.94
+TREND: 100.1
+PURCHASE TREND: 91.63
+FUNDS: 1616.079097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.81 - 12.23
+SELL PRICE: 10.89
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXJF7DPAED6R3NM', 'creation_timestamp': 1645802063581, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.93000000', 'limit_volume': '37.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 17:14:24,030 | INFO | ****************************************
+2022-02-25 17:17:30,964 | INFO | ****************************************
+2022-02-25 17:17:30,965 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 89.9
+FUNDS: 2020.489097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:17:30,965 | INFO | ****************************************
+2022-02-25 17:21:10,988 | INFO | ****************************************
+2022-02-25 17:21:10,989 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 12.17
+TREND: 100.37
+PURCHASE TREND: 90.23
+FUNDS: 2020.489097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:21:10,989 | INFO | ****************************************
+2022-02-25 17:24:15,583 | INFO | ****************************************
+2022-02-25 17:24:15,584 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 90.39
+FUNDS: 2020.489097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:24:15,584 | INFO | ****************************************
+2022-02-25 17:27:20,439 | INFO | ****************************************
+2022-02-25 17:27:20,439 | INFO | 
+CURRENT PRICE: 11.03
+AVERAGE BUY PRICE: 12.17
+TREND: 100.28
+PURCHASE TREND: 90.64
+FUNDS: 2020.489097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:27:20,439 | INFO | ****************************************
+2022-02-25 17:30:25,639 | INFO | ****************************************
+2022-02-25 17:30:25,639 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 12.17
+TREND: 99.73
+PURCHASE TREND: 90.39
+FUNDS: 2020.489097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.99
+TOTAL COST: 395.64
+FUNDS AFTER PURCHASE: 2020.489097
+2022-02-25 17:30:25,639 | INFO | ****************************************
+2022-02-25 17:33:37,014 | INFO | ****************************************
+2022-02-25 17:33:37,014 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.97
+TREND: 99.91
+PURCHASE TREND: 91.82
+FUNDS: 1624.849097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 10.93 - 12.23
+SELL PRICE: 11.01
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXPP33JKW4QVXD', 'creation_timestamp': 1645803216648, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.01000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 17:33:37,014 | INFO | ****************************************
+2022-02-25 17:36:47,480 | INFO | ****************************************
+2022-02-25 17:36:47,480 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.97
+TREND: 100.0
+PURCHASE TREND: 91.82
+FUNDS: 1624.849097
+2022-02-25 17:36:47,480 | INFO | ****************************************
+2022-02-25 17:39:59,493 | INFO | ****************************************
+2022-02-25 17:39:59,493 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 11.97
+TREND: 99.91
+PURCHASE TREND: 91.73
+FUNDS: 1624.849097
+2022-02-25 17:39:59,493 | INFO | ****************************************
+2022-02-25 17:43:10,836 | INFO | ****************************************
+2022-02-25 17:43:10,836 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 11.97
+TREND: 100.0
+PURCHASE TREND: 91.73
+FUNDS: 1624.849097
+2022-02-25 17:43:10,837 | INFO | ****************************************
+2022-02-25 17:46:22,030 | INFO | ****************************************
+2022-02-25 17:46:22,031 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.97
+TREND: 100.1
+PURCHASE TREND: 91.82
+FUNDS: 1624.849097
+2022-02-25 17:46:22,031 | INFO | ****************************************
+2022-02-25 17:49:29,612 | INFO | ****************************************
+2022-02-25 17:49:29,612 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 12.17
+TREND: 100.19
+PURCHASE TREND: 90.47
+FUNDS: 2021.209097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:49:29,612 | INFO | ****************************************
+2022-02-25 17:52:34,291 | INFO | ****************************************
+2022-02-25 17:52:34,291 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 90.47
+FUNDS: 2021.209097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:52:34,291 | INFO | ****************************************
+2022-02-25 17:55:39,326 | INFO | ****************************************
+2022-02-25 17:55:39,326 | INFO | 
+CURRENT PRICE: 11.04
+AVERAGE BUY PRICE: 12.17
+TREND: 100.28
+PURCHASE TREND: 90.72
+FUNDS: 2021.209097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 17:55:39,326 | INFO | ****************************************
+2022-02-25 18:02:17,748 | INFO | ****************************************
+2022-02-25 18:02:17,750 | INFO | 
+CURRENT PRICE: 11.07
+AVERAGE BUY PRICE: 12.17
+TREND: 100.28
+PURCHASE TREND: 90.97
+FUNDS: 2021.209097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 18:02:17,750 | INFO | ****************************************
+2022-02-25 18:05:21,513 | INFO | ****************************************
+2022-02-25 18:05:21,513 | INFO | 
+CURRENT PRICE: 11.12
+AVERAGE BUY PRICE: 12.17
+TREND: 100.46
+PURCHASE TREND: 91.38
+FUNDS: 2021.209097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 18:05:21,513 | INFO | ****************************************
+2022-02-25 18:08:26,842 | INFO | ****************************************
+2022-02-25 18:08:26,843 | INFO | 
+CURRENT PRICE: 11.1
+AVERAGE BUY PRICE: 12.17
+TREND: 99.83
+PURCHASE TREND: 91.21
+FUNDS: 2021.209097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.09
+TOTAL COST: 399.24
+FUNDS AFTER PURCHASE: 2021.209097
+2022-02-25 18:08:26,843 | INFO | ****************************************
+2022-02-25 18:11:39,354 | INFO | ****************************************
+2022-02-25 18:11:39,355 | INFO | 
+CURRENT PRICE: 11.1
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 91.21
+FUNDS: 1621.969097
+2022-02-25 18:11:39,355 | INFO | ****************************************
+2022-02-25 18:14:51,446 | INFO | ****************************************
+2022-02-25 18:14:51,446 | INFO | 
+CURRENT PRICE: 11.09
+AVERAGE BUY PRICE: 11.98
+TREND: 99.91
+PURCHASE TREND: 92.58
+FUNDS: 1621.969097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+SELL PRICE: 11.11
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXMSDHHCZ4X62SW', 'creation_timestamp': 1645805691197, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.11000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 18:14:51,447 | INFO | ****************************************
+2022-02-25 18:22:43,369 | INFO | ****************************************
+2022-02-25 18:22:43,370 | INFO | 
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 11.98
+TREND: 99.73
+PURCHASE TREND: 92.33
+FUNDS: 1621.969097
+2022-02-25 18:22:43,371 | INFO | ****************************************
+2022-02-25 18:25:54,112 | INFO | ****************************************
+2022-02-25 18:25:54,112 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.98
+TREND: 99.55
+PURCHASE TREND: 91.91
+FUNDS: 1621.969097
+2022-02-25 18:25:54,112 | INFO | ****************************************
+2022-02-25 18:29:04,245 | INFO | ****************************************
+2022-02-25 18:29:04,246 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 91.91
+FUNDS: 1621.969097
+2022-02-25 18:29:04,246 | INFO | ****************************************
+2022-02-25 18:32:16,033 | INFO | ****************************************
+2022-02-25 18:32:16,034 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.98
+TREND: 99.82
+PURCHASE TREND: 91.74
+FUNDS: 1621.969097
+2022-02-25 18:32:16,034 | INFO | ****************************************
+2022-02-25 18:35:29,278 | INFO | ****************************************
+2022-02-25 18:35:29,278 | INFO | 
+CURRENT PRICE: 11.03
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXMSDHHCZ4X62SW
+AVERAGE BUY PRICE: 11.98
+TREND: 100.37
+PURCHASE TREND: 92.08
+FUNDS: 1621.969097
+2022-02-25 18:35:29,278 | INFO | ****************************************
+2022-02-25 18:43:49,387 | INFO | ****************************************
+2022-02-25 18:43:49,388 | INFO | 
+CURRENT PRICE: 11.03
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 92.08
+FUNDS: 1621.969097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+SELL PRICE: 11.11
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXJSJZD94DRFR8U', 'creation_timestamp': 1645807428925, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.11000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 18:43:49,388 | INFO | ****************************************
+2022-02-25 18:46:59,974 | INFO | ****************************************
+2022-02-25 18:46:59,974 | INFO | 
+CURRENT PRICE: 11.03
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 92.08
+FUNDS: 1621.969097
+2022-02-25 18:46:59,974 | INFO | ****************************************
+2022-02-25 18:50:08,424 | INFO | ****************************************
+2022-02-25 18:50:08,424 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 11.98
+TREND: 99.91
+PURCHASE TREND: 91.99
+FUNDS: 1621.969097
+2022-02-25 18:50:08,424 | INFO | ****************************************
+2022-02-25 18:53:20,460 | INFO | ****************************************
+2022-02-25 18:53:20,460 | INFO | 
+CURRENT PRICE: 11.05
+AVERAGE BUY PRICE: 11.98
+TREND: 100.28
+PURCHASE TREND: 92.24
+FUNDS: 1621.969097
+2022-02-25 18:53:20,460 | INFO | ****************************************
+2022-02-25 18:56:31,706 | INFO | ****************************************
+2022-02-25 18:56:31,706 | INFO | 
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 11.98
+TREND: 100.1
+PURCHASE TREND: 92.33
+FUNDS: 1621.969097
+2022-02-25 18:56:31,706 | INFO | ****************************************
+2022-02-25 18:59:43,237 | INFO | ****************************************
+2022-02-25 18:59:43,238 | INFO | 
+CURRENT PRICE: 11.07
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXJSJZD94DRFR8U
+AVERAGE BUY PRICE: 11.98
+TREND: 100.1
+PURCHASE TREND: 92.41
+FUNDS: 1621.969097
+2022-02-25 18:59:43,238 | INFO | ****************************************
+2022-02-25 19:02:50,173 | INFO | ****************************************
+2022-02-25 19:02:50,173 | INFO | 
+CURRENT PRICE: 11.08
+AVERAGE BUY PRICE: 11.98
+TREND: 100.1
+PURCHASE TREND: 92.49
+FUNDS: 1621.969097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+SELL PRICE: 11.11
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXNNX4BTS8YCNY7', 'creation_timestamp': 1645808570056, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.11000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 19:02:50,174 | INFO | ****************************************
+2022-02-25 19:06:00,574 | INFO | ****************************************
+2022-02-25 19:06:00,574 | INFO | 
+CURRENT PRICE: 11.05
+AVERAGE BUY PRICE: 11.98
+TREND: 99.73
+PURCHASE TREND: 92.24
+FUNDS: 1621.969097
+2022-02-25 19:06:00,575 | INFO | ****************************************
+2022-02-25 19:09:12,008 | INFO | ****************************************
+2022-02-25 19:09:12,008 | INFO | 
+CURRENT PRICE: 11.04
+AVERAGE BUY PRICE: 11.98
+TREND: 99.91
+PURCHASE TREND: 92.16
+FUNDS: 1621.969097
+2022-02-25 19:09:12,008 | INFO | ****************************************
+2022-02-25 19:13:42,656 | INFO | ****************************************
+2022-02-25 19:13:42,657 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.98
+TREND: 99.73
+PURCHASE TREND: 91.91
+FUNDS: 1621.969097
+2022-02-25 19:13:42,657 | INFO | ****************************************
+2022-02-25 19:16:56,487 | INFO | ****************************************
+2022-02-25 19:16:56,487 | INFO | 
+CURRENT PRICE: 10.96
+AVERAGE BUY PRICE: 11.98
+TREND: 99.55
+PURCHASE TREND: 91.49
+FUNDS: 1621.969097
+2022-02-25 19:16:56,487 | INFO | ****************************************
+2022-02-25 19:20:08,859 | INFO | ****************************************
+2022-02-25 19:20:08,860 | INFO | 
+CURRENT PRICE: 11.02
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXNNX4BTS8YCNY7
+AVERAGE BUY PRICE: 11.98
+TREND: 100.55
+PURCHASE TREND: 91.99
+FUNDS: 1621.969097
+2022-02-25 19:20:08,860 | INFO | ****************************************
+2022-02-25 19:23:14,550 | INFO | ****************************************
+2022-02-25 19:23:14,550 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 11.98
+TREND: 99.64
+PURCHASE TREND: 91.66
+FUNDS: 1621.969097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.97
+TOTAL COST: 482.68
+FUNDS AFTER PURCHASE: 1621.969097
+2022-02-25 19:23:14,550 | INFO | ****************************************
+2022-02-25 19:26:24,774 | INFO | ****************************************
+2022-02-25 19:26:24,774 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 91.66
+FUNDS: 1139.2890969999999
+2022-02-25 19:26:24,774 | INFO | ****************************************
+2022-02-25 19:29:33,149 | INFO | ****************************************
+2022-02-25 19:29:33,150 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.98
+TREND: 100.1
+PURCHASE TREND: 91.74
+FUNDS: 1139.2890969999999
+2022-02-25 19:29:33,150 | INFO | ****************************************
+2022-02-25 19:32:44,238 | INFO | ****************************************
+2022-02-25 19:32:44,238 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 11.98
+TREND: 100.1
+PURCHASE TREND: 91.82
+FUNDS: 1139.2890969999999
+2022-02-25 19:32:44,238 | INFO | ****************************************
+2022-02-25 19:35:54,307 | INFO | ****************************************
+2022-02-25 19:35:54,307 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.98
+TREND: 99.91
+PURCHASE TREND: 91.74
+FUNDS: 1139.2890969999999
+2022-02-25 19:35:54,307 | INFO | ****************************************
+2022-02-25 19:39:05,715 | INFO | ****************************************
+2022-02-25 19:39:05,715 | INFO | 
+CURRENT PRICE: 10.99
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXMWDBUPRTNENAN
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 91.74
+FUNDS: 1621.969097
+2022-02-25 19:39:05,715 | INFO | ****************************************
+2022-02-25 19:42:10,509 | INFO | ****************************************
+2022-02-25 19:42:10,509 | INFO | 
+CURRENT PRICE: 10.99
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 91.74
+FUNDS: 1621.969097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+2022-02-25 19:42:10,509 | INFO | ****************************************
+2022-02-25 19:45:15,465 | INFO | ****************************************
+2022-02-25 19:45:15,466 | INFO | 
+CURRENT PRICE: 10.98
+AVERAGE BUY PRICE: 11.98
+TREND: 99.91
+PURCHASE TREND: 91.66
+FUNDS: 1621.969097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 10.97
+TOTAL COST: 482.68
+FUNDS AFTER PURCHASE: 1621.969097
+2022-02-25 19:45:15,466 | INFO | ****************************************
+2022-02-25 19:48:23,954 | INFO | ****************************************
+2022-02-25 19:48:23,954 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.81
+TREND: 99.73
+PURCHASE TREND: 92.72
+FUNDS: 1139.289097
+BUY QUANTITY: 41.0
+CAN'T BUY BETWEEN: 10.88 - 12.26
+SELL PRICE: 10.99
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXC2P57HPV6WQNZ', 'creation_timestamp': 1645811303727, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.99000000', 'limit_volume': '44.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 19:48:23,955 | INFO | ****************************************
+2022-02-25 19:51:34,062 | INFO | ****************************************
+2022-02-25 19:51:34,062 | INFO | 
+CURRENT PRICE: 10.92
+AVERAGE BUY PRICE: 11.81
+TREND: 99.73
+PURCHASE TREND: 92.47
+FUNDS: 1139.289097
+2022-02-25 19:51:34,063 | INFO | ****************************************
+2022-02-25 19:54:45,547 | INFO | ****************************************
+2022-02-25 19:54:45,548 | INFO | 
+CURRENT PRICE: 10.92
+AVERAGE BUY PRICE: 11.81
+TREND: 100.0
+PURCHASE TREND: 92.47
+FUNDS: 1139.289097
+2022-02-25 19:54:45,548 | INFO | ****************************************
+2022-02-25 19:57:56,643 | INFO | ****************************************
+2022-02-25 19:57:56,643 | INFO | 
+CURRENT PRICE: 10.93
+AVERAGE BUY PRICE: 11.81
+TREND: 100.1
+PURCHASE TREND: 92.55
+FUNDS: 1139.289097
+2022-02-25 19:57:56,643 | INFO | ****************************************
+2022-02-25 20:01:05,826 | INFO | ****************************************
+2022-02-25 20:01:05,826 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.81
+TREND: 100.19
+PURCHASE TREND: 92.72
+FUNDS: 1139.289097
+2022-02-25 20:01:05,827 | INFO | ****************************************
+2022-02-25 20:04:16,556 | INFO | ****************************************
+2022-02-25 20:04:16,557 | INFO | 
+CURRENT PRICE: 10.9
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXC2P57HPV6WQNZ
+AVERAGE BUY PRICE: 11.81
+TREND: 99.55
+PURCHASE TREND: 92.3
+FUNDS: 1139.289097
+2022-02-25 20:04:16,557 | INFO | ****************************************
+2022-02-25 20:07:21,929 | INFO | ****************************************
+2022-02-25 20:07:21,929 | INFO | 
+CURRENT PRICE: 10.92
+AVERAGE BUY PRICE: 11.81
+TREND: 100.19
+PURCHASE TREND: 92.47
+FUNDS: 1139.289097
+BUY QUANTITY: 41.0
+CAN'T BUY BETWEEN: 10.88 - 12.26
+SELL PRICE: 10.99
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BX5WQWRD6RBK4M', 'creation_timestamp': 1645812441782, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.99000000', 'limit_volume': '44.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 20:07:21,929 | INFO | ****************************************
+2022-02-25 20:10:33,810 | INFO | ****************************************
+2022-02-25 20:10:33,811 | INFO | 
+CURRENT PRICE: 10.87
+AVERAGE BUY PRICE: 11.81
+TREND: 99.55
+PURCHASE TREND: 92.05
+FUNDS: 1139.289097
+2022-02-25 20:10:33,812 | INFO | ****************************************
+2022-02-25 20:13:44,544 | INFO | ****************************************
+2022-02-25 20:13:44,544 | INFO | 
+CURRENT PRICE: 10.89
+AVERAGE BUY PRICE: 11.81
+TREND: 100.19
+PURCHASE TREND: 92.21
+FUNDS: 1139.289097
+2022-02-25 20:13:44,544 | INFO | ****************************************
+2022-02-25 20:16:54,808 | INFO | ****************************************
+2022-02-25 20:16:54,809 | INFO | 
+CURRENT PRICE: 10.86
+AVERAGE BUY PRICE: 11.81
+TREND: 99.73
+PURCHASE TREND: 91.96
+FUNDS: 1139.289097
+2022-02-25 20:16:54,809 | INFO | ****************************************
+2022-02-25 20:20:06,612 | INFO | ****************************************
+2022-02-25 20:20:06,612 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.81
+TREND: 100.83
+PURCHASE TREND: 92.72
+FUNDS: 1139.289097
+2022-02-25 20:20:06,612 | INFO | ****************************************
+2022-02-25 20:24:36,203 | INFO | ****************************************
+2022-02-25 20:24:36,204 | INFO | 
+CURRENT PRICE: 10.9
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BX5WQWRD6RBK4M
+AVERAGE BUY PRICE: 11.81
+TREND: 99.55
+PURCHASE TREND: 92.3
+FUNDS: 1139.289097
+2022-02-25 20:24:36,204 | INFO | ****************************************
+2022-02-25 20:27:41,678 | INFO | ****************************************
+2022-02-25 20:27:41,679 | INFO | 
+CURRENT PRICE: 10.91
+AVERAGE BUY PRICE: 11.81
+TREND: 100.1
+PURCHASE TREND: 92.38
+FUNDS: 1139.289097
+BUY QUANTITY: 41.0
+CAN'T BUY BETWEEN: 10.88 - 12.26
+SELL PRICE: 10.99
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BX29TU5V8ZJ9ES', 'creation_timestamp': 1645813661419, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.99000000', 'limit_volume': '44.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 20:27:41,679 | INFO | ****************************************
+2022-02-25 20:30:53,099 | INFO | ****************************************
+2022-02-25 20:30:53,099 | INFO | 
+CURRENT PRICE: 10.88
+AVERAGE BUY PRICE: 11.81
+TREND: 99.73
+PURCHASE TREND: 92.13
+FUNDS: 1139.289097
+2022-02-25 20:30:53,099 | INFO | ****************************************
+2022-02-25 20:34:05,433 | INFO | ****************************************
+2022-02-25 20:34:05,433 | INFO | 
+CURRENT PRICE: 10.89
+AVERAGE BUY PRICE: 11.81
+TREND: 100.1
+PURCHASE TREND: 92.21
+FUNDS: 1139.289097
+2022-02-25 20:34:05,433 | INFO | ****************************************
+2022-02-25 20:37:15,692 | INFO | ****************************************
+2022-02-25 20:37:15,692 | INFO | 
+CURRENT PRICE: 10.87
+AVERAGE BUY PRICE: 11.81
+TREND: 99.82
+PURCHASE TREND: 92.05
+FUNDS: 1139.289097
+2022-02-25 20:37:15,692 | INFO | ****************************************
+2022-02-25 20:44:18,052 | INFO | ****************************************
+2022-02-25 20:44:18,053 | INFO | 
+CURRENT PRICE: 10.89
+AVERAGE BUY PRICE: 11.81
+TREND: 100.19
+PURCHASE TREND: 92.21
+FUNDS: 1139.289097
+2022-02-25 20:44:18,053 | INFO | ****************************************
+2022-02-25 20:47:28,341 | INFO | ****************************************
+2022-02-25 20:47:28,342 | INFO | 
+CURRENT PRICE: 10.88
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BX29TU5V8ZJ9ES
+AVERAGE BUY PRICE: 11.81
+TREND: 99.91
+PURCHASE TREND: 92.13
+FUNDS: 1139.289097
+2022-02-25 20:47:28,342 | INFO | ****************************************
+2022-02-25 20:50:33,871 | INFO | ****************************************
+2022-02-25 20:50:33,872 | INFO | 
+CURRENT PRICE: 10.95
+AVERAGE BUY PRICE: 11.81
+TREND: 100.65
+PURCHASE TREND: 92.72
+FUNDS: 1139.289097
+BUY QUANTITY: 41.0
+CAN'T BUY BETWEEN: 10.88 - 12.26
+SELL PRICE: 10.99
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXG3QFRW3PSCDG9', 'creation_timestamp': 1645815033513, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '10.99000000', 'limit_volume': '44.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 20:50:33,872 | INFO | ****************************************
+2022-02-25 20:53:45,580 | INFO | ****************************************
+2022-02-25 20:53:45,580 | INFO | 
+CURRENT PRICE: 10.96
+AVERAGE BUY PRICE: 11.81
+TREND: 100.1
+PURCHASE TREND: 92.81
+FUNDS: 1139.289097
+2022-02-25 20:53:45,580 | INFO | ****************************************
+2022-02-25 20:56:52,360 | INFO | ****************************************
+2022-02-25 20:56:52,361 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 11.98
+TREND: 100.55
+PURCHASE TREND: 91.99
+FUNDS: 1622.849097
+BUY QUANTITY: 44.0
+CAN'T BUY BETWEEN: 11.03 - 12.23
+SELL PRICE: 11.11
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXJ3RACM9HX7K34', 'creation_timestamp': 1645815411998, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.11000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 20:56:52,361 | INFO | ****************************************
+2022-02-25 21:00:03,565 | INFO | ****************************************
+2022-02-25 21:00:03,565 | INFO | 
+CURRENT PRICE: 11.02
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 91.99
+FUNDS: 1622.849097
+2022-02-25 21:00:03,565 | INFO | ****************************************
+2022-02-25 21:03:16,170 | INFO | ****************************************
+2022-02-25 21:03:16,171 | INFO | 
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.98
+TREND: 99.91
+PURCHASE TREND: 91.91
+FUNDS: 1622.849097
+2022-02-25 21:03:16,171 | INFO | ****************************************
+2022-02-25 21:06:27,091 | INFO | ****************************************
+2022-02-25 21:06:27,091 | INFO | 
+CURRENT PRICE: 10.94
+AVERAGE BUY PRICE: 11.98
+TREND: 99.37
+PURCHASE TREND: 91.32
+FUNDS: 1622.849097
+2022-02-25 21:06:27,091 | INFO | ****************************************
+2022-02-25 21:09:39,546 | INFO | ****************************************
+2022-02-25 21:09:39,547 | INFO | 
+CURRENT PRICE: 11.0
+AVERAGE BUY PRICE: 11.98
+TREND: 100.55
+PURCHASE TREND: 91.82
+FUNDS: 1622.849097
+2022-02-25 21:09:39,547 | INFO | ****************************************
+2022-02-25 21:12:48,386 | INFO | ****************************************
+2022-02-25 21:12:48,386 | INFO | 
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 12.17
+TREND: 102.46
+PURCHASE TREND: 92.61
+FUNDS: 2022.809097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:12:48,386 | INFO | ****************************************
+2022-02-25 21:15:52,556 | INFO | ****************************************
+2022-02-25 21:15:52,556 | INFO | 
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 12.17
+TREND: 99.12
+PURCHASE TREND: 91.79
+FUNDS: 2022.809097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:15:52,556 | INFO | ****************************************
+2022-02-25 21:18:56,965 | INFO | ****************************************
+2022-02-25 21:18:56,966 | INFO | 
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 91.79
+FUNDS: 2022.809097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:18:56,966 | INFO | ****************************************
+2022-02-25 21:22:01,561 | INFO | ****************************************
+2022-02-25 21:22:01,562 | INFO | 
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 12.17
+TREND: 100.45
+PURCHASE TREND: 92.2
+FUNDS: 2022.809097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:22:01,562 | INFO | ****************************************
+2022-02-25 21:25:06,626 | INFO | ****************************************
+2022-02-25 21:25:06,626 | INFO | 
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 12.17
+TREND: 100.36
+PURCHASE TREND: 92.53
+FUNDS: 2022.809097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:25:06,626 | INFO | ****************************************
+2022-02-25 21:28:10,772 | INFO | ****************************************
+2022-02-25 21:28:10,773 | INFO | 
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 12.17
+TREND: 99.29
+PURCHASE TREND: 91.87
+FUNDS: 2022.809097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:28:10,773 | INFO | ****************************************
+2022-02-25 21:31:15,192 | INFO | ****************************************
+2022-02-25 21:31:15,192 | INFO | 
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 91.87
+FUNDS: 2022.809097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:31:15,192 | INFO | ****************************************
+2022-02-25 21:34:20,476 | INFO | ****************************************
+2022-02-25 21:34:20,476 | INFO | 
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 12.17
+TREND: 99.92
+PURCHASE TREND: 91.79
+FUNDS: 2022.809097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.16
+TOTAL COST: 401.76
+FUNDS AFTER PURCHASE: 2022.809097
+2022-02-25 21:34:20,476 | INFO | ****************************************
+2022-02-25 21:37:26,571 | INFO | ****************************************
+2022-02-25 21:37:26,571 | INFO | 
+CURRENT PRICE: 11.14
+AVERAGE BUY PRICE: 11.99
+TREND: 99.74
+PURCHASE TREND: 92.92
+FUNDS: 1621.049097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 11.1 - 12.23
+SELL PRICE: 11.18
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXH4W7GNHP2ZGA4', 'creation_timestamp': 1645817846313, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.18000000', 'limit_volume': '36.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 21:37:26,571 | INFO | ****************************************
+2022-02-25 21:40:36,749 | INFO | ****************************************
+2022-02-25 21:40:36,750 | INFO | 
+CURRENT PRICE: 11.14
+AVERAGE BUY PRICE: 11.99
+TREND: 100.0
+PURCHASE TREND: 92.92
+FUNDS: 1621.049097
+2022-02-25 21:40:36,750 | INFO | ****************************************
+2022-02-25 21:43:45,012 | INFO | ****************************************
+2022-02-25 21:43:45,013 | INFO | 
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 12.17
+TREND: 100.45
+PURCHASE TREND: 91.95
+FUNDS: 2023.529097
+BUY QUANTITY: 36.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:43:45,013 | INFO | ****************************************
+2022-02-25 21:46:49,889 | INFO | ****************************************
+2022-02-25 21:46:49,889 | INFO | 
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 12.17
+TREND: 100.72
+PURCHASE TREND: 92.61
+FUNDS: 2023.529097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:46:49,889 | INFO | ****************************************
+2022-02-25 21:49:54,747 | INFO | ****************************************
+2022-02-25 21:49:54,747 | INFO | 
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 12.17
+TREND: 101.16
+PURCHASE TREND: 93.68
+FUNDS: 2023.529097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:49:54,747 | INFO | ****************************************
+2022-02-25 21:52:59,114 | INFO | ****************************************
+2022-02-25 21:52:59,114 | INFO | 
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 12.17
+TREND: 99.48
+PURCHASE TREND: 93.18
+FUNDS: 2023.529097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:52:59,114 | INFO | ****************************************
+2022-02-25 21:56:03,567 | INFO | ****************************************
+2022-02-25 21:56:03,568 | INFO | 
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 12.17
+TREND: 100.09
+PURCHASE TREND: 93.27
+FUNDS: 2023.529097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 21:56:03,568 | INFO | ****************************************
+2022-02-25 21:59:08,419 | INFO | ****************************************
+2022-02-25 21:59:08,420 | INFO | 
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 12.17
+TREND: 99.65
+PURCHASE TREND: 92.94
+FUNDS: 2023.529097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.3
+TOTAL COST: 395.5
+FUNDS AFTER PURCHASE: 2023.529097
+2022-02-25 21:59:08,420 | INFO | ****************************************
+2022-02-25 22:02:15,213 | INFO | ****************************************
+2022-02-25 22:02:15,213 | INFO | 
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 12.02
+TREND: 99.83
+PURCHASE TREND: 93.93
+FUNDS: 1628.029097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 11.24 - 12.23
+SELL PRICE: 11.32
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXKDJGS9N25759W', 'creation_timestamp': 1645819334993, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.32000000', 'limit_volume': '35.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 22:02:15,213 | INFO | ****************************************
+2022-02-25 22:05:22,690 | INFO | ****************************************
+2022-02-25 22:05:22,690 | INFO | 
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 12.17
+TREND: 100.27
+PURCHASE TREND: 93.02
+FUNDS: 2024.229097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:05:22,690 | INFO | ****************************************
+2022-02-25 22:08:26,880 | INFO | ****************************************
+2022-02-25 22:08:26,880 | INFO | 
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 12.17
+TREND: 99.56
+PURCHASE TREND: 92.61
+FUNDS: 2024.229097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:08:26,880 | INFO | ****************************************
+2022-02-25 22:11:31,755 | INFO | ****************************************
+2022-02-25 22:11:31,755 | INFO | 
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 12.17
+TREND: 100.18
+PURCHASE TREND: 92.77
+FUNDS: 2024.229097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:11:31,756 | INFO | ****************************************
+2022-02-25 22:14:36,408 | INFO | ****************************************
+2022-02-25 22:14:36,408 | INFO | 
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 12.17
+TREND: 100.18
+PURCHASE TREND: 92.94
+FUNDS: 2024.229097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:14:36,408 | INFO | ****************************************
+2022-02-25 22:17:41,826 | INFO | ****************************************
+2022-02-25 22:17:41,826 | INFO | 
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 12.17
+TREND: 99.83
+PURCHASE TREND: 92.77
+FUNDS: 2024.229097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.28
+TOTAL COST: 394.79999999999995
+FUNDS AFTER PURCHASE: 2024.229097
+2022-02-25 22:17:41,826 | INFO | ****************************************
+2022-02-25 22:20:52,072 | INFO | ****************************************
+2022-02-25 22:20:52,072 | INFO | 
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 92.77
+FUNDS: 1629.429097
+2022-02-25 22:20:52,072 | INFO | ****************************************
+2022-02-25 22:23:58,443 | INFO | ****************************************
+2022-02-25 22:23:58,443 | INFO | 
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 12.02
+TREND: 99.92
+PURCHASE TREND: 93.85
+FUNDS: 1629.429097
+BUY QUANTITY: 43.0
+CAN'T BUY BETWEEN: 11.22 - 12.23
+SELL PRICE: 11.3
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXEYXE4JJHX8QZE', 'creation_timestamp': 1645820638139, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.30000000', 'limit_volume': '35.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-25 22:23:58,443 | INFO | ****************************************
+2022-02-25 22:27:09,628 | INFO | ****************************************
+2022-02-25 22:27:09,628 | INFO | 
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 12.02
+TREND: 99.92
+PURCHASE TREND: 93.77
+FUNDS: 1629.429097
+2022-02-25 22:27:09,628 | INFO | ****************************************
+2022-02-25 22:32:23,115 | INFO | ****************************************
+2022-02-25 22:32:23,116 | INFO | 
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 12.02
+TREND: 100.18
+PURCHASE TREND: 93.93
+FUNDS: 1629.429097
+2022-02-25 22:32:23,117 | INFO | ****************************************
+2022-02-25 22:35:33,911 | INFO | ****************************************
+2022-02-25 22:35:33,911 | INFO | 
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 12.02
+TREND: 99.83
+PURCHASE TREND: 93.77
+FUNDS: 1629.429097
+2022-02-25 22:35:33,911 | INFO | ****************************************
+2022-02-25 22:38:44,534 | INFO | ****************************************
+2022-02-25 22:38:44,535 | INFO | 
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 12.02
+TREND: 99.92
+PURCHASE TREND: 93.68
+FUNDS: 1629.429097
+2022-02-25 22:38:44,535 | INFO | ****************************************
+2022-02-25 22:41:51,023 | INFO | ****************************************
+2022-02-25 22:41:51,023 | INFO | 
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 12.17
+TREND: 100.36
+PURCHASE TREND: 92.86
+FUNDS: 2024.929097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:41:51,023 | INFO | ****************************************
+2022-02-25 22:44:55,282 | INFO | ****************************************
+2022-02-25 22:44:55,282 | INFO | 
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 12.17
+TREND: 100.36
+PURCHASE TREND: 93.18
+FUNDS: 2024.929097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:44:55,283 | INFO | ****************************************
+2022-02-25 22:47:59,345 | INFO | ****************************************
+2022-02-25 22:47:59,345 | INFO | 
+CURRENT PRICE: 11.39
+AVERAGE BUY PRICE: 12.17
+TREND: 100.45
+PURCHASE TREND: 93.6
+FUNDS: 2024.929097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:47:59,345 | INFO | ****************************************
+2022-02-25 22:51:03,340 | INFO | ****************************************
+2022-02-25 22:51:03,349 | INFO | 
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 12.17
+TREND: 100.09
+PURCHASE TREND: 93.68
+FUNDS: 2024.929097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:51:03,349 | INFO | ****************************************
+2022-02-25 22:54:07,891 | INFO | ****************************************
+2022-02-25 22:54:07,892 | INFO | 
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 12.17
+TREND: 100.0
+PURCHASE TREND: 93.68
+FUNDS: 2024.929097
+BUY QUANTITY: 35.0
+CAN'T BUY BETWEEN: 12.14 - 12.2
+2022-02-25 22:54:07,892 | INFO | ****************************************
