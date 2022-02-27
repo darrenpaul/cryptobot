@@ -1,6 +1,6 @@
 orders:
 - base: '0.00000000'
-  cancel_count: 2
+  cancel_count: 3
   client_order_id: ''
   completed_timestamp: 0
   counter: '0.00000000'

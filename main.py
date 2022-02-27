@@ -62,6 +62,8 @@ class AlgoBot(
 
         self.logger_message = ['']
 
+        self.get_total_profit()
+
         current_price = self.get_current_price()
 
         has_data = len(self.past_prices) > self.trend_size
@@ -115,7 +117,6 @@ def main():
             bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
             bot.save_order(bot.bought_orders, 'buy')
             bot.run()
-            bot.get_total_profit()
             count = 0
         time.sleep(1)
         count += 1
