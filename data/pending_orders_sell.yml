@@ -1,1 +1,37 @@
-orders: []
+orders:
+- base: '0.00000000'
+  cancel_count: 2
+  client_order_id: ''
+  completed_timestamp: 0
+  counter: '0.00000000'
+  creation_timestamp: 1645983346105
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '11.64000000'
+  limit_volume: '101.00000000'
+  order_id: BXM6RVDDD7P8QXG
+  order_ids:
+  - BXEUXJQXRQK33KV
+  - BXJR9JRG2FQZ54Q
+  orders:
+  - counter: 1.0
+    funds: 1178.289097
+    limit_price: '11.65000000'
+    order_id: BXEUXJQXRQK33KV
+    price: '11.65000000'
+    quantity: 80.0
+    side: BUY
+  - counter: 1.0
+    funds: 246.289097
+    limit_price: '11.52000000'
+    order_id: BXJR9JRG2FQZ54Q
+    price: '11.52000000'
+    quantity: 21.0
+    side: BUY
+  pair: XRPZAR
+  price: 11.64
+  quantity: 101.0
+  side: SELL
+  status: PENDING
+  type: LIMIT
