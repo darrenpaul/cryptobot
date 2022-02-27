@@ -103,6 +103,7 @@ def process_sell_orders(bot):
 
 def main():
     bot = initialize_bot()
+    
     count = PROCESS_TIMER
     while True:
         bot.get_config()
@@ -114,6 +115,7 @@ def main():
             bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
             bot.save_order(bot.bought_orders, 'buy')
             bot.run()
+            bot.get_total_profit()
             count = 0
         time.sleep(1)
         count += 1

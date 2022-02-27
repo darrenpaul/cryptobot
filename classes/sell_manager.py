@@ -18,7 +18,7 @@ class SellManager:
         return quantity
 
     def _get_sell_price(self, weighted_price):
-        profit_value = 0.02
+        profit_value = 0.04
         # profit_value = mathematics.get_percentage(weighted_price, self.profit_margin) + 0.02
 
         sell_price = float(weighted_price) + float(profit_value)
@@ -133,7 +133,7 @@ class SellManager:
         if len(orders) > 0:
             weighted_price = mathematics.get_weighted_average(orders, 'limit_price', 'quantity')
             sell_price = self._get_sell_price(weighted_price)
-            if sell_price + 0.04 < current_price:
-                sell_price = current_price - 0.01
+            if sell_price < current_price:
+                sell_price = current_price + 0.02
 
             self.process_possible_sell_orders(sell_price, total_quantity, orders, order_ids)
