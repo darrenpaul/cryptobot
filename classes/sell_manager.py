@@ -18,7 +18,7 @@ class SellManager:
         return quantity
 
     def _get_sell_price(self, weighted_price):
-        profit_value = 0.04
+        profit_value = self.pso_profit
         # profit_value = mathematics.get_percentage(weighted_price, self.profit_margin) + 0.02
 
         sell_price = float(weighted_price) + float(profit_value)
