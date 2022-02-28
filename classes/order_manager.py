@@ -6,7 +6,7 @@ from modules import luno, file_reader
 class OrderManager:
     def __init__(self):
         self.trading_pair = 'XBTZAR'
-        self.profit_margin = 2
+        self.profit_percentage = 2
         self.purchase_percentage = 5
         self.past_orders = []
 

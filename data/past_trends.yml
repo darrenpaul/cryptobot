@@ -1675,3 +1675,33 @@ past_trends:
   purchase_trend: 98.03
   timestamp: 1646062385.040509
   trend: 100.09
+- price: 11.88
+  timestamp: 1646064510.862797
+  trend: 99.84
+- price: 11.91
+  timestamp: 1646064553.947532
+  trend: 100.26
+- price: 11.91
+  timestamp: 1646064740.855959
+  trend: 100.0
+- price: 11.9
+  timestamp: 1646064926.71757
+  trend: 99.92
+- price: 11.88
+  timestamp: 1646065112.56402
+  trend: 99.84
+- price: 11.86
+  timestamp: 1646065234.647524
+  trend: 99.84
+- price: 11.94
+  timestamp: 1646065617.071049
+  trend: 100.68
+- price: 11.92
+  timestamp: 1646065730.489339
+  trend: 99.84
+- price: 11.92
+  timestamp: 1646065736.454581
+  trend: 100.0
+- price: 11.87
+  timestamp: 1646066249.650346
+  trend: 100.09

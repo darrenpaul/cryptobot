@@ -62,16 +62,12 @@ class BuyManager:
 
         order = luno.create_buy_order(self.trading_pair, buy_price, quantity, dry_run=self.dry_run)
 
-        print('BUY')
-        pprint(order)
         if(not order.get('order_id')):
             self.logger_message.append(f'buy order couldn\'t be placed{order}')
             self.logger_message.append(f'ORDER: {order}')
             return
 
         order = luno.get_order(order['order_id'])
-        print('BUY DETAIL')
-        pprint(order)
 
         self.logger_message.append(f'FUNDS AFTER PURCHASE: {self.funds}')
 
@@ -129,9 +125,7 @@ class BuyManager:
         if float(weighted_price) < float(current_price):
             return False
 
-        # if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin or \
-        #     self.purchase_trend <= self.purchase_trend_margin:
-        if self.trend <= self.trend_margin and self.trend >= self.min_trend_margin:
+        if self.check_if_trend_in_range():
             self.process_buy_order(current_price, quantity)
             self.did_buy = True
 
@@ -143,8 +137,5 @@ class BuyManager:
                 if order_id in order_ids:
                     continue
                 buy_orders.append(order)
-        print('here here')
-        pprint(buy_orders)
-        pprint(order_ids)
         self.bought_orders = buy_orders
         self.save_order(self.bought_orders, 'buy')

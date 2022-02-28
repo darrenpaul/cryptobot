@@ -6,7 +6,7 @@ class SellManager:
     def __init__(self) -> None:
         self.pending_orders_sell = []
         self.sell_orders = []
-        self.sell_range_margin = 5
+        self.sell_group_margin = 5
 
     def _get_quantity(self):
         quantity = mathematics.round_down(luno.getSpendableBalance('XRP'), 2)
@@ -18,8 +18,8 @@ class SellManager:
         return quantity
 
     def _get_sell_price(self, weighted_price):
-        profit_value = self.pso_profit
-        # profit_value = mathematics.get_percentage(weighted_price, self.profit_margin) + 0.02
+        profit_value = self.profit_amount
+        # profit_value = mathematics.get_percentage(weighted_price, self.profit_percentage) + 0.02
 
         sell_price = float(weighted_price) + float(profit_value)
         sell_price = mathematics.round_up(sell_price)
@@ -28,7 +28,7 @@ class SellManager:
 
     def _get_possible_sell_orders(self, price):
         orders = []
-        end = float(price) + float(self.sell_range_margin)
+        end = float(price) + float(self.sell_group_margin)
 
         for order in self.bought_orders:
             order_price = float(order['limit_price'])
@@ -100,7 +100,6 @@ class SellManager:
         self.logger_message.append(f'=============================')
 
         order = self._create_sell_order(price, quantity)
-        print(order)
         if order and order.get('order_id'):
             self.pending_orders_sell.append(
                 {

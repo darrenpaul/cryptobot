@@ -41,7 +41,7 @@ class AlgoBot(
 
     def _try_order(self, current_price):
         weighted_price = self.get_buy_price_average()
-        self.update_trend(weighted_price, current_price)
+        self.update_trend(current_price)
         self.update_funds()
 
         # # SHUTDOWN WHEN NO FUNDS
@@ -87,6 +87,7 @@ def initialize_bot():
     bot.get_sell_orders()
     bot.get_past_orders()
     bot.get_past_funds()
+
     return bot
 
 
@@ -105,7 +106,7 @@ def process_sell_orders(bot):
 
 def main():
     bot = initialize_bot()
-    
+
     count = PROCESS_TIMER
     while True:
         bot.get_config()

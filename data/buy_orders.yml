@@ -1,15 +1,8 @@
 orders:
 - counter: 1.0
-  funds: 0.0
-  limit_price: '12.17'
-  order_id: CUSTOMORDERA
-  price: '12.17'
-  quantity: 177.0
-  side: null
-- counter: 1.0
   funds: 2036.039097
-  limit_price: '12.04000000'
+  limit_price: '12.20'
   order_id: BXH7DPRSA8YE42E
-  price: '12.04000000'
-  quantity: 33.0
+  price: '12.20'
+  quantity: 210.0
   side: BUY
