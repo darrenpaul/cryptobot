@@ -1707,3 +1707,107 @@ past_funds:
     type: LIMIT
   past_funds: 241.119097
   timestamp: 1645975104.768052
+- current_funds: 246.499097
+  orders:
+  - base: '21.00000000'
+    cancel_count: 4
+    client_order_id: ''
+    completed_timestamp: 1646058708347
+    counter: '242.13000000'
+    creation_timestamp: 1646057840969
+    expiration_timestamp: 0
+    fee_base: '0.00000000'
+    fee_counter: '0.00000000'
+    limit_price: '11.53000000'
+    limit_volume: '21.00000000'
+    order_id: BXNA7MU55NBEU7W
+    order_ids:
+    - BXJR9JRG2FQZ54Q
+    orders:
+    - counter: 1.0
+      funds: 246.289097
+      limit_price: '11.52000000'
+      order_id: BXJR9JRG2FQZ54Q
+      price: '11.52000000'
+      quantity: 21.0
+      side: BUY
+    pair: XRPZAR
+    price: 11.53
+    quantity: 21.0
+    side: SELL
+    status: COMPLETE
+    type: LIMIT
+  past_funds: 4.369097
+  timestamp: 1646058716.198826
+- current_funds: 1179.299097
+  orders:
+  - base: '80.00000000'
+    cancel_count: 0
+    client_order_id: ''
+    completed_timestamp: 1646060204274
+    counter: '932.80000000'
+    creation_timestamp: 1646060115822
+    expiration_timestamp: 0
+    fee_base: '0.00000000'
+    fee_counter: '0.00000000'
+    limit_price: '11.66000000'
+    limit_volume: '80.00000000'
+    order_id: BXEAKNYBNN28NVD
+    order_ids:
+    - BXEUXJQXRQK33KV
+    orders:
+    - counter: 1.0
+      funds: 1178.289097
+      limit_price: '11.65000000'
+      order_id: BXEUXJQXRQK33KV
+      price: '11.65000000'
+      quantity: 80.0
+      side: BUY
+    pair: XRPZAR
+    price: 11.66
+    quantity: 80.0
+    side: SELL
+    status: COMPLETE
+    type: LIMIT
+  past_funds: 246.499097
+  timestamp: 1646060210.676288
+- current_funds: 1689.229097
+  orders:
+  - base: '121.00000000'
+    cancel_count: 0
+    client_order_id: ''
+    completed_timestamp: 1646061772923
+    counter: '1443.53000000'
+    creation_timestamp: 1646061628267
+    expiration_timestamp: 0
+    fee_base: '0.00000000'
+    fee_counter: '0.00000000'
+    limit_price: '11.93000000'
+    limit_volume: '121.00000000'
+    order_id: BXE3T99DBGFU9Q2
+    order_ids:
+    - BXH2CJURBR8JEJF
+    - BXJK4S4C2VVT3QS
+    orders:
+    - counter: 1.0
+      funds: 1647.519097
+      limit_price: '11.83000000'
+      order_id: BXH2CJURBR8JEJF
+      price: '11.83000000'
+      quantity: 41.0
+      side: BUY
+    - counter: 1.0
+      funds: 1179.299097
+      limit_price: '11.67000000'
+      order_id: BXJK4S4C2VVT3QS
+      price: '11.67000000'
+      quantity: 80.0
+      side: BUY
+    pair: XRPZAR
+    price: 11.93
+    quantity: 121.0
+    side: SELL
+    status: COMPLETE
+    type: LIMIT
+  past_funds: 245.699097
+  timestamp: 1646061775.848233

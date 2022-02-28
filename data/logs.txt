@@ -8,3 +8,4578 @@ TREND: 99.74
 PURCHASE TREND: 95.74
 FUNDS: 4.369097
 2022-02-27 19:49:05,518 | INFO | ****************************************
+2022-02-27 17:50:40,055 | INFO | Running AlgoBot...
+2022-02-27 17:50:41,472 | INFO | ****************************************
+2022-02-27 17:50:41,472 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.47
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.91
+FUNDS: 4.369097
+2022-02-27 17:50:41,472 | INFO | ****************************************
+2022-02-27 17:53:50,930 | INFO | ****************************************
+2022-02-27 17:53:50,930 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.45
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXM6RVDDD7P8QXG
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.74
+FUNDS: 4.369097
+2022-02-27 17:53:50,930 | INFO | ****************************************
+2022-02-27 17:56:59,756 | INFO | ****************************************
+2022-02-27 17:56:59,756 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.47
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.91
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+SELL PRICE: 11.53
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXFWB744H99ZG82', 'creation_timestamp': 1645984619552, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.53000000', 'limit_volume': '21.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-27 17:56:59,757 | INFO | ****************************************
+2022-02-27 18:00:09,053 | INFO | ****************************************
+2022-02-27 18:00:09,053 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.47
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.91
+FUNDS: 4.369097
+2022-02-27 18:00:09,053 | INFO | ****************************************
+2022-02-27 18:03:18,391 | INFO | ****************************************
+2022-02-27 18:03:18,391 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.45
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.74
+FUNDS: 4.369097
+2022-02-27 18:03:18,391 | INFO | ****************************************
+2022-02-27 18:06:27,758 | INFO | ****************************************
+2022-02-27 18:06:27,758 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.43
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.57
+FUNDS: 4.369097
+2022-02-27 18:06:27,758 | INFO | ****************************************
+2022-02-27 18:09:37,072 | INFO | ****************************************
+2022-02-27 18:09:37,072 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.41
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.41
+FUNDS: 4.369097
+2022-02-27 18:09:37,072 | INFO | ****************************************
+2022-02-27 18:12:46,598 | INFO | ****************************************
+2022-02-27 18:12:46,598 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.43
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXFWB744H99ZG82
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.57
+FUNDS: 4.369097
+2022-02-27 18:12:46,598 | INFO | ****************************************
+2022-02-27 18:15:55,357 | INFO | ****************************************
+2022-02-27 18:15:55,357 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.45
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+SELL PRICE: 11.53
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXMH98Y8P4WZ3YC', 'creation_timestamp': 1645985755169, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.53000000', 'limit_volume': '21.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-27 18:15:55,357 | INFO | ****************************************
+2022-02-27 18:19:05,008 | INFO | ****************************************
+2022-02-27 18:19:05,009 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.44
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.66
+FUNDS: 4.369097
+2022-02-27 18:19:05,009 | INFO | ****************************************
+2022-02-27 18:22:14,352 | INFO | ****************************************
+2022-02-27 18:22:14,352 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.46
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.82
+FUNDS: 4.369097
+2022-02-27 18:22:14,352 | INFO | ****************************************
+2022-02-27 18:25:23,871 | INFO | ****************************************
+2022-02-27 18:25:23,871 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.47
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.91
+FUNDS: 4.369097
+2022-02-27 18:25:23,871 | INFO | ****************************************
+2022-02-27 18:28:33,179 | INFO | ****************************************
+2022-02-27 18:28:33,179 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.45
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.74
+FUNDS: 4.369097
+2022-02-27 18:28:33,179 | INFO | ****************************************
+2022-02-27 18:31:42,825 | INFO | ****************************************
+2022-02-27 18:31:42,825 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.45
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXMH98Y8P4WZ3YC
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.74
+FUNDS: 4.369097
+2022-02-27 18:31:42,825 | INFO | ****************************************
+2022-02-27 18:34:51,611 | INFO | ****************************************
+2022-02-27 18:34:51,611 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.46
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+SELL PRICE: 11.53
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXMSJ6XPVWXUR3E', 'creation_timestamp': 1645986891414, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.53000000', 'limit_volume': '21.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-27 18:34:51,611 | INFO | ****************************************
+2022-02-27 18:38:01,309 | INFO | ****************************************
+2022-02-27 18:38:01,309 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.46
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.82
+FUNDS: 4.369097
+2022-02-27 18:38:01,310 | INFO | ****************************************
+2022-02-27 18:41:10,609 | INFO | ****************************************
+2022-02-27 18:41:10,609 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.47
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.91
+FUNDS: 4.369097
+2022-02-27 18:41:10,609 | INFO | ****************************************
+2022-02-27 18:44:19,944 | INFO | ****************************************
+2022-02-27 18:44:19,944 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.48
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.99
+FUNDS: 4.369097
+2022-02-27 18:44:19,945 | INFO | ****************************************
+2022-02-27 18:47:29,526 | INFO | ****************************************
+2022-02-27 18:47:29,526 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.48
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.99
+FUNDS: 4.369097
+2022-02-27 18:47:29,526 | INFO | ****************************************
+2022-02-27 18:50:39,009 | INFO | ****************************************
+2022-02-27 18:50:39,010 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.45
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXMSJ6XPVWXUR3E
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 95.74
+FUNDS: 4.369097
+2022-02-27 18:50:39,010 | INFO | ****************************************
+2022-02-27 18:53:47,771 | INFO | ****************************************
+2022-02-27 18:53:47,771 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.44
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.66
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+SELL PRICE: 11.53
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXNWWEZ6WQ8W7F3', 'creation_timestamp': 1645988027595, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.53000000', 'limit_volume': '21.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-27 18:53:47,771 | INFO | ****************************************
+2022-02-27 18:56:57,187 | INFO | ****************************************
+2022-02-27 18:56:57,188 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.43
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.57
+FUNDS: 4.369097
+2022-02-27 18:56:57,188 | INFO | ****************************************
+2022-02-27 19:00:07,849 | INFO | ****************************************
+2022-02-27 19:00:07,849 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.42
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.49
+FUNDS: 4.369097
+2022-02-27 19:00:07,849 | INFO | ****************************************
+2022-02-27 19:03:17,126 | INFO | ****************************************
+2022-02-27 19:03:17,126 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.44
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.66
+FUNDS: 4.369097
+2022-02-27 19:03:17,126 | INFO | ****************************************
+2022-02-27 19:06:26,596 | INFO | ****************************************
+2022-02-27 19:06:26,597 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.42
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.49
+FUNDS: 4.369097
+2022-02-27 19:06:26,597 | INFO | ****************************************
+2022-02-27 19:09:36,077 | INFO | ****************************************
+2022-02-27 19:09:36,077 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.43
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXNWWEZ6WQ8W7F3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.57
+FUNDS: 4.369097
+2022-02-27 19:09:36,077 | INFO | ****************************************
+2022-02-27 19:12:44,578 | INFO | ****************************************
+2022-02-27 19:12:44,578 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.42
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:12:44,578 | INFO | ****************************************
+2022-02-27 19:15:53,109 | INFO | ****************************************
+2022-02-27 19:15:53,109 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 99.57
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:15:53,109 | INFO | ****************************************
+2022-02-27 19:19:01,573 | INFO | ****************************************
+2022-02-27 19:19:01,573 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.48
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:19:01,573 | INFO | ****************************************
+2022-02-27 19:22:10,106 | INFO | ****************************************
+2022-02-27 19:22:10,106 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:22:10,106 | INFO | ****************************************
+2022-02-27 19:25:18,651 | INFO | ****************************************
+2022-02-27 19:25:18,651 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:25:18,651 | INFO | ****************************************
+2022-02-27 19:28:27,200 | INFO | ****************************************
+2022-02-27 19:28:27,200 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:28:27,200 | INFO | ****************************************
+2022-02-27 19:31:36,472 | INFO | ****************************************
+2022-02-27 19:31:36,472 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 99.47
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:31:36,472 | INFO | ****************************************
+2022-02-27 19:34:44,966 | INFO | ****************************************
+2022-02-27 19:34:44,966 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.14
+AVERAGE BUY PRICE: 11.96
+TREND: 99.29
+PURCHASE TREND: 93.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:34:44,966 | INFO | ****************************************
+2022-02-27 19:37:53,444 | INFO | ****************************************
+2022-02-27 19:37:53,444 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 93.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:37:53,444 | INFO | ****************************************
+2022-02-27 19:41:01,989 | INFO | ****************************************
+2022-02-27 19:41:01,989 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:41:01,989 | INFO | ****************************************
+2022-02-27 19:44:10,475 | INFO | ****************************************
+2022-02-27 19:44:10,475 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.16
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:44:10,475 | INFO | ****************************************
+2022-02-27 19:47:18,993 | INFO | ****************************************
+2022-02-27 19:47:18,993 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.12
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 92.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:47:18,993 | INFO | ****************************************
+2022-02-27 19:50:27,496 | INFO | ****************************************
+2022-02-27 19:50:27,496 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.09
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 92.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:50:27,496 | INFO | ****************************************
+2022-02-27 19:53:36,010 | INFO | ****************************************
+2022-02-27 19:53:36,010 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.07
+AVERAGE BUY PRICE: 11.96
+TREND: 99.82
+PURCHASE TREND: 92.56
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:53:36,010 | INFO | ****************************************
+2022-02-27 19:56:44,589 | INFO | ****************************************
+2022-02-27 19:56:44,589 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 11.96
+TREND: 99.91
+PURCHASE TREND: 92.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:56:44,589 | INFO | ****************************************
+2022-02-27 19:59:53,149 | INFO | ****************************************
+2022-02-27 19:59:53,149 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.01
+AVERAGE BUY PRICE: 11.96
+TREND: 99.55
+PURCHASE TREND: 92.06
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 19:59:53,149 | INFO | ****************************************
+2022-02-27 20:03:05,055 | INFO | ****************************************
+2022-02-27 20:03:05,055 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.1
+AVERAGE BUY PRICE: 11.96
+TREND: 100.82
+PURCHASE TREND: 92.81
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:03:05,056 | INFO | ****************************************
+2022-02-27 20:06:13,619 | INFO | ****************************************
+2022-02-27 20:06:13,620 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 11.96
+TREND: 100.64
+PURCHASE TREND: 93.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:06:13,620 | INFO | ****************************************
+2022-02-27 20:09:22,557 | INFO | ****************************************
+2022-02-27 20:09:22,557 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 100.63
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:09:22,557 | INFO | ****************************************
+2022-02-27 20:12:31,080 | INFO | ****************************************
+2022-02-27 20:12:31,080 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:12:31,080 | INFO | ****************************************
+2022-02-27 20:15:39,665 | INFO | ****************************************
+2022-02-27 20:15:39,665 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:15:39,665 | INFO | ****************************************
+2022-02-27 20:18:48,193 | INFO | ****************************************
+2022-02-27 20:18:48,193 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:18:48,193 | INFO | ****************************************
+2022-02-27 20:21:56,673 | INFO | ****************************************
+2022-02-27 20:21:56,673 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.38
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:21:56,673 | INFO | ****************************************
+2022-02-27 20:25:05,219 | INFO | ****************************************
+2022-02-27 20:25:05,219 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:25:05,219 | INFO | ****************************************
+2022-02-27 20:28:13,713 | INFO | ****************************************
+2022-02-27 20:28:13,713 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:28:13,713 | INFO | ****************************************
+2022-02-27 20:31:22,212 | INFO | ****************************************
+2022-02-27 20:31:22,213 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:31:22,213 | INFO | ****************************************
+2022-02-27 20:34:30,719 | INFO | ****************************************
+2022-02-27 20:34:30,719 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:34:30,719 | INFO | ****************************************
+2022-02-27 20:37:39,380 | INFO | ****************************************
+2022-02-27 20:37:39,380 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:37:39,380 | INFO | ****************************************
+2022-02-27 20:40:47,897 | INFO | ****************************************
+2022-02-27 20:40:47,897 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:40:47,897 | INFO | ****************************************
+2022-02-27 20:43:56,546 | INFO | ****************************************
+2022-02-27 20:43:56,546 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:43:56,546 | INFO | ****************************************
+2022-02-27 20:47:05,013 | INFO | ****************************************
+2022-02-27 20:47:05,013 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.54
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:47:05,013 | INFO | ****************************************
+2022-02-27 20:50:13,543 | INFO | ****************************************
+2022-02-27 20:50:13,543 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:50:13,543 | INFO | ****************************************
+2022-02-27 20:53:22,037 | INFO | ****************************************
+2022-02-27 20:53:22,037 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:53:22,037 | INFO | ****************************************
+2022-02-27 20:56:30,568 | INFO | ****************************************
+2022-02-27 20:56:30,568 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:56:30,568 | INFO | ****************************************
+2022-02-27 20:59:39,059 | INFO | ****************************************
+2022-02-27 20:59:39,059 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 20:59:39,059 | INFO | ****************************************
+2022-02-27 21:02:47,576 | INFO | ****************************************
+2022-02-27 21:02:47,576 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:02:47,576 | INFO | ****************************************
+2022-02-27 21:05:56,105 | INFO | ****************************************
+2022-02-27 21:05:56,105 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:05:56,106 | INFO | ****************************************
+2022-02-27 21:09:04,640 | INFO | ****************************************
+2022-02-27 21:09:04,640 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:09:04,640 | INFO | ****************************************
+2022-02-27 21:12:13,163 | INFO | ****************************************
+2022-02-27 21:12:13,163 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:12:13,163 | INFO | ****************************************
+2022-02-27 21:15:21,643 | INFO | ****************************************
+2022-02-27 21:15:21,643 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.14
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 93.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:15:21,643 | INFO | ****************************************
+2022-02-27 21:18:30,150 | INFO | ****************************************
+2022-02-27 21:18:30,150 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.11
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 92.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:18:30,150 | INFO | ****************************************
+2022-02-27 21:21:38,656 | INFO | ****************************************
+2022-02-27 21:21:38,656 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 11.96
+TREND: 99.55
+PURCHASE TREND: 92.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:21:38,656 | INFO | ****************************************
+2022-02-27 21:24:47,151 | INFO | ****************************************
+2022-02-27 21:24:47,152 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.06
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 92.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:24:47,152 | INFO | ****************************************
+2022-02-27 21:27:55,669 | INFO | ****************************************
+2022-02-27 21:27:55,670 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.1
+AVERAGE BUY PRICE: 11.96
+TREND: 100.37
+PURCHASE TREND: 92.81
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:27:55,670 | INFO | ****************************************
+2022-02-27 21:31:04,168 | INFO | ****************************************
+2022-02-27 21:31:04,168 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.13
+AVERAGE BUY PRICE: 11.96
+TREND: 100.28
+PURCHASE TREND: 93.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:31:04,168 | INFO | ****************************************
+2022-02-27 21:34:12,709 | INFO | ****************************************
+2022-02-27 21:34:12,709 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.15
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 93.23
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:34:12,709 | INFO | ****************************************
+2022-02-27 21:37:21,226 | INFO | ****************************************
+2022-02-27 21:37:21,226 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.13
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:37:21,226 | INFO | ****************************************
+2022-02-27 21:40:29,739 | INFO | ****************************************
+2022-02-27 21:40:29,740 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.13
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:40:29,740 | INFO | ****************************************
+2022-02-27 21:43:38,216 | INFO | ****************************************
+2022-02-27 21:43:38,216 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.15
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 93.23
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:43:38,217 | INFO | ****************************************
+2022-02-27 21:46:47,070 | INFO | ****************************************
+2022-02-27 21:46:47,071 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 93.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:46:47,071 | INFO | ****************************************
+2022-02-27 21:49:55,574 | INFO | ****************************************
+2022-02-27 21:49:55,574 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:49:55,574 | INFO | ****************************************
+2022-02-27 21:53:04,075 | INFO | ****************************************
+2022-02-27 21:53:04,075 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:53:04,075 | INFO | ****************************************
+2022-02-27 21:56:12,569 | INFO | ****************************************
+2022-02-27 21:56:12,569 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:56:12,569 | INFO | ****************************************
+2022-02-27 21:59:21,084 | INFO | ****************************************
+2022-02-27 21:59:21,084 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 21:59:21,084 | INFO | ****************************************
+2022-02-27 22:02:30,166 | INFO | ****************************************
+2022-02-27 22:02:30,166 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:02:30,166 | INFO | ****************************************
+2022-02-27 22:05:38,680 | INFO | ****************************************
+2022-02-27 22:05:38,680 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:05:38,680 | INFO | ****************************************
+2022-02-27 22:08:47,166 | INFO | ****************************************
+2022-02-27 22:08:47,166 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:08:47,166 | INFO | ****************************************
+2022-02-27 22:11:55,822 | INFO | ****************************************
+2022-02-27 22:11:55,822 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:11:55,822 | INFO | ****************************************
+2022-02-27 22:15:04,393 | INFO | ****************************************
+2022-02-27 22:15:04,393 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:15:04,393 | INFO | ****************************************
+2022-02-27 22:18:12,960 | INFO | ****************************************
+2022-02-27 22:18:12,960 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:18:12,960 | INFO | ****************************************
+2022-02-27 22:21:21,480 | INFO | ****************************************
+2022-02-27 22:21:21,480 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:21:21,480 | INFO | ****************************************
+2022-02-27 22:24:30,020 | INFO | ****************************************
+2022-02-27 22:24:30,020 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:24:30,020 | INFO | ****************************************
+2022-02-27 22:27:38,598 | INFO | ****************************************
+2022-02-27 22:27:38,598 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:27:38,598 | INFO | ****************************************
+2022-02-27 22:30:47,147 | INFO | ****************************************
+2022-02-27 22:30:47,147 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:30:47,148 | INFO | ****************************************
+2022-02-27 22:33:55,729 | INFO | ****************************************
+2022-02-27 22:33:55,729 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:33:55,730 | INFO | ****************************************
+2022-02-27 22:37:04,270 | INFO | ****************************************
+2022-02-27 22:37:04,270 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:37:04,270 | INFO | ****************************************
+2022-02-27 22:40:12,932 | INFO | ****************************************
+2022-02-27 22:40:12,932 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:40:12,932 | INFO | ****************************************
+2022-02-27 22:43:21,456 | INFO | ****************************************
+2022-02-27 22:43:21,456 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:43:21,456 | INFO | ****************************************
+2022-02-27 22:46:30,006 | INFO | ****************************************
+2022-02-27 22:46:30,006 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:46:30,006 | INFO | ****************************************
+2022-02-27 22:49:38,547 | INFO | ****************************************
+2022-02-27 22:49:38,547 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:49:38,547 | INFO | ****************************************
+2022-02-27 22:52:47,108 | INFO | ****************************************
+2022-02-27 22:52:47,108 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:52:47,108 | INFO | ****************************************
+2022-02-27 22:55:55,674 | INFO | ****************************************
+2022-02-27 22:55:55,674 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:55:55,674 | INFO | ****************************************
+2022-02-27 22:59:04,203 | INFO | ****************************************
+2022-02-27 22:59:04,203 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 22:59:04,203 | INFO | ****************************************
+2022-02-27 23:02:13,505 | INFO | ****************************************
+2022-02-27 23:02:13,505 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:02:13,505 | INFO | ****************************************
+2022-02-27 23:05:22,033 | INFO | ****************************************
+2022-02-27 23:05:22,033 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:05:22,033 | INFO | ****************************************
+2022-02-27 23:08:30,580 | INFO | ****************************************
+2022-02-27 23:08:30,580 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.16
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:08:30,580 | INFO | ****************************************
+2022-02-27 23:11:39,130 | INFO | ****************************************
+2022-02-27 23:11:39,130 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:11:39,130 | INFO | ****************************************
+2022-02-27 23:14:47,684 | INFO | ****************************************
+2022-02-27 23:14:47,684 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:14:47,684 | INFO | ****************************************
+2022-02-27 23:17:56,224 | INFO | ****************************************
+2022-02-27 23:17:56,224 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:17:56,224 | INFO | ****************************************
+2022-02-27 23:21:04,881 | INFO | ****************************************
+2022-02-27 23:21:04,881 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:21:04,881 | INFO | ****************************************
+2022-02-27 23:24:13,420 | INFO | ****************************************
+2022-02-27 23:24:13,421 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.17
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:24:13,421 | INFO | ****************************************
+2022-02-27 23:27:21,971 | INFO | ****************************************
+2022-02-27 23:27:21,971 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.16
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:27:21,971 | INFO | ****************************************
+2022-02-27 23:30:30,477 | INFO | ****************************************
+2022-02-27 23:30:30,477 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:30:30,477 | INFO | ****************************************
+2022-02-27 23:33:38,996 | INFO | ****************************************
+2022-02-27 23:33:38,996 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:33:38,996 | INFO | ****************************************
+2022-02-27 23:36:47,543 | INFO | ****************************************
+2022-02-27 23:36:47,543 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:36:47,543 | INFO | ****************************************
+2022-02-27 23:39:56,105 | INFO | ****************************************
+2022-02-27 23:39:56,105 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:39:56,105 | INFO | ****************************************
+2022-02-27 23:43:05,335 | INFO | ****************************************
+2022-02-27 23:43:05,335 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:43:05,335 | INFO | ****************************************
+2022-02-27 23:46:13,930 | INFO | ****************************************
+2022-02-27 23:46:13,930 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:46:13,930 | INFO | ****************************************
+2022-02-27 23:49:22,421 | INFO | ****************************************
+2022-02-27 23:49:22,421 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:49:22,421 | INFO | ****************************************
+2022-02-27 23:52:30,954 | INFO | ****************************************
+2022-02-27 23:52:30,954 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:52:30,954 | INFO | ****************************************
+2022-02-27 23:55:39,692 | INFO | ****************************************
+2022-02-27 23:55:39,692 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.54
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:55:39,692 | INFO | ****************************************
+2022-02-27 23:58:48,215 | INFO | ****************************************
+2022-02-27 23:58:48,215 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-27 23:58:48,215 | INFO | ****************************************
+2022-02-28 00:01:57,286 | INFO | ****************************************
+2022-02-28 00:01:57,287 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:01:57,287 | INFO | ****************************************
+2022-02-28 00:05:05,836 | INFO | ****************************************
+2022-02-28 00:05:05,836 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 99.38
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:05:05,836 | INFO | ****************************************
+2022-02-28 00:08:14,373 | INFO | ****************************************
+2022-02-28 00:08:14,374 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.99
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:08:14,374 | INFO | ****************************************
+2022-02-28 00:11:22,929 | INFO | ****************************************
+2022-02-28 00:11:22,929 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:11:22,929 | INFO | ****************************************
+2022-02-28 00:14:31,474 | INFO | ****************************************
+2022-02-28 00:14:31,475 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:14:31,475 | INFO | ****************************************
+2022-02-28 00:17:40,033 | INFO | ****************************************
+2022-02-28 00:17:40,033 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:17:40,034 | INFO | ****************************************
+2022-02-28 00:20:48,549 | INFO | ****************************************
+2022-02-28 00:20:48,549 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:20:48,549 | INFO | ****************************************
+2022-02-28 00:23:57,082 | INFO | ****************************************
+2022-02-28 00:23:57,083 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:23:57,083 | INFO | ****************************************
+2022-02-28 00:27:05,623 | INFO | ****************************************
+2022-02-28 00:27:05,623 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:27:05,624 | INFO | ****************************************
+2022-02-28 00:30:15,114 | INFO | ****************************************
+2022-02-28 00:30:15,114 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:30:15,114 | INFO | ****************************************
+2022-02-28 00:33:23,660 | INFO | ****************************************
+2022-02-28 00:33:23,660 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:33:23,661 | INFO | ****************************************
+2022-02-28 00:36:32,187 | INFO | ****************************************
+2022-02-28 00:36:32,187 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:36:32,187 | INFO | ****************************************
+2022-02-28 00:39:40,702 | INFO | ****************************************
+2022-02-28 00:39:40,702 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:39:40,702 | INFO | ****************************************
+2022-02-28 00:42:49,473 | INFO | ****************************************
+2022-02-28 00:42:49,473 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:42:49,473 | INFO | ****************************************
+2022-02-28 00:45:58,014 | INFO | ****************************************
+2022-02-28 00:45:58,014 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.54
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:45:58,014 | INFO | ****************************************
+2022-02-28 00:49:06,553 | INFO | ****************************************
+2022-02-28 00:49:06,553 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:49:06,553 | INFO | ****************************************
+2022-02-28 00:52:15,062 | INFO | ****************************************
+2022-02-28 00:52:15,062 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:52:15,062 | INFO | ****************************************
+2022-02-28 00:55:23,592 | INFO | ****************************************
+2022-02-28 00:55:23,592 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:55:23,592 | INFO | ****************************************
+2022-02-28 00:58:32,120 | INFO | ****************************************
+2022-02-28 00:58:32,120 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.47
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 00:58:32,120 | INFO | ****************************************
+2022-02-28 01:01:40,879 | INFO | ****************************************
+2022-02-28 01:01:40,879 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 100.54
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:01:40,879 | INFO | ****************************************
+2022-02-28 01:04:49,408 | INFO | ****************************************
+2022-02-28 01:04:49,408 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:04:49,408 | INFO | ****************************************
+2022-02-28 01:07:58,163 | INFO | ****************************************
+2022-02-28 01:07:58,163 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:07:58,163 | INFO | ****************************************
+2022-02-28 01:11:06,713 | INFO | ****************************************
+2022-02-28 01:11:06,713 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:11:06,713 | INFO | ****************************************
+2022-02-28 01:14:15,894 | INFO | ****************************************
+2022-02-28 01:14:15,894 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:14:15,894 | INFO | ****************************************
+2022-02-28 01:17:24,458 | INFO | ****************************************
+2022-02-28 01:17:24,458 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:17:24,458 | INFO | ****************************************
+2022-02-28 01:20:33,091 | INFO | ****************************************
+2022-02-28 01:20:33,092 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:20:33,092 | INFO | ****************************************
+2022-02-28 01:23:41,667 | INFO | ****************************************
+2022-02-28 01:23:41,667 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.41
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 95.41
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:23:41,667 | INFO | ****************************************
+2022-02-28 01:26:50,237 | INFO | ****************************************
+2022-02-28 01:26:50,237 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.41
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.41
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:26:50,237 | INFO | ****************************************
+2022-02-28 01:29:58,792 | INFO | ****************************************
+2022-02-28 01:29:58,792 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.41
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.41
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:29:58,792 | INFO | ****************************************
+2022-02-28 01:33:07,584 | INFO | ****************************************
+2022-02-28 01:33:07,584 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.44
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 95.66
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+SELL PRICE: 11.53
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXHA2ZP562R83D6', 'creation_timestamp': 1646011987404, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.53000000', 'limit_volume': '21.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-28 01:33:07,584 | INFO | ****************************************
+2022-02-28 01:36:16,886 | INFO | ****************************************
+2022-02-28 01:36:16,886 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.44
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.66
+FUNDS: 4.369097
+2022-02-28 01:36:16,887 | INFO | ****************************************
+2022-02-28 01:39:26,246 | INFO | ****************************************
+2022-02-28 01:39:26,246 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.44
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.66
+FUNDS: 4.369097
+2022-02-28 01:39:26,246 | INFO | ****************************************
+2022-02-28 01:42:35,542 | INFO | ****************************************
+2022-02-28 01:42:35,543 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.42
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.49
+FUNDS: 4.369097
+2022-02-28 01:42:35,543 | INFO | ****************************************
+2022-02-28 01:45:44,826 | INFO | ****************************************
+2022-02-28 01:45:44,827 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.41
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.41
+FUNDS: 4.369097
+2022-02-28 01:45:44,827 | INFO | ****************************************
+2022-02-28 01:48:54,368 | INFO | ****************************************
+2022-02-28 01:48:54,368 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXHA2ZP562R83D6
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+2022-02-28 01:48:54,368 | INFO | ****************************************
+2022-02-28 01:52:02,893 | INFO | ****************************************
+2022-02-28 01:52:02,893 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:52:02,893 | INFO | ****************************************
+2022-02-28 01:55:11,408 | INFO | ****************************************
+2022-02-28 01:55:11,408 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.39
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:55:11,409 | INFO | ****************************************
+2022-02-28 01:58:19,930 | INFO | ****************************************
+2022-02-28 01:58:19,930 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 01:58:19,930 | INFO | ****************************************
+2022-02-28 02:01:30,755 | INFO | ****************************************
+2022-02-28 02:01:30,755 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:01:30,755 | INFO | ****************************************
+2022-02-28 02:04:39,330 | INFO | ****************************************
+2022-02-28 02:04:39,330 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:04:39,330 | INFO | ****************************************
+2022-02-28 02:07:47,869 | INFO | ****************************************
+2022-02-28 02:07:47,869 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:07:47,869 | INFO | ****************************************
+2022-02-28 02:10:56,388 | INFO | ****************************************
+2022-02-28 02:10:56,388 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:10:56,388 | INFO | ****************************************
+2022-02-28 02:14:05,282 | INFO | ****************************************
+2022-02-28 02:14:05,282 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:14:05,282 | INFO | ****************************************
+2022-02-28 02:17:13,827 | INFO | ****************************************
+2022-02-28 02:17:13,827 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:17:13,827 | INFO | ****************************************
+2022-02-28 02:20:22,351 | INFO | ****************************************
+2022-02-28 02:20:22,351 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:20:22,351 | INFO | ****************************************
+2022-02-28 02:23:30,891 | INFO | ****************************************
+2022-02-28 02:23:30,891 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:23:30,891 | INFO | ****************************************
+2022-02-28 02:26:39,435 | INFO | ****************************************
+2022-02-28 02:26:39,435 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:26:39,435 | INFO | ****************************************
+2022-02-28 02:29:47,987 | INFO | ****************************************
+2022-02-28 02:29:47,987 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:29:47,987 | INFO | ****************************************
+2022-02-28 02:32:56,599 | INFO | ****************************************
+2022-02-28 02:32:56,599 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:32:56,599 | INFO | ****************************************
+2022-02-28 02:36:05,490 | INFO | ****************************************
+2022-02-28 02:36:05,490 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:36:05,490 | INFO | ****************************************
+2022-02-28 02:39:14,014 | INFO | ****************************************
+2022-02-28 02:39:14,014 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:39:14,014 | INFO | ****************************************
+2022-02-28 02:42:22,537 | INFO | ****************************************
+2022-02-28 02:42:22,537 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:42:22,537 | INFO | ****************************************
+2022-02-28 02:45:31,083 | INFO | ****************************************
+2022-02-28 02:45:31,083 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:45:31,083 | INFO | ****************************************
+2022-02-28 02:48:39,615 | INFO | ****************************************
+2022-02-28 02:48:39,616 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.3
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:48:39,616 | INFO | ****************************************
+2022-02-28 02:51:48,159 | INFO | ****************************************
+2022-02-28 02:51:48,159 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:51:48,159 | INFO | ****************************************
+2022-02-28 02:54:56,695 | INFO | ****************************************
+2022-02-28 02:54:56,695 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:54:56,695 | INFO | ****************************************
+2022-02-28 02:58:05,249 | INFO | ****************************************
+2022-02-28 02:58:05,249 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 02:58:05,250 | INFO | ****************************************
+2022-02-28 03:01:13,800 | INFO | ****************************************
+2022-02-28 03:01:13,801 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:01:13,801 | INFO | ****************************************
+2022-02-28 03:04:22,310 | INFO | ****************************************
+2022-02-28 03:04:22,310 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:04:22,311 | INFO | ****************************************
+2022-02-28 03:07:30,902 | INFO | ****************************************
+2022-02-28 03:07:30,902 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:07:30,902 | INFO | ****************************************
+2022-02-28 03:10:39,446 | INFO | ****************************************
+2022-02-28 03:10:39,446 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:10:39,446 | INFO | ****************************************
+2022-02-28 03:13:48,020 | INFO | ****************************************
+2022-02-28 03:13:48,021 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:13:48,021 | INFO | ****************************************
+2022-02-28 03:16:56,546 | INFO | ****************************************
+2022-02-28 03:16:56,547 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:16:56,547 | INFO | ****************************************
+2022-02-28 03:20:05,090 | INFO | ****************************************
+2022-02-28 03:20:05,090 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:20:05,090 | INFO | ****************************************
+2022-02-28 03:23:13,620 | INFO | ****************************************
+2022-02-28 03:23:13,620 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:23:13,620 | INFO | ****************************************
+2022-02-28 03:26:22,210 | INFO | ****************************************
+2022-02-28 03:26:22,210 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:26:22,210 | INFO | ****************************************
+2022-02-28 03:29:30,754 | INFO | ****************************************
+2022-02-28 03:29:30,755 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:29:30,755 | INFO | ****************************************
+2022-02-28 03:32:40,850 | INFO | ****************************************
+2022-02-28 03:32:40,851 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:32:40,851 | INFO | ****************************************
+2022-02-28 03:35:49,389 | INFO | ****************************************
+2022-02-28 03:35:49,389 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:35:49,389 | INFO | ****************************************
+2022-02-28 03:38:57,944 | INFO | ****************************************
+2022-02-28 03:38:57,945 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:38:57,945 | INFO | ****************************************
+2022-02-28 03:42:06,506 | INFO | ****************************************
+2022-02-28 03:42:06,506 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:42:06,506 | INFO | ****************************************
+2022-02-28 03:45:15,028 | INFO | ****************************************
+2022-02-28 03:45:15,028 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:45:15,028 | INFO | ****************************************
+2022-02-28 03:48:23,572 | INFO | ****************************************
+2022-02-28 03:48:23,572 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:48:23,572 | INFO | ****************************************
+2022-02-28 03:51:32,206 | INFO | ****************************************
+2022-02-28 03:51:32,206 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:51:32,206 | INFO | ****************************************
+2022-02-28 03:54:40,739 | INFO | ****************************************
+2022-02-28 03:54:40,740 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:54:40,740 | INFO | ****************************************
+2022-02-28 03:57:49,490 | INFO | ****************************************
+2022-02-28 03:57:49,490 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 03:57:49,490 | INFO | ****************************************
+2022-02-28 04:00:59,059 | INFO | ****************************************
+2022-02-28 04:00:59,059 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:00:59,059 | INFO | ****************************************
+2022-02-28 04:04:07,676 | INFO | ****************************************
+2022-02-28 04:04:07,676 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:04:07,676 | INFO | ****************************************
+2022-02-28 04:07:16,477 | INFO | ****************************************
+2022-02-28 04:07:16,477 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:07:16,477 | INFO | ****************************************
+2022-02-28 04:10:25,025 | INFO | ****************************************
+2022-02-28 04:10:25,025 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:10:25,025 | INFO | ****************************************
+2022-02-28 04:13:33,728 | INFO | ****************************************
+2022-02-28 04:13:33,728 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:13:33,728 | INFO | ****************************************
+2022-02-28 04:16:42,334 | INFO | ****************************************
+2022-02-28 04:16:42,334 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:16:42,334 | INFO | ****************************************
+2022-02-28 04:19:50,858 | INFO | ****************************************
+2022-02-28 04:19:50,858 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:19:50,858 | INFO | ****************************************
+2022-02-28 04:22:59,471 | INFO | ****************************************
+2022-02-28 04:22:59,471 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:22:59,471 | INFO | ****************************************
+2022-02-28 04:26:08,029 | INFO | ****************************************
+2022-02-28 04:26:08,029 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:26:08,029 | INFO | ****************************************
+2022-02-28 04:29:16,590 | INFO | ****************************************
+2022-02-28 04:29:16,591 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:29:16,591 | INFO | ****************************************
+2022-02-28 04:32:25,193 | INFO | ****************************************
+2022-02-28 04:32:25,193 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:32:25,193 | INFO | ****************************************
+2022-02-28 04:35:33,945 | INFO | ****************************************
+2022-02-28 04:35:33,945 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:35:33,945 | INFO | ****************************************
+2022-02-28 04:38:42,559 | INFO | ****************************************
+2022-02-28 04:38:42,559 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:38:42,559 | INFO | ****************************************
+2022-02-28 04:41:51,100 | INFO | ****************************************
+2022-02-28 04:41:51,101 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:41:51,101 | INFO | ****************************************
+2022-02-28 04:45:00,384 | INFO | ****************************************
+2022-02-28 04:45:00,384 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:45:00,384 | INFO | ****************************************
+2022-02-28 04:48:08,934 | INFO | ****************************************
+2022-02-28 04:48:08,934 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:48:08,934 | INFO | ****************************************
+2022-02-28 04:51:17,458 | INFO | ****************************************
+2022-02-28 04:51:17,458 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:51:17,458 | INFO | ****************************************
+2022-02-28 04:54:26,018 | INFO | ****************************************
+2022-02-28 04:54:26,018 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:54:26,018 | INFO | ****************************************
+2022-02-28 04:57:34,568 | INFO | ****************************************
+2022-02-28 04:57:34,568 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 04:57:34,568 | INFO | ****************************************
+2022-02-28 05:00:43,185 | INFO | ****************************************
+2022-02-28 05:00:43,185 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:00:43,185 | INFO | ****************************************
+2022-02-28 05:03:51,752 | INFO | ****************************************
+2022-02-28 05:03:51,752 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:03:51,752 | INFO | ****************************************
+2022-02-28 05:07:00,358 | INFO | ****************************************
+2022-02-28 05:07:00,358 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:07:00,358 | INFO | ****************************************
+2022-02-28 05:10:08,913 | INFO | ****************************************
+2022-02-28 05:10:08,913 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:10:08,913 | INFO | ****************************************
+2022-02-28 05:13:17,525 | INFO | ****************************************
+2022-02-28 05:13:17,525 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:13:17,525 | INFO | ****************************************
+2022-02-28 05:16:26,142 | INFO | ****************************************
+2022-02-28 05:16:26,143 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:16:26,143 | INFO | ****************************************
+2022-02-28 05:19:34,676 | INFO | ****************************************
+2022-02-28 05:19:34,676 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:19:34,676 | INFO | ****************************************
+2022-02-28 05:22:43,280 | INFO | ****************************************
+2022-02-28 05:22:43,280 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:22:43,280 | INFO | ****************************************
+2022-02-28 05:25:51,840 | INFO | ****************************************
+2022-02-28 05:25:51,840 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:25:51,840 | INFO | ****************************************
+2022-02-28 05:29:00,827 | INFO | ****************************************
+2022-02-28 05:29:00,827 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:29:00,827 | INFO | ****************************************
+2022-02-28 05:32:10,502 | INFO | ****************************************
+2022-02-28 05:32:10,502 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:32:10,502 | INFO | ****************************************
+2022-02-28 05:35:19,072 | INFO | ****************************************
+2022-02-28 05:35:19,072 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:35:19,072 | INFO | ****************************************
+2022-02-28 05:38:27,652 | INFO | ****************************************
+2022-02-28 05:38:27,652 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:38:27,652 | INFO | ****************************************
+2022-02-28 05:41:36,393 | INFO | ****************************************
+2022-02-28 05:41:36,393 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:41:36,393 | INFO | ****************************************
+2022-02-28 05:44:44,984 | INFO | ****************************************
+2022-02-28 05:44:44,985 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:44:44,985 | INFO | ****************************************
+2022-02-28 05:47:53,550 | INFO | ****************************************
+2022-02-28 05:47:53,550 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:47:53,550 | INFO | ****************************************
+2022-02-28 05:51:02,163 | INFO | ****************************************
+2022-02-28 05:51:02,163 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:51:02,163 | INFO | ****************************************
+2022-02-28 05:54:10,799 | INFO | ****************************************
+2022-02-28 05:54:10,799 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:54:10,799 | INFO | ****************************************
+2022-02-28 05:57:19,409 | INFO | ****************************************
+2022-02-28 05:57:19,409 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 05:57:19,409 | INFO | ****************************************
+2022-02-28 06:00:28,079 | INFO | ****************************************
+2022-02-28 06:00:28,079 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:00:28,079 | INFO | ****************************************
+2022-02-28 06:03:36,676 | INFO | ****************************************
+2022-02-28 06:03:36,676 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.21
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.73
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:03:36,676 | INFO | ****************************************
+2022-02-28 06:06:45,228 | INFO | ****************************************
+2022-02-28 06:06:45,228 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:06:45,228 | INFO | ****************************************
+2022-02-28 06:09:53,782 | INFO | ****************************************
+2022-02-28 06:09:53,782 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:09:53,782 | INFO | ****************************************
+2022-02-28 06:13:02,735 | INFO | ****************************************
+2022-02-28 06:13:02,735 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.1
+AVERAGE BUY PRICE: 11.96
+TREND: 99.11
+PURCHASE TREND: 92.81
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:13:02,735 | INFO | ****************************************
+2022-02-28 06:16:11,293 | INFO | ****************************************
+2022-02-28 06:16:11,293 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 101.27
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:16:11,294 | INFO | ****************************************
+2022-02-28 06:19:19,827 | INFO | ****************************************
+2022-02-28 06:19:19,827 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:19:19,827 | INFO | ****************************************
+2022-02-28 06:22:28,566 | INFO | ****************************************
+2022-02-28 06:22:28,566 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:22:28,566 | INFO | ****************************************
+2022-02-28 06:25:37,140 | INFO | ****************************************
+2022-02-28 06:25:37,140 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:25:37,140 | INFO | ****************************************
+2022-02-28 06:28:45,717 | INFO | ****************************************
+2022-02-28 06:28:45,717 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:28:45,717 | INFO | ****************************************
+2022-02-28 06:31:54,294 | INFO | ****************************************
+2022-02-28 06:31:54,294 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.19
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:31:54,295 | INFO | ****************************************
+2022-02-28 06:35:02,864 | INFO | ****************************************
+2022-02-28 06:35:02,864 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.18
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.48
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:35:02,864 | INFO | ****************************************
+2022-02-28 06:38:11,403 | INFO | ****************************************
+2022-02-28 06:38:11,403 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:38:11,403 | INFO | ****************************************
+2022-02-28 06:41:19,979 | INFO | ****************************************
+2022-02-28 06:41:19,979 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:41:19,979 | INFO | ****************************************
+2022-02-28 06:44:28,920 | INFO | ****************************************
+2022-02-28 06:44:28,920 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.22
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 93.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:44:28,921 | INFO | ****************************************
+2022-02-28 06:47:37,493 | INFO | ****************************************
+2022-02-28 06:47:37,493 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.2
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 93.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:47:37,494 | INFO | ****************************************
+2022-02-28 06:50:46,078 | INFO | ****************************************
+2022-02-28 06:50:46,078 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.23
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 93.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:50:46,078 | INFO | ****************************************
+2022-02-28 06:53:54,641 | INFO | ****************************************
+2022-02-28 06:53:54,641 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:53:54,641 | INFO | ****************************************
+2022-02-28 06:57:03,208 | INFO | ****************************************
+2022-02-28 06:57:03,208 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 06:57:03,208 | INFO | ****************************************
+2022-02-28 07:00:11,807 | INFO | ****************************************
+2022-02-28 07:00:11,807 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:00:11,807 | INFO | ****************************************
+2022-02-28 07:03:20,363 | INFO | ****************************************
+2022-02-28 07:03:20,363 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:03:20,363 | INFO | ****************************************
+2022-02-28 07:06:28,940 | INFO | ****************************************
+2022-02-28 07:06:28,940 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.54
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:06:28,940 | INFO | ****************************************
+2022-02-28 07:09:37,507 | INFO | ****************************************
+2022-02-28 07:09:37,507 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:09:37,507 | INFO | ****************************************
+2022-02-28 07:12:46,086 | INFO | ****************************************
+2022-02-28 07:12:46,086 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.24
+AVERAGE BUY PRICE: 11.96
+TREND: 99.3
+PURCHASE TREND: 93.98
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:12:46,086 | INFO | ****************************************
+2022-02-28 07:15:55,051 | INFO | ****************************************
+2022-02-28 07:15:55,051 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.27
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:15:55,051 | INFO | ****************************************
+2022-02-28 07:19:03,638 | INFO | ****************************************
+2022-02-28 07:19:03,638 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:19:03,638 | INFO | ****************************************
+2022-02-28 07:22:12,206 | INFO | ****************************************
+2022-02-28 07:22:12,206 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:22:12,206 | INFO | ****************************************
+2022-02-28 07:25:20,773 | INFO | ****************************************
+2022-02-28 07:25:20,773 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:25:20,773 | INFO | ****************************************
+2022-02-28 07:28:29,357 | INFO | ****************************************
+2022-02-28 07:28:29,357 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:28:29,357 | INFO | ****************************************
+2022-02-28 07:31:38,864 | INFO | ****************************************
+2022-02-28 07:31:38,864 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:31:38,864 | INFO | ****************************************
+2022-02-28 07:34:47,425 | INFO | ****************************************
+2022-02-28 07:34:47,426 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:34:47,426 | INFO | ****************************************
+2022-02-28 07:37:56,023 | INFO | ****************************************
+2022-02-28 07:37:56,023 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:37:56,023 | INFO | ****************************************
+2022-02-28 07:41:04,787 | INFO | ****************************************
+2022-02-28 07:41:04,787 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:41:04,787 | INFO | ****************************************
+2022-02-28 07:44:13,411 | INFO | ****************************************
+2022-02-28 07:44:13,411 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:44:13,412 | INFO | ****************************************
+2022-02-28 07:47:21,988 | INFO | ****************************************
+2022-02-28 07:47:21,988 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:47:21,989 | INFO | ****************************************
+2022-02-28 07:50:30,547 | INFO | ****************************************
+2022-02-28 07:50:30,548 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:50:30,548 | INFO | ****************************************
+2022-02-28 07:53:39,106 | INFO | ****************************************
+2022-02-28 07:53:39,106 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:53:39,107 | INFO | ****************************************
+2022-02-28 07:56:47,686 | INFO | ****************************************
+2022-02-28 07:56:47,686 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:56:47,686 | INFO | ****************************************
+2022-02-28 07:59:56,293 | INFO | ****************************************
+2022-02-28 07:59:56,293 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 07:59:56,293 | INFO | ****************************************
+2022-02-28 08:03:05,309 | INFO | ****************************************
+2022-02-28 08:03:05,309 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:03:05,309 | INFO | ****************************************
+2022-02-28 08:06:13,912 | INFO | ****************************************
+2022-02-28 08:06:13,912 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:06:13,912 | INFO | ****************************************
+2022-02-28 08:09:22,500 | INFO | ****************************************
+2022-02-28 08:09:22,500 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:09:22,500 | INFO | ****************************************
+2022-02-28 08:12:31,060 | INFO | ****************************************
+2022-02-28 08:12:31,060 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:12:31,061 | INFO | ****************************************
+2022-02-28 08:15:39,740 | INFO | ****************************************
+2022-02-28 08:15:39,740 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:15:39,740 | INFO | ****************************************
+2022-02-28 08:18:48,283 | INFO | ****************************************
+2022-02-28 08:18:48,283 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:18:48,283 | INFO | ****************************************
+2022-02-28 08:21:56,906 | INFO | ****************************************
+2022-02-28 08:21:56,906 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:21:56,906 | INFO | ****************************************
+2022-02-28 08:25:05,472 | INFO | ****************************************
+2022-02-28 08:25:05,473 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:25:05,473 | INFO | ****************************************
+2022-02-28 08:28:14,063 | INFO | ****************************************
+2022-02-28 08:28:14,063 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:28:14,063 | INFO | ****************************************
+2022-02-28 08:31:22,642 | INFO | ****************************************
+2022-02-28 08:31:22,642 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:31:22,642 | INFO | ****************************************
+2022-02-28 08:34:31,212 | INFO | ****************************************
+2022-02-28 08:34:31,212 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:34:31,212 | INFO | ****************************************
+2022-02-28 08:37:39,806 | INFO | ****************************************
+2022-02-28 08:37:39,807 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:37:39,807 | INFO | ****************************************
+2022-02-28 08:40:48,370 | INFO | ****************************************
+2022-02-28 08:40:48,370 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:40:48,370 | INFO | ****************************************
+2022-02-28 08:43:57,699 | INFO | ****************************************
+2022-02-28 08:43:57,700 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.56
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:43:57,700 | INFO | ****************************************
+2022-02-28 08:47:06,316 | INFO | ****************************************
+2022-02-28 08:47:06,316 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:47:06,317 | INFO | ****************************************
+2022-02-28 08:50:14,899 | INFO | ****************************************
+2022-02-28 08:50:14,900 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:50:14,900 | INFO | ****************************************
+2022-02-28 08:53:23,481 | INFO | ****************************************
+2022-02-28 08:53:23,482 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:53:23,482 | INFO | ****************************************
+2022-02-28 08:56:32,099 | INFO | ****************************************
+2022-02-28 08:56:32,099 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:56:32,099 | INFO | ****************************************
+2022-02-28 08:59:40,658 | INFO | ****************************************
+2022-02-28 08:59:40,658 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 08:59:40,658 | INFO | ****************************************
+2022-02-28 09:02:51,916 | INFO | ****************************************
+2022-02-28 09:02:51,916 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:02:51,916 | INFO | ****************************************
+2022-02-28 09:06:00,523 | INFO | ****************************************
+2022-02-28 09:06:00,523 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:06:00,523 | INFO | ****************************************
+2022-02-28 09:09:09,080 | INFO | ****************************************
+2022-02-28 09:09:09,080 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:09:09,080 | INFO | ****************************************
+2022-02-28 09:12:17,712 | INFO | ****************************************
+2022-02-28 09:12:17,713 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:12:17,713 | INFO | ****************************************
+2022-02-28 09:15:26,288 | INFO | ****************************************
+2022-02-28 09:15:26,288 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:15:26,288 | INFO | ****************************************
+2022-02-28 09:18:34,984 | INFO | ****************************************
+2022-02-28 09:18:34,984 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.26
+AVERAGE BUY PRICE: 11.96
+TREND: 99.21
+PURCHASE TREND: 94.15
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:18:34,984 | INFO | ****************************************
+2022-02-28 09:21:43,552 | INFO | ****************************************
+2022-02-28 09:21:43,552 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.8
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:21:43,552 | INFO | ****************************************
+2022-02-28 09:24:52,195 | INFO | ****************************************
+2022-02-28 09:24:52,195 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:24:52,195 | INFO | ****************************************
+2022-02-28 09:28:00,768 | INFO | ****************************************
+2022-02-28 09:28:00,768 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:28:00,768 | INFO | ****************************************
+2022-02-28 09:31:09,393 | INFO | ****************************************
+2022-02-28 09:31:09,393 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:31:09,393 | INFO | ****************************************
+2022-02-28 09:34:18,027 | INFO | ****************************************
+2022-02-28 09:34:18,027 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:34:18,027 | INFO | ****************************************
+2022-02-28 09:37:26,741 | INFO | ****************************************
+2022-02-28 09:37:26,741 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:37:26,741 | INFO | ****************************************
+2022-02-28 09:40:35,550 | INFO | ****************************************
+2022-02-28 09:40:35,550 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:40:35,551 | INFO | ****************************************
+2022-02-28 09:43:44,196 | INFO | ****************************************
+2022-02-28 09:43:44,196 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:43:44,196 | INFO | ****************************************
+2022-02-28 09:46:52,818 | INFO | ****************************************
+2022-02-28 09:46:52,818 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:46:52,819 | INFO | ****************************************
+2022-02-28 09:50:01,547 | INFO | ****************************************
+2022-02-28 09:50:01,552 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:50:01,552 | INFO | ****************************************
+2022-02-28 09:53:10,142 | INFO | ****************************************
+2022-02-28 09:53:10,142 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:53:10,142 | INFO | ****************************************
+2022-02-28 09:56:18,771 | INFO | ****************************************
+2022-02-28 09:56:18,771 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:56:18,771 | INFO | ****************************************
+2022-02-28 09:59:27,388 | INFO | ****************************************
+2022-02-28 09:59:27,388 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 09:59:27,388 | INFO | ****************************************
+2022-02-28 10:02:36,050 | INFO | ****************************************
+2022-02-28 10:02:36,051 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:02:36,051 | INFO | ****************************************
+2022-02-28 10:05:44,716 | INFO | ****************************************
+2022-02-28 10:05:44,716 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:05:44,716 | INFO | ****************************************
+2022-02-28 10:08:53,331 | INFO | ****************************************
+2022-02-28 10:08:53,332 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.3
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:08:53,332 | INFO | ****************************************
+2022-02-28 10:12:01,999 | INFO | ****************************************
+2022-02-28 10:12:01,999 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:12:01,999 | INFO | ****************************************
+2022-02-28 10:15:10,586 | INFO | ****************************************
+2022-02-28 10:15:10,586 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:15:10,586 | INFO | ****************************************
+2022-02-28 10:18:19,362 | INFO | ****************************************
+2022-02-28 10:18:19,362 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:18:19,362 | INFO | ****************************************
+2022-02-28 10:21:27,952 | INFO | ****************************************
+2022-02-28 10:21:27,952 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:21:27,952 | INFO | ****************************************
+2022-02-28 10:24:36,582 | INFO | ****************************************
+2022-02-28 10:24:36,582 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:24:36,582 | INFO | ****************************************
+2022-02-28 10:27:45,203 | INFO | ****************************************
+2022-02-28 10:27:45,204 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:27:45,204 | INFO | ****************************************
+2022-02-28 10:30:53,845 | INFO | ****************************************
+2022-02-28 10:30:53,845 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:30:53,845 | INFO | ****************************************
+2022-02-28 10:34:02,464 | INFO | ****************************************
+2022-02-28 10:34:02,464 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:34:02,464 | INFO | ****************************************
+2022-02-28 10:37:11,109 | INFO | ****************************************
+2022-02-28 10:37:11,109 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:37:11,109 | INFO | ****************************************
+2022-02-28 10:40:19,722 | INFO | ****************************************
+2022-02-28 10:40:19,722 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:40:19,722 | INFO | ****************************************
+2022-02-28 10:43:28,325 | INFO | ****************************************
+2022-02-28 10:43:28,326 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:43:28,326 | INFO | ****************************************
+2022-02-28 10:46:36,949 | INFO | ****************************************
+2022-02-28 10:46:36,949 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.48
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:46:36,949 | INFO | ****************************************
+2022-02-28 10:49:45,558 | INFO | ****************************************
+2022-02-28 10:49:45,559 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.89
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:49:45,559 | INFO | ****************************************
+2022-02-28 10:52:54,184 | INFO | ****************************************
+2022-02-28 10:52:54,184 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.48
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:52:54,184 | INFO | ****************************************
+2022-02-28 10:56:02,807 | INFO | ****************************************
+2022-02-28 10:56:02,807 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:56:02,807 | INFO | ****************************************
+2022-02-28 10:59:11,427 | INFO | ****************************************
+2022-02-28 10:59:11,428 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 10:59:11,428 | INFO | ****************************************
+2022-02-28 11:02:20,915 | INFO | ****************************************
+2022-02-28 11:02:20,915 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:02:20,915 | INFO | ****************************************
+2022-02-28 11:05:29,540 | INFO | ****************************************
+2022-02-28 11:05:29,541 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:05:29,541 | INFO | ****************************************
+2022-02-28 11:08:38,156 | INFO | ****************************************
+2022-02-28 11:08:38,157 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:08:38,157 | INFO | ****************************************
+2022-02-28 11:11:47,177 | INFO | ****************************************
+2022-02-28 11:11:47,177 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:11:47,178 | INFO | ****************************************
+2022-02-28 11:14:55,776 | INFO | ****************************************
+2022-02-28 11:14:55,776 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:14:55,776 | INFO | ****************************************
+2022-02-28 11:18:04,418 | INFO | ****************************************
+2022-02-28 11:18:04,418 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:18:04,418 | INFO | ****************************************
+2022-02-28 11:21:13,030 | INFO | ****************************************
+2022-02-28 11:21:13,030 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.39
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:21:13,030 | INFO | ****************************************
+2022-02-28 11:24:21,706 | INFO | ****************************************
+2022-02-28 11:24:21,707 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:24:21,707 | INFO | ****************************************
+2022-02-28 11:27:30,334 | INFO | ****************************************
+2022-02-28 11:27:30,334 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:27:30,334 | INFO | ****************************************
+2022-02-28 11:30:38,969 | INFO | ****************************************
+2022-02-28 11:30:38,969 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:30:38,969 | INFO | ****************************************
+2022-02-28 11:33:47,606 | INFO | ****************************************
+2022-02-28 11:33:47,606 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:33:47,606 | INFO | ****************************************
+2022-02-28 11:36:56,232 | INFO | ****************************************
+2022-02-28 11:36:56,232 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:36:56,232 | INFO | ****************************************
+2022-02-28 11:40:05,020 | INFO | ****************************************
+2022-02-28 11:40:05,020 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:40:05,020 | INFO | ****************************************
+2022-02-28 11:43:13,625 | INFO | ****************************************
+2022-02-28 11:43:13,625 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:43:13,626 | INFO | ****************************************
+2022-02-28 11:46:22,321 | INFO | ****************************************
+2022-02-28 11:46:22,321 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:46:22,321 | INFO | ****************************************
+2022-02-28 11:49:30,936 | INFO | ****************************************
+2022-02-28 11:49:30,936 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:49:30,936 | INFO | ****************************************
+2022-02-28 11:52:39,660 | INFO | ****************************************
+2022-02-28 11:52:39,661 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:52:39,661 | INFO | ****************************************
+2022-02-28 11:55:48,307 | INFO | ****************************************
+2022-02-28 11:55:48,307 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.36
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.99
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:55:48,307 | INFO | ****************************************
+2022-02-28 11:58:56,932 | INFO | ****************************************
+2022-02-28 11:58:56,933 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 11:58:56,933 | INFO | ****************************************
+2022-02-28 12:02:05,581 | INFO | ****************************************
+2022-02-28 12:02:05,581 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:02:05,581 | INFO | ****************************************
+2022-02-28 12:05:14,182 | INFO | ****************************************
+2022-02-28 12:05:14,182 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:05:14,182 | INFO | ****************************************
+2022-02-28 12:08:22,810 | INFO | ****************************************
+2022-02-28 12:08:22,810 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:08:22,810 | INFO | ****************************************
+2022-02-28 12:11:31,455 | INFO | ****************************************
+2022-02-28 12:11:31,455 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:11:31,455 | INFO | ****************************************
+2022-02-28 12:14:40,126 | INFO | ****************************************
+2022-02-28 12:14:40,126 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:14:40,126 | INFO | ****************************************
+2022-02-28 12:17:48,736 | INFO | ****************************************
+2022-02-28 12:17:48,736 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:17:48,736 | INFO | ****************************************
+2022-02-28 12:20:57,368 | INFO | ****************************************
+2022-02-28 12:20:57,368 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:20:57,368 | INFO | ****************************************
+2022-02-28 12:24:06,013 | INFO | ****************************************
+2022-02-28 12:24:06,013 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:24:06,013 | INFO | ****************************************
+2022-02-28 12:27:14,644 | INFO | ****************************************
+2022-02-28 12:27:14,644 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.42
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:27:14,645 | INFO | ****************************************
+2022-02-28 12:30:25,577 | INFO | ****************************************
+2022-02-28 12:30:25,577 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 99.65
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:30:25,577 | INFO | ****************************************
+2022-02-28 12:33:34,197 | INFO | ****************************************
+2022-02-28 12:33:34,197 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:33:34,197 | INFO | ****************************************
+2022-02-28 12:36:42,851 | INFO | ****************************************
+2022-02-28 12:36:42,851 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:36:42,852 | INFO | ****************************************
+2022-02-28 12:39:51,468 | INFO | ****************************************
+2022-02-28 12:39:51,468 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:39:51,468 | INFO | ****************************************
+2022-02-28 12:43:00,401 | INFO | ****************************************
+2022-02-28 12:43:00,401 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:43:00,401 | INFO | ****************************************
+2022-02-28 12:46:09,010 | INFO | ****************************************
+2022-02-28 12:46:09,010 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:46:09,010 | INFO | ****************************************
+2022-02-28 12:49:17,637 | INFO | ****************************************
+2022-02-28 12:49:17,637 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:49:17,637 | INFO | ****************************************
+2022-02-28 12:52:26,301 | INFO | ****************************************
+2022-02-28 12:52:26,301 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.4
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 95.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:52:26,301 | INFO | ****************************************
+2022-02-28 12:55:34,974 | INFO | ****************************************
+2022-02-28 12:55:34,974 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:55:34,974 | INFO | ****************************************
+2022-02-28 12:58:43,599 | INFO | ****************************************
+2022-02-28 12:58:43,599 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 12:58:43,599 | INFO | ****************************************
+2022-02-28 13:01:52,324 | INFO | ****************************************
+2022-02-28 13:01:52,325 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:01:52,325 | INFO | ****************************************
+2022-02-28 13:05:00,989 | INFO | ****************************************
+2022-02-28 13:05:00,989 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:05:00,989 | INFO | ****************************************
+2022-02-28 13:08:09,603 | INFO | ****************************************
+2022-02-28 13:08:09,603 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:08:09,603 | INFO | ****************************************
+2022-02-28 13:11:18,265 | INFO | ****************************************
+2022-02-28 13:11:18,266 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.38
+AVERAGE BUY PRICE: 11.96
+TREND: 100.36
+PURCHASE TREND: 95.16
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:11:18,266 | INFO | ****************************************
+2022-02-28 13:14:26,883 | INFO | ****************************************
+2022-02-28 13:14:26,883 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.39
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 95.24
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:14:26,884 | INFO | ****************************************
+2022-02-28 13:17:35,499 | INFO | ****************************************
+2022-02-28 13:17:35,499 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.37
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 95.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:17:35,499 | INFO | ****************************************
+2022-02-28 13:20:44,324 | INFO | ****************************************
+2022-02-28 13:20:44,325 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:20:44,325 | INFO | ****************************************
+2022-02-28 13:23:52,981 | INFO | ****************************************
+2022-02-28 13:23:52,981 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 99.83
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:23:52,982 | INFO | ****************************************
+2022-02-28 13:27:01,647 | INFO | ****************************************
+2022-02-28 13:27:01,647 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.74
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:27:01,647 | INFO | ****************************************
+2022-02-28 13:30:10,350 | INFO | ****************************************
+2022-02-28 13:30:10,350 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.28
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.32
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:30:10,350 | INFO | ****************************************
+2022-02-28 13:33:18,987 | INFO | ****************************************
+2022-02-28 13:33:18,987 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:33:18,987 | INFO | ****************************************
+2022-02-28 13:36:27,645 | INFO | ****************************************
+2022-02-28 13:36:27,645 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.25
+AVERAGE BUY PRICE: 11.96
+TREND: 99.3
+PURCHASE TREND: 94.07
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:36:27,645 | INFO | ****************************************
+2022-02-28 13:39:36,266 | INFO | ****************************************
+2022-02-28 13:39:36,267 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.45
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:39:36,267 | INFO | ****************************************
+2022-02-28 13:42:44,925 | INFO | ****************************************
+2022-02-28 13:42:44,925 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:42:44,926 | INFO | ****************************************
+2022-02-28 13:45:53,573 | INFO | ****************************************
+2022-02-28 13:45:53,573 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:45:53,573 | INFO | ****************************************
+2022-02-28 13:49:02,193 | INFO | ****************************************
+2022-02-28 13:49:02,193 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.32
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.65
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:49:02,193 | INFO | ****************************************
+2022-02-28 13:52:10,896 | INFO | ****************************************
+2022-02-28 13:52:10,896 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.31
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:52:10,896 | INFO | ****************************************
+2022-02-28 13:55:19,571 | INFO | ****************************************
+2022-02-28 13:55:19,571 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:55:19,571 | INFO | ****************************************
+2022-02-28 13:58:28,175 | INFO | ****************************************
+2022-02-28 13:58:28,176 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 13:58:28,176 | INFO | ****************************************
+2022-02-28 14:01:37,776 | INFO | ****************************************
+2022-02-28 14:01:37,776 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.29
+AVERAGE BUY PRICE: 11.96
+TREND: 100.0
+PURCHASE TREND: 94.4
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 14:01:37,776 | INFO | ****************************************
+2022-02-28 14:04:46,423 | INFO | ****************************************
+2022-02-28 14:04:46,423 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.3
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.49
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 14:04:46,423 | INFO | ****************************************
+2022-02-28 14:07:55,048 | INFO | ****************************************
+2022-02-28 14:07:55,048 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.33
+AVERAGE BUY PRICE: 11.96
+TREND: 100.27
+PURCHASE TREND: 94.74
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 14:07:55,048 | INFO | ****************************************
+2022-02-28 14:11:03,684 | INFO | ****************************************
+2022-02-28 14:11:03,684 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.34
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.82
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 14:11:03,684 | INFO | ****************************************
+2022-02-28 14:14:12,316 | INFO | ****************************************
+2022-02-28 14:14:12,316 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.35
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 94.9
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+2022-02-28 14:14:12,317 | INFO | ****************************************
+2022-02-28 14:17:21,149 | INFO | ****************************************
+2022-02-28 14:17:21,149 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.43
+AVERAGE BUY PRICE: 11.96
+TREND: 100.71
+PURCHASE TREND: 95.57
+FUNDS: 4.369097
+BUY QUANTITY: 0.0
+not enough funds for trade
+SELL PRICE: 11.53
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXNA7MU55NBEU7W', 'creation_timestamp': 1646057840969, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.53000000', 'limit_volume': '21.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-28 14:17:21,149 | INFO | ****************************************
+2022-02-28 14:20:31,940 | INFO | ****************************************
+2022-02-28 14:20:31,940 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.49
+AVERAGE BUY PRICE: 11.96
+TREND: 100.53
+PURCHASE TREND: 96.08
+FUNDS: 4.369097
+2022-02-28 14:20:31,940 | INFO | ****************************************
+2022-02-28 14:23:41,562 | INFO | ****************************************
+2022-02-28 14:23:41,562 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.48
+AVERAGE BUY PRICE: 11.96
+TREND: 99.92
+PURCHASE TREND: 95.99
+FUNDS: 4.369097
+2022-02-28 14:23:41,562 | INFO | ****************************************
+2022-02-28 14:26:51,017 | INFO | ****************************************
+2022-02-28 14:26:51,017 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.49
+AVERAGE BUY PRICE: 11.96
+TREND: 100.09
+PURCHASE TREND: 96.08
+FUNDS: 4.369097
+2022-02-28 14:26:51,017 | INFO | ****************************************
+2022-02-28 14:30:00,497 | INFO | ****************************************
+2022-02-28 14:30:00,497 | INFO | 
+CURRENT PROFIT: 61.66000000000025
+CURRENT PRICE: 11.51
+AVERAGE BUY PRICE: 11.96
+TREND: 100.18
+PURCHASE TREND: 96.24
+FUNDS: 4.369097
+2022-02-28 14:30:00,497 | INFO | ****************************************
+2022-02-28 14:33:09,899 | INFO | ****************************************
+2022-02-28 14:33:09,899 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.55
+AVERAGE BUY PRICE: 11.98
+TREND: 100.35
+PURCHASE TREND: 96.42
+FUNDS: 246.499097
+BUY QUANTITY: 21.0
+CAN'T BUY BETWEEN: 11.53 - 12.29
+2022-02-28 14:33:09,899 | INFO | ****************************************
+2022-02-28 14:36:18,849 | INFO | ****************************************
+2022-02-28 14:36:18,849 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.6
+AVERAGE BUY PRICE: 11.98
+TREND: 100.44
+PURCHASE TREND: 96.83
+FUNDS: 246.499097
+BUY QUANTITY: 21.0
+CAN'T BUY BETWEEN: 11.53 - 12.29
+SELL PRICE: 11.66
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXMSV87WJRK4GZ7', 'creation_timestamp': 1646058978648, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.66000000', 'limit_volume': '80.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-28 14:36:18,849 | INFO | ****************************************
+2022-02-28 14:39:28,421 | INFO | ****************************************
+2022-02-28 14:39:28,421 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.59
+AVERAGE BUY PRICE: 11.98
+TREND: 99.92
+PURCHASE TREND: 96.75
+FUNDS: 246.499097
+2022-02-28 14:39:28,421 | INFO | ****************************************
+2022-02-28 14:42:37,984 | INFO | ****************************************
+2022-02-28 14:42:37,984 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.57
+AVERAGE BUY PRICE: 11.98
+TREND: 99.83
+PURCHASE TREND: 96.58
+FUNDS: 246.499097
+2022-02-28 14:42:37,984 | INFO | ****************************************
+2022-02-28 14:45:47,595 | INFO | ****************************************
+2022-02-28 14:45:47,596 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.57
+AVERAGE BUY PRICE: 11.98
+TREND: 100.0
+PURCHASE TREND: 96.58
+FUNDS: 246.499097
+2022-02-28 14:45:47,596 | INFO | ****************************************
+2022-02-28 14:48:57,144 | INFO | ****************************************
+2022-02-28 14:48:57,145 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.55
+AVERAGE BUY PRICE: 11.98
+TREND: 99.83
+PURCHASE TREND: 96.42
+FUNDS: 246.499097
+2022-02-28 14:48:57,145 | INFO | ****************************************
+2022-02-28 14:52:06,989 | INFO | ****************************************
+2022-02-28 14:52:06,990 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.58
+CANCEL ORDER: <Response [200]>
+CLOSING ORDER: BXMSV87WJRK4GZ7
+AVERAGE BUY PRICE: 11.98
+TREND: 100.26
+PURCHASE TREND: 96.67
+FUNDS: 246.499097
+2022-02-28 14:52:06,990 | INFO | ****************************************
+2022-02-28 14:55:16,005 | INFO | ****************************************
+2022-02-28 14:55:16,005 | INFO | 
+CURRENT PROFIT: 61.87000000000026
+CURRENT PRICE: 11.63
+AVERAGE BUY PRICE: 11.98
+TREND: 100.44
+PURCHASE TREND: 97.08
+FUNDS: 246.499097
+BUY QUANTITY: 21.0
+CAN'T BUY BETWEEN: 11.53 - 12.29
+SELL PRICE: 11.66
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXEAKNYBNN28NVD', 'creation_timestamp': 1646060115822, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.66000000', 'limit_volume': '80.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-28 14:55:16,005 | INFO | ****************************************
+2022-02-28 14:58:25,383 | INFO | ****************************************
+2022-02-28 14:58:25,383 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.68
+AVERAGE BUY PRICE: 12.09
+TREND: 100.43
+PURCHASE TREND: 96.61
+FUNDS: 1179.299097
+BUY QUANTITY: 80.0
+CAN'T BUY BETWEEN: 11.74 - 12.26
+2022-02-28 14:58:25,383 | INFO | ****************************************
+2022-02-28 15:01:34,192 | INFO | ****************************************
+2022-02-28 15:01:34,193 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.72
+AVERAGE BUY PRICE: 12.09
+TREND: 100.35
+PURCHASE TREND: 96.94
+FUNDS: 1179.299097
+BUY QUANTITY: 80.0
+CAN'T BUY BETWEEN: 11.74 - 12.26
+2022-02-28 15:01:34,193 | INFO | ****************************************
+2022-02-28 15:04:43,222 | INFO | ****************************************
+2022-02-28 15:04:43,223 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.68
+AVERAGE BUY PRICE: 12.09
+TREND: 99.66
+PURCHASE TREND: 96.61
+FUNDS: 1179.299097
+BUY QUANTITY: 80.0
+CAN'T BUY BETWEEN: 11.74 - 12.26
+============================
+=== PROCESSING BUY ORDER ===
+============================
+BUY PRICE: 11.67
+TOTAL COST: 933.6
+FUNDS AFTER PURCHASE: 1179.299097
+2022-02-28 15:04:43,223 | INFO | ****************************************
+2022-02-28 15:07:52,487 | INFO | ****************************************
+2022-02-28 15:07:52,488 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.69
+AVERAGE BUY PRICE: 11.99
+TREND: 100.09
+PURCHASE TREND: 97.5
+FUNDS: 245.699097
+BUY QUANTITY: 21.0
+CAN'T BUY BETWEEN: 11.55 - 12.29
+SELL PRICE: 11.68
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-28 15:07:52,488 | INFO | ****************************************
+2022-02-28 15:11:01,375 | INFO | ****************************************
+2022-02-28 15:11:01,375 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.69
+AVERAGE BUY PRICE: 11.99
+TREND: 100.0
+PURCHASE TREND: 97.5
+FUNDS: 245.699097
+BUY QUANTITY: 21.0
+CAN'T BUY BETWEEN: 11.55 - 12.29
+SELL PRICE: 11.68
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-28 15:11:01,375 | INFO | ****************************************
+2022-02-28 15:14:10,462 | INFO | ****************************************
+2022-02-28 15:14:10,462 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.68
+AVERAGE BUY PRICE: 11.99
+TREND: 99.92
+PURCHASE TREND: 97.42
+FUNDS: 245.699097
+BUY QUANTITY: 21.0
+CAN'T BUY BETWEEN: 11.55 - 12.29
+SELL PRICE: 11.68
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-28 15:14:10,462 | INFO | ****************************************
+2022-02-28 15:17:19,373 | INFO | ****************************************
+2022-02-28 15:17:19,373 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.79
+AVERAGE BUY PRICE: 11.99
+TREND: 100.95
+PURCHASE TREND: 98.34
+FUNDS: 245.699097
+BUY QUANTITY: 20.0
+CAN'T BUY BETWEEN: 11.55 - 12.29
+SELL PRICE: 11.74
+=============================
+=== PROCESSING PSO ==========
+=============================
+2022-02-28 15:17:19,373 | INFO | ****************************************
+2022-02-28 15:20:28,450 | INFO | ****************************************
+2022-02-28 15:20:28,450 | INFO | 
+CURRENT PROFIT: 62.670000000000215
+CURRENT PRICE: 11.91
+AVERAGE BUY PRICE: 11.99
+TREND: 101.02
+PURCHASE TREND: 99.34
+FUNDS: 245.699097
+BUY QUANTITY: 20.0
+CAN'T BUY BETWEEN: 11.55 - 12.29
+SELL PRICE: 11.74
+=============================
+=== PROCESSING PSO ==========
+=============================
+ORDER: {'order_id': 'BXE3T99DBGFU9Q2', 'creation_timestamp': 1646061628267, 'expiration_timestamp': 0, 'completed_timestamp': 0, 'side': 'SELL', 'status': 'PENDING', 'type': 'LIMIT', 'limit_price': '11.93000000', 'limit_volume': '121.00000000', 'base': '0.00000000', 'counter': '0.00000000', 'fee_base': '0.00000000', 'fee_counter': '0.00000000', 'pair': 'XRPZAR', 'client_order_id': ''}
+2022-02-28 15:20:28,451 | INFO | ****************************************
+2022-02-28 15:23:38,238 | INFO | ****************************************
+2022-02-28 15:23:38,238 | INFO | 
+CURRENT PROFIT: 87.57000000000008
+CURRENT PRICE: 11.93
+AVERAGE BUY PRICE: 12.14
+TREND: 100.17
+PURCHASE TREND: 98.28
+FUNDS: 1689.229097
+BUY QUANTITY: 84.0
+CAN'T BUY BETWEEN: 11.98 - 12.23
+2022-02-28 15:23:38,238 | INFO | ****************************************
+2022-02-28 15:26:47,383 | INFO | ****************************************
+2022-02-28 15:26:47,383 | INFO | 
+CURRENT PROFIT: 87.57000000000008
+CURRENT PRICE: 11.88
+AVERAGE BUY PRICE: 12.14
+TREND: 99.59
+PURCHASE TREND: 97.86
+FUNDS: 1689.229097
+BUY QUANTITY: 85.0
+CAN'T BUY BETWEEN: 11.98 - 12.23
+2022-02-28 15:26:47,383 | INFO | ****************************************
+2022-02-28 15:29:56,300 | INFO | ****************************************
+2022-02-28 15:29:56,300 | INFO | 
+CURRENT PROFIT: 87.57000000000008
+CURRENT PRICE: 11.89
+AVERAGE BUY PRICE: 12.14
+TREND: 100.09
+PURCHASE TREND: 97.95
+FUNDS: 1689.229097
+BUY QUANTITY: 85.0
+CAN'T BUY BETWEEN: 11.98 - 12.23
+2022-02-28 15:29:56,300 | INFO | ****************************************
+2022-02-28 15:33:05,265 | INFO | ****************************************
+2022-02-28 15:33:05,265 | INFO | 
+CURRENT PROFIT: 87.57000000000008
+CURRENT PRICE: 11.9
+AVERAGE BUY PRICE: 12.14
+TREND: 100.09
+PURCHASE TREND: 98.03
+FUNDS: 1689.229097
+BUY QUANTITY: 85.0
+CAN'T BUY BETWEEN: 11.98 - 12.23
+2022-02-28 15:33:05,265 | INFO | ****************************************
