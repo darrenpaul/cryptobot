@@ -6,3 +6,10 @@ orders:
   price: '12.20'
   quantity: 210.0
   side: BUY
+- counter: 1.0
+  funds: 1699.249097
+  limit_price: '12.05000000'
+  order_id: BXEBVFPBNB3YR4H
+  price: '12.05000000'
+  quantity: 56.0
+  side: BUY
