@@ -42,19 +42,3 @@ class PriceManager:
             price = float(order['price'])
             value += quantity * price
         return value
-
-
-    def get_total_profit(self):
-        profit = 0.0
-        for order in self.past_orders:
-            side = order['side']
-            if side == 'BUY':
-                continue
-            orders = order['orders']
-            purchase_value = self._get_purchase_value_from_orders(orders)
-            quantity = float(order['quantity'])
-            price = float(order['price'])
-            sell_value = quantity * price
-            profit += sell_value - purchase_value
-        self.logger_message.append(f'CURRENT PROFIT: {profit}')
-

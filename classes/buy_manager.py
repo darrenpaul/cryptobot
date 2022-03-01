@@ -106,8 +106,8 @@ class BuyManager:
         return mathematics.round_up(quantity, 0)
 
     def check_if_can_buy(self, weighted_price, current_price):
-        if len(self.pending_orders_buy) > 0:
-            return False
+        # if len(self.pending_orders_buy) > 0:
+        #     return False
 
         highest_buy_price = self.get_highest_buy_price()
         if highest_buy_price and current_price > highest_buy_price:
@@ -122,12 +122,12 @@ class BuyManager:
         if price_in_margin == False:
             return False
 
-        if float(weighted_price) < float(current_price):
-            return False
+        if weighted_price > 0.0:
+            if float(weighted_price) < float(current_price):
+                return False
 
         if self.check_if_trend_in_range():
             self.process_buy_order(current_price, quantity)
-            self.did_buy = True
 
     def complete_buy_orders(self, order_ids):
         buy_orders = []

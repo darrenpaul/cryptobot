@@ -1,10 +1,18 @@
+from math import fabs
 import time
+from pprint import pprint
+from modules import logger, luno, telegram
+from classes import buy_manager, sell_manager, order_manager, price_manager
+from classes import trend_manager, config_manager, funds_manager, profit_manager
 
-from modules import logger, luno
-from classes import buy_manager, sell_manager, order_manager, price_manager, trend_manager, config_manager, funds_manager
+TELEGRAM_TOKEN = '5265556776:AAEqBqxWcqfcp9vronKBCujHk2EWTULRpDA'
+TELEGRAM_CHAT_ID = '469090152'
 
 
 PROCESS_TIMER = 180
+BUY_TIMER = 300
+SELL_TIMER = 600
+PROFIT_TIMER = 21600
 
 # True
 # False
@@ -21,7 +29,9 @@ class AlgoBot(
     trend_manager.TrendManager,
     logger.BotLogger,
     config_manager.ConfigManager,
-    funds_manager.FundsManager):
+    funds_manager.FundsManager,
+    profit_manager.ProfitManager,
+    telegram.Telegram):
 
     def __init__(self):
         buy_manager.BuyManager.__init__(self)
@@ -32,46 +42,29 @@ class AlgoBot(
         logger.BotLogger.__init__(self)
         config_manager.ConfigManager.__init__(self)
         funds_manager.FundsManager.__init__(self)
+        profit_manager.ProfitManager.__init__(self)
+        telegram.Telegram.__init__(self, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
 
         self.logger_message = ['']
         self.dry_run = DRY_RUN
         self.can_buy = CAN_BUY
         self.can_sell = CAN_SELL
-        self.did_buy = False
 
-    def _try_order(self, current_price):
-        weighted_price = self.get_buy_price_average()
+    def _run_buy(self, weighted_price, current_price):
+        if self.can_buy:
+            self.check_if_can_buy(weighted_price, current_price)
+
+    def _run_sell(self, weighted_price, current_price):
+        if self.can_sell:
+            self.check_if_can_sell(weighted_price, current_price)
+
+    def has_data_for_transaction(self):
+        return len(self.past_prices) > self.trend_size
+
+    def run_update(self, current_price):
+        self.get_total_profit_old()
         self.update_trend(current_price)
         self.update_funds()
-
-        # # SHUTDOWN WHEN NO FUNDS
-        # if luno.getSpendableBalance(self.coin) < current_price:
-        #     quit()
-
-        if len(self.pending_orders_buy) == 0 and len(self.pending_orders_sell) == 0:
-            # BUY ORDER
-            if self.can_buy:
-                self.check_if_can_buy(weighted_price, current_price)
-            # SELL ORDER
-            if self.can_sell:
-                self.check_if_can_sell(weighted_price, current_price)
-
-    def run(self):
-        has_data = False
-        self.did_buy = False
-
-        self.logger_message = ['']
-
-        self.get_total_profit()
-
-        current_price = self.get_current_price()
-
-        has_data = len(self.past_prices) > self.trend_size
-
-        if has_data:
-            self._close_open_orders()
-            self._try_order(current_price)
-
         self.log_info_message(self.logger_message)
 
 
@@ -80,14 +73,13 @@ def initialize_bot():
     bot.log_info('Running AlgoBot...')
     bot.get_config()
     bot.get_past_prices()
-    bot.get_past_trends()
     bot.pending_orders_buy = bot.get_pending_orders('buy')
     bot.pending_orders_sell = bot.get_pending_orders('sell')
     bot.get_buy_orders()
-    bot.get_sell_orders()
     bot.get_past_orders()
-    bot.get_past_funds()
-
+    bot.get_past_profits()
+    if not DRY_RUN:
+        bot.send_message(f'CryptoBot started...\ndry run: {DRY_RUN}\ncan buy: {CAN_BUY}\ncan sell: {CAN_SELL}')
     return bot
 
 
@@ -106,22 +98,58 @@ def process_sell_orders(bot):
 
 def main():
     bot = initialize_bot()
-
     count = PROCESS_TIMER
+    buy_counter = BUY_TIMER
+    sell_counter = SELL_TIMER
+    message_count = 0
     while True:
+        print_log = False
         bot.get_config()
+
+        weighted_price = 0.0
+        current_price = 0.0
 
         if count % 10 == 0:
             process_orders(bot)
 
-        if count >= PROCESS_TIMER:
+        if buy_counter >= BUY_TIMER or sell_counter >= SELL_TIMER:
+            bot.logger_message = ['']
+            weighted_price = bot.get_buy_price_average()
+            current_price = bot.get_current_price()
+            bot.run_update(current_price)
+            print_log = True
+
+        if buy_counter >= BUY_TIMER:
             bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
             bot.save_order(bot.bought_orders, 'buy')
-            bot.run()
-            count = 0
+            bot._run_buy(weighted_price, current_price)
+            buy_counter = 0
+            print_log = True
+
+        if sell_counter >= SELL_TIMER:
+            bot._run_sell(weighted_price, current_price)
+            sell_counter = 0
+            print_log = True
+
+        if print_log:
+            bot.log_info_message(bot.logger_message)
+
+        if message_count >= PROFIT_TIMER:
+            message = f'Daily Profit: {bot.get_profits_for_day()}\n'
+            message += f'Total Profit: {bot.get_total_profits_summary()}'
+            bot.send_message(message)
+            message_count = 0
+
         time.sleep(1)
         count += 1
+        buy_counter += 1
+        sell_counter += 1
+        message_count += 1
 
 
 if __name__ == "__main__":
-    main()
+    telegramBot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
+    try:
+        main()
+    except Exception as e:
+        telegramBot.send_message(f'Error: {e}')

@@ -98,9 +98,12 @@ def get_complete_orders(data, side):
             continue
         status = order.get('status')
         counter = float(order.get('counter'))
+        base = float(order.get('base'))
+        volume = float(order.get('limit_volume'))
         if status == 'COMPLETE':
             if counter > 0.0:
-                orders.append(order)
+                if base >= volume:
+                    orders.append(order)
     return orders
 
 

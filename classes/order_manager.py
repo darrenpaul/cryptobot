@@ -73,8 +73,9 @@ class OrderManager:
         for order in [*self.pending_orders_buy, *self.pending_orders_sell]:
             cancel_count = order.get('cancel_count')
             order_id = order.get('order_id')
+            fill_amount = float(order.get('base'))
 
-            if cancel_count > self.cancel_count:
+            if cancel_count > self.cancel_count and fill_amount == 0.0:
                 cancel_order = luno.close_open_order(order['order_id'])
                 self.logger_message.append(f'CANCEL ORDER: {cancel_order}')
                 self.logger_message.append(f'CLOSING ORDER: {order_id}')

@@ -15,7 +15,7 @@ class SellManager:
             for i in self.bought_orders:
                 quantity = quantity + float(i['quantity'])
         self.logger_message.append(f'SELL QUANTITY: {quantity}')
-        return quantity
+        return float(int(quantity))
 
     def _get_sell_price(self, weighted_price):
         profit_value = self.profit_amount
@@ -38,17 +38,11 @@ class SellManager:
 
     def _create_sell_order(self, price, quantity):
         simple_order = luno.create_sell_order(self.trading_pair, price, quantity, dry_run=self.dry_run)
+        print(simple_order)
         if simple_order.get('order_id'):
             order = luno.get_order(simple_order['order_id'])
             self.logger_message.append(f'ORDER: {order}')
             return order
-
-    def save_sell_order(self):
-        file_reader.write_data({'orders': self.sell_orders}, 'sell_orders')
-
-    def get_sell_orders(self):
-        data = file_reader.read_data('sell_orders')
-        self.sell_orders = data.get('orders') or []
 
     def process_pending_sell_orders(self):
         updated_pending_orders = order_utils.update_order_details(self.pending_orders_sell)
@@ -60,30 +54,33 @@ class SellManager:
 
         order_ids = order_utils.get_order_ids(pending_orders)
 
+        if len(complete_orders) > 0:
+            profit = self.get_profit(complete_orders)
+            self.add_profit(profit)
+
         self.pending_orders_sell = incomplete_orders
         self.save_pending_order(self.pending_orders_sell, 'sell')
-
-        self.sell_orders = complete_orders
-        self.save_sell_order()
 
         self.past_orders = [*self.past_orders, *complete_orders]
         self.save_past_orders()
 
         if len(complete_orders) > 0:
-            self.save_current_funds(complete_orders)
             self.complete_buy_orders(order_ids)
 
-    def process_sell_order(self, weighted_price):
+    def process_sell_order(self, current_price, weighted_price):
         self.logger_message.append(f'=============================')
         self.logger_message.append(f'=== PROCESSING SELL ORDER ===')
         self.logger_message.append(f'=============================')
 
         quantity = self._get_quantity()
 
-        price = self._get_sell_price(weighted_price)
+        sell_price = weighted_price
+        if current_price > weighted_price:
+            sell_price = current_price
+
+        price = self._get_sell_price(sell_price)
 
         order = self._create_sell_order(price, quantity)
-
         self.pending_orders_sell.append(
             {
                 'price': price,
@@ -113,16 +110,14 @@ class SellManager:
             self.save_pending_order(self.pending_orders_sell, 'sell')
 
     def check_if_can_sell(self, weighted_price, current_price):
-        if self.did_buy:
-            return
         if len(self.bought_orders) == 0:
             return
         if len(self.pending_orders_sell) > 0:
             return
-        if float(weighted_price) < float(current_price):
-            self.process_sell_order(weighted_price)
-        else:
-            self.check_for_possible_sell_orders(current_price)
+        # if float(weighted_price) < float(current_price):
+        #     self.process_sell_order(current_price, weighted_price)
+        # else:
+        self.check_for_possible_sell_orders(current_price)
 
     def check_for_possible_sell_orders(self, current_price):
         orders = self._get_possible_sell_orders(current_price)

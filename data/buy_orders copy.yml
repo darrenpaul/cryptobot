@@ -1,7 +1,0 @@
-orders:
-- counter: 1.0
-  funds: 0.0
-  limit_price: '12.17'
-  order_id: CUSTOMORDERA
-  price: '12.17'
-  quantity: 177.0
