@@ -1,8 +1,1 @@
-orders:
-- counter: 1.0
-  funds: 3803.689097
-  limit_price: '12.23000000'
-  order_id: BXGSJM8MMYTHEJK
-  price: '12.23000000'
-  quantity: 31.0
-  side: BUY
+orders: []
