@@ -65,6 +65,7 @@ class AlgoBot(
         self.get_total_profit_old()
         self.update_trend(current_price)
         self.update_funds()
+        self._close_open_orders()
         self.log_info_message(self.logger_message)
 
 

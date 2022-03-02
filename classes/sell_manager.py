@@ -28,11 +28,11 @@ class SellManager:
 
     def _get_possible_sell_orders(self, price):
         orders = []
-        end = float(price) + float(self.sell_group_margin)
+        end = float(price)
 
         for order in self.bought_orders:
             order_price = float(order['limit_price'])
-            if order_price < end:
+            if order_price <= end:
                 orders.append(order)
         return orders
 
@@ -112,8 +112,8 @@ class SellManager:
     def check_if_can_sell(self, weighted_price, current_price):
         if len(self.bought_orders) == 0:
             return
-        if len(self.pending_orders_sell) > 0:
-            return
+        # if len(self.pending_orders_sell) > 0:
+        #     return
         # if float(weighted_price) < float(current_price):
         #     self.process_sell_order(current_price, weighted_price)
         # else:
@@ -128,6 +128,6 @@ class SellManager:
             weighted_price = mathematics.get_weighted_average(orders, 'limit_price', 'quantity')
             sell_price = self._get_sell_price(weighted_price)
             if sell_price < current_price:
-                sell_price = current_price + 0.02
+                sell_price = current_price + self.profit_amount
 
             self.process_possible_sell_orders(sell_price, total_quantity, orders, order_ids)
