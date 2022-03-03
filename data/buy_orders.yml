@@ -7,9 +7,16 @@ orders:
   quantity: 16.0
   side: BUY
 - counter: 1.0
-  funds: 3805.079097
-  limit_price: '12.11000000'
-  order_id: BXBKBGVPEZ5ZUCV
-  price: '12.11000000'
+  funds: 3814.079097
+  limit_price: '12.14000000'
+  order_id: BXE77CEPKU8BMK2
+  price: '12.14000000'
   quantity: 31.0
+  side: BUY
+- counter: 1.0
+  funds: 6370.218194000001
+  limit_price: '12.03000000'
+  order_id: BXGGESPWC79QN6M
+  price: '12.03000000'
+  quantity: 78.0
   side: BUY
