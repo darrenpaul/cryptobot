@@ -112,8 +112,8 @@ class SellManager:
     def check_if_can_sell(self, weighted_price, current_price):
         if len(self.bought_orders) == 0:
             return
-        # if len(self.pending_orders_sell) > 0:
-        #     return
+        if len(self.pending_orders_sell) > 0:
+            return
         # if float(weighted_price) < float(current_price):
         #     self.process_sell_order(current_price, weighted_price)
         # else:

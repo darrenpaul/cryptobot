@@ -106,8 +106,8 @@ class BuyManager:
         return mathematics.round_up(quantity, 0)
 
     def check_if_can_buy(self, weighted_price, current_price):
-        # if len(self.pending_orders_buy) > 0:
-        #     return False
+        if len(self.pending_orders_buy) > 0:
+            return False
 
         highest_buy_price = self.get_highest_buy_price()
         if highest_buy_price and current_price > highest_buy_price:
