@@ -1071,3 +1071,97 @@ orders:
   side: SELL
   status: COMPLETE
   type: LIMIT
+- base: '50.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1646393207646
+  counter: '583.50000000'
+  creation_timestamp: 1646393160911
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '11.67000000'
+  limit_volume: '50.00000000'
+  order_id: BXH9FMF2UQD9QXM
+  order_ids:
+  - BXJ2CCPSVURXVC8
+  orders:
+  - counter: 1.0
+    funds: 2362.189097
+    limit_price: '11.63000000'
+    order_id: BXJ2CCPSVURXVC8
+    price: '11.63000000'
+    quantity: 50.0
+    side: BUY
+  pair: XRPZAR
+  price: 11.67
+  quantity: 50.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
+- base: '51.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1646396760634
+  counter: '589.56000000'
+  creation_timestamp: 1646396549202
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 2366.029097
+  limit_price: '11.56000000'
+  limit_volume: '51.00000000'
+  order_id: BXCA22W89WB75HD
+  pair: XRPZAR
+  price: 11.56
+  quantity: 51.0
+  side: BUY
+  status: COMPLETE
+  type: LIMIT
+- base: '51.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1646397373346
+  counter: '591.09000000'
+  creation_timestamp: 1646397177798
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '11.59000000'
+  limit_volume: '51.00000000'
+  order_id: BXCGBMTV57YR6H7
+  order_ids:
+  - BXCA22W89WB75HD
+  orders:
+  - counter: 1.0
+    funds: 2366.029097
+    limit_price: '11.56000000'
+    order_id: BXCA22W89WB75HD
+    price: '11.56000000'
+    quantity: 51.0
+    side: BUY
+  pair: XRPZAR
+  price: 11.59
+  quantity: 51.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
+- base: '51.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1646399150618
+  counter: '589.56000000'
+  creation_timestamp: 1646399036785
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 2367.559097
+  limit_price: '11.56000000'
+  limit_volume: '51.00000000'
+  order_id: BXFJ86KAWUPEZDW
+  pair: XRPZAR
+  price: 11.56
+  quantity: 51.0
+  side: BUY
+  status: COMPLETE
+  type: LIMIT
