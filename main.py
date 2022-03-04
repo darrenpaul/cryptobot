@@ -12,7 +12,7 @@ TELEGRAM_CHAT_ID = '469090152'
 PROCESS_TIMER = 180
 BUY_TIMER = 300
 SELL_TIMER = 300
-PROFIT_TIMER = 21600
+PROFIT_TIMER = 10800
 
 # True
 # False
@@ -102,7 +102,7 @@ def main():
     count = PROCESS_TIMER
     buy_counter = BUY_TIMER
     sell_counter = SELL_TIMER
-    message_count = 0
+    message_count = PROFIT_TIMER
     while True:
         print_log = False
         bot.get_config()
