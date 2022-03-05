@@ -51,6 +51,12 @@ class BuyManager:
         self.logger_message.append(f'CAN\'T BUY BETWEEN: {min_margin} - {max_margin}')
         return can_buy
 
+    def increase_profit_amount(self):
+        increase_amount = 0.01
+        for order in self.bought_orders:
+            order['limit_price'] = float(order['limit_price']) + float(increase_amount)
+        self.save_order(self.bought_orders, 'buy')
+
     def process_buy_order(self, current_price, quantity):
         self.logger_message.append(f'============================')
         self.logger_message.append(f'=== PROCESSING BUY ORDER ===')

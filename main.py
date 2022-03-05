@@ -12,7 +12,8 @@ TELEGRAM_CHAT_ID = '469090152'
 PROCESS_TIMER = 180
 BUY_TIMER = 300
 SELL_TIMER = 300
-PROFIT_TIMER = 10800
+PROFIT_TIMER = 3600
+PROFIT_INCREASE_TIMER = 10800
 
 # True
 # False
@@ -99,10 +100,12 @@ def process_sell_orders(bot):
 
 def main():
     bot = initialize_bot()
+
     count = PROCESS_TIMER
     buy_counter = BUY_TIMER
     sell_counter = SELL_TIMER
     message_count = PROFIT_TIMER
+    profit_increase_count = 0
     while True:
         print_log = False
         bot.get_config()
@@ -141,16 +144,23 @@ def main():
             bot.send_message(message)
             message_count = 0
 
+        if profit_increase_count >= PROFIT_INCREASE_TIMER:
+            bot.increase_profit_amount()
+            profit_increase_count = 0
+
         time.sleep(1)
         count += 1
         buy_counter += 1
         sell_counter += 1
         message_count += 1
+        profit_increase_count += 1
 
 
 if __name__ == "__main__":
-    telegramBot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
+    telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
+    fail_logger = logger.BotLogger()
     try:
         main()
     except Exception as e:
-        telegramBot.send_message(f'Error: {e}')
+        fail_logger.log_warning(f'Error: {e}')
+        telegram_bot.send_message(f'Error: {e}')
