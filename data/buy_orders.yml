@@ -20,17 +20,3 @@ orders:
   price: '12.01000000'
   quantity: 42.0
   side: BUY
-- counter: 1.0
-  funds: 2935.849097
-  limit_price: '11.84000000'
-  order_id: BXH7694875N8ZKM
-  price: '11.84000000'
-  quantity: 49.0
-  side: BUY
-- counter: 1.0
-  funds: 2367.559097
-  limit_price: '11.56000000'
-  order_id: BXFJ86KAWUPEZDW
-  price: '11.56000000'
-  quantity: 51.0
-  side: BUY
