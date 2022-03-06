@@ -1,22 +1,29 @@
 orders:
 - counter: 1.0
   funds: 4000.279097
-  limit_price: 12.209999999999999
+  limit_price: 12.239999999999998
   order_id: BXNCANYYJGKDNBV
-  price: 12.209999999999999
+  price: 12.239999999999998
   quantity: 16.0
   side: BUY
 - counter: 1.0
   funds: 3814.079097
-  limit_price: 12.15
+  limit_price: 12.18
   order_id: BXE77CEPKU8BMK2
-  price: 12.15
+  price: 12.18
   quantity: 31.0
   side: BUY
 - counter: 1.0
   funds: 3439.779097
-  limit_price: 12.02
+  limit_price: 12.049999999999999
   order_id: BXDWNGX3Z2C6Q3C
-  price: 12.02
+  price: 12.049999999999999
   quantity: 42.0
+  side: BUY
+- counter: 1.0
+  funds: 2964.889097
+  limit_price: 11.889999999999999
+  order_id: BXB278RP9TE4BNU
+  price: 11.889999999999999
+  quantity: 49.0
   side: BUY
