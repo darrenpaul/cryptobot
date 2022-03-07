@@ -49,6 +49,7 @@ class OrderManager:
                 quantity += float(order['quantity'])
                 order_funds = order.get('funds')
                 side = order.get('side')
+
                 if order_funds:
                     funds += float(order_funds)
 
@@ -61,6 +62,7 @@ class OrderManager:
                     'counter': 1.0,
                     'funds': funds,
                     'side': side,
+                    'increase_profit_count': order.get('increase_profit_count') or 0,
                 }
             )
 
@@ -71,14 +73,14 @@ class OrderManager:
         sell_orders = []
 
         for order in [*self.pending_orders_buy, *self.pending_orders_sell]:
-            cancel_count = order.get('cancel_count')
+            cancel_count = order.get('cancel_count') or 0
             order_id = order.get('order_id')
             fill_amount = float(order.get('base'))
 
-            if cancel_count > self.cancel_count and fill_amount == 0.0:
+            if cancel_count and cancel_count > self.cancel_count and fill_amount == 0.0:
                 cancel_order = luno.close_open_order(order['order_id'])
-                self.logger_message.append(f'CANCEL ORDER: {cancel_order}')
-                self.logger_message.append(f'CLOSING ORDER: {order_id}')
+                self.log_info(f'CANCEL ORDER: {cancel_order}')
+                self.log_info(f'CLOSING ORDER: {order_id}')
 
             cancel_count += 1
             if order.get('side') == 'BUY':
@@ -98,4 +100,4 @@ class OrderManager:
         #     # self.pending_orders_sell = []
         #     # self.save_pending_order(self.pending_orders_buy, 'buy')
         #     # self.save_pending_order(self.pending_orders_sell, 'sell')
-        #     self.logger_message.append(f'cancelled open orders {cancelled_orders}')
+        #     self.log_info(f'cancelled open orders {cancelled_orders}')

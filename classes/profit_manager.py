@@ -1,4 +1,5 @@
 from datetime import datetime
+from re import S
 from modules import file_reader, mathematics
 
 
@@ -26,7 +27,7 @@ class ProfitManager:
             sell_value = quantity * price
             profit += sell_value - purchase_value
 
-        self.logger_message.append(f'SELL PROFIT: {profit}')
+        self.log_info(f'SELL PROFIT: {profit}')
         return profit
         
     def get_total_profit_old(self):
@@ -41,7 +42,7 @@ class ProfitManager:
             price = float(order['price'])
             sell_value = quantity * price
             profit += sell_value - purchase_value
-        self.logger_message.append(f'CURRENT PROFIT: {profit}')
+        self.log_info(f'CURRENT PROFIT: {profit}')
 
     def get_profits_for_day(self):
         today = datetime.today().date()
@@ -65,3 +66,18 @@ class ProfitManager:
         timestamp = datetime.timestamp(datetime.now())
         self.past_profits.append({'profit': profit, 'timestamp': timestamp})
         self.save_past_profits()
+
+    def increase_profit_amount(self):
+        self.log_info(f'============================')
+        self.log_info(f'=== INCREASING BUY ORDER PRICES ===')
+        self.log_info(f'============================')
+        increase_amount = 0.01
+        for order in self.bought_orders:
+            if not order.get('increase_profit_count'):
+                continue
+            order['increase_profit_count'] = order['increase_profit_count'] + 1
+
+            if order['increase_profit_count'] >= 3:
+                order['limit_price'] = float(order['limit_price']) + float(increase_amount)
+                order['increase_profit_count'] = 0
+        self.save_order(self.bought_orders, 'buy')

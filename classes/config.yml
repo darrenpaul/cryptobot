@@ -9,6 +9,6 @@ upTrendMarginEnd: 100.20
 purchasePercent: 5
 minTradeAmount: {'XRP': 1}
 sellGroupMargin : 0.10
-profitAmount: 0.01 # Possible Sell Order
+profitAmount: 0.02 # Possible Sell Order
 buyMargin: 0.05
 cancelCount: 3

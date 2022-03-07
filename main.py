@@ -1,5 +1,7 @@
-from math import fabs
+import sys
 import time
+import schedule
+import traceback
 from pprint import pprint
 from modules import logger, luno, telegram
 from classes import buy_manager, sell_manager, order_manager, price_manager
@@ -9,12 +11,12 @@ TELEGRAM_TOKEN = '5265556776:AAEqBqxWcqfcp9vronKBCujHk2EWTULRpDA'
 TELEGRAM_CHAT_ID = '469090152'
 
 
-PROCESS_TIMER = 180
-BUY_TIMER = 300
-SELL_TIMER = 300
-PROFIT_TIMER = 3600
-PROFIT_INCREASE_TIMER = 10800
-
+UPDATE_CONFIG_TIME = 30 # seconds
+PROCESS_ORDERS_TIME = 10 # seconds
+BUY_TIME = 3 # minutes
+SELL_TIME = 6 # minutes
+UPDATE_MESSAGE_TIME = 1 # hours
+PROFIT_INCREASE_TIME = 1 # hours
 # True
 # False
 DRY_RUN = False
@@ -46,7 +48,6 @@ class AlgoBot(
         profit_manager.ProfitManager.__init__(self)
         telegram.Telegram.__init__(self, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
 
-        self.logger_message = ['']
         self.dry_run = DRY_RUN
         self.can_buy = CAN_BUY
         self.can_sell = CAN_SELL
@@ -62,12 +63,11 @@ class AlgoBot(
     def has_data_for_transaction(self):
         return len(self.past_prices) > self.trend_size
 
-    def run_update(self, current_price):
+    def run_update(self):
         self.get_total_profit_old()
-        self.update_trend(current_price)
+        self.update_trend(self.current_price)
         self.update_funds()
         self._close_open_orders()
-        self.log_info_message(self.logger_message)
 
 
 def initialize_bot():
@@ -98,69 +98,61 @@ def process_sell_orders(bot):
     bot.process_pending_sell_orders()
 
 
+def handle_update(bot):
+    bot.get_buy_price_average()
+    bot.get_current_price()
+    bot.run_update()
+
+
+def handle_buy_orders(bot):
+    handle_update(bot)
+    bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
+    bot.save_order(bot.bought_orders, 'buy')
+    bot._run_buy(bot.weighted_price, bot.current_price)
+
+
+def handle_sell_orders(bot):
+    handle_update(bot)
+    bot._run_sell(bot.weighted_price, bot.current_price)
+
+
+def handle_update_message(bot):
+    message = f'Daily Profit: {bot.get_profits_for_day()}\n'
+    message += f'Total Profit: {bot.get_total_profits_summary()}'
+    bot.send_message(message)
+
+
+def handle_profit_increase(bot):
+    bot.increase_profit_amount()
+
+
 def main():
     bot = initialize_bot()
+    bot.get_config()
 
-    count = PROCESS_TIMER
-    buy_counter = BUY_TIMER
-    sell_counter = SELL_TIMER
-    message_count = PROFIT_TIMER
-    profit_increase_count = 0
+    schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
+
+    schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
+
+    schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
+
+    schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
+
+    schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
+
+    schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
+
     while True:
-        print_log = False
-        bot.get_config()
-
-        weighted_price = 0.0
-        current_price = 0.0
-
-        if count % 10 == 0:
-            process_orders(bot)
-
-        if buy_counter >= BUY_TIMER or sell_counter >= SELL_TIMER:
-            bot.logger_message = ['']
-            weighted_price = bot.get_buy_price_average()
-            current_price = bot.get_current_price()
-            bot.run_update(current_price)
-            print_log = True
-
-        if buy_counter >= BUY_TIMER:
-            bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
-            bot.save_order(bot.bought_orders, 'buy')
-            bot._run_buy(weighted_price, current_price)
-            buy_counter = 0
-            print_log = True
-
-        if sell_counter >= SELL_TIMER:
-            bot._run_sell(weighted_price, current_price)
-            sell_counter = 0
-            print_log = True
-
-        if print_log:
-            bot.log_info_message(bot.logger_message)
-
-        if message_count >= PROFIT_TIMER:
-            message = f'Daily Profit: {bot.get_profits_for_day()}\n'
-            message += f'Total Profit: {bot.get_total_profits_summary()}'
-            bot.send_message(message)
-            message_count = 0
-
-        if profit_increase_count >= PROFIT_INCREASE_TIMER:
-            bot.increase_profit_amount()
-            profit_increase_count = 0
-
+        schedule.run_pending()
         time.sleep(1)
-        count += 1
-        buy_counter += 1
-        sell_counter += 1
-        message_count += 1
-        profit_increase_count += 1
 
 
 if __name__ == "__main__":
-    telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
-    fail_logger = logger.BotLogger()
     try:
         main()
-    except Exception as e:
-        fail_logger.log_warning(f'Error: {e}')
-        telegram_bot.send_message(f'Error: {e}')
+    except Exception:
+        telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
+        fail_logger = logger.BotLogger()
+        # print(sys.exc_info()[2])
+        fail_logger.log_warning(f'Error: {traceback.format_exc()}')
+        telegram_bot.send_message(f'Error: {traceback.format_exc()}')

@@ -6,12 +6,13 @@ class BuyManager:
     def __init__(self) -> None:
         self.pending_orders_buy = []
         self.bought_orders = []
+        self.weighted_price = 0.0
 
     def _get_buy_price(self, current_price):
         fee = 0.01
         buy_price = float(current_price) - float(fee)
         buy_price = mathematics.round_down(buy_price, 2)
-        self.logger_message.append(f'BUY PRICE: {buy_price}')
+        self.log_info(f'BUY PRICE: {buy_price}')
         return buy_price
 
     def get_buy_orders(self):
@@ -23,8 +24,9 @@ class BuyManager:
             return 0
         weighted_price = mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity')
         rounded_price = mathematics.round_down(weighted_price, 2)
-        self.logger_message.append(f'AVERAGE BUY PRICE: {rounded_price}')
-        return rounded_price
+        self.log_info(f'AVERAGE BUY PRICE: {rounded_price}')
+        self.log_info(f'AVERAGE BUY PRICE: {rounded_price}')
+        self.weighted_price = rounded_price
 
     def get_highest_buy_price(self):
         prices = []
@@ -48,34 +50,28 @@ class BuyManager:
 
         min_margin = mathematics.get_min(margins)
         max_margin = mathematics.get_max(margins)
-        self.logger_message.append(f'CAN\'T BUY BETWEEN: {min_margin} - {max_margin}')
+        self.log_info(f'CAN\'T BUY BETWEEN: {min_margin} - {max_margin}')
         return can_buy
 
-    def increase_profit_amount(self):
-        increase_amount = 0.01
-        for order in self.bought_orders:
-            order['limit_price'] = float(order['limit_price']) + float(increase_amount)
-        self.save_order(self.bought_orders, 'buy')
-
     def process_buy_order(self, current_price, quantity):
-        self.logger_message.append(f'============================')
-        self.logger_message.append(f'=== PROCESSING BUY ORDER ===')
-        self.logger_message.append(f'============================')
+        self.log_info(f'============================')
+        self.log_info(f'=== PROCESSING BUY ORDER ===')
+        self.log_info(f'============================')
 
         buy_price = self._get_buy_price(current_price)
 
-        self.logger_message.append(f'TOTAL COST: {buy_price * quantity}')
+        self.log_info(f'TOTAL COST: {buy_price * quantity}')
 
         order = luno.create_buy_order(self.trading_pair, buy_price, quantity, dry_run=self.dry_run)
 
         if(not order.get('order_id')):
-            self.logger_message.append(f'buy order couldn\'t be placed{order}')
-            self.logger_message.append(f'ORDER: {order}')
+            self.log_info(f'buy order couldn\'t be placed{order}')
+            self.log_info(f'ORDER: {order}')
             return
 
         order = luno.get_order(order['order_id'])
 
-        self.logger_message.append(f'FUNDS AFTER PURCHASE: {self.funds}')
+        self.log_info(f'FUNDS AFTER PURCHASE: {self.funds}')
 
         self.pending_orders_buy.append({'price': buy_price, 'quantity': quantity, 'funds': self.funds, **order})
         self.save_pending_order(self.pending_orders_buy, 'buy')
@@ -108,7 +104,7 @@ class BuyManager:
         account_balance = self.funds
         funds_to_purchase = mathematics.get_percentage(account_balance, purchase_percentage)
         quantity = mathematics.round_down(funds_to_purchase / current_price, 0)
-        self.logger_message.append(f'BUY QUANTITY: {quantity}')
+        self.log_info(f'BUY QUANTITY: {quantity}')
         return mathematics.round_up(quantity, 0)
 
     def check_if_can_buy(self, weighted_price, current_price):
@@ -121,7 +117,7 @@ class BuyManager:
 
         quantity = self.calculate_buy_quantity(current_price)
         if quantity < float(self.min_trade_amount):
-            self.logger_message.append(f'not enough funds for trade')
+            self.log_info(f'not enough funds for trade')
             return False
 
         price_in_margin = self.price_in_buy_margin(current_price)

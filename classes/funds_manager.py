@@ -10,5 +10,5 @@ class FundsManager:
 
     def get_funds(self):
         funds = float(luno.getSpendableBalance())
-        self.logger_message.append(f'FUNDS: {funds}')
+        self.log_info(f'FUNDS: {funds}')
         return funds
