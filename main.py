@@ -118,6 +118,9 @@ def handle_sell_orders(bot):
 
 def handle_update_message(bot):
     message = f'Daily Profit: {bot.get_profits_for_day()}\n'
+    message += f'Weekly Profit: {bot.get_profits_for_week()}\n'
+    message += f'Monthly Profit: {bot.get_profits_for_month()}\n'
+    message += f'Yearly Profit: {bot.get_profits_for_year()}\n'
     message += f'Total Profit: {bot.get_total_profits_summary()}'
     bot.send_message(message)
 
@@ -140,7 +143,7 @@ def main():
 
     schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
 
-    schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
+    # schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
 
     while True:
         schedule.run_pending()

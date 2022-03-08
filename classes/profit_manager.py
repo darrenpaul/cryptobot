@@ -1,5 +1,4 @@
-from datetime import datetime
-from re import S
+from datetime import datetime, timedelta
 from modules import file_reader, mathematics
 
 
@@ -54,6 +53,42 @@ class ProfitManager:
             profits.append(profit.get('profit'))
         return sum(profits)
 
+    def get_profits_for_week(self):
+        today = datetime.today()
+        start_week = today - timedelta(today.weekday())
+
+        profits = []
+        for profit in self.past_profits:
+            profit_date = datetime.fromtimestamp(profit['timestamp'])
+            if profit_date.date() < start_week.date():
+                continue
+            profits.append(profit.get('profit'))
+        return sum(profits)
+
+    def get_profits_for_month(self):
+        today = datetime.today()
+
+        profits = []
+        for profit in self.past_profits:
+            profit_date = datetime.fromtimestamp(profit['timestamp'])
+            if profit_date.date().month != today.date().month:
+                continue
+            profits.append(profit.get('profit'))
+
+        return sum(profits)
+
+    def get_profits_for_year(self):
+        today = datetime.today()
+
+        profits = []
+        for profit in self.past_profits:
+            profit_date = datetime.fromtimestamp(profit['timestamp'])
+            if profit_date.date().year != today.date().year:
+                continue
+            profits.append(profit.get('profit'))
+
+        return sum(profits)
+
     def get_total_profits_summary(self):
         total_profit = 0.0
         for profit in self.past_profits:
@@ -75,6 +110,7 @@ class ProfitManager:
         for order in self.bought_orders:
             if not order.get('increase_profit_count'):
                 continue
+
             order['increase_profit_count'] = order['increase_profit_count'] + 1
 
             if order['increase_profit_count'] >= 3:
