@@ -40,10 +40,10 @@ orders:
   quantity: 51.0
   side: BUY
 - counter: 1.0
-  funds: 1804.269097
+  funds: 1827.499097
   increase_profit_count: 0
   limit_price: '11.38000000'
-  order_id: BXNH6A23C6SHM36
+  order_id: BX3PGYAD4AWNR8
   price: '11.38000000'
-  quantity: 47.0
+  quantity: 48.0
   side: BUY
