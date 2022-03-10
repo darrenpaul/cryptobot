@@ -10,5 +10,5 @@ purchasePercent: 5
 minTradeAmount: {'XRP': 1}
 sellGroupMargin : 0.10
 profitAmount: 0.02 # Possible Sell Order
-buyMargin: 0.05
+buyMargin: 0.03
 cancelCount: 3

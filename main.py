@@ -14,8 +14,8 @@ TELEGRAM_CHAT_ID = '469090152'
 UPDATE_CONFIG_TIME = 30 # seconds
 PROCESS_ORDERS_TIME = 10 # seconds
 BUY_TIME = 3 # minutes
-SELL_TIME = 6 # minutes
-UPDATE_MESSAGE_TIME = 1 # hours
+SELL_TIME = 3 # minutes
+UPDATE_MESSAGE_TIME = 3 # hours
 PROFIT_INCREASE_TIME = 1 # hours
 # True
 # False
@@ -156,6 +156,5 @@ if __name__ == "__main__":
     except Exception:
         telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
         fail_logger = logger.BotLogger()
-        # print(sys.exc_info()[2])
         fail_logger.log_warning(f'Error: {traceback.format_exc()}')
         telegram_bot.send_message(f'Error: {traceback.format_exc()}')
