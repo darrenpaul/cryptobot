@@ -1,0 +1,240 @@
+2022-03-10 10:00:07,210 | INFO | Running AlgoBot...
+2022-03-10 10:00:07,251 | INFO | High: 11.44
+2022-03-10 10:00:07,265 | INFO | Median: 11.44
+2022-03-10 10:00:07,271 | INFO | Low: 11.41
+2022-03-10 10:00:12,389 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 155, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 133, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+  File "/home/pi/cryptobot/classes/order_manager.py", line 17, in get_orders
+    return file_reader.read_data(f'{order_type}_orders')
+  File "/home/pi/cryptobot/modules/file_reader.py", line 29, in read_data
+    return read_yaml(file_path)
+  File "/home/pi/cryptobot/modules/file_reader.py", line 12, in read_yaml
+    return yaml.load(file, Loader=yaml.FullLoader)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 247, in fetch_more_tokens
+    return self.fetch_single()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 652, in fetch_single
+    self.fetch_flow_scalar(style='\'')
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 666, in fetch_flow_scalar
+    self.tokens.append(self.scan_flow_scalar(style))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1151, in scan_flow_scalar
+    chunks.extend(self.scan_flow_scalar_spaces(double, start_mark))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1238, in scan_flow_scalar_spaces
+    raise ScannerError("while scanning a quoted scalar", start_mark,
+yaml.scanner.ScannerError: while scanning a quoted scalar
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 16
+found unexpected end of stream
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 27
+
+2022-03-10 10:00:12,389 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 155, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 133, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+  File "/home/pi/cryptobot/classes/order_manager.py", line 17, in get_orders
+    return file_reader.read_data(f'{order_type}_orders')
+  File "/home/pi/cryptobot/modules/file_reader.py", line 29, in read_data
+    return read_yaml(file_path)
+  File "/home/pi/cryptobot/modules/file_reader.py", line 12, in read_yaml
+    return yaml.load(file, Loader=yaml.FullLoader)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 247, in fetch_more_tokens
+    return self.fetch_single()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 652, in fetch_single
+    self.fetch_flow_scalar(style='\'')
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 666, in fetch_flow_scalar
+    self.tokens.append(self.scan_flow_scalar(style))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1151, in scan_flow_scalar
+    chunks.extend(self.scan_flow_scalar_spaces(double, start_mark))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1238, in scan_flow_scalar_spaces
+    raise ScannerError("while scanning a quoted scalar", start_mark,
+yaml.scanner.ScannerError: while scanning a quoted scalar
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 16
+found unexpected end of stream
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 27
+
+2022-03-10 10:00:31,027 | INFO | Running AlgoBot...
+2022-03-10 10:00:31,069 | INFO | High: 11.44
+2022-03-10 10:00:31,082 | INFO | Median: 11.44
+2022-03-10 10:00:31,088 | INFO | Low: 11.41
+2022-03-10 10:00:36,225 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 155, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 133, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+  File "/home/pi/cryptobot/classes/order_manager.py", line 17, in get_orders
+    return file_reader.read_data(f'{order_type}_orders')
+  File "/home/pi/cryptobot/modules/file_reader.py", line 29, in read_data
+    return read_yaml(file_path)
+  File "/home/pi/cryptobot/modules/file_reader.py", line 12, in read_yaml
+    return yaml.load(file, Loader=yaml.FullLoader)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 247, in fetch_more_tokens
+    return self.fetch_single()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 652, in fetch_single
+    self.fetch_flow_scalar(style='\'')
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 666, in fetch_flow_scalar
+    self.tokens.append(self.scan_flow_scalar(style))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1151, in scan_flow_scalar
+    chunks.extend(self.scan_flow_scalar_spaces(double, start_mark))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1238, in scan_flow_scalar_spaces
+    raise ScannerError("while scanning a quoted scalar", start_mark,
+yaml.scanner.ScannerError: while scanning a quoted scalar
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 16
+found unexpected end of stream
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 27
+
+2022-03-10 10:00:36,225 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 155, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 133, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+  File "/home/pi/cryptobot/classes/order_manager.py", line 17, in get_orders
+    return file_reader.read_data(f'{order_type}_orders')
+  File "/home/pi/cryptobot/modules/file_reader.py", line 29, in read_data
+    return read_yaml(file_path)
+  File "/home/pi/cryptobot/modules/file_reader.py", line 12, in read_yaml
+    return yaml.load(file, Loader=yaml.FullLoader)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 247, in fetch_more_tokens
+    return self.fetch_single()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 652, in fetch_single
+    self.fetch_flow_scalar(style='\'')
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 666, in fetch_flow_scalar
+    self.tokens.append(self.scan_flow_scalar(style))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1151, in scan_flow_scalar
+    chunks.extend(self.scan_flow_scalar_spaces(double, start_mark))
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/yaml/scanner.py", line 1238, in scan_flow_scalar_spaces
+    raise ScannerError("while scanning a quoted scalar", start_mark,
+yaml.scanner.ScannerError: while scanning a quoted scalar
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 16
+found unexpected end of stream
+  in "/home/pi/cryptobot/data/past_orders.yml", line 3261, column 27
+
