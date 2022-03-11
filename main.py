@@ -13,8 +13,8 @@ TELEGRAM_CHAT_ID = '469090152'
 
 UPDATE_CONFIG_TIME = 30 # seconds
 PROCESS_ORDERS_TIME = 10 # seconds
-BUY_TIME = 3 # minutes
-SELL_TIME = 3 # minutes
+BUY_TIME = 2 # minutes
+SELL_TIME = 2 # minutes
 UPDATE_MESSAGE_TIME = 3 # hours
 PROFIT_INCREASE_TIME = 1 # hours
 # True
