@@ -132,6 +132,7 @@ def handle_profit_increase(bot):
 def main():
     bot = initialize_bot()
     bot.get_config()
+    handle_update_message(bot)
 
     schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
 
