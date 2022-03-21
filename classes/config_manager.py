@@ -22,5 +22,5 @@ class ConfigManager:
         self.min_trade_amount = config['minTradeAmount'][config['coin']]
         self.sell_group_margin = config['sellGroupMargin']
         self.buy_margin = config['buyMargin']
-        self.profit_amount = config['profitAmount']
         self.cancel_count = config['cancelCount'] # Order cancel count
+        self.buy_price_margin = config['buyPriceMargin']

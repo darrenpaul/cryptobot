@@ -3,7 +3,7 @@ import time
 import schedule
 import traceback
 from pprint import pprint
-from modules import logger, luno, telegram
+from modules import logger, luno, telegram, mathematics
 from classes import buy_manager, sell_manager, order_manager, price_manager
 from classes import trend_manager, config_manager, funds_manager, profit_manager
 

@@ -9,8 +9,8 @@ class BuyManager:
         self.weighted_price = 0.0
 
     def _get_buy_price(self, current_price):
-        fee = 0.01
-        buy_price = float(current_price) - float(fee)
+        fee = float(current_price) / float(self.buy_price_margin)
+        buy_price = float(current_price) - mathematics.round_down(fee, 2)
         buy_price = mathematics.round_down(buy_price, 2)
         self.log_info(f'BUY PRICE: {buy_price}')
         return buy_price
@@ -24,7 +24,6 @@ class BuyManager:
             return 0
         weighted_price = mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity')
         rounded_price = mathematics.round_down(weighted_price, 2)
-        self.log_info(f'AVERAGE BUY PRICE: {rounded_price}')
         self.log_info(f'AVERAGE BUY PRICE: {rounded_price}')
         self.weighted_price = rounded_price
 

@@ -1,10 +1,13 @@
-from numpy import append
+import time
 import requests
+from pprint import pprint
 from requests.auth import HTTPBasicAuth
 
 BASE_URL = 'https://api.luno.com/api/'
 KEY_ID = 'bgdf4b6suu2es'
 SECRET = 'oyDTcJ_RwQ8h1SxsvEDHxdfLZSV9JSeCbdEGBuhiaqc'
+MAX_RETRY_COUNT = 3
+RETRY_WAIT_TIME = 10
 
 
 def create_buy_order(pair, price, quantity, dry_run=False):
@@ -18,7 +21,19 @@ def create_buy_order(pair, price, quantity, dry_run=False):
         'volume': quantity,
         'post_only': True
     }
-    return requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params).json()
+
+    retry_count = 0
+    while True:
+        try:
+            response = requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params)
+            pprint(response)
+            return response.json()
+        except:
+            time.sleep(RETRY_WAIT_TIME)
+            if retry_count == MAX_RETRY_COUNT:
+                raise Exception('Max retry count reached')
+            retry_count = retry_count + 1
+            continue
 
 
 def create_sell_order(pair, price, quantity, dry_run=False):
@@ -104,6 +119,6 @@ def getAccountBalance(currency='ZAR'):
     return requests.get(f'{BASE_URL}1/balance', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params).json()
 
 
-def getPairFee(pair):
+def get_pair_fee(pair):
     params = {'pair': pair}
     return requests.get(f'{BASE_URL}1/fee_info', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params).json()
