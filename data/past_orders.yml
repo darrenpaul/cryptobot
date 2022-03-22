@@ -143,3 +143,99 @@ orders:
   side: SELL
   status: COMPLETE
   type: LIMIT
+- base: '50.00000000'
+  cancel_count: 5
+  client_order_id: ''
+  completed_timestamp: 1647870533419
+  counter: '623.00000000'
+  creation_timestamp: 1647870292626
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 6345.809097
+  limit_price: '12.46000000'
+  limit_volume: '50.00000000'
+  order_id: BXJBUD6XNU8Z5PK
+  pair: XRPZAR
+  price: 12.46
+  quantity: 50.0
+  side: BUY
+  status: COMPLETE
+  type: LIMIT
+- base: '92.00000000'
+  cancel_count: 1
+  client_order_id: ''
+  completed_timestamp: 1647870728962
+  counter: '1143.56000000'
+  creation_timestamp: 1647870659328
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  funds: 5722.809097
+  limit_price: '12.43000000'
+  limit_volume: '92.00000000'
+  order_id: BXEBQMYFMPD463Y
+  pair: XRPZAR
+  price: 12.43
+  quantity: 92.0
+  side: BUY
+  status: COMPLETE
+  type: LIMIT
+- base: '92.00000000'
+  cancel_count: 8
+  client_order_id: ''
+  completed_timestamp: 1647885396097
+  counter: '1147.24000000'
+  creation_timestamp: 1647884811435
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '12.47000000'
+  limit_volume: '92.00000000'
+  order_id: BXKS664XT2HHD76
+  order_ids:
+  - BXEBQMYFMPD463Y
+  orders:
+  - counter: 1.0
+    funds: 5722.809097
+    increase_profit_count: 0
+    limit_price: '12.43000000'
+    order_id: BXEBQMYFMPD463Y
+    price: '12.43000000'
+    quantity: 92.0
+    side: BUY
+  pair: XRPZAR
+  price: 12.47
+  quantity: 92.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
+- base: '50.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1647885468086
+  counter: '625.00000000'
+  creation_timestamp: 1647885422498
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '12.50000000'
+  limit_volume: '50.00000000'
+  order_id: BXFUXUR25VKQS7D
+  order_ids:
+  - BXJBUD6XNU8Z5PK
+  orders:
+  - counter: 1.0
+    funds: 6345.809097
+    increase_profit_count: 0
+    limit_price: '12.46000000'
+    order_id: BXJBUD6XNU8Z5PK
+    price: '12.46000000'
+    quantity: 50.0
+    side: BUY
+  pair: XRPZAR
+  price: 12.5
+  quantity: 50.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
