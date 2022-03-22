@@ -1,6 +1,5 @@
 import time
 import requests
-from pprint import pprint
 from requests.auth import HTTPBasicAuth
 
 BASE_URL = 'https://api.luno.com/api/'
@@ -26,7 +25,6 @@ def create_buy_order(pair, price, quantity, dry_run=False):
     while True:
         try:
             response = requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params)
-            pprint(response)
             return response.json()
         except:
             time.sleep(RETRY_WAIT_TIME)
@@ -47,7 +45,18 @@ def create_sell_order(pair, price, quantity, dry_run=False):
         'volume': quantity,
         'post_only': True
     }
-    return requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params).json()
+
+    retry_count = 0
+    while True:
+        try:
+            response = requests.post(f'{BASE_URL}1/postorder', auth=HTTPBasicAuth(KEY_ID, SECRET), params=params)
+            return response.json()
+        except:
+            time.sleep(RETRY_WAIT_TIME)
+            if retry_count == MAX_RETRY_COUNT:
+                raise Exception('Max retry count reached')
+            retry_count = retry_count + 1
+            continue
 
 
 def list_orders(pair, state='PENDING'):
@@ -89,7 +98,17 @@ def get_order(id):
 
 def getPriceTicker(pair):
     params = {'pair': pair}
-    return float(requests.get(f'{BASE_URL}1/tickers', params=params).json()['tickers'][0]['last_trade'])
+    retry_count = 0
+    while True:
+        try:
+            response = requests.get(f'{BASE_URL}1/tickers', params=params)
+            return float(response.json()['tickers'][0]['last_trade'])
+        except:
+            time.sleep(RETRY_WAIT_TIME)
+            if retry_count == MAX_RETRY_COUNT:
+                raise Exception('Max retry count reached')
+            retry_count = retry_count + 1
+            continue
 
 
 def getPriceTickers():
