@@ -28,7 +28,7 @@ class ProfitManager:
 
         self.log_info(f'SELL PROFIT: {profit}')
         return profit
-        
+
     def get_total_profit_old(self):
         profit = 0.0
         for order in self.past_orders:

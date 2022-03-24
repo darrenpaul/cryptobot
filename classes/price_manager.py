@@ -30,7 +30,7 @@ class PriceManager:
         self.log_info(f'Low: {mathematics.get_min(self.past_prices)}')
 
     def get_current_price(self):
-        self.current_price = luno.getPriceTicker(self.trading_pair)
+        self.current_price = luno.get_price_ticker(self.trading_pair)
         self.log_info(f'CURRENT PRICE: {self.current_price}')
         self.past_prices.append(self.current_price)
         self._save_prices()

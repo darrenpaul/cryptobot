@@ -9,7 +9,7 @@ class SellManager:
         self.sell_group_margin = 5
 
     def _get_quantity(self):
-        quantity = mathematics.round_down(luno.getSpendableBalance('XRP'), 2)
+        quantity = mathematics.round_down(luno.get_spendable_balance('XRP'), 2)
         if self.dry_run == True:
             quantity = 0.0
             for i in self.bought_orders:

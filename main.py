@@ -1,4 +1,3 @@
-import sys
 import time
 import schedule
 import traceback
@@ -117,11 +116,11 @@ def handle_sell_orders(bot):
 
 
 def handle_update_message(bot):
-    message = f'Daily Profit: {bot.get_profits_for_day()}\n'
-    message += f'Weekly Profit: {bot.get_profits_for_week()}\n'
-    message += f'Monthly Profit: {bot.get_profits_for_month()}\n'
-    message += f'Yearly Profit: {bot.get_profits_for_year()}\n'
-    message += f'Total Profit: {bot.get_total_profits_summary()}'
+    message = f'Daily Profit: {mathematics.round_down(bot.get_profits_for_day(), 2)}\n'
+    message += f'Weekly Profit: {mathematics.round_down(bot.get_profits_for_week(), 2)}\n'
+    message += f'Monthly Profit: {mathematics.round_down(bot.get_profits_for_month(), 2)}\n'
+    message += f'Yearly Profit: {mathematics.round_down(bot.get_profits_for_year(), 2)}\n'
+    message += f'Total Profit: {mathematics.round_down(bot.get_total_profits_summary(), 2)}'
     bot.send_message(message)
 
 
