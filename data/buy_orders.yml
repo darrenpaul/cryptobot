@@ -31,3 +31,11 @@ orders:
   price: '12.72000000'
   quantity: 102.0
   side: BUY
+- counter: 1.0
+  funds: 1982.569097
+  increase_profit_count: 0
+  limit_price: '12.60000000'
+  order_id: BXGN2FC7TEAKPDV
+  price: '12.60000000'
+  quantity: 78.0
+  side: BUY
