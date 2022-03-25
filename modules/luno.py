@@ -10,7 +10,7 @@ BASE_URL = 'https://api.luno.com/api/'
 KEY_ID = 'bgdf4b6suu2es'
 SECRET = 'oyDTcJ_RwQ8h1SxsvEDHxdfLZSV9JSeCbdEGBuhiaqc'
 MAX_RETRY_COUNT = 3
-RETRY_WAIT_TIME = 10
+RETRY_WAIT_TIME = 60
 
 
 fail_logger = logger.BotLogger()
@@ -23,7 +23,7 @@ def do_get_request(url, params):
             response = requests.get(url, auth=HTTPBasicAuth(KEY_ID, SECRET), params=params)
             return response.json()
         except:
-            time.sleep(RETRY_WAIT_TIME)
+            time.sleep(RETRY_WAIT_TIME * retry_count)
             if retry_count == MAX_RETRY_COUNT:
                 raise Exception('Max retry count reached')
             retry_count = retry_count + 1
