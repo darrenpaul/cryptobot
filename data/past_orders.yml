@@ -535,3 +535,32 @@ orders:
   side: BUY
   status: COMPLETE
   type: LIMIT
+- base: '49.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1648473075836
+  counter: '640.43000000'
+  creation_timestamp: 1648473026010
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '13.07000000'
+  limit_volume: '49.00000000'
+  order_id: BXGTRVEA39F92ZA
+  order_ids:
+  - BXHSZHGSYR3JJD5
+  orders:
+  - counter: 1.0
+    funds: 6503.449097
+    increase_profit_count: 0
+    limit_price: '13.00000000'
+    order_id: BXHSZHGSYR3JJD5
+    price: '13.00000000'
+    quantity: 49.0
+    side: BUY
+  pair: XRPZAR
+  price: 13.07
+  quantity: 49.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
