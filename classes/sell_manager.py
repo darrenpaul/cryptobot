@@ -20,13 +20,16 @@ class SellManager:
     def _get_profit_value(self, price):
         return mathematics.get_percentage(price, self.profit_percentage)
 
-    def _get_sell_price(self, weighted_price):
+    def _get_sell_price(self, weighted_price, current_price):
         profit_value = self._get_profit_value(weighted_price)
 
         sell_price = float(weighted_price) + float(profit_value)
-        sell_price = mathematics.round_up(sell_price)
+        if sell_price < current_price:
+            sell_price = current_price + 0.01 # clean this up
+
+        sell_price = mathematics.round_up(sell_price, 2)
         self.log_info(f'SELL PRICE: {sell_price}')
-        return sell_price
+        return mathematics.round_up(sell_price, 2)
 
     def _get_possible_sell_orders(self, price):
         orders = []
@@ -80,7 +83,7 @@ class SellManager:
         if current_price > weighted_price:
             sell_price = current_price
 
-        price = self._get_sell_price(sell_price)
+        price = self._get_sell_price(sell_price, current_price)
 
         order = self._create_sell_order(price, quantity)
         self.pending_orders_sell.append(
@@ -128,8 +131,7 @@ class SellManager:
 
         if len(orders) > 0:
             weighted_price = mathematics.get_weighted_average(orders, 'limit_price', 'quantity')
-            sell_price = self._get_sell_price(weighted_price)
-            if sell_price < current_price:
-                sell_price = current_price + self._get_profit_value(weighted_price)
+            sell_price = self._get_sell_price(weighted_price, current_price)
 
+            print( sell_price, total_quantity)
             self.process_possible_sell_orders(sell_price, total_quantity, orders, order_ids)

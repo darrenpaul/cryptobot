@@ -1,2 +1,0 @@
-2022-03-25 11:46:45,364 | WARNING | LUNO request failed, retrying..., retry count: 1
-2022-03-25 11:46:45,364 | WARNING | LUNO request failed, retrying..., retry count: 1
