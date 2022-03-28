@@ -2,7 +2,7 @@ import time
 import schedule
 import traceback
 from pprint import pprint
-from modules import logger, luno, telegram, mathematics
+from modules import logger, luno, bitstamp, telegram, mathematics
 from classes import buy_manager, sell_manager, order_manager, price_manager
 from classes import trend_manager, config_manager, funds_manager, profit_manager
 
@@ -85,15 +85,7 @@ def initialize_bot():
 
 
 def process_orders(bot):
-    process_buy_orders(bot)
-    process_sell_orders(bot)
-
-
-def process_buy_orders(bot):
     bot.process_pending_buy_orders()
-
-
-def process_sell_orders(bot):
     bot.process_pending_sell_orders()
 
 
@@ -111,7 +103,6 @@ def handle_buy_orders(bot):
 
 
 def handle_sell_orders(bot):
-    handle_update(bot)
     bot._run_sell(bot.weighted_price, bot.current_price)
 
 

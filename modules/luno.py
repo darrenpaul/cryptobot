@@ -58,6 +58,7 @@ def create_buy_order(pair, price, quantity, dry_run=False):
         'volume': quantity,
         'post_only': True
     }
+
     return do_post_request(f'{BASE_URL}1/postorder', params)
 
 

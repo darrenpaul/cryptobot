@@ -32,7 +32,7 @@ class OrderManager:
     def group_orders_by_price(self, orders_to_sort):
         sorted_orders = {}
         for order in orders_to_sort:
-            price = order['limit_price']
+            price = order['price']
             if price not in sorted_orders:
                 sorted_orders[price] = []
             sorted_orders[price].append(order)
@@ -46,6 +46,7 @@ class OrderManager:
             side = 'BUY'
             for order in val:
                 order_id = order['order_id']
+                limit_price = order['limit_price']
                 quantity += float(order['quantity'])
                 order_funds = order.get('funds')
                 side = order.get('side')
@@ -56,10 +57,9 @@ class OrderManager:
             grouped_orders.append(
                 {
                     'order_id': order_id,
-                    'limit_price': price,
+                    'limit_price': limit_price,
                     'quantity': quantity, 
                     'price': price,
-                    'counter': 1.0,
                     'funds': funds,
                     'side': side,
                     'increase_profit_count': order.get('increase_profit_count') or 0,

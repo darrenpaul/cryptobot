@@ -2,6 +2,9 @@ from pprint import pprint
 from modules import luno, mathematics, order_utils
 
 
+PRICE_KEY = 'limit_price'
+
+
 class BuyManager:
     def __init__(self) -> None:
         self.pending_orders_buy = []
@@ -22,7 +25,7 @@ class BuyManager:
     def get_buy_price_average(self):
         if len(self.bought_orders) == 0:
             return 0
-        weighted_price = mathematics.get_weighted_average(self.bought_orders, 'limit_price', 'quantity')
+        weighted_price = mathematics.get_weighted_average(self.bought_orders, PRICE_KEY, 'quantity')
         rounded_price = mathematics.round_down(weighted_price, 2)
         self.log_info(f'AVERAGE BUY PRICE: {rounded_price}')
         self.weighted_price = rounded_price
@@ -31,7 +34,7 @@ class BuyManager:
         prices = []
 
         for order in self.bought_orders:
-            prices.append(float(order['limit_price']))
+            prices.append(float(order[PRICE_KEY]))
         return mathematics.get_max(prices)
 
     def price_in_buy_margin(self, current_price):
@@ -39,7 +42,7 @@ class BuyManager:
         _buy_margin = self.buy_margin * len(self.bought_orders)
         margins = []
         for order in self.bought_orders:
-            price = float(order['limit_price'])
+            price = float(order[PRICE_KEY])
             start = mathematics.round_up(price - _buy_margin)
             end = mathematics.round_up(price + _buy_margin)
             margins.append(start)
@@ -83,7 +86,6 @@ class BuyManager:
         pending_orders = order_utils.update_cancel_count(updated_pending_orders)
 
         incomplete_orders = order_utils.get_incomplete_orders(pending_orders)
-
         complete_orders = order_utils.get_complete_orders(pending_orders, 'BUY')
 
         self.pending_orders_buy = incomplete_orders
@@ -96,7 +98,8 @@ class BuyManager:
         self.save_past_orders()
 
     def calculate_buy_quantity(self, current_price):
-        purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
+        # purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
+        purchase_percentage = self.purchase_percentage
         if purchase_percentage > 100.00:
             purchase_percentage = 100.00
 
