@@ -58,6 +58,7 @@ class PriceManager:
                 'luno': self.luno_price,
                 'bitstamp': self.bitstamp_price,
                 'timestamp': datetime.timestamp(datetime.now())
+                'trend': self.trend
             })
         self._save_prices_v2()
 
