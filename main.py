@@ -22,6 +22,8 @@ DRY_RUN = False
 CAN_BUY = True
 CAN_SELL = True
 
+botLogger = logger.BotLogger()
+
 
 class AlgoBot(
     buy_manager.BuyManager,
@@ -29,7 +31,6 @@ class AlgoBot(
     order_manager.OrderManager,
     price_manager.PriceManager,
     trend_manager.TrendManager,
-    logger.BotLogger,
     config_manager.ConfigManager,
     funds_manager.FundsManager,
     profit_manager.ProfitManager,
@@ -41,12 +42,12 @@ class AlgoBot(
         order_manager.OrderManager.__init__(self)
         price_manager.PriceManager.__init__(self)
         trend_manager.TrendManager.__init__(self)
-        logger.BotLogger.__init__(self)
         config_manager.ConfigManager.__init__(self)
         funds_manager.FundsManager.__init__(self)
         profit_manager.ProfitManager.__init__(self)
         telegram.Telegram.__init__(self, TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
 
+        self.logger = botLogger
         self.dry_run = DRY_RUN
         self.can_buy = CAN_BUY
         self.can_sell = CAN_SELL
@@ -70,7 +71,7 @@ class AlgoBot(
 
 def initialize_bot():
     bot = AlgoBot()
-    bot.log_info('Running AlgoBot...')
+    bot.logger.log_info('Running AlgoBot...')
     bot.get_config()
     bot.get_prices()
     bot.pending_orders_buy = bot.get_pending_orders('buy')
@@ -139,8 +140,7 @@ if __name__ == "__main__":
     try:
         main()
     except Exception:
-        fail_logger = logger.BotLogger()
-        fail_logger.log_warning(f'Error: {traceback.format_exc()}')
+        botLogger.logger.log_warning(f'Error: {traceback.format_exc()}')
         telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
         telegram_bot.send_message(f'Error: {traceback.format_exc()}')
         time.sleep(120)

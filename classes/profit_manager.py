@@ -26,7 +26,7 @@ class ProfitManager:
             sell_value = quantity * price
             profit += sell_value - purchase_value
 
-        self.log_info(f'SELL PROFIT: {profit}')
+        self.logger.log_info(f'SELL PROFIT: {profit}')
         return profit
 
     def get_total_profit_old(self):
@@ -41,7 +41,7 @@ class ProfitManager:
             price = float(order['price'])
             sell_value = quantity * price
             profit += sell_value - purchase_value
-        self.log_info(f'CURRENT PROFIT: {profit}')
+        self.logger.log_info(f'CURRENT PROFIT: {profit}')
 
     def get_profits_for_day(self):
         today = datetime.today().date()
@@ -103,9 +103,9 @@ class ProfitManager:
         self.save_past_profits()
 
     def increase_profit_amount(self):
-        self.log_info(f'============================')
-        self.log_info(f'=== INCREASING BUY ORDER PRICES ===')
-        self.log_info(f'============================')
+        self.logger.log_info(f'============================')
+        self.logger.log_info(f'=== INCREASING BUY ORDER PRICES ===')
+        self.logger.log_info(f'============================')
         increase_amount = 0.01
         for order in self.bought_orders:
             if not order.get('increase_profit_count'):

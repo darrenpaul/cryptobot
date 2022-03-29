@@ -14,7 +14,7 @@ class SellManager:
             quantity = 0.0
             for i in self.bought_orders:
                 quantity = quantity + float(i['quantity'])
-        self.log_info(f'SELL QUANTITY: {quantity}')
+        self.logger.log_info(f'SELL QUANTITY: {quantity}')
         return float(int(quantity))
 
     def _get_profit_value(self, price):
@@ -28,7 +28,7 @@ class SellManager:
             sell_price = current_price + 0.01 # clean this up
 
         sell_price = mathematics.round_up(sell_price, 2)
-        self.log_info(f'SELL PRICE: {sell_price}')
+        self.logger.log_info(f'SELL PRICE: {sell_price}')
         return mathematics.round_up(sell_price, 2)
 
     def _get_possible_sell_orders(self, price):
@@ -46,7 +46,7 @@ class SellManager:
         print(simple_order)
         if simple_order.get('order_id'):
             order = luno.get_order(simple_order['order_id'])
-            self.log_info(f'ORDER: {order}')
+            self.logger.log_info(f'ORDER: {order}')
             return order
 
     def process_pending_sell_orders(self):
@@ -73,9 +73,9 @@ class SellManager:
             self.complete_buy_orders(order_ids)
 
     def process_sell_order(self, current_price, weighted_price):
-        self.log_info(f'=============================')
-        self.log_info(f'=== PROCESSING SELL ORDER ===')
-        self.log_info(f'=============================')
+        self.logger.log_info(f'=============================')
+        self.logger.log_info(f'=== PROCESSING SELL ORDER ===')
+        self.logger.log_info(f'=============================')
 
         quantity = self._get_quantity()
 
@@ -97,9 +97,9 @@ class SellManager:
         self.save_pending_order(self.pending_orders_sell, 'sell')
 
     def process_possible_sell_orders(self, price, quantity, orders, ids):
-        self.log_info(f'=============================')
-        self.log_info(f'=== PROCESSING PSO ==========')
-        self.log_info(f'=============================')
+        self.logger.log_info(f'=============================')
+        self.logger.log_info(f'=== PROCESSING PSO ==========')
+        self.logger.log_info(f'=============================')
 
         order = self._create_sell_order(price, quantity)
         if order and order.get('order_id'):

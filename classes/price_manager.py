@@ -27,9 +27,9 @@ class PriceManager:
     #     past_prices = file_reader.read_yaml(file_path)
     #     self.past_prices = past_prices['prices']
 
-    #     self.log_info(f'High: {mathematics.get_max(self.past_prices)}')
-    #     self.log_info(f'Median: {mathematics.get_median(self.past_prices)}')
-    #     self.log_info(f'Low: {mathematics.get_min(self.past_prices)}')
+    #     self.logger.log_info(f'High: {mathematics.get_max(self.past_prices)}')
+    #     self.logger.log_info(f'Median: {mathematics.get_median(self.past_prices)}')
+    #     self.logger.log_info(f'Low: {mathematics.get_min(self.past_prices)}')
 
     def get_prices(self):
         file_path = os.path.join(DATA_DIRECTORY, 'prices.yml')
@@ -41,8 +41,8 @@ class PriceManager:
     def get_current_price(self):
         self.current_price = luno.get_price_ticker(self.trading_pair)
         bitstamp_price = bitstamp.get_price_ticker('xrpusd') # TODO: clean this up
-        self.log_info(f'LUNO PRICE: {self.current_price}')
-        self.log_info(f'BITSTAMP PRICE: {bitstamp_price}')
+        self.logger.log_info(f'LUNO PRICE: {self.current_price}')
+        self.logger.log_info(f'BITSTAMP PRICE: {bitstamp_price}')
         self.prices.append(
             {
                 'price': self.current_price,

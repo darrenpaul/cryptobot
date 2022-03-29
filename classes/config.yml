@@ -3,7 +3,7 @@ currency: 'ZAR'
 profitPercentage: 0.25
 trendSize: 6
 downTrendMarginStart: 99.98 #99.80
-downTrendMarginEnd: 99.60
+downTrendMarginEnd: 99.50
 upTrendMarginStart: 100.05
 upTrendMarginEnd: 100.20
 purchasePercent: 10

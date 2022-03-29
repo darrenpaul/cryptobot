@@ -79,8 +79,8 @@ class OrderManager:
 
             if cancel_count and cancel_count > self.cancel_count and fill_amount == 0.0:
                 cancel_order = luno.close_open_order(order['order_id'])
-                self.log_info(f'CANCEL ORDER: {cancel_order}')
-                self.log_info(f'CLOSING ORDER: {order_id}')
+                self.logger.log_info(f'CANCEL ORDER: {cancel_order}')
+                self.logger.log_info(f'CLOSING ORDER: {order_id}')
 
             cancel_count += 1
             if order.get('side') == 'BUY':
@@ -100,4 +100,4 @@ class OrderManager:
         #     # self.pending_orders_sell = []
         #     # self.save_pending_order(self.pending_orders_buy, 'buy')
         #     # self.save_pending_order(self.pending_orders_sell, 'sell')
-        #     self.log_info(f'cancelled open orders {cancelled_orders}')
+        #     self.logger.log_info(f'cancelled open orders {cancelled_orders}')

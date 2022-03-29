@@ -11,9 +11,6 @@ MAX_RETRY_COUNT = 3
 RETRY_WAIT_TIME = 60
 
 
-fail_logger = logger.BotLogger()
-
-
 def do_get_request(url):
     retry_count = 0
     while True:
@@ -26,8 +23,6 @@ def do_get_request(url):
             if retry_count == MAX_RETRY_COUNT:
                 raise Exception('Max retry count reached')
             retry_count = retry_count + 1
-            fail_logger.log_warning(f'BITSTAMP request failed, retrying..., retry count: {retry_count}')
-            print('retrying')
             continue
 
 

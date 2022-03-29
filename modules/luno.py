@@ -13,9 +13,6 @@ MAX_RETRY_COUNT = 3
 RETRY_WAIT_TIME = 60
 
 
-fail_logger = logger.BotLogger()
-
-
 def do_get_request(url, params):
     retry_count = 0
     while True:
@@ -27,8 +24,6 @@ def do_get_request(url, params):
             if retry_count == MAX_RETRY_COUNT:
                 raise Exception('Max retry count reached')
             retry_count = retry_count + 1
-            fail_logger.log_warning(f'LUNO request failed, retrying..., retry count: {retry_count}')
-            print('retrying')
             continue
 
 
@@ -43,7 +38,6 @@ def do_post_request(url, params):
             if retry_count == MAX_RETRY_COUNT:
                 raise Exception('Max retry count reached')
             retry_count = retry_count + 1
-            fail_logger.log_warning(f'LUNO request failed, retrying..., retry count: {retry_count}')
             continue
 
 
