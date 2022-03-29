@@ -18,7 +18,6 @@ def do_get_request(url):
     retry_count = 0
     while True:
         try:
-            print(url)
             response = requests.get(url)
             return response.json()
         except:

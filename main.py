@@ -64,7 +64,6 @@ class AlgoBot(
 
     def run_update(self):
         self.get_total_profit_old()
-        self.update_trend(self.current_price)
         self.update_funds()
         self._close_open_orders()
 
@@ -73,7 +72,7 @@ def initialize_bot():
     bot = AlgoBot()
     bot.log_info('Running AlgoBot...')
     bot.get_config()
-    bot.get_past_prices()
+    bot.get_prices()
     bot.pending_orders_buy = bot.get_pending_orders('buy')
     bot.pending_orders_sell = bot.get_pending_orders('sell')
     bot.get_buy_orders()
@@ -125,15 +124,10 @@ def main():
     handle_update_message(bot)
 
     schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
-
     schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
-
     schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
-
     schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
-
     schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
-
     # schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
 
     while True:

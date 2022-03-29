@@ -11,10 +11,13 @@ class TrendManager:
         self.up_trend_margin_end = 90
         self.trend = 100.0
 
-    def update_trend(self, current_price):
-        trend_price = mathematics.get_trend(self.past_prices, self.trend_size)
+    def update_trend(self):
+        prices = []
+        for item in self.prices:
+            price = float(item['price'])
+            prices.append(price)
+        trend_price = mathematics.get_trend(prices, self.trend_size)
         self.trend = mathematics.round_up(trend_price)
-
         self.log_info(f'TREND: {self.trend}')
 
     def check_if_trend_in_range(self):
