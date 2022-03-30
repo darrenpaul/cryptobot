@@ -140,7 +140,7 @@ if __name__ == "__main__":
     try:
         main()
     except Exception:
-        botLogger.logger.log_warning(f'Error: {traceback.format_exc()}')
+        botLogger.log_warning(f'Error: {traceback.format_exc()}')
         telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
         telegram_bot.send_message(f'Error: {traceback.format_exc()}')
         time.sleep(120)

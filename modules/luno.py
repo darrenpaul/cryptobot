@@ -3,8 +3,6 @@ import requests
 import traceback
 from requests.auth import HTTPBasicAuth
 
-from modules import logger
-
 
 BASE_URL = 'https://api.luno.com/api/'
 KEY_ID = 'bgdf4b6suu2es'
