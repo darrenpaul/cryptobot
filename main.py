@@ -1,4 +1,5 @@
 import time
+import pidfile
 import schedule
 import traceback
 from pprint import pprint
@@ -138,10 +139,13 @@ def main():
 
 if __name__ == "__main__":
     try:
-        main()
-    except Exception:
-        botLogger.log_warning(f'Error: {traceback.format_exc()}')
-        telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
-        telegram_bot.send_message(f'Error: {traceback.format_exc()}')
-        time.sleep(120)
-        main()
+        try:
+            main()
+        except Exception:
+            botLogger.log_warning(f'Error: {traceback.format_exc()}')
+            telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
+            telegram_bot.send_message(f'Error: {traceback.format_exc()}')
+            time.sleep(120)
+            main()
+    except pidfile.AlreadyRunningError:
+        print('Bot is already running.')
