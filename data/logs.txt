@@ -2631,3 +2631,39 @@
 2022-03-30 22:31:08,020 | INFO | FUNDS: 3169.349097
 2022-03-30 22:31:08,085 | INFO | BUY QUANTITY: 24.0
 2022-03-30 22:31:08,097 | INFO | CAN'T BUY BETWEEN: 12.64 - 13.56
+2022-03-31 07:31:07,727 | INFO | Running AlgoBot...
+2022-03-31 07:31:10,294 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 141, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 123, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 80, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2022-03-31 07:32:05,308 | INFO | Running AlgoBot...
+2022-03-31 07:32:07,844 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 141, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 123, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 80, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2022-03-31 07:33:40,203 | INFO | Running AlgoBot...
+2022-03-31 07:33:42,767 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 141, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 123, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 80, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
