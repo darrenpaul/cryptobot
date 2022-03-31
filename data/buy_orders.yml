@@ -41,10 +41,10 @@ orders:
   price: 12.91
   quantity: 30.0
   side: BUY
-- funds: 3510.089097
+- funds: 3514.409097
   increase_profit_count: 0
   limit_price: '12.78000000'
-  order_id: BXK8WSQK9XEXWJD
+  order_id: BXMQ8HM78MZMR7D
   price: 12.78
   quantity: 27.0
   side: BUY
