@@ -2668,3 +2668,51 @@ AttributeError: 'NoneType' object has no attribute 'get'
 AttributeError: 'NoneType' object has no attribute 'get'
 
 2022-03-31 07:35:43,645 | INFO | Running AlgoBot...
+2022-03-31 07:46:05,578 | INFO | Running AlgoBot...
+2022-03-31 07:46:08,075 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 143, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 124, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2022-03-31 07:47:05,632 | INFO | Running AlgoBot...
+2022-03-31 07:47:08,143 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 143, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 124, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2022-03-31 08:00:15,625 | INFO | Running AlgoBot...
+2022-03-31 08:00:18,142 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 143, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 124, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2022-03-31 08:01:05,822 | INFO | Running AlgoBot...
+2022-03-31 08:01:08,395 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 143, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 124, in main
+    bot = initialize_bot()
+  File "/home/pi/cryptobot/main.py", line 81, in initialize_bot
+    bot.get_past_orders()
+  File "/home/pi/cryptobot/classes/order_manager.py", line 23, in get_past_orders
+    self.past_orders = self.get_orders('past').get('orders') or []
+AttributeError: 'NoneType' object has no attribute 'get'
+
