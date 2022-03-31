@@ -2667,3 +2667,4 @@ AttributeError: 'NoneType' object has no attribute 'get'
     self.past_orders = self.get_orders('past').get('orders') or []
 AttributeError: 'NoneType' object has no attribute 'get'
 
+2022-03-31 07:35:43,645 | INFO | Running AlgoBot...
