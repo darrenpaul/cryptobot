@@ -144,5 +144,3 @@ if __name__ == "__main__":
         botLogger.log_warning(f'Error: {traceback.format_exc()}')
         telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
         telegram_bot.send_message(f'Error: {traceback.format_exc()}')
-        time.sleep(120)
-        main()
