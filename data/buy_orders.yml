@@ -34,17 +34,31 @@ orders:
   price: 13.09
   quantity: 32.0
   side: BUY
-- funds: 3896.309097
+- funds: 3905.339097
   increase_profit_count: 0
-  limit_price: '12.91000000'
-  order_id: BXNEHBYZDFVZT6G
-  price: 12.91
+  limit_price: '12.93000000'
+  order_id: BXDMFFPBWYUR69E
+  price: 12.93
   quantity: 30.0
   side: BUY
-- funds: 3514.409097
+- funds: 3517.439097
   increase_profit_count: 0
-  limit_price: '12.78000000'
-  order_id: BXMQ8HM78MZMR7D
-  price: 12.78
+  limit_price: '12.79000000'
+  order_id: BXJX8JD9DBYFY3V
+  price: 12.79
   quantity: 27.0
+  side: BUY
+- funds: 3173.109097
+  increase_profit_count: 0
+  limit_price: '12.44000000'
+  order_id: BXKK7MQFBMV8K7V
+  price: 12.44
+  quantity: 25.0
+  side: BUY
+- funds: 2863.869097
+  increase_profit_count: 0
+  limit_price: '12.27000000'
+  order_id: BXCZKZW8KDK55VC
+  price: 12.27
+  quantity: 23.0
   side: BUY
