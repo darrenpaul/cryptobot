@@ -94,7 +94,7 @@ class BuyManager:
         self.bought_orders =  self.bought_orders + complete_orders
         self.save_order(self.bought_orders, 'buy')
 
-        self.past_orders = [*self.past_orders, *complete_orders]
+        self.past_orders.extend(complete_orders)
         self.save_past_orders()
 
     def calculate_buy_quantity(self, current_price):

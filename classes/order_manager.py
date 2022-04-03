@@ -20,7 +20,8 @@ class OrderManager:
         self.save_order(self.past_orders, 'past')
 
     def get_past_orders(self):
-        self.past_orders = self.get_orders('past').get('past_orders') or []
+        data = self.get_orders('past')
+        self.past_orders = data.get('orders') or []
 
     def save_pending_order(self, data, order_type):
         file_reader.write_data({'orders': data}, f'pending_orders_{order_type}')
