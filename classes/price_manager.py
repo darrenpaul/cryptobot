@@ -2,7 +2,7 @@ import os
 
 from pathlib import Path
 from datetime import datetime
-from modules import luno, bitstamp, file_reader, mathematics
+from modules import luno, file_reader, mathematics
 
 
 DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
@@ -40,13 +40,10 @@ class PriceManager:
 
     def get_current_price(self):
         self.current_price = luno.get_price_ticker(self.trading_pair)
-        bitstamp_price = bitstamp.get_price_ticker('xrpusd') # TODO: clean this up
         self.logger.log_info(f'LUNO PRICE: {self.current_price}')
-        self.logger.log_info(f'BITSTAMP PRICE: {bitstamp_price}')
         self.prices.append(
             {
                 'price': self.current_price,
-                'bitstamp': bitstamp_price,
                 'timestamp': datetime.timestamp(datetime.now()),
                 'trend': self.trend
             })

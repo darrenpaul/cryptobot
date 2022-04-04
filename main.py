@@ -97,6 +97,7 @@ def handle_update(bot):
 
 
 def handle_buy_orders(bot):
+    bot.process_pending_buy_orders()
     handle_update(bot)
     bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
     bot.save_order(bot.bought_orders, 'buy')
@@ -104,6 +105,7 @@ def handle_buy_orders(bot):
 
 
 def handle_sell_orders(bot):
+    bot.process_pending_sell_orders()
     bot._run_sell(bot.weighted_price, bot.current_price)
 
 
@@ -126,7 +128,7 @@ def main():
     handle_update_message(bot)
 
     schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
-    schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
+    # schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
     schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
     schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
     schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
