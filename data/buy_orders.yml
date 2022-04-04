@@ -48,10 +48,3 @@ orders:
   price: 12.79
   quantity: 27.0
   side: BUY
-- funds: 3183.229097
-  increase_profit_count: 0
-  limit_price: '12.44000000'
-  order_id: BXJTBS7A8DYAR8R
-  price: 12.44
-  quantity: 25.0
-  side: BUY
