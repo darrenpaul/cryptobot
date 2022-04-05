@@ -41,6 +41,25 @@ class SellManager:
                 orders.append(order)
         return orders
 
+    def _check_sell_margin(self, price):
+        orders = []
+        margin_price = float(price) + float(self.sell_group_margin)
+
+        for order in self.bought_orders:
+            order_price = float(order['limit_price'])
+            if order_price <= margin_price:
+                orders.append(order)
+
+        max_price = 0.0
+        for order in orders:
+            order_price = float(order['limit_price'])
+            max_price = max(max_price, order_price)
+
+        if(max_price <= price):
+            return True
+        return False
+
+
     def _create_sell_order(self, price, quantity):
         simple_order = luno.create_sell_order(self.trading_pair, price, quantity, dry_run=self.dry_run)
         print(simple_order)
@@ -118,6 +137,8 @@ class SellManager:
         if len(self.bought_orders) == 0:
             return
         if len(self.pending_orders_sell) > 0:
+            return
+        if self._check_sell_margin(current_price) is False:
             return
         # if float(weighted_price) < float(current_price):
         #     self.process_sell_order(current_price, weighted_price)

@@ -54,10 +54,12 @@ class AlgoBot(
         self.can_sell = CAN_SELL
 
     def _run_buy(self, weighted_price, current_price):
+        self.logger.log_info('CHECKING IF CAN BUY')
         if self.can_buy:
             self.check_if_can_buy(weighted_price, current_price)
 
     def _run_sell(self, weighted_price, current_price):
+        self.logger.log_info('CHECKING IF CAN SELL')
         if self.can_sell:
             self.check_if_can_sell(weighted_price, current_price)
 
