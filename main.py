@@ -119,7 +119,7 @@ def handle_update_message(bot):
     message += f'Yearly Profit: {mathematics.round_down(bot.get_profits_for_year(), 2)}\n'
     message += f'Total Profit: {mathematics.round_down(bot.get_total_profits_summary(), 2)}'
     bot.send_message(message)
-    handle_buy_order_message()
+    handle_buy_order_message(bot)
 
 
 def handle_buy_order_message(bot):
@@ -139,6 +139,7 @@ def main():
     bot = initialize_bot()
     bot.get_config()
     handle_update_message(bot)
+    raise
 
     schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
     # schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
