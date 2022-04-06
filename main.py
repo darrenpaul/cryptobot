@@ -139,7 +139,6 @@ def main():
     bot = initialize_bot()
     bot.get_config()
     handle_update_message(bot)
-    raise
 
     schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
     # schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
