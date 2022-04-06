@@ -9,6 +9,6 @@ upTrendMarginEnd: 101
 purchasePercent: 25
 minTradeAmount: {'XRP': 1}
 sellGroupMargin : 0.10
-buyMargin: 0.005
+buyMargin: 0.007
 cancelCount: 12
 buyPriceMargin: 1000

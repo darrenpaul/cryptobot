@@ -16,6 +16,7 @@ PROCESS_ORDERS_TIME = 10 # seconds
 BUY_TIME = 2 # minutes
 SELL_TIME = 2 # minutes
 UPDATE_MESSAGE_TIME = 3 # hours
+BUY_ORDERS_MESSAGE_TIME = 6 # hours
 PROFIT_INCREASE_TIME = 1 # hours
 # True
 # False
@@ -118,6 +119,16 @@ def handle_update_message(bot):
     message += f'Yearly Profit: {mathematics.round_down(bot.get_profits_for_year(), 2)}\n'
     message += f'Total Profit: {mathematics.round_down(bot.get_total_profits_summary(), 2)}'
     bot.send_message(message)
+    handle_buy_order_message()
+
+
+def handle_buy_order_message(bot):
+    message = ['Buy Orders:']
+    for order in bot.bought_orders:
+        price = order['price']
+        amount = order['quantity']
+        message.append(f'Price: {price}, Quantity: {amount}')
+    bot.send_message('\n'.join(message))
 
 
 def handle_profit_increase(bot):
@@ -134,6 +145,7 @@ def main():
     schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
     schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
     schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
+    # schedule.every(BUY_ORDERS_MESSAGE_TIME).hours.do(handle_buy_order_message, bot)
     # schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
 
     while True:
