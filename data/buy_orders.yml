@@ -118,17 +118,10 @@ orders:
   price: 11.83
   quantity: 10.0
   side: BUY
-- funds: 395.829097
+- funds: 398.779097
   increase_profit_count: 0
-  limit_price: '11.68000000'
-  order_id: BXEWTN3B4597TTN
-  price: 11.68
+  limit_price: '11.71000000'
+  order_id: BXH2K8JWB5ES7R2
+  price: 11.71
   quantity: 8.0
-  side: BUY
-- funds: 302.389097
-  increase_profit_count: 0
-  limit_price: '11.58000000'
-  order_id: BXNERGE7HWA2DT5
-  price: 11.58
-  quantity: 6.0
   side: BUY
