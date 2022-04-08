@@ -98,8 +98,8 @@ class BuyManager:
         self.save_past_orders()
 
     def calculate_buy_quantity(self, current_price):
-        # purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
-        purchase_percentage = self.purchase_percentage
+        purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
+        # purchase_percentage = self.purchase_percentage
         if purchase_percentage > 100.00:
             purchase_percentage = 100.00
 
