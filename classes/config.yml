@@ -3,12 +3,12 @@ currency: 'ZAR'
 profitPercentage: 0.25
 trendSize: 6
 downTrendMarginStart: 99.99 #99.80
-downTrendMarginEnd: 98.50
+downTrendMarginEnd: 98.55
 upTrendMarginStart: 100.01
 upTrendMarginEnd: 101
 purchasePercent: 25
 minTradeAmount: {'XRP': 1}
 sellGroupMargin : 0.05
-buyMargin: 0.02
+buyMargin: 0.07
 cancelCount: 12
 buyPriceMargin: 1000
