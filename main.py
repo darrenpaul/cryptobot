@@ -128,7 +128,8 @@ def handle_buy_order_message(bot):
         price = order['price']
         amount = order['quantity']
         message.append(f'Price: {price}, Quantity: {amount}')
-    bot.send_message('\n'.join(message))
+    if len(message) > 1:
+        bot.send_message('\n'.join(message))
 
 
 def handle_profit_increase(bot):
