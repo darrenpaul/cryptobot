@@ -22,7 +22,7 @@ class TrendManager:
 
     def check_if_trend_in_range(self):
         if self.trend >= self.down_trend_margin_end and self.trend <= self.up_trend_margin_end:
-            if self.trend <= self.down_trend_margin_start or self.trend >= self.up_trend_margin_start:
-                return True
+            return True
+            # if self.trend <= self.down_trend_margin_start or self.trend >= self.up_trend_margin_start:
         return False
 
