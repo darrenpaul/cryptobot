@@ -15,7 +15,7 @@ UPDATE_CONFIG_TIME = 30 # seconds
 PROCESS_ORDERS_TIME = 10 # seconds
 BUY_TIME = 2 # minutes
 SELL_TIME = 2 # minutes
-UPDATE_MESSAGE_TIME = 3 # hours
+UPDATE_MESSAGE_TIME = 4 # hours
 BUY_ORDERS_MESSAGE_TIME = 6 # hours
 PROFIT_INCREASE_TIME = 1 # hours
 # True
