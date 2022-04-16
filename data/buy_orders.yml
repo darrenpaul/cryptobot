@@ -1,8 +1,1 @@
-orders:
-- funds: 310.679097
-  increase_profit_count: 0
-  limit_price: '11.33000000'
-  order_id: BXGRDCY2R9MTPDQ
-  price: 11.33
-  quantity: 27.0
-  side: BUY
+orders: []
