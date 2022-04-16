@@ -100,9 +100,8 @@ class BuyManager:
 
     def calculate_buy_quantity(self, current_price):
         purchase_percentage = self.purchase_percentage * (len(self.bought_orders) + 1)
-        # purchase_percentage = self.purchase_percentage
-        if purchase_percentage > 100.00:
-            purchase_percentage = 100.00
+        if purchase_percentage > 50.00:
+            purchase_percentage = 50.00
 
         account_balance = self.funds
         funds_to_purchase = mathematics.get_percentage(account_balance, purchase_percentage)

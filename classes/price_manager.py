@@ -35,8 +35,11 @@ class PriceManager:
         file_path = os.path.join(DATA_DIRECTORY, 'prices.yml')
         if(not os.path.exists(file_path)):
             return []
-        prices = file_reader.read_yaml(file_path)
-        self.prices = prices['prices']
+        try:
+            prices = file_reader.read_yaml(file_path)
+            self.prices = prices['prices']
+        except:
+            self.prices = []
 
     def get_current_price(self):
         self.current_price = luno.get_price_ticker(self.trading_pair)
