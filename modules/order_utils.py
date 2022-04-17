@@ -97,12 +97,17 @@ def get_complete_orders(data, side):
         if order_side != side:
             continue
         status = order.get('status')
+        price = float(order.get('price'))
         counter = float(order.get('counter'))
         base = float(order.get('base'))
         volume = float(order.get('limit_volume'))
+        fee = float(order.get('fee_base'))
         if status == 'COMPLETE':
             if counter > 0.0:
                 if base >= volume:
+                    price_with_fee = price + fee
+                    order['price'] = price_with_fee
+                    order['limit_price'] = str(price_with_fee)
                     orders.append(order)
     return orders
 
