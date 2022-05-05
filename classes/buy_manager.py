@@ -143,3 +143,28 @@ class BuyManager:
                 buy_orders.append(order)
         self.bought_orders = buy_orders
         self.save_order(self.bought_orders, 'buy')
+
+    def merge_buy_orders(self):
+        total_price = 0.0
+        total_quantity = 0.0
+
+        for i in self.bought_orders:
+            price = float(i['limit_price'])
+            quantity = float(i['quantity'])
+
+            total_price += price * quantity
+            total_quantity += quantity
+
+        self.get_current_price()
+        merged_orders = {
+            'funds': self.current_price,
+            'increase_profit_count': 0,
+            'limit_price': f'{total_price}',
+            'order_id': 'mergedorder05may2022',
+            'price': total_price,
+            'quantity': total_quantity,
+            'side': 'BUY',
+        }
+
+        self.bought_orders = [merged_orders]
+        self.save_order(self.bought_orders, 'buy')
