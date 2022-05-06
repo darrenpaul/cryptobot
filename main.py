@@ -144,7 +144,7 @@ def main():
 
     handle_update_message(bot)
 
-    schedule.every(UPDATE_CONFIG_TIME).minutes.do(bot.get_config)
+    schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
     # schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
     schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
     schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
