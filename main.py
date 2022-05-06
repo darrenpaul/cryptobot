@@ -11,10 +11,10 @@ TELEGRAM_TOKEN = '5265556776:AAEqBqxWcqfcp9vronKBCujHk2EWTULRpDA'
 TELEGRAM_CHAT_ID = '469090152'
 
 
-UPDATE_CONFIG_TIME = 30 # seconds
-PROCESS_ORDERS_TIME = 10 # seconds
-BUY_TIME = 2 # minutes
-SELL_TIME = 2 # minutes
+UPDATE_CONFIG_TIME = 25 # seconds
+PROCESS_ORDERS_TIME = 1 # minutes
+BUY_TIME = 10 # minutes
+SELL_TIME = 20 # minutes
 UPDATE_MESSAGE_TIME = 4 # hours
 BUY_ORDERS_MESSAGE_TIME = 6 # hours
 PROFIT_INCREASE_TIME = 1 # hours
@@ -144,7 +144,7 @@ def main():
 
     handle_update_message(bot)
 
-    schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
+    schedule.every(UPDATE_CONFIG_TIME).minutes.do(bot.get_config)
     # schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
     schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
     schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)

@@ -6,9 +6,9 @@ downTrendMarginStart: 99.99 #99.80
 downTrendMarginEnd: 98.65
 upTrendMarginStart: 100.01
 upTrendMarginEnd: 101
-purchasePercent: 10
+purchasePercent: 5
 minTradeAmount: {'XRP': 1}
-sellGroupMargin : 0.05
-buyMargin: 0.05
+sellGroupMargin : 0.06
+buyMargin: 0.07
 cancelCount: 2
 buyPriceMargin: 1000
