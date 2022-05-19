@@ -1,9 +1,9 @@
 orders:
 - funds: 10.19
   increase_profit_count: 0
-  limit_price: '12034.717'
+  limit_price: '12.71'
   order_id: mergedorder05may2022
-  price: 12034.717
+  price: 12.71
   quantity: 977.0
   side: BUY
 - funds: 2055.689097
@@ -26,4 +26,11 @@ orders:
   order_id: BXHUYYGH7S4863R
   price: 9.86
   quantity: 47.0
+  side: BUY
+- funds: 699.519097
+  increase_profit_count: 0
+  limit_price: '6.6659999999999995'
+  order_id: BXBC2WW7S92S3S5
+  price: 6.6659999999999995
+  quantity: 26.0
   side: BUY
