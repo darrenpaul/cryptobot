@@ -1,5 +1,6 @@
 import os
 import yaml
+import pandas as pd
 
 from pathlib import Path
 
@@ -27,3 +28,13 @@ def read_data(file_name):
     if(not os.path.exists(file_path)):
         return {}
     return read_yaml(file_path)
+
+
+def write_csv(data, file_path):
+    df = pd.DataFrame(data, index=[0])
+    df.to_csv(os.path.join(DATA_DIRECTORY, file_path), index=False, mode='a', sep='\t', encoding='utf-8')
+
+
+def read_csv(file_path):
+    df = pd.read_csv(os.path.join(DATA_DIRECTORY, file_path), sep='\t', encoding='utf-8')
+    return df.to_dict(orient='records')
