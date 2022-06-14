@@ -14,7 +14,7 @@ UPDATE_CONFIG_TIME = 25 # seconds
 PROCESS_ORDERS_TIME = 1 # minutes
 BUY_TIME = 10 # minutes
 SELL_TIME = 20 # minutes
-RUN_TIME = 1 # hour
+RUN_TIME = 30 # minutes
 UPDATE_MESSAGE_TIME = 12 # hours
 BUY_ORDERS_MESSAGE_TIME = 12 # hours
 PROFIT_INCREASE_TIME = 1 # hours
@@ -164,7 +164,7 @@ def main():
     ## schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
     # schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
     # schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
-    schedule.every(RUN_TIME).hours.do(handle_run, bot)
+    schedule.every(RUN_TIME).minutes.do(handle_run, bot)
     schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
     ## schedule.every(BUY_ORDERS_MESSAGE_TIME).hours.do(handle_buy_order_message, bot)
     ## schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
