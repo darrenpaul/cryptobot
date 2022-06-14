@@ -89,7 +89,7 @@ def get_order(id):
 
 def get_price_ticker(pair):
     params = {'pair': pair}
-    return float(do_get_request(f'{BASE_URL}1/tickers', params)['tickers'][0]['last_trade'])
+    return do_get_request(f'{BASE_URL}1/tickers', params)['tickers'][0]
 
 
 def get_price_tickers():
