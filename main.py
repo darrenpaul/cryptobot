@@ -1,5 +1,4 @@
 import time
-import pidfile
 import schedule
 import traceback
 from pprint import pprint
@@ -15,8 +14,9 @@ UPDATE_CONFIG_TIME = 25 # seconds
 PROCESS_ORDERS_TIME = 1 # minutes
 BUY_TIME = 10 # minutes
 SELL_TIME = 20 # minutes
-UPDATE_MESSAGE_TIME = 4 # hours
-BUY_ORDERS_MESSAGE_TIME = 6 # hours
+RUN_TIME = 1 # hour
+UPDATE_MESSAGE_TIME = 12 # hours
+BUY_ORDERS_MESSAGE_TIME = 12 # hours
 PROFIT_INCREASE_TIME = 1 # hours
 # True
 # False
@@ -68,7 +68,6 @@ class AlgoBot(
         return len(self.past_prices) > self.trend_size
 
     def run_update(self):
-        self.get_total_profit_old()
         self.update_funds()
         self._close_open_orders()
 
@@ -112,6 +111,21 @@ def handle_sell_orders(bot):
     bot._run_sell(bot.weighted_price, bot.current_price)
 
 
+def handle_run(bot):
+    # UPDATE
+    bot.get_buy_price_average()
+    bot.get_current_price()
+    bot.run_update()
+    # BUY
+    bot.process_pending_buy_orders()
+    bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
+    bot.save_order(bot.bought_orders, 'buy')
+    bot._run_buy(bot.weighted_price, bot.current_price)
+    # SELL
+    bot.process_pending_sell_orders()
+    bot._run_sell(bot.weighted_price, bot.current_price)
+
+
 def handle_update_message(bot):
     message = f'Daily Profit: {mathematics.round_down(bot.get_profits_for_day(), 2)}\n'
     message += f'Weekly Profit: {mathematics.round_down(bot.get_profits_for_week(), 2)}\n'
@@ -140,17 +154,20 @@ def main():
     bot = initialize_bot()
     bot.get_config()
 
+    bot.get_current_price()
+
     # bot.merge_buy_orders()
 
     handle_update_message(bot)
 
-    schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
-    # schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
-    schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
-    schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
+    # schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
+    ## schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
+    # schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
+    # schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
+    schedule.every(RUN_TIME).hours.do(handle_run, bot)
     schedule.every(UPDATE_MESSAGE_TIME).hours.do(handle_update_message, bot)
-    # schedule.every(BUY_ORDERS_MESSAGE_TIME).hours.do(handle_buy_order_message, bot)
-    # schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
+    ## schedule.every(BUY_ORDERS_MESSAGE_TIME).hours.do(handle_buy_order_message, bot)
+    ## schedule.every(PROFIT_INCREASE_TIME).hours.do(handle_profit_increase, bot)
 
     while True:
         schedule.run_pending()

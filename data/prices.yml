@@ -11171,3 +11171,27 @@ prices:
 - price: 5.18
   timestamp: 1655197827.091081
   trend: 99.81
+- price: 5.21
+  timestamp: 1655198917.003566
+  trend: 100.0
+- price: 5.21
+  timestamp: 1655198930.909374
+  trend: 100.0
+- price: 5.21
+  timestamp: 1655198952.800198
+  trend: 100.0
+- price: 5.19
+  timestamp: 1655199016.053627
+  trend: 100.0
+- price: 5.18
+  timestamp: 1655199086.228897
+  trend: 100.0
+- price: 5.19
+  timestamp: 1655199095.333369
+  trend: 100.0
+- price: 5.19
+  timestamp: 1655199731.465181
+  trend: 100.0
+- price: 5.19
+  timestamp: 1655199793.852582
+  trend: 100.0

@@ -30,11 +30,16 @@ def read_data(file_name):
     return read_yaml(file_path)
 
 
-def write_csv(data, file_path):
+def write_csv(data, file_name):
+    file_path = os.path.join(DATA_DIRECTORY, file_name)
     df = pd.DataFrame(data, index=[0])
-    df.to_csv(os.path.join(DATA_DIRECTORY, file_path), index=False, mode='a', sep='\t', encoding='utf-8')
+    if not os.path.exists(file_path):
+        df.to_csv(file_path, index=False, header=True, mode='a', sep='\t', encoding='utf-8')
+    else:
+        df.to_csv(file_path, index=False, header=False, mode='a', sep='\t', encoding='utf-8')
 
 
-def read_csv(file_path):
-    df = pd.read_csv(os.path.join(DATA_DIRECTORY, file_path), sep='\t', encoding='utf-8')
+def read_csv(file_name):
+    file_path = os.path.join(DATA_DIRECTORY, file_name)
+    df = pd.read_csv(file_path, sep='\t', encoding='utf-8')
     return df.to_dict(orient='records')

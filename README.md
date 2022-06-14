@@ -11,4 +11,4 @@ Kill process on EC2 machine
 kill process_id
 
 Getting onto ec2 machine
-ssh pi@192.168.0.101
+ssh pi@192.168.0.102
