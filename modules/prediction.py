@@ -1,6 +1,9 @@
+import os
+import pandas
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
-import pandas
+
+DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
 
 PREDICTORS = ['bid', 'ask', 'close', 'volume']
 
@@ -24,9 +27,9 @@ BACK_TEST_PRECISION = 0.6
 BACK_TEST_STEP_INDEX = 5
 
 
-
 def read_data():
-    data = pandas.read_csv('prices.csv', sep='\t')
+    file_path = os.path.join(DATA_DIRECTORY, 'prices.csv')
+    data = pandas.read_csv(file_path, sep='\t')
     return data
 
 
