@@ -1,5 +1,5 @@
 from pprint import pprint
-from modules import luno, mathematics, order_utils
+from modules import luno, mathematics, order_utils, prediction
 
 
 PRICE_KEY = 'limit_price'
@@ -130,7 +130,10 @@ class BuyManager:
             if float(weighted_price) < float(current_price):
                 return False
 
-        if self.check_if_trend_in_range():
+        # if self.check_if_trend_in_range():
+        #     self.process_buy_order(current_price, quantity)
+
+        if prediction.predict():
             self.process_buy_order(current_price, quantity)
 
     def complete_buy_orders(self, order_ids):
