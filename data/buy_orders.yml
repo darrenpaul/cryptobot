@@ -55,10 +55,3 @@ orders:
   price: 5.92
   quantity: 65.0
   side: BUY
-- funds: 905.449097
-  increase_profit_count: 0
-  limit_price: '5.39'
-  order_id: BXD4ZKVS459F9DY
-  price: 5.39
-  quantity: 50.0
-  side: BUY
