@@ -43,8 +43,10 @@ class PriceManager:
 
     def get_current_price(self):
         price_data = luno.get_price_ticker(self.trading_pair)
+        btc_price_data = luno.get_price_ticker(self.trading_pair)
         self.current_price = float(price_data['last_trade'])
         file_reader.write_csv(price_data, os.path.join(DATA_DIRECTORY, 'prices.csv'))
+        file_reader.write_csv(btc_price_data, os.path.join(DATA_DIRECTORY, 'btc_prices.csv'))
         self.logger.log_info(f'LUNO PRICE: {self.current_price}')
         self.prices.append(
             {
