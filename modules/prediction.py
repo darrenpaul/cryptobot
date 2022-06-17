@@ -1,3 +1,4 @@
+from math import fabs
 import os
 import pandas
 from sklearn.ensemble import RandomForestClassifier
@@ -127,5 +128,7 @@ def will_next_price_increase(data):
 
 def predict():
     data = read_data()
+    if len(data) < 50:
+        return False
     prepared_data = prepare_data(data)
     return will_next_price_increase(prepared_data)
