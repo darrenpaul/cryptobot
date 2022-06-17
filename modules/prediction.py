@@ -2,6 +2,7 @@ import os
 import pandas
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
+from pathlib import Path
 
 DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
 
