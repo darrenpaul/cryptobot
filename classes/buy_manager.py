@@ -1,5 +1,5 @@
 from pprint import pprint
-from modules import luno, mathematics, order_utils, prediction
+from modules import luno, mathematics, order_utils, prediction, file_reader
 
 
 PRICE_KEY = 'limit_price'
@@ -110,6 +110,12 @@ class BuyManager:
         return mathematics.round_up(quantity, 0)
 
     def check_if_can_buy(self, weighted_price, current_price):
+        price_will_increase = prediction.predict()
+        # prediction
+        self.logger.log_info(f'PREDICTION PRICE WILL INCREASE: {price_will_increase}')
+        file_reader.write_csv({'prediction': price_will_increase, 'current_price': current_price}, 'prediction.csv')
+        # prediction
+
         if len(self.pending_orders_buy) > 0:
             return False
 
@@ -132,9 +138,6 @@ class BuyManager:
 
         # if self.check_if_trend_in_range():
         #     self.process_buy_order(current_price, quantity)
-
-        price_will_increase = prediction.predict()
-        self.logger.log_info(f'PREDICTION PRICE WILL INCREASE: {price_will_increase}')
 
         if price_will_increase:
             self.process_buy_order(current_price, quantity)
