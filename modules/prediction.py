@@ -4,6 +4,7 @@ import pandas
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score
 from pathlib import Path
+from pprint import pprint
 
 DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
 
@@ -42,6 +43,7 @@ def prepare_data(data):
     data.pop('pair')
     data.pop('status')
     data = data.iloc[1:]
+    return data
 
 
 def back_test(data, model, predictors, start=1000, step=750):
@@ -72,6 +74,7 @@ def will_next_price_increase(data):
         random_state=RANDOM_STATE
     )
 
+    pprint(data)
     index_separation = int(len(data) / 5)
     # Use data until the last X rows
     train = data.iloc[:-index_separation]
