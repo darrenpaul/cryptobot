@@ -1258,3 +1258,6 @@ TypeError: object of type 'NoneType' has no len()
     index_separation = int(len(data) / 5)
 TypeError: object of type 'NoneType' has no len()
 
+2022-06-18 20:00:06,369 | INFO | Running AlgoBot...
+2022-06-18 20:00:21,092 | INFO | LUNO PRICE: 4.98
+2022-06-18 20:00:21,107 | INFO | TREND: 100.21

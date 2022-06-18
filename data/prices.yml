@@ -11630,3 +11630,6 @@ prices:
 - price: 4.97
   timestamp: 1655573430.223487
   trend: 99.01
+- price: 4.98
+  timestamp: 1655575221.093018
+  trend: 100.0
