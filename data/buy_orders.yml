@@ -55,3 +55,10 @@ orders:
   price: 5.92
   quantity: 65.0
   side: BUY
+- funds: 927.409097
+  increase_profit_count: 0
+  limit_price: '5.401999999999999'
+  order_id: BXKVFB4QEGV72ZR
+  price: 5.401999999999999
+  quantity: 52.0
+  side: BUY
