@@ -8,7 +8,7 @@ from pprint import pprint
 
 DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
 
-PREDICTORS = ['bid', 'ask', 'close', 'volume']
+PREDICTORS = ['close', 'volume']
 
 # How many individual decisions trees to train.
 # Train X amount and average the results
@@ -42,6 +42,8 @@ def prepare_data(data):
     data['target'] = data.rolling(2).apply(lambda x: x.iloc[1] > x.iloc[0])['close']
     data.pop('pair')
     data.pop('status')
+    data.pop('ask')
+    data.pop('bid')
     data = data.iloc[1:]
     return data
 
@@ -106,12 +108,10 @@ def will_next_price_increase(data):
     # data['annual_quarterly_mean'] = data['annual_mean'] / data['quarterly_mean']
     # data['weekly_trend'] = weekly_trend
 
-    # data['open_close_ratio'] = data['Open'] / data['close']
-    data['high_close_ratio'] = data['ask'] / data['close']
     data['low_close_ratio'] = data['close'] / data['close']
 
     # full_predictors = PREDICTORS + ['weekly_mean', 'quarterly_mean', 'annual_mean', 'annual_weekly_mean', 'annual_quarterly_mean', 'weekly_trend', 'high_close_ratio', 'low_close_ratio']
-    full_predictors = PREDICTORS + ['high_close_ratio', 'low_close_ratio']
+    full_predictors = PREDICTORS + ['low_close_ratio']
 
     predictions = back_test(data.iloc[1:], model, full_predictors)
     

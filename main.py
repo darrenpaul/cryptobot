@@ -14,7 +14,7 @@ UPDATE_CONFIG_TIME = 25 # seconds
 PROCESS_ORDERS_TIME = 1 # minutes
 BUY_TIME = 10 # minutes
 SELL_TIME = 20 # minutes
-RUN_TIME = 30 # minutes
+RUN_TIME = 2 # minutes
 UPDATE_MESSAGE_TIME = 12 # hours
 BUY_ORDERS_MESSAGE_TIME = 12 # hours
 PROFIT_INCREASE_TIME = 1 # hours
@@ -123,7 +123,7 @@ def handle_run(bot):
     bot._run_buy(bot.weighted_price, bot.current_price)
     # SELL
     bot.process_pending_sell_orders()
-    bot._run_sell(bot.weighted_price, bot.current_price)
+    # bot._run_sell(bot.weighted_price, bot.current_price)
 
 
 def handle_update_message(bot):

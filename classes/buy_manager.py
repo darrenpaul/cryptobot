@@ -89,6 +89,9 @@ class BuyManager:
         incomplete_orders = order_utils.get_incomplete_orders(pending_orders)
         complete_orders = order_utils.get_complete_orders(pending_orders, 'BUY')
 
+        # This creates a sell order as soon as the buy order is completed
+        self.check_for_possible_sell_orders(self.current_price)
+
         self.pending_orders_buy = incomplete_orders
         self.save_pending_order(self.pending_orders_buy, 'buy')
 
@@ -128,13 +131,13 @@ class BuyManager:
             self.logger.log_info(f'not enough funds for trade')
             return False
 
-        price_in_margin = self.price_in_buy_margin(current_price)
-        if price_in_margin == False:
-            return False
+        # price_in_margin = self.price_in_buy_margin(current_price)
+        # if price_in_margin == False:
+        #     return False
 
-        if weighted_price > 0.0:
-            if float(weighted_price) < float(current_price):
-                return False
+        # if weighted_price > 0.0:
+        #     if float(weighted_price) < float(current_price):
+        #         return False
 
         # if self.check_if_trend_in_range():
         #     self.process_buy_order(current_price, quantity)

@@ -59,10 +59,9 @@ class SellManager:
             return True
         return False
 
-
     def _create_sell_order(self, price, quantity):
         simple_order = luno.create_sell_order(self.trading_pair, price, quantity, dry_run=self.dry_run)
-        print(simple_order)
+
         if simple_order.get('order_id'):
             order = luno.get_order(simple_order['order_id'])
             self.logger.log_info(f'ORDER: {order}')
@@ -115,6 +114,26 @@ class SellManager:
         )
         self.save_pending_order(self.pending_orders_sell, 'sell')
 
+    def process_sell_order_v2(self, current_price, quantity):
+        self.logger.log_info(f'================================')
+        self.logger.log_info(f'=== PROCESSING SELL ORDER V2 ===')
+        self.logger.log_info(f'================================')
+
+        sell_price = current_price
+
+        price = self._get_sell_price(sell_price, current_price)
+
+        order = self._create_sell_order(price, quantity)
+        self.pending_orders_sell.append(
+            {
+                'price': price,
+                'quantity': quantity,
+                'weighted_price': current_price,
+                **order
+            }
+        )
+        self.save_pending_order(self.pending_orders_sell, 'sell')
+
     def process_possible_sell_orders(self, price, quantity, orders, ids):
         self.logger.log_info(f'=============================')
         self.logger.log_info(f'=== PROCESSING PSO ==========')
@@ -153,6 +172,4 @@ class SellManager:
         if len(orders) > 0:
             weighted_price = mathematics.get_weighted_average(orders, 'limit_price', 'quantity')
             sell_price = self._get_sell_price(weighted_price, current_price)
-
-            print( sell_price, total_quantity)
             self.process_possible_sell_orders(sell_price, total_quantity, orders, order_ids)

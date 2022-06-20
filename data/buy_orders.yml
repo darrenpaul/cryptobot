@@ -62,3 +62,24 @@ orders:
   price: 5.401999999999999
   quantity: 52.0
   side: BUY
+- funds: 649.209097
+  increase_profit_count: 0
+  limit_price: '5.356'
+  order_id: BXMGTCSWFGCBFC8
+  price: 5.356
+  quantity: 36.0
+  side: BUY
+- funds: 457.689097
+  increase_profit_count: 0
+  limit_price: '5.28'
+  order_id: BXCJX44BH9WT6M6
+  price: 5.28
+  quantity: 5.0
+  side: BUY
+- funds: 431.289097
+  increase_profit_count: 0
+  limit_price: '5.285'
+  order_id: BXG9V8VP33XM26C
+  price: 5.285
+  quantity: 5.0
+  side: BUY
