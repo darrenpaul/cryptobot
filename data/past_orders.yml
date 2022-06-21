@@ -1655,3 +1655,78 @@ orders:
   side: BUY
   status: COMPLETE
   type: LIMIT
+- base: '5.00000000'
+  cancel_count: 1
+  client_order_id: ''
+  completed_timestamp: 1655747081763
+  counter: '26.40000000'
+  creation_timestamp: 1655747081742
+  expiration_timestamp: 0
+  fee_base: '0.00500000'
+  fee_counter: '0.00000000'
+  funds: 404.889097
+  limit_price: '5.295'
+  limit_volume: '5.00000000'
+  order_id: BXNQNB5XYUDADK7
+  pair: XRPZAR
+  price: 5.295
+  quantity: 5
+  side: BUY
+  status: COMPLETE
+  type: LIMIT
+- base: '5.00000000'
+  cancel_count: 1
+  client_order_id: ''
+  completed_timestamp: 1655774016431
+  counter: '26.65000000'
+  creation_timestamp: 1655773350949
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '5.33'
+  limit_volume: '5.00000000'
+  order_id: BXCGUWX3YE499HC
+  order_ids:
+  - BXNQNB5XYUDADK7
+  orders:
+  - funds: 404.889097
+    increase_profit_count: 0
+    limit_price: '5.295'
+    order_id: BXNQNB5XYUDADK7
+    price: 5.295
+    quantity: 5.0
+    side: BUY
+  pair: XRPZAR
+  price: 5.33
+  quantity: 5.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
+- base: '52.00000000'
+  cancel_count: 1
+  client_order_id: ''
+  completed_timestamp: 1655822538395
+  counter: '282.36000000'
+  creation_timestamp: 1655822224711
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '5.43'
+  limit_volume: '52.00000000'
+  order_id: BXNBXVUUEQH6JYK
+  order_ids:
+  - BXKVFB4QEGV72ZR
+  orders:
+  - funds: 927.409097
+    increase_profit_count: 0
+    limit_price: '5.401999999999999'
+    order_id: BXKVFB4QEGV72ZR
+    price: 5.401999999999999
+    quantity: 52.0
+    side: BUY
+  pair: XRPZAR
+  price: 5.43
+  quantity: 52.0
+  side: SELL
+  status: COMPLETE
+  type: LIMIT
