@@ -89,8 +89,9 @@ class BuyManager:
         incomplete_orders = order_utils.get_incomplete_orders(pending_orders)
         complete_orders = order_utils.get_complete_orders(pending_orders, 'BUY')
 
-        # This creates a sell order as soon as the buy order is completed
-        self.check_for_possible_sell_orders(self.current_price)
+        if len(self.pending_orders_sell) == 0:
+            # This creates a sell order as soon as the buy order is completed
+            self.check_for_possible_sell_orders(self.current_price)
 
         self.pending_orders_buy = incomplete_orders
         self.save_pending_order(self.pending_orders_buy, 'buy')
