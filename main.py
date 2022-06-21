@@ -11,7 +11,7 @@ TELEGRAM_CHAT_ID = '469090152'
 
 
 UPDATE_CONFIG_TIME = 25 # seconds
-PROCESS_ORDERS_TIME = 1 # minutes
+PROCESS_ORDERS_TIME = 5 # minutes
 BUY_TIME = 10 # minutes
 SELL_TIME = 20 # minutes
 RUN_TIME = 30 # minutes
@@ -161,7 +161,7 @@ def main():
     handle_update_message(bot)
 
     # schedule.every(UPDATE_CONFIG_TIME).seconds.do(bot.get_config)
-    ## schedule.every(PROCESS_ORDERS_TIME).seconds.do(process_orders, bot)
+    schedule.every(PROCESS_ORDERS_TIME).minutes.do(process_orders, bot)
     # schedule.every(BUY_TIME).minutes.do(handle_buy_orders, bot)
     # schedule.every(SELL_TIME).minutes.do(handle_sell_orders, bot)
     schedule.every(RUN_TIME).minutes.do(handle_run, bot)
