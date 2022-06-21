@@ -12086,3 +12086,24 @@ prices:
 - price: 5.42
   timestamp: 1655825840.892342
   trend: 100.0
+- price: 5.39
+  timestamp: 1655827221.264755
+  trend: 100.0
+- price: 5.42
+  timestamp: 1655829030.612219
+  trend: 99.45
+- price: 5.41
+  timestamp: 1655830840.994001
+  trend: 100.56
+- price: 5.43
+  timestamp: 1655832651.177779
+  trend: 99.82
+- price: 5.4
+  timestamp: 1655834460.665262
+  trend: 100.37
+- price: 5.41
+  timestamp: 1655836270.615393
+  trend: 99.45
+- price: 5.39
+  timestamp: 1655838080.58386
+  trend: 100.19
