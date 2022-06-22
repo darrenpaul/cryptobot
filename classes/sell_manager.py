@@ -33,7 +33,7 @@ class SellManager:
 
     def _get_possible_sell_orders(self, price):
         orders = []
-        end = float(price)
+        end = float(price) + 0.02
 
         for order in self.bought_orders:
             order_price = float(order['limit_price'])
