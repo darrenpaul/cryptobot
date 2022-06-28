@@ -1,1 +1,8 @@
-orders: []
+orders:
+- cancel_count: 0
+  error: Invalid parameters
+  error_action: {}
+  error_code: ErrInvalidParameters
+  funds: 24.729097
+  price: 5.72
+  quantity: 1.0
