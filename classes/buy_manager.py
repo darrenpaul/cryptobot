@@ -132,9 +132,9 @@ class BuyManager:
             self.logger.log_info(f'not enough funds for trade')
             return False
 
-        # price_in_margin = self.price_in_buy_margin(current_price)
-        # if price_in_margin == False:
-        #     return False
+        price_in_margin = self.price_in_buy_margin(current_price)
+        if price_in_margin == False:
+            return False
 
         # if weighted_price > 0.0:
         #     if float(weighted_price) < float(current_price):
