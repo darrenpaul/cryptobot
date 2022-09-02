@@ -30010,3 +30010,6 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.telegram.org'
 2022-09-02 18:57:39,361 | INFO | PREDICTION PRICE WILL INCREASE: False
 2022-09-02 18:57:39,371 | INFO | BUY QUANTITY: 0.0
 2022-09-02 18:57:39,372 | INFO | not enough funds for trade
+2022-09-02 20:00:05,536 | INFO | Running AlgoBot...
+2022-09-02 20:00:35,994 | INFO | LUNO PRICE: 5.72
+2022-09-02 20:00:36,012 | INFO | TREND: 99.48
