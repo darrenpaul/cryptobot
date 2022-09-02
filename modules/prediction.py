@@ -24,7 +24,7 @@ MIN_SAMPLES_SPLIT = 200
 RANDOM_STATE=1
 
 # Set the precision higher for more accurate predictions
-BACK_TEST_PRECISION = 0.6
+BACK_TEST_PRECISION = 0.7
 
 # Set lower for better predictions
 BACK_TEST_STEP_INDEX = 5
@@ -100,20 +100,27 @@ def will_next_price_increase(data):
 
     weekly_trend = data.shift(1).rolling(7).mean()['target']
 
-    # data['weekly_mean'] = weekly_mean['close'] / data['close']
-    # data['quarterly_mean'] = quarterly_mean['close'] / data['close']
-    # data['annual_mean'] = annual_mean['close'] / data['close']
+    data['weekly_mean'] = weekly_mean['close'] / data['close']
+    data['quarterly_mean'] = quarterly_mean['close'] / data['close']
+    data['annual_mean'] = annual_mean['close'] / data['close']
 
-    # data['annual_weekly_mean'] = data['annual_mean'] / data['weekly_mean']
-    # data['annual_quarterly_mean'] = data['annual_mean'] / data['quarterly_mean']
-    # data['weekly_trend'] = weekly_trend
+    data['annual_weekly_mean'] = data['annual_mean'] / data['weekly_mean']
+    data['annual_quarterly_mean'] = data['annual_mean'] / data['quarterly_mean']
+    data['weekly_trend'] = weekly_trend
 
     data['low_close_ratio'] = data['close'] / data['close']
 
-    # full_predictors = PREDICTORS + ['weekly_mean', 'quarterly_mean', 'annual_mean', 'annual_weekly_mean', 'annual_quarterly_mean', 'weekly_trend', 'high_close_ratio', 'low_close_ratio']
-    full_predictors = PREDICTORS + ['low_close_ratio']
+    full_predictors = PREDICTORS + [
+        'low_close_ratio',
+        'weekly_mean',
+        'weekly_trend',
+        'annual_mean',
+        'annual_weekly_mean',
+        'annual_quarterly_mean',
+        'weekly_trend'
+    ]
 
-    predictions = back_test(data.iloc[1:], model, full_predictors)
+    predictions = back_test(data.iloc[7:], model, full_predictors)
     
     accuracy = precision_score(predictions['target'], predictions['predictions'])
     print('Accuracy:', accuracy)
