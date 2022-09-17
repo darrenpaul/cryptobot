@@ -100,13 +100,14 @@ def will_next_price_increase(data):
 
     weekly_trend = data.shift(1).rolling(7).mean()['target']
 
-    data['weekly_mean'] = weekly_mean['close'] / data['close']
-    data['quarterly_mean'] = quarterly_mean['close'] / data['close']
-    data['annual_mean'] = annual_mean['close'] / data['close']
-
-    data['annual_weekly_mean'] = data['annual_mean'] / data['weekly_mean']
-    data['annual_quarterly_mean'] = data['annual_mean'] / data['quarterly_mean']
     data['weekly_trend'] = weekly_trend
+
+    data['weekly_mean'] = weekly_mean['close'] / data['close']
+    # data['quarterly_mean'] = quarterly_mean['close'] / data['close']
+    # data['annual_mean'] = annual_mean['close'] / data['close']
+
+    # data['annual_weekly_mean'] = data['annual_mean'] / data['weekly_mean']
+    # data['annual_quarterly_mean'] = data['annual_mean'] / data['quarterly_mean']
 
     data['low_close_ratio'] = data['close'] / data['close']
 
@@ -114,14 +115,13 @@ def will_next_price_increase(data):
         'low_close_ratio',
         'weekly_mean',
         'weekly_trend',
-        'annual_mean',
-        'annual_weekly_mean',
-        'annual_quarterly_mean',
-        'weekly_trend'
+        # 'annual_mean',
+        # 'annual_weekly_mean',
+        # 'annual_quarterly_mean',
     ]
 
     predictions = back_test(data.iloc[7:], model, full_predictors)
-    
+
     accuracy = precision_score(predictions['target'], predictions['predictions'])
     print('Accuracy:', accuracy)
 
