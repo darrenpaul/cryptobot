@@ -146,17 +146,3 @@ orders:
   price: 6.3
   quantity: 1.0
   side: BUY
-- funds: 29.949097
-  increase_profit_count: 0
-  limit_price: '6.281000000000001'
-  order_id: BXJH4WW8WD46KTZ
-  price: 6.281000000000001
-  quantity: 1.0
-  side: BUY
-- funds: 23.689097
-  increase_profit_count: 0
-  limit_price: '6.271'
-  order_id: BXNC935JJWF8H7T
-  price: 6.271
-  quantity: 1.0
-  side: BUY

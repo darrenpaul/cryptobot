@@ -13177,3 +13177,61 @@ orders:
   status: COMPLETE
   time_in_force: GTC
   type: LIMIT
+- base: '1.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1662790763263
+  counter: '6.29000000'
+  creation_timestamp: 1662789991171
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '6.29'
+  limit_volume: '1.00000000'
+  order_id: BXE8TV2QF5DD8TD
+  order_ids:
+  - BXNC935JJWF8H7T
+  orders:
+  - funds: 23.689097
+    increase_profit_count: 0
+    limit_price: '6.271'
+    order_id: BXNC935JJWF8H7T
+    price: 6.271
+    quantity: 1.0
+    side: BUY
+  pair: XRPZAR
+  price: 6.29
+  quantity: 1.0
+  side: SELL
+  status: COMPLETE
+  time_in_force: GTC
+  type: LIMIT
+- base: '1.00000000'
+  cancel_count: 0
+  client_order_id: ''
+  completed_timestamp: 1663370531696
+  counter: '6.30000000'
+  creation_timestamp: 1663369549829
+  expiration_timestamp: 0
+  fee_base: '0.00000000'
+  fee_counter: '0.00000000'
+  limit_price: '6.3'
+  limit_volume: '1.00000000'
+  order_id: BXM2STY2YX85B7M
+  order_ids:
+  - BXJH4WW8WD46KTZ
+  orders:
+  - funds: 29.949097
+    increase_profit_count: 0
+    limit_price: '6.281000000000001'
+    order_id: BXJH4WW8WD46KTZ
+    price: 6.281000000000001
+    quantity: 1.0
+    side: BUY
+  pair: XRPZAR
+  price: 6.3
+  quantity: 1.0
+  side: SELL
+  status: COMPLETE
+  time_in_force: GTC
+  type: LIMIT
