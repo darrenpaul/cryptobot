@@ -8,7 +8,7 @@ from pprint import pprint
 
 DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
 
-PREDICTORS = ['close', 'volume']
+PREDICTORS = ["close", "volume", "next_price", "ask", "bid", "profit_price"]
 
 # How many individual decisions trees to train.
 # Train X amount and average the results
@@ -29,6 +29,9 @@ BACK_TEST_PRECISION = 0.7
 # Set lower for better predictions
 BACK_TEST_STEP_INDEX = 5
 
+# The amount to add onto the price to get a profit
+PROFIT_VALUE = 0.02
+
 
 def read_data():
     file_path = os.path.join(DATA_DIRECTORY, 'prices.csv')
@@ -39,11 +42,10 @@ def read_data():
 def prepare_data(data):
     data = data.rename(columns={'last_trade': 'close','rolling_24_hour_volume': 'volume' })
     data['next_price'] = data['close'].shift(-1)
-    data['target'] = data.rolling(2).apply(lambda x: x.iloc[1] > x.iloc[0])['close']
+    data['profit_price'] = (data['next_price'] + PROFIT_VALUE)
+    data['target'] = data.rolling(2).apply(lambda x: x.iloc[1] > x.iloc[0])['profit_price']
     data.pop('pair')
     data.pop('status')
-    data.pop('ask')
-    data.pop('bid')
     data = data.iloc[1:]
     return data
 
