@@ -19490,3 +19490,15 @@ prices:
 - price: 8.59
   timestamp: 1664031231.377187
   trend: 99.67
+- price: 7.87
+  timestamp: 1664391644.63568
+  trend: 100.0
+- price: 7.88
+  timestamp: 1664393457.353019
+  trend: 91.62
+- price: 7.87
+  timestamp: 1664395239.180554
+  trend: 100.0
+- price: 7.92
+  timestamp: 1664397052.284656
+  trend: 99.88

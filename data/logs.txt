@@ -2357,3 +2357,95 @@ Exception: Max retry count reached
 2022-09-24 17:05:52,336 | INFO | PREDICTION PRICE WILL INCREASE: False
 2022-09-24 17:05:52,346 | INFO | BUY QUANTITY: 81.0
 2022-09-24 17:05:52,353 | INFO | CAN'T BUY BETWEEN: 8.69 - 13.13
+2022-09-28 21:00:10,703 | INFO | Running AlgoBot...
+2022-09-28 21:00:44,634 | INFO | LUNO PRICE: 7.87
+2022-09-28 21:00:44,676 | INFO | TREND: 91.62
+2022-09-28 21:30:56,278 | INFO | AVERAGE BUY PRICE: 11.91
+2022-09-28 21:30:57,352 | INFO | LUNO PRICE: 7.88
+2022-09-28 21:30:57,372 | INFO | TREND: 100.13
+2022-09-28 21:31:08,126 | INFO | FUNDS: 2328.179097
+2022-09-28 21:31:15,057 | INFO | CHECKING IF CAN BUY
+2022-09-28 21:31:23,641 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 179, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 173, in main
+    schedule.run_pending()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 780, in run_pending
+    default_scheduler.run_pending()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 100, in run_pending
+    self._run_job(job)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 172, in _run_job
+    ret = job.run()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 661, in run
+    ret = self.job_func()
+  File "/home/pi/cryptobot/main.py", line 123, in handle_run
+    bot._run_buy(bot.weighted_price, bot.current_price)
+  File "/home/pi/cryptobot/main.py", line 60, in _run_buy
+    self.check_if_can_buy(weighted_price, current_price)
+  File "/home/pi/cryptobot/classes/buy_manager.py", line 117, in check_if_can_buy
+    price_will_increase = prediction.predict()
+  File "/home/pi/cryptobot/modules/prediction.py", line 146, in predict
+    return will_next_price_increase(prepared_data)
+  File "/home/pi/cryptobot/modules/prediction.py", line 91, in will_next_price_increase
+    predictions = model.predict(test[PREDICTORS])
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 832, in predict
+    proba = self.predict_proba(X)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 874, in predict_proba
+    X = self._validate_X_predict(X)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 605, in _validate_X_predict
+    X = self._validate_data(X, dtype=DTYPE, accept_sparse="csr", reset=False)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/utils/validation.py", line 899, in check_array
+    _assert_all_finite(
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/utils/validation.py", line 146, in _assert_all_finite
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+RandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+
+2022-09-28 22:00:05,776 | INFO | Running AlgoBot...
+2022-09-28 22:00:39,179 | INFO | LUNO PRICE: 7.87
+2022-09-28 22:00:39,199 | INFO | TREND: 99.88
+2022-09-28 22:30:51,289 | INFO | AVERAGE BUY PRICE: 11.91
+2022-09-28 22:30:52,283 | INFO | LUNO PRICE: 7.92
+2022-09-28 22:30:52,315 | INFO | TREND: 100.64
+2022-09-28 22:31:03,259 | INFO | FUNDS: 2328.179097
+2022-09-28 22:31:10,236 | INFO | CHECKING IF CAN BUY
+2022-09-28 22:31:18,719 | WARNING | Error: Traceback (most recent call last):
+  File "/home/pi/cryptobot/main.py", line 179, in <module>
+    main()
+  File "/home/pi/cryptobot/main.py", line 173, in main
+    schedule.run_pending()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 780, in run_pending
+    default_scheduler.run_pending()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 100, in run_pending
+    self._run_job(job)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 172, in _run_job
+    ret = job.run()
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/schedule/__init__.py", line 661, in run
+    ret = self.job_func()
+  File "/home/pi/cryptobot/main.py", line 123, in handle_run
+    bot._run_buy(bot.weighted_price, bot.current_price)
+  File "/home/pi/cryptobot/main.py", line 60, in _run_buy
+    self.check_if_can_buy(weighted_price, current_price)
+  File "/home/pi/cryptobot/classes/buy_manager.py", line 117, in check_if_can_buy
+    price_will_increase = prediction.predict()
+  File "/home/pi/cryptobot/modules/prediction.py", line 146, in predict
+    return will_next_price_increase(prepared_data)
+  File "/home/pi/cryptobot/modules/prediction.py", line 91, in will_next_price_increase
+    predictions = model.predict(test[PREDICTORS])
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 832, in predict
+    proba = self.predict_proba(X)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 874, in predict_proba
+    X = self._validate_X_predict(X)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 605, in _validate_X_predict
+    X = self._validate_data(X, dtype=DTYPE, accept_sparse="csr", reset=False)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/utils/validation.py", line 899, in check_array
+    _assert_all_finite(
+  File "/home/pi/cryptobot/venv/lib/python3.9/site-packages/sklearn/utils/validation.py", line 146, in _assert_all_finite
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+RandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+
