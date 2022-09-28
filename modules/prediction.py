@@ -6,7 +6,7 @@ from sklearn.metrics import precision_score
 from pathlib import Path
 from pprint import pprint
 
-DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
+DATA_DIRECTORY = os.path.join(Path(__file__).parent.parent, "data")
 
 PREDICTORS = ["close", "volume", "next_price", "ask", "bid", "profit_price"]
 
@@ -21,7 +21,7 @@ N_ESTIMATORS = 200
 MIN_SAMPLES_SPLIT = 200
 
 # This ensures every time you run the model it will give you the same results.
-RANDOM_STATE=1
+RANDOM_STATE = 1
 
 # Set the precision higher for more accurate predictions
 BACK_TEST_PRECISION = 0.7
@@ -34,19 +34,24 @@ PROFIT_VALUE = 0.02
 
 
 def read_data():
-    file_path = os.path.join(DATA_DIRECTORY, 'prices.csv')
-    data = pandas.read_csv(file_path, sep='\t')
+    file_path = os.path.join(DATA_DIRECTORY, "prices.csv")
+    data = pandas.read_csv(file_path, sep="\t")
     return data
 
 
 def prepare_data(data):
-    data = data.rename(columns={'last_trade': 'close','rolling_24_hour_volume': 'volume' })
-    data['next_price'] = data['close'].shift(-1)
-    data['profit_price'] = (data['next_price'] + PROFIT_VALUE)
-    data['target'] = data.rolling(2).apply(lambda x: x.iloc[1] > x.iloc[0])['profit_price']
-    data.pop('pair')
-    data.pop('status')
+    data = data.rename(
+        columns={"last_trade": "close", "rolling_24_hour_volume": "volume"}
+    )
+    data["next_price"] = data["close"].shift(-1)
+    data["profit_price"] = data["next_price"] + PROFIT_VALUE
+    data["target"] = data.rolling(2).apply(lambda x: x.iloc[1] > x.iloc[0])[
+        "profit_price"
+    ]
+    data.pop("pair")
+    data.pop("status")
     data = data.iloc[1:]
+    data = data.iloc[:-1]
     return data
 
 
@@ -57,15 +62,17 @@ def back_test(data, model, predictors, start=1000, step=750):
 
     for i in range(start, data.shape[0], BACK_TEST_STEP_INDEX):
         train = data.iloc[0:i].copy()
-        test = data.iloc[i:(i+step)].copy()
+        test = data.iloc[i : (i + step)].copy()
 
-        model.fit(train[predictors], train['target'])
-        predictions = model.predict_proba(test[predictors])[:,1]
+        model.fit(train[predictors], train["target"])
+        predictions = model.predict_proba(test[predictors])[:, 1]
         predictions = pandas.Series(predictions, index=test.index)
         predictions[predictions > BACK_TEST_PRECISION] = 1
         predictions[predictions <= BACK_TEST_PRECISION] = 0
 
-        combined = pandas.concat({'target': test['target'], 'predictions': predictions}, axis=1)
+        combined = pandas.concat(
+            {"target": test["target"], "predictions": predictions}, axis=1
+        )
         predictions_combined.append(combined)
 
     return pandas.concat(predictions_combined)
@@ -75,10 +82,9 @@ def will_next_price_increase(data):
     model = RandomForestClassifier(
         n_estimators=N_ESTIMATORS,
         min_samples_split=MIN_SAMPLES_SPLIT,
-        random_state=RANDOM_STATE
+        random_state=RANDOM_STATE,
     )
 
-    pprint(data)
     index_separation = int(len(data) / 5)
     # Use data until the last X rows
     train = data.iloc[:-index_separation]
@@ -86,7 +92,7 @@ def will_next_price_increase(data):
     # Use the last X rows for testing
     test = data.iloc[-index_separation:]
 
-    model.fit(train[PREDICTORS], train['target'])
+    model.fit(train[PREDICTORS], train["target"])
 
     predictions = model.predict(test[PREDICTORS])
     predictions = pandas.Series(predictions, index=test.index)
@@ -100,41 +106,38 @@ def will_next_price_increase(data):
     quarterly_mean = data.rolling(90).mean()
     annual_mean = data.rolling(365).mean()
 
-    weekly_trend = data.shift(1).rolling(7).mean()['target']
+    weekly_trend = data.shift(1).rolling(7).mean()["target"]
 
-    data['weekly_trend'] = weekly_trend
+    data["weekly_trend"] = weekly_trend
 
-    data['weekly_mean'] = weekly_mean['close'] / data['close']
+    data["weekly_mean"] = weekly_mean["close"] / data["close"]
     # data['quarterly_mean'] = quarterly_mean['close'] / data['close']
     # data['annual_mean'] = annual_mean['close'] / data['close']
 
     # data['annual_weekly_mean'] = data['annual_mean'] / data['weekly_mean']
     # data['annual_quarterly_mean'] = data['annual_mean'] / data['quarterly_mean']
 
-    data['low_close_ratio'] = data['close'] / data['close']
+    data["low_close_ratio"] = data["close"] / data["close"]
 
     full_predictors = PREDICTORS + [
-        'low_close_ratio',
-        'weekly_mean',
-        'weekly_trend',
-        # 'annual_mean',
-        # 'annual_weekly_mean',
-        # 'annual_quarterly_mean',
+        "low_close_ratio",
+        "weekly_mean",
+        "weekly_trend",
     ]
 
     predictions = back_test(data.iloc[7:], model, full_predictors)
 
-    accuracy = precision_score(predictions['target'], predictions['predictions'])
-    print('Accuracy:', accuracy)
+    accuracy = precision_score(predictions["target"], predictions["predictions"])
+    print("Accuracy:", accuracy)
 
-    trading_count = predictions['predictions'].value_counts()
-    print('Trading Count:', trading_count)
+    trading_count = predictions["predictions"].value_counts()
+    print("Trading Count:", trading_count)
 
-    will_increase_predict = bool(predictions['predictions'].iloc[-1])
-    print('Will Increase predict:', will_increase_predict)
+    will_increase_predict = bool(predictions["predictions"].iloc[-1])
+    print("Will Increase predict:", will_increase_predict)
 
-    will_increase_target = bool(predictions['target'].iloc[-1])
-    print('Will Increase target:', will_increase_target)
+    will_increase_target = bool(predictions["target"].iloc[-1])
+    print("Will Increase target:", will_increase_target)
     return will_increase_target
 
 

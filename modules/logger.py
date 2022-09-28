@@ -3,22 +3,23 @@ import logging
 
 from pathlib import Path
 
-DATA_DIRECTORY = os.path.join(Path(__file__).parent.parent, 'data')
-FILE_PATH = os.path.join(DATA_DIRECTORY, 'logs.txt')
-FORMAT_SYMBOL = '*'
+DATA_DIRECTORY = os.path.join(Path(__file__).parent.parent, "data")
+FILE_PATH = os.path.join(DATA_DIRECTORY, "logs.txt")
+FORMAT_SYMBOL = "*"
 FORMAT_AMOUNT = 40
+
 
 class BotLogger:
     def __init__(self):
-        self.module_logger = logging.getLogger('CrytoBot')
+        self.module_logger = logging.getLogger("CrytoBot")
 
         logging.basicConfig(level=logging.INFO)
-        formatting = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
+        formatting = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
 
         stdout_handler = logging.StreamHandler()
         stdout_handler.setLevel(logging.INFO)
         stdout_handler.setFormatter(formatting)
-        
+
         file_handler = logging.FileHandler(FILE_PATH)
         file_handler.setLevel(logging.INFO)
         file_handler.setFormatter(formatting)
@@ -34,5 +35,5 @@ class BotLogger:
 
     def log_info_message(self, message):
         self.log_info(FORMAT_SYMBOL * FORMAT_AMOUNT)
-        self.log_info('\n'.join(message))
+        self.log_info("\n".join(message))
         self.log_info(FORMAT_SYMBOL * FORMAT_AMOUNT)

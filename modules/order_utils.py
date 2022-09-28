@@ -1,9 +1,10 @@
 from modules import luno
 
+
 def get_dict_value_total(data, key):
     total = 0.0
     for i in data:
-        if(key not in i):
+        if key not in i:
             continue
         total += float(i.get(key))
     return total
@@ -12,7 +13,7 @@ def get_dict_value_total(data, key):
 def get_list_of_dict_values(data, key):
     values = []
     for i in data:
-        if(key not in i):
+        if key not in i:
             continue
         values.append(i.get(key))
     return values
@@ -75,8 +76,8 @@ def get_list_of_dict_when_condition_less(data, key, condition):
 def get_incomplete_orders(data):
     orders = []
     for order in data:
-        status = order.get('status')
-        if status != 'COMPLETE':
+        status = order.get("status")
+        if status != "COMPLETE":
             orders.append(order)
     return orders
 
@@ -84,7 +85,7 @@ def get_incomplete_orders(data):
 def get_order_ids(data):
     order_ids = []
     for order in data:
-        ids = order.get('order_ids')
+        ids = order.get("order_ids")
         if ids:
             order_ids.extend(ids)
     return order_ids
@@ -93,21 +94,21 @@ def get_order_ids(data):
 def get_complete_orders(data, side):
     orders = []
     for order in data:
-        order_side = order.get('side')
+        order_side = order.get("side")
         if order_side != side:
             continue
-        status = order.get('status')
-        price = float(order.get('price'))
-        counter = float(order.get('counter'))
-        base = float(order.get('base'))
-        volume = float(order.get('limit_volume'))
-        fee = float(order.get('fee_base'))
-        if status == 'COMPLETE':
+        status = order.get("status")
+        price = float(order.get("price"))
+        counter = float(order.get("counter"))
+        base = float(order.get("base"))
+        volume = float(order.get("limit_volume"))
+        fee = float(order.get("fee_base"))
+        if status == "COMPLETE":
             if counter > 0.0:
                 if base >= volume:
                     price_with_fee = price + fee
-                    order['price'] = price_with_fee
-                    order['limit_price'] = str(price_with_fee)
+                    order["price"] = price_with_fee
+                    order["limit_price"] = str(price_with_fee)
                     orders.append(order)
     return orders
 
@@ -115,8 +116,8 @@ def get_complete_orders(data, side):
 def update_cancel_count(data):
     orders = []
     for order in data:
-        if 'cancel_count' not in order.keys():
-            order['cancel_count'] = 0
+        if "cancel_count" not in order.keys():
+            order["cancel_count"] = 0
         orders.append(order)
     return orders
 
@@ -124,7 +125,7 @@ def update_cancel_count(data):
 def update_order_details(data):
     orders = []
     for order in data:
-        order_id = order.get('order_id')
+        order_id = order.get("order_id")
         order_details = luno.get_order(order_id)
         if order_details:
             orders.append({**order, **order_details})

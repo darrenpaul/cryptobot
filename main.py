@@ -6,18 +6,18 @@ from modules import logger, luno, bitstamp, telegram, mathematics, prediction
 from classes import buy_manager, sell_manager, order_manager, price_manager
 from classes import trend_manager, config_manager, funds_manager, profit_manager
 
-TELEGRAM_TOKEN = '5265556776:AAEqBqxWcqfcp9vronKBCujHk2EWTULRpDA'
-TELEGRAM_CHAT_ID = '469090152'
+TELEGRAM_TOKEN = "5265556776:AAEqBqxWcqfcp9vronKBCujHk2EWTULRpDA"
+TELEGRAM_CHAT_ID = "469090152"
 
 
-UPDATE_CONFIG_TIME = 25 # seconds
-PROCESS_ORDERS_TIME = 5 # minutes
-BUY_TIME = 10 # minutes
-SELL_TIME = 20 # minutes
-RUN_TIME = 30 # minutes
-UPDATE_MESSAGE_TIME = 12 # hours
-BUY_ORDERS_MESSAGE_TIME = 12 # hours
-PROFIT_INCREASE_TIME = 1 # hours
+UPDATE_CONFIG_TIME = 25  # seconds
+PROCESS_ORDERS_TIME = 5  # minutes
+BUY_TIME = 10  # minutes
+SELL_TIME = 20  # minutes
+RUN_TIME = 30  # minutes
+UPDATE_MESSAGE_TIME = 12  # hours
+BUY_ORDERS_MESSAGE_TIME = 12  # hours
+PROFIT_INCREASE_TIME = 1  # hours
 # True
 # False
 DRY_RUN = False
@@ -36,8 +36,8 @@ class AlgoBot(
     config_manager.ConfigManager,
     funds_manager.FundsManager,
     profit_manager.ProfitManager,
-    telegram.Telegram):
-
+    telegram.Telegram,
+):
     def __init__(self):
         buy_manager.BuyManager.__init__(self)
         sell_manager.SellManager.__init__(self)
@@ -55,12 +55,12 @@ class AlgoBot(
         self.can_sell = CAN_SELL
 
     def _run_buy(self, weighted_price, current_price):
-        self.logger.log_info('CHECKING IF CAN BUY')
+        self.logger.log_info("CHECKING IF CAN BUY")
         if self.can_buy:
             self.check_if_can_buy(weighted_price, current_price)
 
     def _run_sell(self, weighted_price, current_price):
-        self.logger.log_info('CHECKING IF CAN SELL')
+        self.logger.log_info("CHECKING IF CAN SELL")
         if self.can_sell:
             self.check_if_can_sell(weighted_price, current_price)
 
@@ -74,16 +74,18 @@ class AlgoBot(
 
 def initialize_bot():
     bot = AlgoBot()
-    bot.logger.log_info('Running AlgoBot...')
+    bot.logger.log_info("Running AlgoBot...")
     bot.get_config()
     bot.get_prices()
-    bot.pending_orders_buy = bot.get_pending_orders('buy')
-    bot.pending_orders_sell = bot.get_pending_orders('sell')
+    bot.pending_orders_buy = bot.get_pending_orders("buy")
+    bot.pending_orders_sell = bot.get_pending_orders("sell")
     bot.get_buy_orders()
     bot.get_past_orders()
     bot.get_past_profits()
     if not DRY_RUN:
-        bot.send_message(f'CryptoBot started...\ndry run: {DRY_RUN}\ncan buy: {CAN_BUY}\ncan sell: {CAN_SELL}')
+        bot.send_message(
+            f"CryptoBot started...\ndry run: {DRY_RUN}\ncan buy: {CAN_BUY}\ncan sell: {CAN_SELL}"
+        )
     return bot
 
 
@@ -102,7 +104,7 @@ def handle_buy_orders(bot):
     bot.process_pending_buy_orders()
     handle_update(bot)
     bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
-    bot.save_order(bot.bought_orders, 'buy')
+    bot.save_order(bot.bought_orders, "buy")
     bot._run_buy(bot.weighted_price, bot.current_price)
 
 
@@ -119,7 +121,7 @@ def handle_run(bot):
     # BUY
     bot.process_pending_buy_orders()
     bot.bought_orders = bot.group_orders_by_price(bot.bought_orders)
-    bot.save_order(bot.bought_orders, 'buy')
+    bot.save_order(bot.bought_orders, "buy")
     bot._run_buy(bot.weighted_price, bot.current_price)
     # SELL
     bot.process_pending_sell_orders()
@@ -127,23 +129,31 @@ def handle_run(bot):
 
 
 def handle_update_message(bot):
-    message = f'Daily Profit: {mathematics.round_down(bot.get_profits_for_day(), 2)}\n'
-    message += f'Weekly Profit: {mathematics.round_down(bot.get_profits_for_week(), 2)}\n'
-    message += f'Monthly Profit: {mathematics.round_down(bot.get_profits_for_month(), 2)}\n'
-    message += f'Yearly Profit: {mathematics.round_down(bot.get_profits_for_year(), 2)}\n'
-    message += f'Total Profit: {mathematics.round_down(bot.get_total_profits_summary(), 2)}'
+    message = f"Daily Profit: {mathematics.round_down(bot.get_profits_for_day(), 2)}\n"
+    message += (
+        f"Weekly Profit: {mathematics.round_down(bot.get_profits_for_week(), 2)}\n"
+    )
+    message += (
+        f"Monthly Profit: {mathematics.round_down(bot.get_profits_for_month(), 2)}\n"
+    )
+    message += (
+        f"Yearly Profit: {mathematics.round_down(bot.get_profits_for_year(), 2)}\n"
+    )
+    message += (
+        f"Total Profit: {mathematics.round_down(bot.get_total_profits_summary(), 2)}"
+    )
     bot.send_message(message)
     handle_buy_order_message(bot)
 
 
 def handle_buy_order_message(bot):
-    message = ['Buy Orders:']
+    message = ["Buy Orders:"]
     for order in bot.bought_orders:
-        price = order['price']
-        amount = order['quantity']
-        message.append(f'Price: {price}, Quantity: {amount}')
+        price = order["price"]
+        amount = order["quantity"]
+        message.append(f"Price: {price}, Quantity: {amount}")
     if len(message) > 1:
-        bot.send_message('\n'.join(message))
+        bot.send_message("\n".join(message))
 
 
 def handle_profit_increase(bot):
@@ -178,6 +188,6 @@ if __name__ == "__main__":
     try:
         main()
     except Exception:
-        botLogger.log_warning(f'Error: {traceback.format_exc()}')
+        botLogger.log_warning(f"Error: {traceback.format_exc()}")
         telegram_bot = telegram.Telegram(TELEGRAM_TOKEN, TELEGRAM_CHAT_ID)
-        telegram_bot.send_message(f'Error: {traceback.format_exc()}')
+        telegram_bot.send_message(f"Error: {traceback.format_exc()}")

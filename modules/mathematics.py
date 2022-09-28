@@ -34,7 +34,7 @@ def get_weighted_average(data, key_one, key_two):
         total_value_one += value_one * value_two
         total_value_two += value_two
 
-    return  total_value_one / total_value_two
+    return total_value_one / total_value_two
 
 
 def get_median(data=None):
@@ -59,7 +59,7 @@ def get_percentage(value=None, percentage=25):
 def get_percentage_difference(value1=None, value2=None):
     difference = get_difference(value1=value1, value2=value2)
     average = float(value1) + float(value2) / 2
-    return (difference/average) * 100
+    return (difference / average) * 100
 
 
 def get_difference(value1=None, value2=None):
@@ -70,7 +70,7 @@ def calculate_simple_moving_average(values=None, period=5):
     float_values = []
     for value in values:
         float_values.append(float(value))
-    return float(get_mean(float_values[period-1:]))
+    return float(get_mean(float_values[period - 1 :]))
 
 
 def get_variance(data=None):
@@ -100,8 +100,8 @@ def get_trend(data, size=6):
 
 
 def round_down(value, decimals=2):
-    return float(numpy.floor(float(value) * (10 ** decimals)) / (10 ** decimals))
+    return float(numpy.floor(float(value) * (10**decimals)) / (10**decimals))
 
 
 def round_up(value, decimals=2):
-    return float(numpy.ceil(float(value) * (10 ** decimals)) / (10 ** decimals))
+    return float(numpy.ceil(float(value) * (10**decimals)) / (10**decimals))

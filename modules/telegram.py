@@ -9,6 +9,8 @@ class Telegram:
 
     def send_message(self, message):
         if self.chat_id and message:
-            url = "https://api.telegram.org/bot{bot_token}/sendMessage".format(bot_token=self.bot_token)
+            url = "https://api.telegram.org/bot{bot_token}/sendMessage".format(
+                bot_token=self.bot_token
+            )
             post_data = {"chat_id": self.chat_id, "text": message}
             return json.loads(requests.post(url, data=post_data).content)

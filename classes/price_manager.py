@@ -5,7 +5,7 @@ from datetime import datetime
 from modules import luno, file_reader, mathematics
 
 
-DATA_DIRECTORY =  os.path.join(Path(__file__).parent.parent, 'data')
+DATA_DIRECTORY = os.path.join(Path(__file__).parent.parent, "data")
 
 
 class PriceManager:
@@ -15,8 +15,8 @@ class PriceManager:
         self.current_price = 0.0
 
     def _save_prices(self):
-        file_path = os.path.join(DATA_DIRECTORY, 'prices.yml')
-        data = {'prices': self.prices}
+        file_path = os.path.join(DATA_DIRECTORY, "prices.yml")
+        data = {"prices": self.prices}
         file_reader.write_yaml(data, file_path)
 
     # def get_past_prices(self):
@@ -32,28 +32,31 @@ class PriceManager:
     #     self.logger.log_info(f'Low: {mathematics.get_min(self.past_prices)}')
 
     def get_prices(self):
-        file_path = os.path.join(DATA_DIRECTORY, 'prices.yml')
-        if(not os.path.exists(file_path)):
+        file_path = os.path.join(DATA_DIRECTORY, "prices.yml")
+        if not os.path.exists(file_path):
             return []
         try:
             prices = file_reader.read_yaml(file_path)
-            self.prices = prices['prices']
+            self.prices = prices["prices"]
         except:
             self.prices = []
 
     def get_current_price(self):
         price_data = luno.get_price_ticker(self.trading_pair)
         btc_price_data = luno.get_price_ticker(self.trading_pair)
-        self.current_price = float(price_data['last_trade'])
-        file_reader.write_csv(price_data, os.path.join(DATA_DIRECTORY, 'prices.csv'))
-        file_reader.write_csv(btc_price_data, os.path.join(DATA_DIRECTORY, 'btc_prices.csv'))
-        self.logger.log_info(f'LUNO PRICE: {self.current_price}')
+        self.current_price = float(price_data["last_trade"])
+        file_reader.write_csv(price_data, os.path.join(DATA_DIRECTORY, "prices.csv"))
+        file_reader.write_csv(
+            btc_price_data, os.path.join(DATA_DIRECTORY, "btc_prices.csv")
+        )
+        self.logger.log_info(f"LUNO PRICE: {self.current_price}")
         self.prices.append(
             {
-                'price': self.current_price,
-                'timestamp': datetime.timestamp(datetime.now()),
-                'trend': self.trend
-            })
+                "price": self.current_price,
+                "timestamp": datetime.timestamp(datetime.now()),
+                "trend": self.trend,
+            }
+        )
 
         self.update_trend()
 
@@ -62,7 +65,7 @@ class PriceManager:
     def _get_purchase_value_from_orders(self, orders):
         value = 0.0
         for order in orders:
-            quantity = float(order['quantity'])
-            price = float(order['price'])
+            quantity = float(order["quantity"])
+            price = float(order["price"])
             value += quantity * price
         return value
